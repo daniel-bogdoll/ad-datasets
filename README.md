@@ -9,7 +9,7 @@ Dataset | Release (YYYY/MM/DD) | Latest Update  | Related Paper/Project | Sensor
 [Oxford Robotcar Dataset](https://robotcar-dataset.robots.ox.ac.uk/) | 2016/11/28 | 2020/02/20 | [1 Year, 1000km: The Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf) | 6 cameras, LIDAR, GPS, INS ground truth | Over 1000km of recorded driving | Oxford, UK | Over 100 repetitions of a consistent route, captured over a period of over a year
 [Caltech Pedestrian Detection Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) | 2009/05/18 | 2019/07/01 | [Pedestrian Detection: A Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf) | Camera | 10 hours | Los Angeles, USA metropolitan area: LAX, Santa Monica, Hollywood, Pasadena, Little Tokyo | Urban environment, annotated pedestrians
 [OpenDD](https://l3pilot.eu/data/) | 2020/07/16 | 2020/07/16 | [openDD: A Large-Scale Roundabout Drone Dataset](https://arxiv.org/abs/2007.08463) | Camera (drone perspective) | 62 hours | Wolfsburg, Ingolstadt, Germany | 7 roundabouts, tracked road users, HD map data
-[]() |  |  | []() |  |  |  | 
+[BDD100K](https://bdd-data.berkeley.edu/) | 2018/05/30 | 2018/05/30 | [BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning](https://arxiv.org/abs/1805.04687) | Camera | 1100 h | Cities & regions in the populous areas in the US | Crowd-sourced, very large area and diverse visual phenomena, monocular RGB image data and associated mobile device metadata
 []() |  |  | []() |  |  |  | 
 []() |  |  | []() |  |  |  | 
 []() |  |  | []() |  |  |  | 

@@ -1,91 +1,9 @@
 import * as React from 'react';
 
-
-const columns = [
-    {   field: 'id', headerName: 'Name', width: 180 },
-    {   field: 'size_hours', headerName: 'Size (Hours)', width: 140, align: 'right' },
-    {   field: 'size_storage', headerName: 'Size (Storage)', width: 140, align: 'right' },
-    {   field: 'frames', headerName: 'Frames', width: 120, align: 'right' },
-    {   field: 'numberOfScenes', headerName: '# of Scenes', width: 140, align: 'right' },
-    {
-        field: 'samplingRate',
-        headerName: 'Sampling Rate',
-        width: 150,
-        hide: true,
-        menu: false,
-        align: 'right'
-    },
-    {
-        field: 'lengthOfScenes',
-        headerName: 'Length of Scenes',
-        width: 150,
-        align: 'right'
-    },
-    {
-        field: 'sensors',
-        headerName: 'Sensors',
-        type: 'number',
-        width: 210,
-    },
-    {
-        field: 'benchmark',
-        headerName: 'Benchmark',
-        description: 'This column has a value getter and is not sortable.',
-        sortable: false,
-        width: 160,
-        valueGetter: (params) =>
-            `${params.getValue(params.id, 'firstName') || ''} ${
-                params.getValue(params.id, 'lastName') || ''
-            }`,
-        hide: true
-    },
-    {
-        field: 'dataFormat',
-        headerName: 'Data Format',
-        width: 150,
-        hide: true
-    },
-    {
-        field: 'tooling',
-        headerName: 'Tooling',
-        width: 150,
-        hide: true
-    },
-    {
-        field: 'annotations',
-        headerName: 'Annotations',
-        width: 150,
-    },
-    {
-        field: 'licensing',
-        headerName: 'Licensing',
-        width: 150,
-        resizable: true
-    },
-    {
-        field: 'relatedDatasets',
-        headerName: 'Related Datasets',
-        width: 150,
-        hide: true
-    },
-    {
-        field: 'publishDate',
-        headerName: 'Publish Date',
-        width: 150,
-        hide: true
-    },
-    {
-        field: 'lastUpdate',
-        headerName: 'Last Update',
-        width: 150,
-        hide: true,
-    },
-];
-
 const rows = [
     {
         id:   "Cityscapes 3D",
-        href: "www.google.de",
+        href: "https://www.cityscapes-dataset.com/",
         size_hours: '12.5',
         samplingRate: '17 Hz',
         lengthOfScenes: '1.8 sec',
@@ -101,6 +19,7 @@ const rows = [
     },
     {
         id: "ApolloScape",
+        href: "http://apolloscape.auto/",
         size_hours: "100+",
         frames: "142 906",
         samplingRate: "30 Hz",
@@ -109,6 +28,7 @@ const rows = [
     },
     {
         id: "Lyft Level5",
+        href: "https://self-driving.lyft.com/level5/",
         size_hours: "1118",
         scenes_number: "170 000",
         lengthOfScenes: "25 sec",
@@ -119,6 +39,7 @@ const rows = [
     },
     {
         id: "Oxford RobotCar",
+        href: "https://robotcar-dataset.robots.ox.ac.uk/",
         size_storage: "23.15 TB",
         sensors: "4 cameras, 3 LiDAR, GPS, INS",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
@@ -126,6 +47,7 @@ const rows = [
     },
     {
         id: "nuScenes",
+        href: "https://www.nuscenes.org/",
         size_hours: "15",
         frames: "1 4000 000",
         numberOfScenes: "1 000",
@@ -140,6 +62,7 @@ const rows = [
     },
     {
         id: "PandaSet",
+        href: "https://pandaset.org/",
         frames: "48 000+",
         numberOfScenes: "100+",
         lengthOfScenes: "8 sec",
@@ -151,6 +74,7 @@ const rows = [
     },
     {
         id: "Waymo Open Motion Dataset",
+        href: "https://waymo.com/open/data/motion/",
         size_hours:  "574",
         frames: "20 000 000",
         numberOfScenes: "103 354",
@@ -163,6 +87,7 @@ const rows = [
     },
     {
         id: "KITTI",
+        href: "http://www.cvlibs.net/datasets/kitti/",
         size_hours: "6",
         size_storage: "180 GB",
         samplingRate: "10-100 Hz",
@@ -176,6 +101,7 @@ const rows = [
     },
     {
         id: "BDD100k",
+        href: "https://www.bdd100k.com/",
         size_storage: "1.8 TB",
         size_hours: "1111",
         frames: "120 000 000",
@@ -190,7 +116,11 @@ const rows = [
             "Lane Marking, Drivable Area, fie-grained pixel level annotations",
         licensing: "Freely available for non-commercial purposes",
         publishDate: "04.2020"
+    },
+    {
+        id: "PepScenes",
+        href: "https://arxiv.org/abs/2012.07773"
     }
 ];
 
-export { rows, columns};
+export { rows };

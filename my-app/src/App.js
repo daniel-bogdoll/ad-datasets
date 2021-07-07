@@ -10,7 +10,8 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {DataGrid, GridToolbar} from "@material-ui/data-grid";
-import { rows, columns } from './data.js';
+import { rows } from './data.js';
+import { columns } from './columns';
 import { Link as RouterLink } from 'react-router-dom';
 import Link from '@material-ui/core/Link';
 

@@ -314,6 +314,338 @@ const rows = [
         id: "DriveSeg",
         href: "https://news.mit.edu/2020/mit-toyota-release-visual-open-data-accelerate-autonomous-driving-research-0618"
     },
+    {
+        id: "Argoverse Map",
+        href: "https://www.argoverse.org/"
+    },
+    {
+        id: "Argoverse 3D Tracking",
+        href: "https://www.argoverse.org/"
+    },
+    {
+        id: "KUL Belgium Traffic Sign dataset",
+        href: "https://people.ee.ethz.ch/~timofter/traffic_signs/"
+    },
+    {
+        id: "Bosch Small Traffic Lights Dataset",
+        href: "https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset"
+    },
+    {
+        id: "Brain4Cars",
+        href: "http://brain4cars.com/"
+    },
+    {
+        id: "Seasonal Variation Dataset",
+        href: "http://www.cs.cmu.edu/~aayushb/localization/"
+    },
+    {
+        id: "Bay Area Dataset",
+        href: "http://www.cs.cmu.edu/~aayushb/localization/"
+    },
+    {
+        id: "Illumination Changes in a day",
+        href: "http://www.cs.cmu.edu/~aayushb/localization/"
+    },
+    {
+        id: "comma.ai",
+        href: "http://research.comma.ai/"
+    },
+    {
+        id: "CULane Dataset",
+        href: "https://xingangpan.github.io/projects/CULane.html"
+    },
+    {
+        id: "DAVIS Driving Dataset",
+        href: "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub"
+    },
+    {
+        id: "DBNet",
+        href: "http://www.dbehavior.net/"
+    },
+    {
+        id: "DIPLECS Autonomous Driving Datasets",
+        href: "https://cvssp.org/data/diplecs/"
+    },
+    {
+        id: "DR(eye)VE",
+        href: "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=8"
+    },
+    {
+        id: "ELEKTRA",
+        href: "http://adas.cvc.uab.es/elektra/datasets/"
+    },
+    {
+        id: "German Traffic Sign",
+        href: "https://benchmark.ini.rub.de/"
+    },
+    {
+        id: "HCI Challenging Stereo",
+        href: "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow"
+    },
+    {
+        id: "HD1K",
+        href: "http://hci-benchmark.iwr.uni-heidelberg.de/"
+    },
+    {
+        id: "Highway Work Zones",
+        href: "http://www.andrew.cmu.edu/user/jonghole/workzone/data/"
+    },
+    {
+        id: "KAIST Urban",
+        href: "https://irap.kaist.ac.kr/dataset/"
+    },
+    {
+        id: "LISA Traffic Sign Dataset",
+        href: "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html"
+    },
+    {
+        id: "Malaga Stereo",
+        href: "https://www.mrpt.org/MalagaUrbanDataset"
+    },
+    {
+        id: "Malaga Laser Urban",
+        href: "https://www.mrpt.org/MalagaUrbanDataset"
+    },
+    {
+        id: "Mapillary Vistas",
+        href: "https://www.mapillary.com/dataset/vistas"
+    },
+    {
+        id: "NEXET",
+        href: "https://blog.getnexar.com/https-medium-com-itayklein-intro-nexet-50e9b596d0e5"
+    },
+    {
+        id: "Road Damage",
+        href: "https://arxiv.org/pdf/1801.09454.pdf"
+    },
+    {
+        id: "Ground Truth Stixel Dataset",
+        href: "http://www.6d-vision.com/ground-truth-stixel-dataset"
+    },
+    {
+        id: "Boxy",
+        href: "https://boxy-dataset.com/boxy/"
+    },
+    {
+        id: "TME Motorway",
+        href: "http://cmp.felk.cvut.cz/data/motorway/"
+    },
+    {
+        id: "TuSimple",
+        href: "https://www.tusimple.com/"
+    },
+    {
+        id: "UAH-DriveSet",
+        href: "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/"
+    },
+    {
+        id: "Udacity",
+        href: "https://github.com/udacity/self-driving-car"
+    },
+    {
+        id: "Unsupervised Llamas",
+        href: "https://unsupervised-llamas.com/llamas/"
+    },
+    {
+        id: "Dense Depth for Autonomous Driving",
+        href: "https://github.com/TRI-ML/DDAD"
+    },
+    {
+        id: "Ford Autonomous Vehicle Dataset",
+        href: "https://avdata.ford.com/"
+    },
+    {
+        id: "Canadian Adverse Driving Conditions",
+        href: "http://cadcd.uwaterloo.ca/"
+    },
+    {
+        id: "Street Hazards",
+        href: "https://github.com/hendrycks/anomaly-seg"
+    },
+    {
+        id: "Astyx HiRes 2019",
+        href: "https://www.astyx.com/fileadmin/redakteur/dokumente/Astyx_Dataset_HiRes2019_specification.pdf"
+    },
+    {
+        id: "INTERACTION dataset",
+        href: "https://interaction-dataset.com/"
+    },
+    {
+        id: "A*3D",
+        href: "https://github.com/I2RDL2/ASTAR-3D"
+    },
+    {
+        id: "comma 2k19",
+        href: "https://github.com/commaai/comma2k19"
+    },
+    {
+        id: "camvid",
+        href: "https://www.kaggle.com/carlolepelaars/camvid"
+    },
+    {
+        id: "Daimler Urban Segmentation",
+        href: "https://computervisiononline.com/dataset/1105138608",
+    },
+    {
+        id: "Caltech Pedestrian Dataset",
+        href: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/"
+    },
+    {
+        id: "VPGNet",
+        href: "https://arxiv.org/abs/1710.06288"
+    },
+    {
+        id: "Toronto 3D",
+        href: "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.pdf"
+    },
+    {
+        id: "Toronto City",
+        href: "http://www.cs.toronto.edu/~byang/papers/Tcity_iccv17.pdf"
+    },
+    {
+        id: "Synthia",
+        href: "https://synthia-dataset.net/"
+    },
+    {
+        id: "RANUS",
+        href: "https://sites.google.com/site/gmchoe1/ranus"
+    },
+    {
+        id: "One Thousand and One Hours",
+        href: "https://arxiv.org/abs/2006.14480v2"
+    },
+    {
+        id: "MCity Data Collection",
+        href: "https://arxiv.org/pdf/1912.06258.pdf"
+    },
+    {
+        id: "H3D",
+        href: "https://paperswithcode.com/dataset/h3d"
+    },
+    {
+        id: "LIBRE",
+        href: "https://arxiv.org/abs/2003.06129"
+    },
+    {
+        id: "Stanford Track Collection",
+        href: "https://cs.stanford.edu/people/teichman/stc/"
+    },
+    {
+        id: "LiDAR-Video Driving Dataset",
+        href: "https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_LiDAR-Video_Driving_Dataset_CVPR_2018_paper.pdf"
+    },
+    {
+        id: "Ford CAMPUS",
+        href: "https://www.researchgate.net/publication/220122924_Ford_Campus_vision_and_lidar_data_set"
+    },
+    {
+        id: "WoodScape",
+        href: "https://paperswithcode.com/dataset/woodscape"
+    },
+    {
+        id: "WildDash 2",
+        href: "https://wilddash.cc/"
+    },
+    {
+        id: "Raincouver",
+        href: "https://ieeexplore.ieee.org/document/7970170"
+    },
+    {
+        id: "TRoM",
+        href: "https://ieeexplore.ieee.org/document/8317749"
+    },
+    {
+        id: "Caltech Lanes",
+        href: "http://www.mohamedaly.info/datasets/caltech-lanes"
+    },
+    {
+        id: "Complex Urban Dataset",
+        href: "https://irap.kaist.ac.kr/dataset/"
+    },
+    {
+        id: "CCSAD",
+        href: "https://www.researchgate.net/publication/277476726_Towards_Ubiquitous_Autonomous_Driving_The_CCSAD_Dataset"
+    },
+    {
+        id: "Street Learn",
+        href: "https://paperswithcode.com/dataset/streetlearn"
+    },
+    {
+        id: "UTBM robot car",
+        href: "https://epan-utbm.github.io/utbm_robocar_dataset/"
+    },
+    {
+        id: "Multi Vehicle Stereo Event Camera",
+        href: "https://daniilidis-group.github.io/mvsec/"
+    },
+    {
+        id: "AMUSE",
+        href: "http://www.cvl.isy.liu.se/research/datasets/amuse/"
+    },
+    {
+        id: "Cheddar Gorge Dataset",
+        href: "https://www.researchgate.net/publication/228428941_The_Cheddar_Gorge_Data_Set"
+    },
+    {
+        id: "The Annotated Laser Dataset",
+        href: "https://journals.sagepub.com/doi/pdf/10.1177/0278364910389840"
+    },
+    {
+        id: "DDD 17",
+        href: "https://www.paperswithcode.com/dataset/ddd17"
+    },
+    {
+        id: "EISATS",
+        href: "https://ccv.wordpress.fos.auckland.ac.nz/eisats/"
+    },
+    {
+        id: "BLVD",
+        href: "https://paperswithcode.com/dataset/blvd"
+    },
+    {
+        id: "FLIR Thermal Dataset",
+        href: "https://www.flir.com/oem/adas/adas-dataset-form/"
+    },
+    {
+        id: "NightOwls",
+        href: "https://www.nightowls-dataset.org/"
+    },
+    {
+        id: "Multispectral Object Detection",
+        href: "https://deepai.org/publication/multispectral-object-detection-with-deep-learning"
+    },
+    {
+        id: "CityPersons",
+        href: "https://arxiv.org/abs/1702.05693"
+    },
+    {
+        id: "Tsinghua Daimler Cyclist Detection",
+        href: "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html"
+    },
+    {
+        id: "TDU Brussels Pedestrian",
+        href: "https://www.researchgate.net/figure/Results-on-the-TUD-Brussels-Pedestrian-Dataset_fig13_321232691"
+    },
+    {
+        id: "ETH Pedestrian",
+        href: "https://paperswithcode.com/dataset/eth"
+    },
+    {
+        id: "Daimler Pedestrian",
+        href: "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
+    },
+    {
+        id: "Fishyscapes",
+        href: "https://fishyscapes.com/"
+    },
+    {
+        id: "RADIATE",
+        href: "http://pro.hw.ac.uk/radiate/doc/dataset/"
+    },
+    {
+        id: "Synscapes",
+        href: "https://7dlabs.com/synscapes-overview"
+    }
 ];
 
 export { rows };

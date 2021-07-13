@@ -645,6 +645,10 @@ const rows = [
     {
         id: "Synscapes",
         href: "https://7dlabs.com/synscapes-overview"
+    },
+    {
+        id: "KITTI-360",
+        href: "http://www.cvlibs.net/datasets/kitti-360/"
     }
 ];
 

@@ -649,6 +649,10 @@ const rows = [
     {
         id: "KITTI-360",
         href: "http://www.cvlibs.net/datasets/kitti-360/"
+    },
+    {
+        id:"GROUNDED Localizing Ground Penetrating Radar (LGPR) Evaluation Dataset",
+        href: "https://lgprdata.com/"
     }
 ];
 

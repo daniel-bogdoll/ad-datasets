@@ -8,7 +8,7 @@ const rows = [
         samplingRate: '17 Hz',
         lengthOfScenes: '1.8 sec',
         sensors: '2 Stereo Cameras CMOS 2 MP',
-        benchmark: 'Pixel-Level Semantic Labeling Task Instance-Level Semantic Labeling Task Panoptic Semantic Labeling Task 3D Vehicle Detection Task',
+        benchmark: 'Pixel-Level Semantic Labeling ~{"\n"} Task Instance-Level Semantic Labeling Task Panoptic Semantic Labeling Task 3D Vehicle Detection Task',
         dataFormat: 'Annotation: json Image: png',
         tooling: '-',
         annotations: 'Polygonal Annotations Dense Semantic Segmentation Instance Segmentation for Vehicle/People',

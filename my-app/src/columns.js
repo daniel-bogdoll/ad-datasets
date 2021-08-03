@@ -160,7 +160,13 @@ const columns = [
         width: 105,
         align: 'right',
         type: "number",
-        renderCell: renderCellExpand
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'size_storage',
@@ -168,7 +174,13 @@ const columns = [
         width: 120,
         align: 'right',
         type: "number",
-        renderCell: renderCellExpand
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'frames',
@@ -176,7 +188,13 @@ const columns = [
         width: 110,
         align: 'right',
         type: "number",
-        renderCell: renderCellExpand
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'numberOfScenes',
@@ -184,7 +202,13 @@ const columns = [
         width: 130,
         align: 'right',
         type: "number",
-        renderCell: renderCellExpand
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'samplingRate',
@@ -192,7 +216,13 @@ const columns = [
         width: 180,
         hide: true,
         type: "number",
-        renderCell: renderCellExpand
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'lengthOfScenes',
@@ -200,7 +230,13 @@ const columns = [
         width: 165,
         align: 'right',
         type: "number",
-        renderCell: renderCellExpand
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'sensors',

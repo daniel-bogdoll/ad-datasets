@@ -4,109 +4,178 @@ const rows = [
     {
         id:   "Cityscapes 3D",
         href: "https://www.cityscapes-dataset.com/",
-        size_hours: '12.5',
+        size_hours: '-',             //Unknown
+        size_storage: '-',           //Unknown
+        frames: '-',                 //Unknown
+        numberOfScenes: '-',         //Unknown
         samplingRate: '17',
         lengthOfScenes: '1.8',
-        sensors: 'Camera',
-        sensorDetail: '2 Stereo Cameras CMOS 2 MP',
-        benchmark: 'Pixel-Level Semantic Labeling Task Instance-Level Semantic Labeling Task Panoptic Semantic Labeling Task 3D Vehicle Detection Task',
-        dataFormat: 'Annotation: json Image: png',
-        tooling: '-',
-        annotations: 'Polygonal Annotations Dense Semantic Segmentation Instance Segmentation for Vehicle/People',
-        licensing: 'Freely available for non-commercial purposes',
-        relatedDatasets: '-',
+        sensors: 'camera, gps, odometry, thermometer',
+        sensorDetail: 'Stereo Cameras using 1/3 in CMOS 2 MP sensors GPS Odometry outside Thermometer',
+        benchmark: 'Pixel-Level Semantic Labeling  Instance-Level Semantic Labeling, Panoptic Semantic Labeling ' +
+            '3D Vehicle Detection',
+        annotations: 'Dense Semantic Segmentation, Instance Segmentation for Vehicles & People',
+        licensing: 'freely available for non-commercial purposes',
+        relatedDatasets: '',
         publishDate: '02.2016',
         lastUpdate: '08.2020'
     },
     {
-        id: "ApolloScape",
+        id: "ApolloScape", //04.08. fertig
         href: "http://apolloscape.auto/",
-        size_hours: "100",
-        frames: "142906",
+        size_hours: "100", //100+
+        size_storage: "-",
+        frames: "143906",
+        numberOfScenes: "-",
         samplingRate: "30",
-        sensors: "laser scanner, camera, LiDAR, GPS",
-        sensorDetail: "2 laser scanners, 4 cameras, 1 LiDAR, 1 GPS",
-        publishDate: "07.2019"
+        lengthOfScenes: "-",
+        sensors: "camera, lidar, gps",
+        sensorDetail: "2 VUX-1HA laser scanners, one VMX-CS6 camera system, a measuring head with IMU/GNSS, two high " +
+            "frontal camera capturing with a resolution of 3384 ×2710",
+        benchmark: '2D image parsing, 3D car instance understanding, landmark segmentation, self-localization, ' +
+            'trajectory prediction, 3D detection, 3D tracking, stereo',
+        annotations: 'high density 3d point cloud map, per-pixel, per-frame semantic image label, lane mark label' +
+            'semantic instance segmentation, geo-tagged',
+        licensing: 'for developer’s personal use only',
+        relatedDatasets: '',
+        publishDate: "03.2018",
+        lastUpdate: '09.2020'
     },
     {
-        id: "Lyft Level5",
+        id: "Lyft Level5", //04.08. fertig
         href: "https://self-driving.lyft.com/level5/",
         size_hours: "1118",
-        scenes_number: "170000",
+        size_storage: '-',
+        frames: "-",
+        numberOfScenes: '170000',
+        samplingRate: '10',
         lengthOfScenes: "25",
-        sensors: "camera, LiDAR, RADAR",
-        sensorDetail: "7 cameras, 3 LiDARs, 5 RADARs",
+        sensors: "lidar, camera, radar",
+        sensorDetail: "7 cameras with 360° view, 3 lidars with 40-64 channels at 10Hz, 5 radars",
+        benchmark: '',
+        annotations: 'semantic map annotations, trajectories',
+        licensing: 'version 4.0 of the Creative Commons Attribution-NonCommercial-ShareAlike license (CC-BY-NC-SA-4.0)',
+        relatedDatasets: '',
         publishDate: "07.2019",
         lastUpdate: "06.2020"
     },
     {
-        id: "Oxford RobotCar",
+        id: "Oxford RobotCar", //05.08. fertig
         href: "https://robotcar-dataset.robots.ox.ac.uk/",
+        size_hours: '-',
         size_storage: "23150",
-        sensors: "camera, LiDAR, GPS, INS",
-        sensorDetail: "4 cameras, 3 LiDAR, GPS, INS",
+        frames: "-",
+        numberOfScenes: "-",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "camera, lidar, gps/ins",
+        sensorDetail: "1 camera Bumblebee XB3 1280x960x3 16Hz, 3 camera Grasshopper2 1024x1024 12Hz" +
+            ", 2 lidar SICK LMS-151 270° 50Hz, 1 lidar SICK LD-MRS 90° 4 plane 12.5Hz, 1 x NovAtel " +
+            "SPAN-CPT ALIGN 50Hz GPS+INS",
+        benchmark: "coming soon",
+        annotations: "",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
-        publishDate: "2016"
+        relatedDatasets: "",
+        publishDate: "11.2016",
+        lastUpdate: "02.2020"
     },
     {
-        id: "nuScenes",
+        id: "nuScenes", //05.08. //fertig
         href: "https://www.nuscenes.org/",
         size_hours: "15",
-        frames: "14000000",
+        size_storage: "-",
+        frames: "1400000",
         numberOfScenes: "1000",
+        samplingRate: "-",
         lengthOfScenes: "20",
-        sensors: "LiDAR, radar, camera, IMU, GPS",
-        sensorDetail: "1 LiDAR, 5 radar, 6 camera, IMU, GPS",
-        annotations: "3D Bounding Boxes (2 Hz)+semantic category, attributes: visibility, pose, activity, ...; semantic\n" +
-            "            point cloud annotations; ",
-        licensing: "Freely available for non-commercial purposes",
+        sensors: "lidar, radar, camera, gps/imu",
+        sensorDetail: "1 lidar 32 channels 360° 20Hz, 5 long range radar 13Hz, 6 camera 1600x1200 12Hz, IMU, GPS",
+        benchmark: "3D object detection, tracking, trajectory (prediction), lidar segmentation, panoptic segmentation & " +
+            "tracking",
+        annotations: "semantic category, attributes, 3d bounding boxes ",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License " +
+            "(“CC BY-NC-SA 4.0”)",
         relatedDatasets: "nuImages",
         publishDate: "03.2019",
-        lastUpdate: "07.2020"
+        lastUpdate: "12.2020"
     },
     {
-        id: "PandaSet",
+        id: "PandaSet", //05.08. fertig
         href: "https://pandaset.org/",
+        size_hours: '0.23', //calculated
+        size_storage: '-',
         frames: "48000",
-        numberOfScenes: "100",
+        numberOfScenes: "103", //sekundär (primär 100+)
+        samplingRate: "-",
         lengthOfScenes: "8",
-        sensors: "camera, LiDAR",
-        sensorDetail: "5 wide angle cameras 1 long focus camera 1 mechanical spinning LiDAR 1 forward-facing LiDAR",
-        annotations: "3D Bounding Boxes; Class Attributes: Activity, Visibility, Location, Pose; Point Cloud Segmentation " +
-            "with 37 semantic labels",
-        licensing: "Creative Commons Attribution 4.0 International Public License",
-        publishDate: "04.2020"
+        sensors: "lidar, camera, gps/imu",
+        sensorDetail: "5 wide angle cameras 1920x1080 10Hz, 1 long focus camera 1920x1080 10Hz, " +
+            "1 mechanical spinning LiDAR 64 channels 360° 10Hz, 1 forward-facing LiDAR 150 channels 60° 10Hz" +
+            "1x mechanical spinning LiDAR, 1x forward-facing LiDAR, 6x cameras, On-board GPS/IMU",
+        benchmark: "",
+        annotations: "3D Bounding Boxes, Attributes, Point Cloud Segmentation ",
+        licensing: "Creative Commons Attribution 4.0 International Public License (“CC BY 4.0”)",
+        relatedDatasets: "",
+        publishDate: "04.2020",
+        lastUpdate: ""
     },
     {
-        id: "Waymo Open Motion Dataset",
+        id: "Waymo Open Motion", //07.08. fertig
         href: "https://waymo.com/open/data/motion/",
         size_hours:  "574",
-        frames: "20000000",
+        size_storage: "-",
+        frames: "20670800", //calculated
         numberOfScenes: "103354",
         samplingRate: "10",
         lengthOfScenes: "20",
         sensors: "LiDAR, Camera",
-        sensorDetail: "5 LiDAR 5 Cameras",
+        sensorDetail: "5 LiDAR, 5 Cameras",
+        benchmark: "motion prediction, interaction prediction",
+        annotations: "3D bounding boxes, 3d hd map information",
         licensing: "Freely available for non-commercial purposes",
-        relatedDatasets: "Waymo Open Perception Dataset",
-        publishDate: "03.2021"
+        relatedDatasets: "Waymo Open Perception",
+        publishDate: "03.2021",
+        lastUpdate: ""
     },
     {
-        id: "KITTI",
+        id: "Waymo Open Perception", //07.08. fertig
+        href: "https://waymo.com/open/data/perception/",
+        size_hours:  "10.83", //calculated
+        size_storage: "-",
+        frames: "390000",
+        numberOfScenes: "1950",
+        samplingRate: "10",
+        lengthOfScenes: "20",
+        sensors: "lidar, camera",
+        sensorDetail: "1 mid-range lidar, 4 short-range lidars, 5 cameras (front and sides) 1920x1280 & 1920x1040",
+        benchmark: "2d detection, 3d detection, 2d tracking, 3d tracking",
+        annotations: "3D bounding boxes (lidar), 2D bounding boxes (camera)",
+        licensing: "Freely available for non-commercial purposes",
+        relatedDatasets: "Waymo Open Motion",
+        publishDate: "08.2019",
+        lastUpdate: "03.2020"
+    },
+    {
+        id: "KITTI", //07.08. fertig
         href: "http://www.cvlibs.net/datasets/kitti/",
         size_hours: "6",
         size_storage: "180",
-        samplingRate: "10-100",
-        sensors: "GPS/IMU, Laserscanner, Cameras",
-        sensorDetail: "1 GPS/IMU 1 Laserscanner 2 Grayscale Cameras 2 Color Cameras 4 Varifocal Lenses",
-        benchmark: " stereo, optical flow, visual odometry, SLAM, 3D object detection and 3D object tracking",
-        annotations: "3D bounding boxes of 8 classes",
+        frames: '-',
+        numberOfScenes: '-',
+        samplingRate: "10",
+        lengthOfScenes: '',
+        sensors: "cameras, lidar, gps",
+        sensorDetail: "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and " +
+            "GPS navigation system",
+        benchmark: " stereo, optical flow, visual odometry, SLAM, 3D object detection, 3D object tracking",
+        annotations: "3D bounding boxes",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
+        relatedDatasets: 'Semantic KITTI, KITTI-360',
         publishDate: "03.2012",
         lastUpdate: "02.2021"
     },
     {
-        id: "BDD100k",
+        id: "BDD100k", //07.08. //fertig
         href: "https://www.bdd100k.com/",
         size_storage: "1800",
         size_hours: "1111",
@@ -114,15 +183,16 @@ const rows = [
         numberOfScenes: "100000",
         samplingRate: "30",
         lengthOfScenes: "40",
-        sensors: "camera, GPS/IMU",
-        sensorDetail: "Crowd-sourced, no fixed setup; camera and GPS/IMU",
-        benchmark: "Object Detection Instance Segmentation Semantic Segmentation Drivable Area Object Tracking " +
-            "Segmentation Tracking",
-        dataFormat: "Scalable Format",
-        annotations: "Image Level Annotations (Weather, Scene Type, Day Time), Object Detection - Bounding boxes, " +
-            "Lane Marking, Drivable Area, fie-grained pixel level annotations",
-        licensing: "Freely available for non-commercial purposes",
-        publishDate: "04.2020"
+        sensors: "camera, gps/imu",
+        sensorDetail: "Crowd-sourced therefore no fixed setup, camera (720p) and GPS/IMU",
+        benchmark: "Object Detection, Instance Segmentation, Multiple Object Tracking, Segmentation Tracking, " +
+            "Semantic Segmentation, Lane Marking, Drivable Area, Image Tagging, Imitation learning, domain adaption",
+        annotations: "bounding boxes, instance segmentation, semantic segmentation, box tracking, semantic tracking, " +
+            "drivable area",
+        licensing: "BSD 3-Clause License",
+        relatedDatasets: "",
+        publishDate: "04.2020",
+        lastUpdate: ""
     },
     {
         id: "PepScenes",

@@ -2,23 +2,25 @@ import * as React from 'react';
 
 const rows = [
     {
-        id:   "Cityscapes 3D",
+        id:   "Cityscapes 3D", //20.08. fertig
         href: "https://www.cityscapes-dataset.com/",
-        size_hours: '-',             //Unknown
-        size_storage: '-',           //Unknown
-        frames: '-',                 //Unknown
-        numberOfScenes: '-',         //Unknown
+        size_hours: '-',
+        size_storage: '63.141',    //Yin, Berger Paper
+        frames: '-',
+        numberOfScenes: '-',
         samplingRate: '17',
         lengthOfScenes: '1.8',
-        sensors: 'camera, gps, odometry, thermometer',
-        sensorDetail: 'Stereo Cameras using 1/3 in CMOS 2 MP sensors GPS Odometry outside Thermometer',
-        benchmark: 'Pixel-Level Semantic Labeling  Instance-Level Semantic Labeling, Panoptic Semantic Labeling ' +
-            '3D Vehicle Detection',
-        annotations: 'Dense Semantic Segmentation, Instance Segmentation for Vehicles & People',
+        sensors: 'camera, gps, thermometer, gps',
+        sensorDetail: 'stereo cameras 22 cm baseline 17Hz, odometry from in-vehicle sensors & outside temperature & GPS ' +
+            'tracks,',
+        benchmark: 'pixel-level semantic labeling, instance-level semantic labeling, panoptic semantic sabeling ' +
+            '3d vehicle detection',
+        annotations: 'dense semantic segmentation, instance segmentation for vehicles & people, 3d bounding boxes',
         licensing: 'freely available for non-commercial purposes',
-        relatedDatasets: '',
+        relatedDatasets: "",
         publishDate: '02.2016',
-        lastUpdate: '08.2020'
+        lastUpdate: '10.2020',
+        relatedPaper: "https://arxiv.org/pdf/2006.07864.pdf"
     },
     {
         id: "ApolloScape", //04.08. fertig
@@ -29,9 +31,9 @@ const rows = [
         numberOfScenes: "-",
         samplingRate: "30",
         lengthOfScenes: "-",
-        sensors: "camera, lidar, gps",
-        sensorDetail: "2 VUX-1HA laser scanners, one VMX-CS6 camera system, a measuring head with IMU/GNSS, two high " +
-            "frontal camera capturing with a resolution of 3384 ×2710",
+        sensors: "camera, lidar, imu/gnss",
+        sensorDetail: "2x VUX-1HA laser scanners 360°, 1x VMX-CS6 camera system, 1x measuring head with imu/gnss, 2x high " +
+            "frontal cameras 3384 ×2710",
         benchmark: '2D image parsing, 3D car instance understanding, landmark segmentation, self-localization, ' +
             'trajectory prediction, 3D detection, 3D tracking, stereo',
         annotations: 'high density 3d point cloud map, per-pixel, per-frame semantic image label, lane mark label' +
@@ -39,14 +41,15 @@ const rows = [
         licensing: 'for developer’s personal use only',
         relatedDatasets: '',
         publishDate: "03.2018",
-        lastUpdate: '09.2020'
+        lastUpdate: '09.2020',
+        relatedPaper: "https://arxiv.org/pdf/1803.06184.pdf"
     },
     {
-        id: "Lyft Level5", //04.08. fertig
-        href: "https://self-driving.lyft.com/level5/",
+        id: "Lyft Level5 Prediction", //20.08. fertig
+        href: "https://level-5.global/data/prediction/",
         size_hours: "1118",
         size_storage: '-',
-        frames: "-",
+        frames: "42500000",  //calculated from numberOfScenes, samplingRate, lengthOfScenes
         numberOfScenes: '170000',
         samplingRate: '10',
         lengthOfScenes: "25",
@@ -55,9 +58,28 @@ const rows = [
         benchmark: '',
         annotations: 'semantic map annotations, trajectories',
         licensing: 'version 4.0 of the Creative Commons Attribution-NonCommercial-ShareAlike license (CC-BY-NC-SA-4.0)',
-        relatedDatasets: '',
+        relatedDatasets: 'Lyft Level5 Perception',
+        publishDate: "06.2020",
+        lastUpdate: "",
+        relatedPaper: "https://tinyurl.com/lyft-prediction-dataset"
+    },
+    {
+        id: "Lyft Level5 Perception", //20.08. fertig
+        href: "https://level-5.global/data/perception/",
+        size_hours: "2.5",
+        size_storage: '-',
+        frames: "-",
+        numberOfScenes: '366',
+        samplingRate: '-',
+        lengthOfScenes: "-",
+        sensors: "lidar, camera",
+        sensorDetail: "",
+        benchmark: '',
+        annotations: '3d bounding boxes, rasterised road geometry',
+        licensing: 'version 4.0 of the Creative Commons Attribution-NonCommercial-ShareAlike license (CC-BY-NC-SA-4.0)',
+        relatedDatasets: 'Lyft Level5 Prediction',
         publishDate: "07.2019",
-        lastUpdate: "06.2020"
+        lastUpdate: "",
     },
     {
         id: "Oxford RobotCar", //05.08. fertig
@@ -65,19 +87,20 @@ const rows = [
         size_hours: '-',
         size_storage: "23150",
         frames: "-",
-        numberOfScenes: "-",
+        numberOfScenes: "100",
         samplingRate: "-",
         lengthOfScenes: "-",
         sensors: "camera, lidar, gps/ins",
         sensorDetail: "1 camera Bumblebee XB3 1280x960x3 16Hz, 3 camera Grasshopper2 1024x1024 12Hz" +
             ", 2 lidar SICK LMS-151 270° 50Hz, 1 lidar SICK LD-MRS 90° 4 plane 12.5Hz, 1 x NovAtel " +
             "SPAN-CPT ALIGN 50Hz GPS+INS",
-        benchmark: "coming soon",
+        benchmark: "",
         annotations: "",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
         relatedDatasets: "",
         publishDate: "11.2016",
-        lastUpdate: "02.2020"
+        lastUpdate: "02.2020",
+        relatedPaper: "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf"
     },
     {
         id: "nuScenes", //05.08. //fertig
@@ -89,7 +112,7 @@ const rows = [
         samplingRate: "-",
         lengthOfScenes: "20",
         sensors: "lidar, radar, camera, gps/imu",
-        sensorDetail: "1 lidar 32 channels 360° 20Hz, 5 long range radar 13Hz, 6 camera 1600x1200 12Hz, IMU, GPS",
+        sensorDetail: "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x IMU/GPS 1000Hz",
         benchmark: "3D object detection, tracking, trajectory (prediction), lidar segmentation, panoptic segmentation & " +
             "tracking",
         annotations: "semantic category, attributes, 3d bounding boxes ",
@@ -97,7 +120,27 @@ const rows = [
             "(“CC BY-NC-SA 4.0”)",
         relatedDatasets: "nuImages",
         publishDate: "03.2019",
-        lastUpdate: "12.2020"
+        lastUpdate: "12.2020",
+        relatedPaper: "https://arxiv.org/pdf/1903.11027.pdf"
+    },
+    {
+        id: "nuImages", //20.08. fertig
+        href: "https://www.nuscenes.org/nuimages",
+        size_hours: "150",
+        size_storage: "-",
+        frames: "1200000",
+        numberOfScenes: "93000",
+        samplingRate: "2",
+        lengthOfScenes: "",
+        sensors: "camera, lidar, radar, imu/gps",
+        sensorDetail: "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x IMU/GPS 1000Hz",
+        benchmark: "",
+        annotations: "instance masks, 2d bounding boxes, semantic segmentation masks, attribute annotations",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License " +
+            "(“CC BY-NC-SA 4.0”)",
+        relatedDatasets: "nuScenes",
+        publishDate: "07.2020",
+        lastUpdate: "",
     },
     {
         id: "PandaSet", //05.08. fertig
@@ -105,7 +148,7 @@ const rows = [
         size_hours: '0.23', //calculated
         size_storage: '-',
         frames: "48000",
-        numberOfScenes: "103", //sekundär (primär 100+)
+        numberOfScenes: "103",  //Sekundärquelle
         samplingRate: "-",
         lengthOfScenes: "8",
         sensors: "lidar, camera, gps/imu",
@@ -117,7 +160,7 @@ const rows = [
         licensing: "Creative Commons Attribution 4.0 International Public License (“CC BY 4.0”)",
         relatedDatasets: "",
         publishDate: "04.2020",
-        lastUpdate: ""
+        lastUpdate: "",
     },
     {
         id: "Waymo Open Motion", //07.08. fertig
@@ -135,7 +178,8 @@ const rows = [
         licensing: "Freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Perception",
         publishDate: "03.2021",
-        lastUpdate: ""
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/2104.10133.pdf"
     },
     {
         id: "Waymo Open Perception", //07.08. fertig
@@ -153,7 +197,8 @@ const rows = [
         licensing: "Freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Motion",
         publishDate: "08.2019",
-        lastUpdate: "03.2020"
+        lastUpdate: "03.2020",
+        relatedPaper: "https://arxiv.org/pdf/1912.04838.pdf"
     },
     {
         id: "KITTI", //07.08. fertig
@@ -161,7 +206,7 @@ const rows = [
         size_hours: "6",
         size_storage: "180",
         frames: '-',
-        numberOfScenes: '-',
+        numberOfScenes: '50',
         samplingRate: "10",
         lengthOfScenes: '',
         sensors: "cameras, lidar, gps",
@@ -172,7 +217,8 @@ const rows = [
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
         relatedDatasets: 'Semantic KITTI, KITTI-360',
         publishDate: "03.2012",
-        lastUpdate: "02.2021"
+        lastUpdate: "02.2021",
+        relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
     },
     {
         id: "BDD100k", //07.08. //fertig
@@ -192,7 +238,553 @@ const rows = [
         licensing: "BSD 3-Clause License",
         relatedDatasets: "",
         publishDate: "04.2020",
-        lastUpdate: ""
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1805.04687.pdf"
+    },
+    {
+        id: "openDD", //09.08. fertig
+        href: "https://l3pilot.eu/data/opendd",
+        size_storage: '',
+        size_hours: '62.7',
+        frames: '6771600', //calculated size_hours*samplingRate
+        numberOfScenes: '501',
+        samplingRate: '30',
+        lengthOfScenes: '',
+        sensors: 'camera',
+        sensorDetail: 'DJI Phantom 4 3840×2160 camera drone',
+        benchmark: 'trajectory predictions',
+        annotations: '2d bounding boxes, trajectories',
+        licensing: 'Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ',
+        relatedDatasets: '',
+        publishData: '09.2020',
+        lastUpdate: '',
+        relatedPaper: "https://arxiv.org/pdf/2007.08463.pdf"
+    },
+    {
+        id: "WildDash", //09.08. fertig
+        href: "https://wilddash.cc/",
+        size_storage: '',
+        size_hours: '',
+        frames: '',
+        numberOfScenes: '156',
+        samplingRate: '',
+        lengthOfScenes: '',
+        sensors: 'camera',
+        sensorDetail: 'various sources, e.g. YouTube',
+        benchmark: 'semantic segmentation, instance segmentation, panoptic segmentation',
+        annotations: 'semantic segmentation, instance segmentation',
+        licensing: 'CC-BY-NC 4.0 ',
+        relatedDatasets: '',
+        publishDate: '02.2018',
+        lastUpdate: '06.2020',
+        relatedPaper: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Oliver_Zendel_WildDash_-_Creating_ECCV_2018_paper.pdf"
+    },
+    {
+        id: "RoadAnomaly21", //09.08. fertig
+        href: "https://segmentmeifyoucan.com/datasets",
+        size_storage: '-',
+        size_hours: '-',
+        frames: '1',
+        numberOfScenes: '100',
+        samplingRate: '-',
+        lengthOfScenes: '-',
+        sensors: 'camera',
+        sensorDetail: 'images from web resources',
+        benchmark: 'semantic segmentation',
+        annotations: 'semantic segmentation',
+        licensing: '',
+        relatedDatasets: 'RoadObstacle21',
+        publishDate: '04.2021',
+        lastUpdate: '',
+        relatedPaper: "https://arxiv.org/pdf/2104.14812.pdf"
+    },
+    {
+        id: "Comma2k19", //10.08. fertig
+        href: "https://github.com/commaai/comma2k19",
+        size_storage: "100",
+        size_hours: "33.65", //calculated
+        frames: "",
+        numberOfScenes: "2019",
+        samplingRate: "",
+        lengthOfScenes: "60",
+        sensors: "camera, radar, imu/gnss ",
+        sensorDetail: "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, " +
+            "Gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
+        benchmark: "",
+        annotations: "",
+        licensing: "MIT License",
+        relatedDatasets: "",
+        publishDate: "12.2018",
+        lastUpdate: "",
+        relatedPaper: "http://export.arxiv.org/pdf/1812.05752"
+    },
+    {
+        id: "KITTI-360",
+        href: "http://www.cvlibs.net/datasets/kitti-360/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "camera, lidar, gps/imu",
+        sensorDetail: "2x 180° fisheye camera, 1x 90° perspective stereo camera, 1x Velodyne HDL-64E & SICK LMS 200 " +
+            "laser scanning unit in pushbroom configuration",
+        benchmark: "",
+        annotations: "3d bounding boxes, ",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        relatedDatasets: "KITTI",
+        publishDate: "",
+        lastUpdate: "04.2021",
+        relatedPaper: ""
+    },
+    {
+        id: "Fishyscapes",
+        href: "https://fishyscapes.com/",
+        size_storage:"",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate: "09.2019",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1904.03215.pdf"
+    },
+    {
+        id: "LostAndFound", //11.08.
+        href: "http://www.6d-vision.com/lostandfounddataset",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "112",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "camera",
+        sensorDetail: "stereo camera setup baseline 21cm 2048x1024",
+        benchmark: "",
+        annotations: "",
+        licensing: "freely available to academic and non-academic entities for non-commercial purposes",
+        relatedDatasets: "",
+        publishDate: "09.2016",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1609.04653.pdf"
+    },
+    {
+        id: "Semantic KITTI",
+        href: "http://www.semantic-kitti.org/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "21",
+        samplingRate: "10",
+        lengthOfScenes: "",
+        sensors: "lidar",
+        sensorDetail: "Velodyne HDL-64E ",
+        benchmark: "semantic segmentation, panoptic segmentation, semantic scene completion",
+        annotations: "semantic segmentation",
+        licensing: "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ",
+        relatedDatasets: "KITTI",
+        publishDate: "07.2019",
+        lastUpdate: "08.2020",
+        relatedPaper: "https://arxiv.org/abs/1904.01416"
+    },
+    {
+        id: "KAIST Multi-Spectral Day/Night",
+        href: "http://multispectral.kaist.ac.kr",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "25",
+        lengthOfScenes: "",
+        sensors: "camera, thermal camera, lidar, gps/ins",
+        sensorDetail: "2x PointGrey Flea3 RGB camera 1280 × 960, 1x FLIR A655Sc thermal camera 640x480 50Hz, " +
+            "1x Velodyne HDL-32E 3D LiDAR 360° 32 beams 10Hz, 1x OXTS RT2002 gps/ins 100Hz",
+        benchmark: "",
+        annotations: "",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        relatedDatasets: "",
+        publishDate: "12.17",
+        lastUpdate: "",
+        relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689"
+    },
+    {
+        id: "A2D2",
+        href: "https://www.a2d2.audi/a2d2/en.html",
+        size_storage: "",
+        size_hours: "",
+        frames: "433833", //calculated sum of annotated and not annotated frames
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "camera, lidar",
+        sensorDetail: "5x lidar 16 channels 360° 10Hz, 1x front centre camera 1920x1208 30Hz, 5x surround cameras" +
+            "1920x1208 30Hz, vehicle bus data",
+        benchmark: "",
+        annotations: "semantic segmentation, point cloud segmentation, instance segmentation, 3d bounding boxes",
+        licensing: "Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
+        relatedDatasets: "",
+        publishDate: "",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/2004.06320.pdf"
+    },
+    {
+        id: "Caltech Pedestrian",
+        href: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
+        size_storage: "",
+        size_hours: "10",
+        frames: "250000",
+        numberOfScenes: "137",
+        samplingRate: "30",
+        lengthOfScenes: "60",
+        sensors: "camera",
+        sensorDetail: "1x camera 640x480 30Hz",
+        benchmark: "",
+        annotations: "bounding boxes",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate: "03.2010",
+        lastUpdate: "01.2019",
+        relatedPaper: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf"
+    },
+    {
+        id: "Argoverse Map",
+        href: "https://www.argoverse.org/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
+    {
+        id: "Argoverse 3D Tracking",
+        href: "https://www.argoverse.org/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
+    {
+        id: "KAIST Urban",
+        href: "https://irap.kaist.ac.kr/dataset/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "lidar, camera, gps/imu",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:"09.2017",
+        lastUpdate: "06.2019",
+        relatedPaper: "https://irap.kaist.ac.kr/dataset/papers/IJRR2019_dataset.pdf"
+    },
+    {
+        id: "Udacity",
+        href: "https://github.com/udacity/self-driving-car/",
+        size_storage: "",
+        size_hours: "10",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "camera",
+        sensorDetail: "1920x1200",
+        benchmark: "",
+        annotations: "2d bounding boxes",
+        licensing: "MIT",
+        relatedDatasets: "",
+        publishDate:"09.2016",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
+    {
+        id: "Ford Autonomous Vehicle Dataset", //20.08. fertig
+        href: "https://avdata.ford.com/",
+        size_storage: "-",
+        size_hours: "-",
+        frames: "-",
+        numberOfScenes: "-",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "lidar, camera, imu/gps",
+        sensorDetail: "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz," +
+            "2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix " +
+            "POS LV imu/gps",
+        benchmark: "",
+        annotations: "3d point cloud maps, ground reflectivity map",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        relatedDatasets: "",
+        publishDate:"03.2020",
+        lastUpdate: "",
+        relatedPaper: "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf"
+    },
+    {
+        id: "INTERACTION dataset", //18.08. fertig
+        href: "https://interaction-dataset.com/",
+        size_storage: "-",
+        size_hours: "16.5",
+        frames: "594588", //calculated from detailed video lengths (paper) and samplingRate
+        numberOfScenes: "-",
+        samplingRate: "10",
+        lengthOfScenes: "-",
+        sensors: "camera",
+        sensorDetail: "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
+        benchmark: "motion prediction",
+        annotations: "2d bounding boxes, semantic map, motion/trajectories",
+        licensing: "for non-commercial use",
+        relatedDatasets: "",
+        publishDate:"09.2019",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1910.03088.pdf"
+    },
+    {
+        id: "MCity Data Collection",
+        href: "https://arxiv.org/pdf/1912.06258.pdf",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
+    {
+        id: "Oxford Radar Robot Car", //18.08. fertig
+        href: "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
+        size_storage: "4700",
+        size_hours: "-",
+        frames: "-",
+        numberOfScenes: "32",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "radar, lidar, camera, gps/ins",
+        sensorDetail: "1 x Navtech CTS350-X Millimetre-Wave FMCW radar 4 Hz, 2 x Velodyne HDL-32E LIDAR 360°" +
+            "32 planes 20 Hz, 1 x Point Grey Bumblebee XB3 trinocular stereo camera 1280×960×3 16 Hz 66°" +
+            "3 x Point Grey Grasshopper2 1024×1024 11.1 Hz 180°, 2 x SICK LMS-151 2D LIDAR 270° 50Hz, " +
+            "1 x NovAtel SPAN-CPT ALIGN inertial and GPS navigation system 6 axis 50Hz,",
+        benchmark: "",
+        annotations: "ground truth data",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        relatedDatasets: "Oxford Robot Car",
+        publishDate:"02.2020",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1909.01300.pdf"
+    },
+    {
+        id: "NightOwls", //18.08. fertig
+        href: "https://www.nightowls-dataset.org/",
+        size_storage: "-",
+        size_hours: "5.17", //calculated from frames and sampling rate
+        frames: "279000",
+        numberOfScenes: "40",
+        samplingRate: "15",
+        lengthOfScenes: "-",
+        sensors: "camera",
+        sensorDetail: "1x industry standard 1024x640 camera",
+        benchmark: "pedestrian detection, object detection",
+        annotations: "bounding boxes, attributes, temporal tracking annotations",
+        licensing: "for non-commercial purposes",
+        relatedDatasets: "",
+        publishDate:"12.2018",
+        lastUpdate: "",
+        relatedPaper: "https://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18b/neumann18b.pdf"
+    },
+    {
+        id: "DDD 20", //17.08. fertig
+        href: "https://sites.google.com/view/davis-driving-dataset-2020/home",
+        size_storage: "1300",
+        size_hours: "51",
+        frames: "",
+        numberOfScenes: "216",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "camera, car parameters",
+        sensorDetail: "1x DAVIS346B 346x260 up to 50Hz, vehicle bus data",
+        benchmark: "",
+        annotations: "",
+        licensing: "Creative Commons Attribution-ShareAlike 4.0 International",
+        relatedDatasets: "DDD 17",
+        publishDate:"02.2020",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/2005.08605.pdf"
+    },
+    {
+        id: "H3D", //16.08. fertig
+        href: "https://paperswithcode.com/dataset/h3d",
+        size_storage: "-",
+        size_hours: "-",
+        frames: "27721",
+        numberOfScenes: "160",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "camera, lidar, gps/imu",
+        sensorDetail: "3x color PointGrey Grasshopper3 video cameras 1920x1200 90°/80° 30Hz, 1x Velodyne HDL-64E " +
+            "LiDAR 64 beams 360° 10Hz, 1x GeneSys Eletronik GmbH Automotive Dynamic Motion Analyzer 100Hz",
+        benchmark: "",
+        annotations: "3d bounding boxes",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate: "03.2019",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1903.01568.pdf"
+    },
+    {
+        id: "4Seasons", //16.08.21 fertig
+        href: "https://www.4seasons-dataset.com/",
+        size_storage: "-",
+        size_hours: "-",
+        frames: "-",
+        numberOfScenes: "30", //will be updated in the future
+        samplingRate: "30",
+        lengthOfScenes: "-",
+        sensors: "camera, imu, rtk-gnss",
+        sensorDetail: "2x cameras stereo baseline 30cm 800x400 (after cropping)",
+        benchmark: "globally consistent reference poses",
+        annotations: "",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+        relatedDatasets: "",
+        publishDate: "10.2020",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/2009.06364.pdf"
+    },
+    {
+        id: "RadarScenes", //16.08. fertig
+        href: "https://radar-scenes.com/",
+        size_storage: "-",
+        size_hours: "4",
+        frames: "-",
+        numberOfScenes: "158",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "radar, odometry, camera",
+        sensorDetail: "4x 77 GHz series production automotive 60° radar sensor, 1x documentary camera",
+        benchmark: "",
+        annotations: "point-wise",
+        licensing: "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+        relatedDatasets: "",
+        publishDate:"03.2021",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/2104.02493.pdf"
+    },
+    {
+        id: "India Driving Dataset", //12.08. fertig
+        href: "https://idd.insaan.iiit.ac.in/",
+        size_storage: "-",
+        size_hours: "-",
+        frames: "10004",
+        numberOfScenes: "182",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "camera",
+        sensorDetail: "1080p & 720p stereo image",
+        benchmark: "Pixel-Level Semantic Segmentation Task, Instance-Level Semantic Segmentation Task",
+        annotations: "semantic segmentation",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate: "11.2018",
+        lastUpdate: "",
+        relatedPaper: "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf"
+    },
+    {
+        id: "Synscapes", //12.08. fertig
+        href: "https://7dlabs.com/synscapes-overview",
+        size_storage: "-",
+        size_hours: "-",
+        frames: "25000",
+        numberOfScenes: "25000",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "camera",
+        sensorDetail: "RGB images in PNG format 1440x720 & upscaled version 2048x1024",
+        benchmark: "",
+        annotations: "2d bounding boxes, 3d bounding boxes, occlusion, truncation, semantic segmentation," +
+            "instance segmentation, depth segmentation, scene metadata",
+        licensing: "for non-commercial purposes",
+        relatedDatasets: "",
+        publishDate: "10.2018",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1810.08705v1.pdf"
+    },
+    {
+        id: "RADIATE", //12.08. fertig
+        href: "http://pro.hw.ac.uk/radiate/",
+        size_storage: "",
+        size_hours: "5", //calculated from fig. 5 in paper
+        frames: "-",
+        numberOfScenes: "-",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "camera, lidar, radar, gps/imu",
+        sensorDetail: "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, " +
+            "1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
+        benchmark: "",
+        annotations: "2d bounding boxes",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        relatedDatasets: "",
+        publishDate: "10.2020",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/2010.09076.pdf"
+    },
+    {
+        id: "Bosch Small Traffic Lights Dataset", //12.08. fertig
+        href: "https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset",
+        size_storage: "-",
+        size_hours: "-",
+        frames: "13427",
+        numberOfScenes: "-",
+        samplingRate: "-",
+        lengthOfScenes: "-",
+        sensors: "camera",
+        sensorDetail: "raw 12bit HDR images with a red-clear-clear-blue filter 1280x720 & reconstructed 8-bit RGB " +
+            "color images 1280x720",
+        benchmark: "",
+        annotations: "bounding boxes, state",
+        licensing: "for non-commercial use only",
+        relatedDatasets: "",
+        publishDate:"05.2017",
+        lastUpdate: "",
+        relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7989163"
     },
     {
         id: "PepScenes",
@@ -219,20 +811,8 @@ const rows = [
         href: "https://github.com/asimonov/Bosch-TL-Dataset"
     },
     {
-        id: "openDD",
-        href: "https://ieeexplore.ieee.org/abstract/document/9294301"
-    },
-    {
         id: "nuPlan",
         href: "https://arxiv.org/abs/2106.11810"
-    },
-    {
-        id: "India Driving Dataset",
-        href: "https://idd.insaan.iiit.ac.in/"
-    },
-    {
-        id: "WildDash 2",
-        href: "https://wilddash.cc/"
     },
     {
         id: "Steet Hazards Dataset",
@@ -241,10 +821,6 @@ const rows = [
     {
         id: "JAAD",
         href: "https://paperswithcode.com/dataset/jaad"
-    },
-    {
-        id: "RoadAnomaly21",
-        href: "https://segmentmeifyoucan.com/datasets"
     },
     {
         id: "RoadObstacle21",
@@ -263,16 +839,8 @@ const rows = [
         href: "http://www.cs.toronto.edu/~sergio/publication/dataset/"
     },
     {
-        id: "Comma2k19 Dataset",
-        href: "https://github.com/commaai/comma2k19"
-    },
-    {
         id: "CADC",
         href: "http://cadcd.uwaterloo.ca/"
-    },
-    {
-        id: "RadarScenes",
-        href: "https://radar-scenes.com/"
     },
     {
         id: "FAIRNets Dataset",
@@ -287,61 +855,36 @@ const rows = [
         href: "https://arxiv.org/abs/2005.01456"
     },
     {
-        id: "4Seansons Dataset",
-        href: "https://www.4seasons-dataset.com/"
-    },
-    {
         id: "Astyx Dataset",
         href: "https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/astyx_dataset.html"
     },
     {
         id: "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
-        href: "CNN-based Lidar Point Cloud De-Noising in Adverse Weather"
+        href: "https://ieeexplore.ieee.org/document/8990038"
     },
     {
         id: "Playing for Data",
         href: "http://download.visinf.tu-darmstadt.de/data/from_games/index.html"
     },
     {
-        id: "Oxford Radar Robot Car",
-        href: "https://ieeexplore.ieee.org/abstract/document/9196884"
-    },
-    {
         id: "Talk2Car",
         href: "https://talk2car.github.io/"
     },
     {
-        id: "A Parametric Top-View Representation\n" +
-            "of Complex Road Scenes",
+        id: "A Parametric Top-View Representation of Complex Road Scenes",
         href: "https://www.nec-labs.com/~mas/BEV/"
-    },
-    {
-        id: "LostAndFoundDataset",
-        href: "http://www.6d-vision.com/lostandfounddataset"
     },
     {
         id: "DRIV100",
         href: "https://arxiv.org/pdf/2102.00150.pdf"
     },
     {
-        id: "KAIST Multi-Spectral Day/Night",
-        href: "https://trid.trb.org/view/1504759"
-    },
-    {
         id: "PointCloudDeNoising",
         href: "https://github.com/rheinzler/PointCloudDeNoising"
     },
     {
-        id: "Semantic KITTI",
-        href: "http://www.semantic-kitti.org/"
-    },
-    {
         id: "Cars Dataset",
         href: "https://ai.stanford.edu/~jkrause/cars/car_dataset.html"
-    },
-    {
-        id: "A2D2",
-        href: "https://www.a2d2.audi/a2d2/en.html"
     },
     {
         id: "CADP",
@@ -372,10 +915,6 @@ const rows = [
         href: "https://github.com/AdrienGaidon-TRI/DDAD"
     },
     {
-        id: "Caltech Pedestrian Dataset",
-        href: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/"
-    },
-    {
         id: "RELLIS-3D Dataset",
         href: "https://arxiv.org/abs/2011.12954"
     },
@@ -392,20 +931,8 @@ const rows = [
         href: "https://news.mit.edu/2020/mit-toyota-release-visual-open-data-accelerate-autonomous-driving-research-0618"
     },
     {
-        id: "Argoverse Map",
-        href: "https://www.argoverse.org/"
-    },
-    {
-        id: "Argoverse 3D Tracking",
-        href: "https://www.argoverse.org/"
-    },
-    {
         id: "KUL Belgium Traffic Sign dataset",
         href: "https://people.ee.ethz.ch/~timofter/traffic_signs/"
-    },
-    {
-        id: "Bosch Small Traffic Lights Dataset",
-        href: "https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset"
     },
     {
         id: "Brain4Cars",
@@ -468,10 +995,6 @@ const rows = [
         href: "http://www.andrew.cmu.edu/user/jonghole/workzone/data/"
     },
     {
-        id: "KAIST Urban",
-        href: "https://irap.kaist.ac.kr/dataset/"
-    },
-    {
         id: "LISA Traffic Sign Dataset",
         href: "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html"
     },
@@ -516,20 +1039,12 @@ const rows = [
         href: "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/"
     },
     {
-        id: "Udacity",
-        href: "https://github.com/udacity/self-driving-car"
-    },
-    {
         id: "Unsupervised Llamas",
         href: "https://unsupervised-llamas.com/llamas/"
     },
     {
         id: "Dense Depth for Autonomous Driving",
         href: "https://github.com/TRI-ML/DDAD"
-    },
-    {
-        id: "Ford Autonomous Vehicle Dataset",
-        href: "https://avdata.ford.com/"
     },
     {
         id: "Canadian Adverse Driving Conditions",
@@ -544,16 +1059,8 @@ const rows = [
         href: "https://www.astyx.com/fileadmin/redakteur/dokumente/Astyx_Dataset_HiRes2019_specification.pdf"
     },
     {
-        id: "INTERACTION dataset",
-        href: "https://interaction-dataset.com/"
-    },
-    {
         id: "A*3D",
         href: "https://github.com/I2RDL2/ASTAR-3D"
-    },
-    {
-        id: "comma 2k19",
-        href: "https://github.com/commaai/comma2k19"
     },
     {
         id: "camvid",
@@ -562,10 +1069,6 @@ const rows = [
     {
         id: "Daimler Urban Segmentation",
         href: "https://computervisiononline.com/dataset/1105138608",
-    },
-    {
-        id: "Caltech Pedestrian Dataset",
-        href: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/"
     },
     {
         id: "VPGNet",
@@ -592,14 +1095,6 @@ const rows = [
         href: "https://arxiv.org/abs/2006.14480v2"
     },
     {
-        id: "MCity Data Collection",
-        href: "https://arxiv.org/pdf/1912.06258.pdf"
-    },
-    {
-        id: "H3D",
-        href: "https://paperswithcode.com/dataset/h3d"
-    },
-    {
         id: "LIBRE",
         href: "https://arxiv.org/abs/2003.06129"
     },
@@ -612,16 +1107,8 @@ const rows = [
         href: "https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_LiDAR-Video_Driving_Dataset_CVPR_2018_paper.pdf"
     },
     {
-        id: "Ford CAMPUS",
-        href: "https://www.researchgate.net/publication/220122924_Ford_Campus_vision_and_lidar_data_set"
-    },
-    {
         id: "WoodScape",
         href: "https://paperswithcode.com/dataset/woodscape"
-    },
-    {
-        id: "WildDash 2",
-        href: "https://wilddash.cc/"
     },
     {
         id: "Raincouver",
@@ -672,20 +1159,12 @@ const rows = [
         href: "https://www.paperswithcode.com/dataset/ddd17"
     },
     {
-        id: "EISATS",
-        href: "https://ccv.wordpress.fos.auckland.ac.nz/eisats/"
-    },
-    {
         id: "BLVD",
         href: "https://paperswithcode.com/dataset/blvd"
     },
     {
         id: "FLIR Thermal Dataset",
         href: "https://www.flir.com/oem/adas/adas-dataset-form/"
-    },
-    {
-        id: "NightOwls",
-        href: "https://www.nightowls-dataset.org/"
     },
     {
         id: "Multispectral Object Detection",
@@ -712,25 +1191,59 @@ const rows = [
         href: "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
     },
     {
-        id: "Fishyscapes",
-        href: "https://fishyscapes.com/"
-    },
-    {
-        id: "RADIATE",
-        href: "http://pro.hw.ac.uk/radiate/doc/dataset/"
-    },
-    {
-        id: "Synscapes",
-        href: "https://7dlabs.com/synscapes-overview"
-    },
-    {
-        id: "KITTI-360",
-        href: "http://www.cvlibs.net/datasets/kitti-360/"
-    },
-    {
         id:"GROUNDED Localizing Ground Penetrating Radar (LGPR) Evaluation Dataset",
         href: "https://lgprdata.com/"
-    }
+    },
+    {
+        id:"highD",
+        href: "https://www.highd-dataset.com/edu/"
+    },
+    {
+        id:"inD",
+        href: "https://www.ind-dataset.com/edu/"
+    },
+    {
+        id:"rounD",
+        href: "https://www.round-dataset.com/edu/"
+    },
+    {
+        id: "EISATS",
+        href: "https://ccv.wordpress.fos.auckland.ac.nz/eisats/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
+    {
+        id: "Ford CAMPUS",
+        href: "https://www.researchgate.net/publication/220122924_Ford_Campus_vision_and_lidar_data_set",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
 ];
 
 export { rows };

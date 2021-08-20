@@ -6,6 +6,8 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
 import { isOverflown } from '@material-ui/data-grid';
+import { Button } from '@material-ui/core';
+import ReceiptIcon from '@material-ui/icons/Receipt';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -307,6 +309,27 @@ const columns = [
         hide: true,
         type: "date",
         renderCell: renderCellExpand
+    },
+    {
+        field: 'relatedPaper',
+        headerName: 'Related Paper',
+        width: 150,
+        hide: false,
+        type: "string",
+        renderCell: (params) => (
+                <Link
+                    variant="contained"
+                    color="primary"
+                    size="small"
+                    style={{ marginLeft: 16 }}
+                    href={params.getValue(params.id, 'relatedPaper')}
+                    target={'_blank'}
+                >
+                    <ReceiptIcon/>
+
+
+                </Link>
+        ),
     },
 ];
 

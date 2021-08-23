@@ -44,6 +44,8 @@ const useStyles = makeStyles((theme) => ({
 export default function RenderExpandCellGrid() {
     const classes = useStyles();
 
+    const [pageSize, setPageSize] = React.useState(5);
+
     return (
         <div style={{width: '100%', height: window.innerHeight*0.86}}>
             <AppBar id={"appbar"} position="static">
@@ -63,7 +65,7 @@ export default function RenderExpandCellGrid() {
                 </Typography>
             </AppBar>
             <DataGrid rows={rows} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
-                      autoPageSize={true} autoHeight={true}
+                      pageSize={10} rowsPerPageOptions={[10, 25, 50]} pagination sortingOrder={['desc', 'asc']}
             />
         </div>
     );

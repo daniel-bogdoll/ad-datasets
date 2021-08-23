@@ -140,7 +140,7 @@ const columns = [
     {
         field: 'id',
         headerName: 'Name',
-        width: 180,
+        width: 200,
         renderCell: (params) => (
             <strong>
                 <Link
@@ -164,7 +164,7 @@ const columns = [
         type: "number",
         valueFormatter: (params) => {
             const valueFormatted = Number(params.value).toLocaleString();
-            if (valueFormatted!=="NaN")
+            if (valueFormatted!=="0" && valueFormatted!=="NaN")
                 return `${valueFormatted}`;
             else
                 return "";
@@ -178,7 +178,7 @@ const columns = [
         type: "number",
         valueFormatter: (params) => {
             const valueFormatted = Number(params.value).toLocaleString();
-            if (valueFormatted!=="NaN")
+            if (valueFormatted!=="0" && valueFormatted!=="NaN")
                 return `${valueFormatted}`;
             else
                 return "";
@@ -192,7 +192,7 @@ const columns = [
         type: "number",
         valueFormatter: (params) => {
             const valueFormatted = Number(params.value).toLocaleString();
-            if (valueFormatted!=="NaN")
+            if (valueFormatted!=="0" && valueFormatted!=="NaN")
                 return `${valueFormatted}`;
             else
                 return "";
@@ -204,12 +204,19 @@ const columns = [
         width: 130,
         align: 'right',
         type: "number",
+        sortable: true,
         valueFormatter: (params) => {
             const valueFormatted = Number(params.value).toLocaleString();
-            if (valueFormatted!=="NaN")
+            if (valueFormatted!=="0" && valueFormatted!=="NaN")
                 return `${valueFormatted}`;
             else
                 return "";
+            /*const nf = new Intl.NumberFormat();
+            const str = nf.format(params.value);
+            if (str!=="NaN")
+                return `${str}`;
+            else
+                return "";*/
         },
     },
     {
@@ -218,13 +225,13 @@ const columns = [
         width: 180,
         hide: true,
         type: "number",
-        valueFormatter: (params) => {
+    /*valueFormatter: (params) => {
             const valueFormatted = Number(params.value).toLocaleString();
             if (valueFormatted!=="NaN")
                 return `${valueFormatted}`;
             else
                 return "";
-        },
+        },*/
     },
     {
         field: 'lengthOfScenes',
@@ -234,7 +241,7 @@ const columns = [
         type: "number",
         valueFormatter: (params) => {
             const valueFormatted = Number(params.value).toLocaleString();
-            if (valueFormatted!=="NaN")
+            if (valueFormatted!=="0" && valueFormatted!=="NaN")
                 return `${valueFormatted}`;
             else
                 return "";
@@ -245,7 +252,7 @@ const columns = [
         headerName: 'Sensortypes',
         description: 'types of sensors used in the dataset',
         type: 'string',
-        width: 410,
+        width: 310,
         sortable: false,
         renderCell: renderCellExpand
     },

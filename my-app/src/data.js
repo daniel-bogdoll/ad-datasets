@@ -34,8 +34,8 @@ const rows = [
         sensors: "camera, lidar, imu/gnss",
         sensorDetail: "2x VUX-1HA laser scanners 360°, 1x VMX-CS6 camera system, 1x measuring head with gnss/imu, 2x high " +
             "frontal cameras 3384 ×2710",
-        benchmark: '2D image parsing, 3D car instance understanding, landmark segmentation, self-localization, ' +
-            'trajectory prediction, 3D detection, 3D tracking, stereo',
+        benchmark: '2d image parsing, 3d car instance understanding, landmark segmentation, self-localization, ' +
+            'trajectory prediction, 3d detection, 3d tracking, stereo',
         annotations: 'high density 3d point cloud map, per-pixel, per-frame semantic image label, lane mark label' +
             'semantic instance segmentation, geo-tagged',
         licensing: 'freely available for non-commercial purposes',
@@ -91,8 +91,8 @@ const rows = [
         samplingRate: "",
         lengthOfScenes: "",
         sensors: "camera, lidar, ins/gps",
-        sensorDetail: "1 camera Bumblebee XB3 1280x960x3 16Hz, 3 camera Grasshopper2 1024x1024 12Hz" +
-            ", 2 lidar SICK LMS-151 270° 50Hz, 1 lidar SICK LD-MRS 90° 4 plane 12.5Hz, 1 x NovAtel " +
+        sensorDetail: "1x camera Bumblebee XB3 1280x960x3 16Hz, 3x camera Grasshopper2 1024x1024 12Hz" +
+            ", 2x lidar SICK LMS-151 270° 50Hz, 1x lidar SICK LD-MRS 90° 4 plane 12.5Hz, 1x NovAtel " +
             "SPAN-CPT ALIGN 50Hz GPS+INS",
         benchmark: "",
         annotations: "",
@@ -113,7 +113,7 @@ const rows = [
         lengthOfScenes: "20",
         sensors: "camera, lidar, radar, gps/imu",
         sensorDetail: "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x gps/imu 1000Hz",
-        benchmark: "3D object detection, tracking, trajectory (prediction), lidar segmentation, panoptic segmentation & " +
+        benchmark: "3d object detection, tracking, trajectory (prediction), lidar segmentation, panoptic segmentation & " +
             "tracking",
         annotations: "semantic category, attributes, 3d bounding boxes ",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public " +
@@ -152,11 +152,11 @@ const rows = [
         samplingRate: "",
         lengthOfScenes: "8",
         sensors: "camera, lidar, gps/imu",
-        sensorDetail: "5 wide angle cameras 1920x1080 10Hz, 1 long focus camera 1920x1080 10Hz, " +
-            "1 mechanical spinning LiDAR 64 channels 360° 10Hz, 1 forward-facing LiDAR 150 channels 60° 10Hz" +
-            "1x mechanical spinning LiDAR, 1x forward-facing LiDAR, 6x cameras, On-board GPS/IMU",
+        sensorDetail: "5x wide angle cameras 1920x1080 10Hz, 1x long focus camera 1920x1080 10Hz, " +
+            "1x mechanical spinning LiDAR 64 channels 360° 10Hz, 1x forward-facing LiDAR 150 channels 60° 10Hz" +
+            "1x mechanical spinning LiDAR, 1x forward-facing LiDAR, 6x cameras, on-board GPS/IMU",
         benchmark: "",
-        annotations: "3D Bounding Boxes, Attributes, Point Cloud Segmentation ",
+        annotations: "3d bounding boxes, attributes, point cloud segmentation ",
         licensing: "Creative Commons Attribution 4.0 International Public (CC BY 4.0)",
         relatedDatasets: "",
         publishDate: "2020.04",
@@ -172,9 +172,9 @@ const rows = [
         samplingRate: "10",
         lengthOfScenes: "20",
         sensors: "camera, lidar",
-        sensorDetail: "5 LiDAR, 5 Cameras",
+        sensorDetail: "5x cameras, 5x lidar, ",
         benchmark: "motion prediction, interaction prediction",
-        annotations: "3D bounding boxes, 3d hd map information",
+        annotations: "3d bounding boxes, 3d hd map information",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Perception",
         publishDate: "2021.03",
@@ -191,9 +191,9 @@ const rows = [
         samplingRate: "10",
         lengthOfScenes: "20",
         sensors: "camera, lidar",
-        sensorDetail: "1 mid-range lidar, 4 short-range lidars, 5 cameras (front and sides) 1920x1280 & 1920x1040",
+        sensorDetail: "5x cameras (front and sides) 1920x1280 & 1920x1040, 1x mid-range lidar, 4x short-range lidars",
         benchmark: "2d detection, 3d detection, 2d tracking, 3d tracking",
-        annotations: "3D bounding boxes (lidar), 2D bounding boxes (camera)",
+        annotations: "3d bounding boxes (lidar), 2d bounding boxes (camera)",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Motion",
         publishDate: "2019.08",
@@ -212,8 +212,8 @@ const rows = [
         sensors: "camera, lidar, gps/imu",
         sensorDetail: "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and " +
             "GPS navigation system",
-        benchmark: " stereo, optical flow, visual odometry, SLAM, 3D object detection, 3D object tracking",
-        annotations: "3D bounding boxes",
+        benchmark: " stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
+        annotations: "3d bounding boxes",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         relatedDatasets: 'Semantic KITTI, KITTI-360',
         publishDate: "2012.03",
@@ -284,7 +284,7 @@ const rows = [
         href: "https://segmentmeifyoucan.com/datasets",
         size_storage: '0.05',
         size_hours: "",
-        frames: '1',
+        frames: '100',
         numberOfScenes: '100',
         samplingRate: "",
         lengthOfScenes: "",
@@ -535,8 +535,7 @@ const rows = [
         licensing: "MIT",
         relatedDatasets: "",
         publishDate:"2016.09",
-        lastUpdate: "",
-        relatedPaper: ""
+        lastUpdate: ""
     },
     {
         id: "Ford Autonomous Vehicle Dataset", //20.08. fertig

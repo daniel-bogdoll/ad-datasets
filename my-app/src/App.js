@@ -5,7 +5,9 @@ import {rows} from "./data.js";
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import {  makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
+import { Button } from '@material-ui/core';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -44,8 +46,6 @@ const useStyles = makeStyles((theme) => ({
 export default function RenderExpandCellGrid() {
     const classes = useStyles();
 
-    const [pageSize, setPageSize] = React.useState(5);
-
     return (
         <div style={{width: '100%', height: window.innerHeight*0.86}}>
             <AppBar id={"appbar"} position="static">
@@ -54,11 +54,12 @@ export default function RenderExpandCellGrid() {
                         in development
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        ad Datasets
+                        ad-datasets
                     </Typography>
-                    <Typography className={classes.note} variant="caption" noWrap>
+                    <Button className={classes.note} variant="contained" color={"primary"} noWrap target={'_blank'}
+                            href={"https://github.com/daniel-bogdoll/ad-datasets"}>
                         *Don't find your dataset? <br/> Simply create a pull request ;)
-                    </Typography>
+                    </Button>
                 </Toolbar>
                 <Typography className={classes.explanation} variant="caption" noWrap>
                     Complete* and curated list of autonomous driving related datasets

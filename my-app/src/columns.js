@@ -6,7 +6,6 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
 import { isOverflown } from '@material-ui/data-grid';
-import { Button } from '@material-ui/core';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 
 const useStyles = makeStyles(() => ({

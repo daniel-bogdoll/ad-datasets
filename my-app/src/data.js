@@ -1273,6 +1273,45 @@ const rows = [
         lastUpdate: "",
         relatedPaper: ""
     },
+    {
+        id: "uniD",
+        href: "https://www.unid-dataset.com/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
+    
+    {
+        id: "exiD",
+        href: "https://www.exid-dataset.com/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "",
+        sensorDetail: "",
+        benchmark: "",
+        annotations: "",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:" ",
+        lastUpdate: "",
+        relatedPaper: ""
+    },
 ];
 
 export { rows };

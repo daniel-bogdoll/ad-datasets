@@ -15,4 +15,4 @@ To add or update a dataset:
     + Some attributes can only be found in the dataset itself
 - Send a pull request
 
-* You're missing a dataset? Simply create a pull request ;)
+\* You're missing a dataset? Simply create a pull request ;)

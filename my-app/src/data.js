@@ -458,13 +458,13 @@ const rows = [
         publishDate: "2010.03",
         lastUpdate: "2019.01",
         relatedPaper: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf"
-    },
+    },    
     {
         id: "Argoverse Motion Forecasting", //22.08. fertig
         href: "https://www.argoverse.org/",
-        size_storage: "",
+        size_storage: "4.81",
         size_hours: "320",
-        frames: "",
+        frames: "16227850",
         numberOfScenes: "324557",
         samplingRate: "10",
         lengthOfScenes: "5",
@@ -478,13 +478,13 @@ const rows = [
         publishDate:"2019.06",
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
-    },
+    },    
     {
         id: "Argoverse 3D Tracking", //22.08. fertig
         href: "https://www.argoverse.org/",
-        size_storage: "",
-        size_hours: "",
-        frames: "",
+        size_storage: "254.4",
+        size_hours: "1",
+        frames: "44000",
         numberOfScenes: "113",
         samplingRate: "30",
         lengthOfScenes: "",
@@ -1206,15 +1206,15 @@ const rows = [
     },
     {
         id:"highD",
-        href: "https://www.highd-dataset.com/edu/"
+        href: "https://www.highd-dataset.com/"
     },
     {
         id:"inD",
-        href: "https://www.ind-dataset.com/edu/"
+        href: "https://www.ind-dataset.com/"
     },
     {
         id:"rounD",
-        href: "https://www.round-dataset.com/edu/"
+        href: "https://www.round-dataset.com/"
     },
     {
         id:"TAF-BW",

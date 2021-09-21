@@ -984,6 +984,13 @@ const rows = [
         id: "DR(eye)VE",
         href: "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=8"
     },
+    {   id: "SemanticPOSS",
+        href: "http://www.poss.pku.edu.cn/semanticposs.html" 
+    },
+    {
+        id: "SemanticUSL",
+        href: "https://unmannedlab.github.io/semanticusl"
+    },
     {
         id: "ELEKTRA",
         href: "http://adas.cvc.uab.es/elektra/datasets/"

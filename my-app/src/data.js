@@ -178,7 +178,7 @@ const rows = [
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Perception",
         publishDate: "2021.03",
-        lastUpdate: "",
+        lastUpdate: "2021.09",
         relatedPaper: "https://arxiv.org/pdf/2104.10133.pdf"
     },
     {

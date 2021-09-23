@@ -805,6 +805,14 @@ const rows = [
         href: "https://github.com/Fangyu0505/traffic-scene-recognition"
     },
     {
+        id: "Nighttime Driving",
+        href: "http://people.ee.ethz.ch/~daid/NightDriving/"
+    },
+    {
+        id: "AIODrive",
+        href: "http://www.aiodrive.org/overview.html"
+    },
+    {
         id: "ROAD",
         href: "https://arxiv.org/abs/2102.11585"
     },

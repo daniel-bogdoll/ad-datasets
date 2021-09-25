@@ -5,8 +5,11 @@ import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
-import { isOverflown } from '@material-ui/data-grid';
 import ReceiptIcon from '@material-ui/icons/Receipt';
+
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
 
 const useStyles = makeStyles(() => ({
     root: {

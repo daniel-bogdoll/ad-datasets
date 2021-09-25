@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DataGrid, GridToolbar } from '@material-ui/data-grid';
+import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import {columns} from './columns.js';
 import {rows} from "./data.js";
 import AppBar from '@material-ui/core/AppBar';
@@ -45,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RenderExpandCellGrid() {
     const classes = useStyles();
+    const [pageSize, setPageSize] = React.useState(10);
 
     return (
         <div style={{width: '100%', height: window.innerHeight*0.86}}>
@@ -66,7 +67,11 @@ export default function RenderExpandCellGrid() {
                 </Typography>
             </AppBar>
             <DataGrid rows={rows} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
-                      pageSize={10} rowsPerPageOptions={[10, 25, 50]} pagination sortingOrder={['desc', 'asc']}
+                      sortingOrder={['desc', 'asc']}
+                      pageSize={pageSize}
+                      onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
+                      rowsPerPageOptions={[10, 25, 50]}
+                      pagination
             />
         </div>
     );

@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start: "./node_modules/.bin/react-scripts start",
     "predeploy": "npm run build && cp ../CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",

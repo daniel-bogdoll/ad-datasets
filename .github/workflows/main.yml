@@ -35,3 +35,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Automatically deploy commits to website
         run: npm run deploy
+        working-directory: my-app

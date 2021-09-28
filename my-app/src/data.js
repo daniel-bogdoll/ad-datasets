@@ -2,25 +2,146 @@ import * as React from 'react';
 
 const rows = [
     {
-        id:   "Cityscapes 3D", //20.08. fertig
-        href: "https://www.cityscapes-dataset.com/",
-        size_hours: '',
-        size_storage: '63.141',    //Yin, Berger Paper
-        frames: '',
-        numberOfScenes: '',
-        samplingRate: '17',
-        lengthOfScenes: '1.8',
-        sensors: 'camera, gps, thermometer',
-        sensorDetail: 'stereo cameras 22 cm baseline 17Hz, odometry from in-vehicle sensors & outside temperature & GPS ' +
-            'tracks,',
-        benchmark: 'pixel-level semantic labeling, instance-level semantic labeling, panoptic semantic sabeling ' +
-            '3d vehicle detection',
-        annotations: 'dense semantic segmentation, instance segmentation for vehicles & people, 3d bounding boxes',
-        licensing: 'freely available for non-commercial purposes',
-        relatedDatasets: "",
-        publishDate: '2016.02',
-        lastUpdate: '2020.10',
-        relatedPaper: "https://arxiv.org/pdf/2006.07864.pdf"
+        id: "KITTI", //07.08. fertig
+        href: "http://www.cvlibs.net/datasets/kitti/",
+        size_hours: "6",
+        size_storage: "180",
+        frames: "",
+        numberOfScenes: '50',
+        samplingRate: "10",
+        lengthOfScenes: "",
+        sensors: "camera, lidar, gps/imu",
+        sensorDetail: "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and " +
+            "GPS navigation system",
+        benchmark: " stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
+        annotations: "3d bounding boxes",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        relatedDatasets: 'Semantic KITTI, KITTI-360',
+        publishDate: "2012.03",
+        lastUpdate: "2021.02",
+        relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
+    },
+    {
+        id: "nuScenes", //05.08. //fertig
+        href: "https://www.nuscenes.org/",
+        size_hours: "15",
+        size_storage: "",
+        frames: "1400000",
+        numberOfScenes: "1000",
+        samplingRate: "",
+        lengthOfScenes: "20",
+        sensors: "camera, lidar, radar, gps/imu",
+        sensorDetail: "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x gps/imu 1000Hz",
+        benchmark: "3d object detection, tracking, trajectory (prediction), lidar segmentation, panoptic segmentation & " +
+            "tracking",
+        annotations: "semantic category, attributes, 3d bounding boxes ",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public " +
+            "(CC BY-NC-SA 4.0)",
+        relatedDatasets: "nuImages",
+        publishDate: "2019.03",
+        lastUpdate: "2020.12",
+        relatedPaper: "https://arxiv.org/pdf/1903.11027.pdf"
+    },
+    {
+        id: "Oxford Robot Car", //05.08. fertig
+        href: "https://robotcar-dataset.robots.ox.ac.uk/",
+        size_hours: '210', //paper dong
+        size_storage: "23150",
+        frames: "",
+        numberOfScenes: "100",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "camera, lidar, ins/gps",
+        sensorDetail: "1x camera Bumblebee XB3 1280x960x3 16Hz, 3x camera Grasshopper2 1024x1024 12Hz" +
+            ", 2x lidar SICK LMS-151 270° 50Hz, 1x lidar SICK LD-MRS 90° 4 plane 12.5Hz, 1x NovAtel " +
+            "SPAN-CPT ALIGN 50Hz GPS+INS",
+        benchmark: "",
+        annotations: "",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        relatedDatasets: "Oxford Radar Robot Car",
+        publishDate: "2016.11",
+        lastUpdate: "2020.02",
+        relatedPaper: "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf"
+    },
+    {
+        id: "Waymo Open Perception", //07.08. fertig
+        href: "https://waymo.com/open/data/perception/",
+        size_hours:  "10.83", //calculated
+        size_storage: "",
+        frames: "390000",
+        numberOfScenes: "1950",
+        samplingRate: "10",
+        lengthOfScenes: "20",
+        sensors: "camera, lidar",
+        sensorDetail: "5x cameras (front and sides) 1920x1280 & 1920x1040, 1x mid-range lidar, 4x short-range lidars",
+        benchmark: "2d detection, 3d detection, 2d tracking, 3d tracking",
+        annotations: "3d bounding boxes (lidar), 2d bounding boxes (camera)",
+        licensing: "freely available for non-commercial purposes",
+        relatedDatasets: "Waymo Open Motion",
+        publishDate: "2019.08",
+        lastUpdate: "2020.03",
+        relatedPaper: "https://arxiv.org/pdf/1912.04838.pdf"
+    },
+    {
+        id: "Argoverse Motion Forecasting", //22.08. fertig
+        href: "https://www.argoverse.org/",
+        size_storage: "4.81",
+        size_hours: "320",
+        frames: "16227850",
+        numberOfScenes: "324557",
+        samplingRate: "10",
+        lengthOfScenes: "5",
+        sensors: "camera, lidar, gps",
+        sensorDetail: "2x lidar 32 beam 40° 10Hz, 7x ring cameras 1920x1200 combined 360° 30Hz, 2x front-view facing " +
+            "stereo cameras 0.2986m baseline 2056x2464 5Hz",
+        benchmark: "forecasting",
+        annotations: "semantic vector map, rasterized map, trajectories",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
+        relatedDatasets: "Argoverse 3D Tracking",
+        publishDate:"2019.06",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
+    },    
+    {
+        id: "Argoverse 3D Tracking", //22.08. fertig
+        href: "https://www.argoverse.org/",
+        size_storage: "254.4",
+        size_hours: "1",
+        frames: "44000",
+        numberOfScenes: "113",
+        samplingRate: "30",
+        lengthOfScenes: "",
+        sensors: "camera, lidar, gps",
+        sensorDetail: "2x lidar 40° 10Hz, 7x ring cameras 1920x1200 combined 360° 30Hz, 2x front-view facing " +
+            "stereo cameras 2056x2464 5Hz",
+        benchmark: "tracking",
+        annotations: "semantic vector map, rasterized map, 3d bounding boxes",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
+        relatedDatasets: "Argoverse Motion Forecasting",
+        publishDate:"2019.06",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
+    },
+    {
+        id: "Semantic KITTI", //22.08. fertig
+        href: "http://www.semantic-kitti.org/",
+        size_storage: "",
+        size_hours: "",
+        frames: "43552", // lidar scans
+        numberOfScenes: "21",
+        samplingRate: "10",
+        lengthOfScenes: "",
+        sensors: "lidar",
+        sensorDetail: "Velodyne HDL-64E from sequences of the odometry benchmark of the KITTI Vision Benchmark with 360°" +
+            " view",
+        benchmark: "semantic segmentation, panoptic segmentation, 4D panoptic segmentation, moving object segmentation," +
+            " semantic scene completion",
+        annotations: "semantic segmentation",
+        licensing: "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ",
+        relatedDatasets: "KITTI",
+        publishDate: "2019.07",
+        lastUpdate: "2021.02",
+        relatedPaper: "https://arxiv.org/abs/1904.01416.pdf"
     },
     {
         id: "ApolloScape", //04.08. fertig
@@ -45,6 +166,46 @@ const rows = [
         relatedPaper: "https://arxiv.org/pdf/1803.06184.pdf"
     },
     {
+        id: "BDD100k", //07.08. //fertig
+        href: "https://www.bdd100k.com/",
+        size_storage: "1800",
+        size_hours: "1111",
+        frames: "120000000",
+        numberOfScenes: "100000",
+        samplingRate: "30",
+        lengthOfScenes: "40",
+        sensors: "camera, gps/imu",
+        sensorDetail: "crowd-sourced therefore no fixed setup, camera (720p) and gps/imu",
+        benchmark: "object detection, instance segmentation, multiple object tracking, segmentation tracking, " +
+            "semantic segmentation, lane marking, drivable area, image tagging, imitation learning, domain adaption",
+        annotations: "bounding boxes, instance segmentation, semantic segmentation, box tracking, semantic tracking, " +
+            "drivable area",
+        licensing: "BSD 3-Clause",
+        relatedDatasets: "",
+        publishDate: "2020.04",
+        lastUpdate: "",
+        relatedPaper: "https://arxiv.org/pdf/1805.04687.pdf"
+    },
+    {
+        id: "WildDash", //09.08. fertig
+        href: "https://wilddash.cc/",
+        size_storage: "",
+        size_hours: "",
+        frames: "",
+        numberOfScenes: '156',
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: 'camera',
+        sensorDetail: 'various sources, e.g. YouTube',
+        benchmark: 'semantic segmentation, instance segmentation, panoptic segmentation',
+        annotations: 'semantic segmentation, instance segmentation',
+        licensing: 'CC-BY-NC 4.0 ',
+        relatedDatasets: '',
+        publishDate: '2018.02',
+        lastUpdate: '2020.06',
+        relatedPaper: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Oliver_Zendel_WildDash_-_Creating_ECCV_2018_paper.pdf"
+    },
+    {
         id: "Lyft Level5 Prediction", //20.08. fertig
         href: "https://level-5.global/data/prediction/",
         size_hours: "1118",
@@ -64,6 +225,27 @@ const rows = [
         relatedPaper: "https://tinyurl.com/lyft-prediction-dataset"
     },
     {
+        id:   "Cityscapes 3D", //20.08. fertig
+        href: "https://www.cityscapes-dataset.com/",
+        size_hours: '',
+        size_storage: '63.141',    //Yin, Berger Paper
+        frames: '',
+        numberOfScenes: '',
+        samplingRate: '17',
+        lengthOfScenes: '1.8',
+        sensors: 'camera, gps, thermometer',
+        sensorDetail: 'stereo cameras 22 cm baseline 17Hz, odometry from in-vehicle sensors & outside temperature & GPS ' +
+            'tracks,',
+        benchmark: 'pixel-level semantic labeling, instance-level semantic labeling, panoptic semantic sabeling ' +
+            '3d vehicle detection',
+        annotations: 'dense semantic segmentation, instance segmentation for vehicles & people, 3d bounding boxes',
+        licensing: 'freely available for non-commercial purposes',
+        relatedDatasets: "",
+        publishDate: '2016.02',
+        lastUpdate: '2020.10',
+        relatedPaper: "https://arxiv.org/pdf/2006.07864.pdf"
+    },
+    {
         id: "Lyft Level5 Perception", //20.08. fertig
         href: "https://level-5.global/data/perception/",
         size_hours: "2.5",
@@ -80,48 +262,6 @@ const rows = [
         relatedDatasets: 'Lyft Level5 Prediction',
         publishDate: "2019.07",
         lastUpdate: "",
-    },
-    {
-        id: "Oxford Robot Car", //05.08. fertig
-        href: "https://robotcar-dataset.robots.ox.ac.uk/",
-        size_hours: '210', //paper dong
-        size_storage: "23150",
-        frames: "",
-        numberOfScenes: "100",
-        samplingRate: "",
-        lengthOfScenes: "",
-        sensors: "camera, lidar, ins/gps",
-        sensorDetail: "1x camera Bumblebee XB3 1280x960x3 16Hz, 3x camera Grasshopper2 1024x1024 12Hz" +
-            ", 2x lidar SICK LMS-151 270° 50Hz, 1x lidar SICK LD-MRS 90° 4 plane 12.5Hz, 1x NovAtel " +
-            "SPAN-CPT ALIGN 50Hz GPS+INS",
-        benchmark: "",
-        annotations: "",
-        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        relatedDatasets: "Oxford Radar Robot Car",
-        publishDate: "2016.11",
-        lastUpdate: "2020.02",
-        relatedPaper: "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf"
-    },
-    {
-        id: "nuScenes", //05.08. //fertig
-        href: "https://www.nuscenes.org/",
-        size_hours: "15",
-        size_storage: "",
-        frames: "1400000",
-        numberOfScenes: "1000",
-        samplingRate: "",
-        lengthOfScenes: "20",
-        sensors: "camera, lidar, radar, gps/imu",
-        sensorDetail: "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x gps/imu 1000Hz",
-        benchmark: "3d object detection, tracking, trajectory (prediction), lidar segmentation, panoptic segmentation & " +
-            "tracking",
-        annotations: "semantic category, attributes, 3d bounding boxes ",
-        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public " +
-            "(CC BY-NC-SA 4.0)",
-        relatedDatasets: "nuImages",
-        publishDate: "2019.03",
-        lastUpdate: "2020.12",
-        relatedPaper: "https://arxiv.org/pdf/1903.11027.pdf"
     },
     {
         id: "nuImages", //20.08. fertig
@@ -182,66 +322,6 @@ const rows = [
         relatedPaper: "https://arxiv.org/pdf/2104.10133.pdf"
     },
     {
-        id: "Waymo Open Perception", //07.08. fertig
-        href: "https://waymo.com/open/data/perception/",
-        size_hours:  "10.83", //calculated
-        size_storage: "",
-        frames: "390000",
-        numberOfScenes: "1950",
-        samplingRate: "10",
-        lengthOfScenes: "20",
-        sensors: "camera, lidar",
-        sensorDetail: "5x cameras (front and sides) 1920x1280 & 1920x1040, 1x mid-range lidar, 4x short-range lidars",
-        benchmark: "2d detection, 3d detection, 2d tracking, 3d tracking",
-        annotations: "3d bounding boxes (lidar), 2d bounding boxes (camera)",
-        licensing: "freely available for non-commercial purposes",
-        relatedDatasets: "Waymo Open Motion",
-        publishDate: "2019.08",
-        lastUpdate: "2020.03",
-        relatedPaper: "https://arxiv.org/pdf/1912.04838.pdf"
-    },
-    {
-        id: "KITTI", //07.08. fertig
-        href: "http://www.cvlibs.net/datasets/kitti/",
-        size_hours: "6",
-        size_storage: "180",
-        frames: "",
-        numberOfScenes: '50',
-        samplingRate: "10",
-        lengthOfScenes: "",
-        sensors: "camera, lidar, gps/imu",
-        sensorDetail: "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and " +
-            "GPS navigation system",
-        benchmark: " stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
-        annotations: "3d bounding boxes",
-        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-        relatedDatasets: 'Semantic KITTI, KITTI-360',
-        publishDate: "2012.03",
-        lastUpdate: "2021.02",
-        relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
-    },
-    {
-        id: "BDD100k", //07.08. //fertig
-        href: "https://www.bdd100k.com/",
-        size_storage: "1800",
-        size_hours: "1111",
-        frames: "120000000",
-        numberOfScenes: "100000",
-        samplingRate: "30",
-        lengthOfScenes: "40",
-        sensors: "camera, gps/imu",
-        sensorDetail: "crowd-sourced therefore no fixed setup, camera (720p) and gps/imu",
-        benchmark: "object detection, instance segmentation, multiple object tracking, segmentation tracking, " +
-            "semantic segmentation, lane marking, drivable area, image tagging, imitation learning, domain adaption",
-        annotations: "bounding boxes, instance segmentation, semantic segmentation, box tracking, semantic tracking, " +
-            "drivable area",
-        licensing: "BSD 3-Clause",
-        relatedDatasets: "",
-        publishDate: "2020.04",
-        lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1805.04687.pdf"
-    },
-    {
         id: "openDD", //09.08. fertig
         href: "https://l3pilot.eu/data/opendd",
         size_storage: "",
@@ -260,25 +340,7 @@ const rows = [
         lastUpdate: '',
         relatedPaper: "https://arxiv.org/pdf/2007.08463.pdf"
     },
-    {
-        id: "WildDash", //09.08. fertig
-        href: "https://wilddash.cc/",
-        size_storage: "",
-        size_hours: "",
-        frames: "",
-        numberOfScenes: '156',
-        samplingRate: "",
-        lengthOfScenes: "",
-        sensors: 'camera',
-        sensorDetail: 'various sources, e.g. YouTube',
-        benchmark: 'semantic segmentation, instance segmentation, panoptic segmentation',
-        annotations: 'semantic segmentation, instance segmentation',
-        licensing: 'CC-BY-NC 4.0 ',
-        relatedDatasets: '',
-        publishDate: '2018.02',
-        lastUpdate: '2020.06',
-        relatedPaper: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Oliver_Zendel_WildDash_-_Creating_ECCV_2018_paper.pdf"
-    },
+
     {
         id: "RoadAnomaly21", //09.08. fertig
         href: "https://segmentmeifyoucan.com/datasets",
@@ -380,27 +442,6 @@ const rows = [
         relatedPaper: "https://arxiv.org/pdf/1609.04653.pdf"
     },
     {
-        id: "Semantic KITTI", //22.08. fertig
-        href: "http://www.semantic-kitti.org/",
-        size_storage: "",
-        size_hours: "",
-        frames: "43552", // lidar scans
-        numberOfScenes: "21",
-        samplingRate: "10",
-        lengthOfScenes: "",
-        sensors: "lidar",
-        sensorDetail: "Velodyne HDL-64E from sequences of the odometry benchmark of the KITTI Vision Benchmark with 360°" +
-            " view",
-        benchmark: "semantic segmentation, panoptic segmentation, 4D panoptic segmentation, moving object segmentation," +
-            " semantic scene completion",
-        annotations: "semantic segmentation",
-        licensing: "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ",
-        relatedDatasets: "KITTI",
-        publishDate: "2019.07",
-        lastUpdate: "2021.02",
-        relatedPaper: "https://arxiv.org/abs/1904.01416.pdf"
-    },
-    {
         id: "KAIST Multi-Spectral Day/Night", //22.08. fertig
         href: "http://multispectral.kaist.ac.kr",
         size_storage: "",
@@ -459,46 +500,6 @@ const rows = [
         lastUpdate: "2019.01",
         relatedPaper: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf"
     },    
-    {
-        id: "Argoverse Motion Forecasting", //22.08. fertig
-        href: "https://www.argoverse.org/",
-        size_storage: "4.81",
-        size_hours: "320",
-        frames: "16227850",
-        numberOfScenes: "324557",
-        samplingRate: "10",
-        lengthOfScenes: "5",
-        sensors: "camera, lidar, gps",
-        sensorDetail: "2x lidar 32 beam 40° 10Hz, 7x ring cameras 1920x1200 combined 360° 30Hz, 2x front-view facing " +
-            "stereo cameras 0.2986m baseline 2056x2464 5Hz",
-        benchmark: "forecasting",
-        annotations: "semantic vector map, rasterized map, trajectories",
-        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
-        relatedDatasets: "Argoverse 3D Tracking",
-        publishDate:"2019.06",
-        lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
-    },    
-    {
-        id: "Argoverse 3D Tracking", //22.08. fertig
-        href: "https://www.argoverse.org/",
-        size_storage: "254.4",
-        size_hours: "1",
-        frames: "44000",
-        numberOfScenes: "113",
-        samplingRate: "30",
-        lengthOfScenes: "",
-        sensors: "camera, lidar, gps",
-        sensorDetail: "2x lidar 40° 10Hz, 7x ring cameras 1920x1200 combined 360° 30Hz, 2x front-view facing " +
-            "stereo cameras 2056x2464 5Hz",
-        benchmark: "tracking",
-        annotations: "semantic vector map, rasterized map, 3d bounding boxes",
-        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
-        relatedDatasets: "Argoverse Motion Forecasting",
-        publishDate:"2019.06",
-        lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
-    },
     {
         id: "KAIST Urban", //22.08. fertig
         href: "https://irap.kaist.ac.kr/dataset/",
@@ -1276,7 +1277,7 @@ const rows = [
     {
         id: "Argoverse Stereo",
         href: "https://www.argoverse.org/data.html#stereo-link",
-        size_storage: "",
+        size_storage: "14.2",
         size_hours: "",
         frames: "",
         numberOfScenes: "",
@@ -1284,11 +1285,11 @@ const rows = [
         lengthOfScenes: "",
         sensors: "",
         sensorDetail: "",
-        benchmark: "",
+        benchmark: "stereo",
         annotations: "",
-        licensing: "",
-        relatedDatasets: "",
-        publishDate:" ",
+        licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
+        relatedDatasets: "Argoverse 3D Tracking",
+        publishDate:"2021.04",
         lastUpdate: "",
         relatedPaper: ""
     },

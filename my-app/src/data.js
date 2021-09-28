@@ -799,7 +799,8 @@ const rows = [
     },
     {
         id: "PepScenes",
-        href: "https://arxiv.org/abs/2012.07773"
+        href: "https://github.com/huawei-noah/PePScenes",   //Seems to be offline
+        relatedPaper: "https://arxiv.org/pdf/2012.07773.pdf"
     },
     {
         id: "WZ-traffic dataset",
@@ -1235,6 +1236,12 @@ const rows = [
     {
         id:"TAF-BW",
         href: "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset"
+    },
+    {
+        id:"R3 Driving Dataset",
+        href: "https://github.com/rllab-snu/R3-Driving-Dataset",
+        relatedPaper: "https://arxiv.org/pdf/2109.07995.pdf"
+        
     },
     {
         id: "EISATS",

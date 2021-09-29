@@ -1339,6 +1339,26 @@ const rows = [
         lastUpdate: "",
         relatedPaper: ""
     },
+    
+    {
+        id: "The USyd Campus Dataset",
+        href: "http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/",
+        size_storage: "",
+        size_hours: "40",
+        frames: "",
+        numberOfScenes: "",
+        samplingRate: "",
+        lengthOfScenes: "",
+        sensors: "6 cameras, lidar, gps, imu, wheel encoders",
+        sensorDetail: "GMSL cameras 30, 60 Hz, VLP-16 10 Hz",
+        benchmark: "",
+        annotations: "Semantic Segmentation",
+        licensing: "",
+        relatedDatasets: "",
+        publishDate:"05 June 2020",
+        lastUpdate: "",
+        relatedPaper: "https://ieeexplore.ieee.org/document/9109704"
+    },
 ];
 
 export { rows };

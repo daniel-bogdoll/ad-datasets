@@ -1342,9 +1342,9 @@ const rows = [
     
     {
         id: "The USyd Campus Dataset",
-        href: "http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/, https://ieee-dataport.org/open-access/usyd-campus-dataset",
+        href: "http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/",
         size_storage: "",
-        size_hours: "~40",
+        size_hours: "40",
         frames: "",
         numberOfScenes: "",
         samplingRate: "",

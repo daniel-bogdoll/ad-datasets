@@ -13,7 +13,9 @@ jobs:
         with:
           node-version: 10
       - run: npm ci
+      - working-directory: ${{env.working-directory}}
       - run: npm run build
+      - working-directory: ${{env.working-directory}}
       - name: Commit files
         id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v4

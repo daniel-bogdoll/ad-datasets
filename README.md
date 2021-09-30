@@ -4,9 +4,7 @@ Complete* and curated list of autonomous driving related datasets
 
 ## Contributing
 
-Contributions are very welcome!
-
-To add or update a dataset:
+Contributions are very welcome! To add or update a dataset:
 
 - Update [`my-app/src/data.js`](https://github.com/daniel-bogdoll/ad-datasets/blob/main/my-app/src/data.js):
 ![image](https://user-images.githubusercontent.com/19552411/135491523-0a9299b2-4e71-45fa-9808-f9b13b0fb7fd.png)

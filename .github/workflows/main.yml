@@ -1,7 +1,5 @@
 name: Build gh-pages
-on:
-  push:
-    branches: [ master ]
+on: [push]
 jobs:
   build-process:
     runs-on: ubuntu-latest      

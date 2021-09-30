@@ -2,17 +2,16 @@ name: Build gh-pages
 on: [push]
 jobs:
   build-process:
+    env:
+      working-directory: my-app
     runs-on: ubuntu-latest      
     steps:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
       - name: Check out repository code
         uses: actions/checkout@v2
-        with:
-          working-directory: my-app
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-          working-directory: my-app
       - run: npm ci
       - run: npm run build
       - name: Commit files

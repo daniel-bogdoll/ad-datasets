@@ -10,6 +10,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
+          working-directory: my-app
+      - run: npm ci
       - run: npm run build
       - name: Commit files
         id: auto-commit-action

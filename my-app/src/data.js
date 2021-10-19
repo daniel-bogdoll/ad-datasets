@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 const rows = [
     {
         id: "KITTI", //07.08. fertig

@@ -52,14 +52,14 @@ export default function RenderExpandCellGrid() {
             <AppBar id={"appbar"} position="static">
                 <Toolbar>
                     <Typography className={classes.development} variant="caption" noWrap>
-                        in development
+                        In development
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap>
                         ad-datasets
                     </Typography>
                     <Button className={classes.note} variant="contained" color={"primary"} noWrap target={'_blank'}
                             href={"https://github.com/daniel-bogdoll/ad-datasets"}>
-                        *Don't find your dataset? <br/> Simply create a pull request ;)
+                        *Could not find your dataset? <br/> Simply create a pull request ;)
                     </Button>
                 </Toolbar>
                 <Typography className={classes.explanation} variant="caption" noWrap>

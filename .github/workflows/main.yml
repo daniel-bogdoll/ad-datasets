@@ -15,10 +15,6 @@ jobs:
     - name: Install Packages
       working-directory: ./my-app
       run: npm install
-    - name: config identity
-      run: |
-        git config --global user.email "felixschreyer@mailbox.org"
-        git config --global user.name "FelixSchreyer"
     - name: Build page
       working-directory: ./my-app
       run: npm run deploy

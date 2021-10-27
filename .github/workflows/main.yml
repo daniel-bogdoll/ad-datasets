@@ -15,6 +15,9 @@ jobs:
     - name: Install Packages
       working-directory: ./my-app
       run: npm install
+    - name: Config Credentials
+      run: git config user.email "felixschreyer@mailbox.org" &&
+           git config user.name "FelixSchreyer"
     - name: Build page
       working-directory: ./my-app
       run: npm run deploy

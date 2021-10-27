@@ -12,11 +12,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
     - name: Install Packages
       working-directory: ./my-app
       run: npm install
     - name: Config Credentials
-      run: git config user.email "felixschreyer@mailbox.org"
+      run: git config user.email "felixschreyer@mailbox.org" &&
            git config user.name "FelixSchreyer"
     - name: Build page
       working-directory: ./my-app

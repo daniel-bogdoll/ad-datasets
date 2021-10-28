@@ -6,10 +6,57 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
 import ReceiptIcon from '@material-ui/icons/Receipt';
+import {CameraTag, LidarTag, RadarTag, RandomTag} from "./components/tags";
 
 function isOverflown(element) {
     return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
+
+
+
+/***
+ *
+ *
+ * @param description: contains the input of the field 'sensors' of the data sets
+ * @param tagProps: properties of 6 tags for sensor types: 'camera', 'radar', 'lidar', 'other1', 'other2', 'other3'
+ * @returns {string[]} returns array that contains all sensors that are NOT camera, lidar or radar
+ *
+ *
+ * Function takes info on sensors in the respective data set; checks whether camera, lidar or radar are included;
+ * returns info on up to 3 additional sensors
+ */
+function checkSensortypes(description, tagProps){
+    try {
+        let sensors = description.split(", ");
+        if (sensors.includes("camera")) {
+            tagProps.camera='visible';
+            sensors = sensors.filter(function(f) { return f !== 'camera' });
+        }
+        if (sensors.includes("lidar")) {
+            tagProps.lidar='visible';
+            sensors = sensors.filter(function(f) { return f !== 'lidar' });
+        }
+        if (sensors.includes("radar")) {
+            tagProps.radar='visible';
+            sensors = sensors.filter(function(f) { return f !== 'radar' });
+        }
+        if (sensors.length===3) {
+            tagProps.other3='visible';
+            tagProps.other2 = 'visible';
+            tagProps.other1 = 'visible';
+        } else if (sensors.length===2) {
+            tagProps.other2 = 'visible';
+            tagProps.other1 = 'visible';
+        } else if (sensors.length===1) {
+            tagProps.other1 = 'visible';
+        }
+        return (sensors)
+    }
+    catch (e) {
+    }
+}
+
+
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -213,12 +260,6 @@ const columns = [
                 return `${valueFormatted}`;
             else
                 return "";
-            /*const nf = new Intl.NumberFormat();
-            const str = nf.format(params.value);
-            if (str!=="NaN")
-                return `${str}`;
-            else
-                return "";*/
         },
     },
     {
@@ -227,13 +268,6 @@ const columns = [
         width: 180,
         hide: true,
         type: "number",
-    /*valueFormatter: (params) => {
-            const valueFormatted = Number(params.value).toLocaleString();
-            if (valueFormatted!=="NaN")
-                return `${valueFormatted}`;
-            else
-                return "";
-        },*/
     },
     {
         field: 'lengthOfScenes',
@@ -256,7 +290,30 @@ const columns = [
         type: 'string',
         width: 310,
         sortable: false,
-        renderCell: renderCellExpand
+        renderCell: (params) => {
+            const valueFormatted = params.value;
+            const tagProps = {
+                'camera': 'none',
+                'lidar': 'none',
+                'radar': 'none',
+                'other1': 'none',
+                'other2': 'none',
+                'other3': 'none'
+            };
+            const sensors = checkSensortypes(valueFormatted, tagProps);
+
+            if (sensors)
+                return (
+                    <div>
+                        <CameraTag visibility={tagProps.camera}/>
+                        <LidarTag visibility={tagProps.lidar}/>
+                        <RadarTag visibility={tagProps.radar}/>
+                        <RandomTag visibility={tagProps.other1} name={sensors[0]}/>
+                        <RandomTag visibility={tagProps.other2} name={sensors[1]}/>
+                        <RandomTag visibility={tagProps.other3} name={sensors[2]}/>
+                    </div>
+                );
+        },
     },
     {
         field: "sensorDetail",

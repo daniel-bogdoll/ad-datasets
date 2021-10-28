@@ -448,7 +448,7 @@ const rows = [
         numberOfScenes: "",
         samplingRate: "25",
         lengthOfScenes: "",
-        sensors: "camera, lidar, gps/imu, thermal camera,",
+        sensors: "camera, lidar, gps/imu, thermal camera",
         sensorDetail: "2x PointGrey Flea3 RGB camera 1280 × 960, 1x FLIR A655Sc thermal camera 640x480 50Hz, " +
             "1x Velodyne HDL-32E 3D LiDAR 360° 32 beams 10Hz, 1x OXTS RT2002 gps/ins 100Hz",
         benchmark: "object detection, vision sensor enhancement, depth estimation, multi-spectral colorization",

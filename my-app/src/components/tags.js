@@ -2,9 +2,6 @@ import Chip from "@material-ui/core/Chip";
 import * as React from "react";
 
 export class CameraTag extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return <Chip label="camera"
                      color="primary"
@@ -15,9 +12,6 @@ export class CameraTag extends React.Component {
 }
 
 export class LidarTag extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return <Chip label="lidar"
                      size="small"
@@ -27,9 +21,6 @@ export class LidarTag extends React.Component {
 }
 
 export class RadarTag extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return <Chip label="radar"
                      size="small"
@@ -39,9 +30,6 @@ export class RadarTag extends React.Component {
 }
 
 export class RandomTag extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return <Chip label={this.props.name}
                      size={"small"}

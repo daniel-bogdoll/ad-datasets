@@ -1216,10 +1216,6 @@ const rows = [
         href: "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
     },
     {
-        id: "Driver Anomaly Detection (DAD)",
-        href: "https://www.ei.tum.de/mmk/dad/"
-    },
-    {
         id:"GROUNDED Localizing Ground Penetrating Radar (LGPR) Evaluation Dataset",
         href: "https://lgprdata.com/"
     },

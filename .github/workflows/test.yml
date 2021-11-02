@@ -12,5 +12,5 @@ jobs:
     - name: create CNAME
       uses: "finnp/create-file-action@master"
       env:
-        FILE_NAME: "./build/fileName.txt"
+        FILE_NAME: "./static/fileName.txt"
         FILE_DATA: "file content"

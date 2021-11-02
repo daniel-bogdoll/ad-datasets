@@ -12,7 +12,7 @@ jobs:
     - name: create CNAME
       uses: "finnp/create-file-action@master"
       with:
-        working-directory: "./my-app/build"
+        working-directory: ./my-app/build
       env:
         FILE_NAME: "fileName.txt"
         FILE_DATA: "file content"

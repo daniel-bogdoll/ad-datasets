@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - uses: actions/checkout@v2
     - name: create CNAME
     - uses: "finnp/create-file-action@master"
       env:

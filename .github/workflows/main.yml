@@ -33,6 +33,6 @@ jobs:
     - name: create CNAME
     - uses: "finnp/create-file-action@master"
       env:
-        FILE_NAME: "testfile.txt"
+        FILE_NAME: "./testfile.txt"
         FILE_DATA: "file content"
 

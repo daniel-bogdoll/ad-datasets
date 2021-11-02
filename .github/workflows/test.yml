@@ -1,13 +1,7 @@
 name: Build & deploy
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
+  push
 jobs:
   build:
     name: Build
@@ -17,5 +11,5 @@ jobs:
     - name: create CNAME
     - uses: "finnp/create-file-action@master"
       env:
-        FILE_NAME: "dir/fileName.txt"
+        FILE_NAME: "fileName.txt"
         FILE_DATA: "file content"

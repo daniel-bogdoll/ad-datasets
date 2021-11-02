@@ -1,0 +1,16 @@
+on: push
+name: Create GH Pages
+jobs:
+  createGhPages:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Create GH Pages
+      uses: pkgjs/gh-pages@master
+      with:
+        nojekyll: true
+        repo: pkgjs/gh-pages
+        commit: pages build from ${GITHUB_SHA}
+        build: echo "<!DOCTYPE html><html><head></head><body><h1>Hello World!</h1><p>Built from ${GITHUB_SHA}</p></body></html>" > gh-pages/index.html
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

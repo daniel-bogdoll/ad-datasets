@@ -30,3 +30,12 @@ jobs:
         publish_dir: ./my-app/build
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+  add-CNAME:
+    runs-on: ubuntu-latest
+    steps:
+    - name: create CNAME
+      uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "dir/fileName.txt"
+        FILE_DATA: "file content"
+

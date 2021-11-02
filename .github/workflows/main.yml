@@ -28,5 +28,6 @@ jobs:
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./my-app/build
+        cname: github.com
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'

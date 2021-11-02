@@ -30,9 +30,3 @@ jobs:
         publish_dir: ./my-app/build
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
-    - name: create CNAME
-    - uses: "finnp/create-file-action@master"
-      env:
-        FILE_NAME: "./testfile.txt"
-        FILE_DATA: "file content"
-

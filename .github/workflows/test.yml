@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: create CNAME
-    - uses: "finnp/create-file-action@master"
+      uses: "finnp/create-file-action@master"
       env:
         FILE_NAME: "fileName.txt"
         FILE_DATA: "file content"

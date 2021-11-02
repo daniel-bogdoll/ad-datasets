@@ -36,6 +36,6 @@ jobs:
     - name: create CNAME
       uses: "finnp/create-file-action@master"
       env:
-        FILE_NAME: "dir/fileName.txt"
-        FILE_DATA: "file content"
+        FILE_NAME: "./my-app/build/CNAME"
+        FILE_DATA: "https://ad-datasets.com"
 

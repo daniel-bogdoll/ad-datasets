@@ -40,6 +40,16 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: "5px",
         padding: "0.2%",
         background: "red"
+    },
+    lastUpdate: {
+        fontSize: "12px",
+        position: "fixed",
+        right: "1%",
+        top: "14%",
+        background: "rgba(76, 175, 80, 0.3)",
+        border: "1px solid white",
+        borderRadius: "5px",
+        padding: "8px",
     }
 }));
 
@@ -73,6 +83,9 @@ export default function RenderExpandCellGrid() {
                       rowsPerPageOptions={[10, 25, 50]}
                       pagination
             />
+            <Typography className={classes.lastUpdate} variant="contained" noWrap >
+                Last Update: 2021.11.02
+            </Typography>
         </div>
     );
 }

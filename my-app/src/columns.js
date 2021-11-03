@@ -47,7 +47,7 @@ function checkSensortypes(description, tagProps){
         } else if (sensors.length===2) {
             tagProps.other2 = 'visible';
             tagProps.other1 = 'visible';
-        } else if (sensors.length===1) {
+        } else if ((sensors.length===1) && (sensors[0]!=="")) {
             tagProps.other1 = 'visible';
         }
         return (sensors)

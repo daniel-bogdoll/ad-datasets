@@ -12,12 +12,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-#    - name: Install Packages
-#      working-directory: ./my-app
-#      run: npm install
-#    - name: Build page
-#      working-directory: ./my-app
-#      run: npm run deploy
     - name: npm ci & build
       working-directory: ./my-app
       run: |

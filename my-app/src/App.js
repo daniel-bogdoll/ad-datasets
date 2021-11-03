@@ -7,7 +7,6 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
-import VersionComponent from './components/Date'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -84,7 +83,9 @@ export default function RenderExpandCellGrid() {
                       rowsPerPageOptions={[10, 25, 50]}
                       pagination
             />
-            <VersionComponent className={classes.lastUpdate}/>
+            <Typography className={classes.lastUpdate} variant="contained" noWrap >
+                Last Update: 2021.11.02
+            </Typography>
         </div>
     );
 }

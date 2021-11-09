@@ -15,8 +15,8 @@ const rows = [
         annotations: "3d bounding boxes",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         relatedDatasets: 'Semantic KITTI, KITTI-360',
-        publishDate: "2012.03",
-        lastUpdate: "2021.02",
+        publishDate: new Date("2012-3").toISOString().split('T')[0],
+        lastUpdate: new Date("2021-2").toISOString().split('T')[0],
         relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
     },
     {
@@ -36,8 +36,8 @@ const rows = [
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public " +
             "(CC BY-NC-SA 4.0)",
         relatedDatasets: "nuImages",
-        publishDate: "2019.03",
-        lastUpdate: "2020.12",
+        publishDate: new Date("2019-3").toISOString().split('T')[0],
+        lastUpdate: new Date("2020-12").toISOString().split('T')[0],
         relatedPaper: "https://arxiv.org/pdf/1903.11027.pdf"
     },
     {
@@ -57,8 +57,8 @@ const rows = [
         annotations: "",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
         relatedDatasets: "Oxford Radar Robot Car",
-        publishDate: "2016.11",
-        lastUpdate: "2020.02",
+        publishDate: new Date("2016-11").toISOString().split('T')[0],
+        lastUpdate: new Date("2020-2").toISOString().split('T')[0],
         relatedPaper: "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf"
     },
     {
@@ -76,8 +76,8 @@ const rows = [
         annotations: "3d bounding boxes (lidar), 2d bounding boxes (camera)",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Motion",
-        publishDate: "2019.08",
-        lastUpdate: "2020.03",
+        publishDate: new Date("2019-8").toISOString().split('T')[0],
+        lastUpdate: new Date("2020-3").toISOString().split('T')[0],
         relatedPaper: "https://arxiv.org/pdf/1912.04838.pdf"
     },
     {
@@ -96,7 +96,7 @@ const rows = [
         annotations: "semantic vector map, rasterized map, trajectories",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
         relatedDatasets: "Argoverse 3D Tracking",
-        publishDate:"2019.06",
+        publishDate: new Date("2019-6").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
     },    
@@ -116,7 +116,7 @@ const rows = [
         annotations: "semantic vector map, rasterized map, 3d bounding boxes",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
         relatedDatasets: "Argoverse Motion Forecasting",
-        publishDate:"2019.06",
+        publishDate: new Date("2019-6").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
     },
@@ -137,8 +137,8 @@ const rows = [
         annotations: "semantic segmentation",
         licensing: "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ",
         relatedDatasets: "KITTI",
-        publishDate: "2019.07",
-        lastUpdate: "2021.02",
+        publishDate: new Date("2019-7").toISOString().split('T')[0],
+        lastUpdate: new Date("2021-2").toISOString().split('T')[0],
         relatedPaper: "https://arxiv.org/abs/1904.01416.pdf"
     },
     {
@@ -159,8 +159,8 @@ const rows = [
             'semantic instance segmentation, geo-tagged',
         licensing: 'freely available for non-commercial purposes',
         relatedDatasets: '',
-        publishDate: "2018.03",
-        lastUpdate: '2020.09',
+        publishDate: new Date("2018-3").toISOString().split('T')[0],
+        lastUpdate: new Date("2020-9").toISOString().split('T')[0],
         relatedPaper: "https://arxiv.org/pdf/1803.06184.pdf"
     },
     {
@@ -180,7 +180,7 @@ const rows = [
             "drivable area",
         licensing: "BSD 3-Clause",
         relatedDatasets: "",
-        publishDate: "2020.04",
+        publishDate: new Date("2020-4").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1805.04687.pdf"
     },
@@ -199,8 +199,8 @@ const rows = [
         annotations: 'semantic segmentation, instance segmentation',
         licensing: 'CC-BY-NC 4.0 ',
         relatedDatasets: '',
-        publishDate: '2018.02',
-        lastUpdate: '2020.06',
+        publishDate: new Date("2018-2").toISOString().split('T')[0],
+        lastUpdate: new Date("2020-6").toISOString().split('T')[0],
         relatedPaper: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Oliver_Zendel_WildDash_-_Creating_ECCV_2018_paper.pdf"
     },
     {
@@ -218,7 +218,7 @@ const rows = [
         annotations: 'semantic map annotations, trajectories',
         licensing: 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC-BY-NC-SA-4.0)',
         relatedDatasets: 'Lyft Level5 Perception',
-        publishDate: "2020.06",
+        publishDate: new Date("2020-6").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://tinyurl.com/lyft-prediction-dataset"
     },
@@ -239,8 +239,8 @@ const rows = [
         annotations: 'dense semantic segmentation, instance segmentation for vehicles & people, 3d bounding boxes',
         licensing: 'freely available for non-commercial purposes',
         relatedDatasets: "",
-        publishDate: '2016.02',
-        lastUpdate: '2020.10',
+        publishDate: new Date("2016-2").toISOString().split('T')[0],
+        lastUpdate: new Date("2020-10").toISOString().split('T')[0],
         relatedPaper: "https://arxiv.org/pdf/2006.07864.pdf"
     },
     {
@@ -258,7 +258,7 @@ const rows = [
         annotations: '3d bounding boxes, rasterised road geometry',
         licensing: 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC-BY-NC-SA-4.0)',
         relatedDatasets: 'Lyft Level5 Prediction',
-        publishDate: "2019.07",
+        publishDate: new Date("2019-7").toISOString().split('T')[0],
         lastUpdate: "",
     },
     {
@@ -277,7 +277,7 @@ const rows = [
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public " +
             "(CC BY-NC-SA 4.0)",
         relatedDatasets: "nuScenes",
-        publishDate: "2020.07",
+        publishDate: new Date("2020-7").toISOString().split('T')[0],
         lastUpdate: "",
     },
     {
@@ -297,7 +297,7 @@ const rows = [
         annotations: "3d bounding boxes, attributes, point cloud segmentation ",
         licensing: "Creative Commons Attribution 4.0 International Public (CC BY 4.0)",
         relatedDatasets: "",
-        publishDate: "2020.04",
+        publishDate: new Date("2020-4").toISOString().split('T')[0],
         lastUpdate: "",
     },
     {
@@ -315,8 +315,8 @@ const rows = [
         annotations: "3d bounding boxes, 3d hd map information",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "Waymo Open Perception",
-        publishDate: "2021.03",
-        lastUpdate: "2021.09",
+        publishDate: new Date("2021-3").toISOString().split('T')[0],
+        lastUpdate: new Date("2021-9").toISOString().split('T')[0],
         relatedPaper: "https://arxiv.org/pdf/2104.10133.pdf"
     },
     {
@@ -334,7 +334,7 @@ const rows = [
         annotations: '2d bounding boxes, trajectories',
         licensing: 'Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ',
         relatedDatasets: '',
-        publishData: '2020.09',
+        publishData: new Date("2020-9").toISOString().split('T')[0],
         lastUpdate: '',
         relatedPaper: "https://arxiv.org/pdf/2007.08463.pdf"
     },
@@ -356,7 +356,7 @@ const rows = [
             '"https://github.com/SegmentMeIfYouCan/road-anomaly-benchmark/blob/master/doc/RoadAnomaly/credits.txt" ' +
             'for detail',
         relatedDatasets: 'RoadObstacle21',
-        publishDate: '2021.04',
+        publishDate: new Date("2021-4").toISOString().split('T')[0],
         lastUpdate: '',
         relatedPaper: "https://arxiv.org/pdf/2104.14812.pdf"
     },
@@ -376,7 +376,7 @@ const rows = [
         annotations: "",
         licensing: "MIT",
         relatedDatasets: "",
-        publishDate: "2018.12",
+        publishDate: new Date("2018-12").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "http://export.arxiv.org/pdf/1812.05752"
     },
@@ -396,8 +396,8 @@ const rows = [
         annotations: "semantic instance segmentation",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         relatedDatasets: "KITTI",
-        publishDate: "2015.11",
-        lastUpdate: "2021.04",
+        publishDate: new Date("2015-11").toISOString().split('T')[0],
+        lastUpdate: new Date("2021-4").toISOString().split('T')[0],
         relatedPaper: "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf"
     },
     {
@@ -416,7 +416,7 @@ const rows = [
         annotations: "semantic segmentation",
         licensing: "",
         relatedDatasets: "Cityscapes, LostAndFound",
-        publishDate: "2019.09",
+        publishDate: new Date("2019-9").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1904.03215.pdf"
     },
@@ -435,7 +435,7 @@ const rows = [
         annotations: "semantic segmentation",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "",
-        publishDate: "2016.09",
+        publishDate: new Date("2016-9").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1609.04653.pdf"
     },
@@ -455,7 +455,7 @@ const rows = [
         annotations: "dense depth map, bounding boxes",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         relatedDatasets: "",
-        publishDate: "2017.12",
+        publishDate: new Date("2017-12").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689"
     },
@@ -475,7 +475,7 @@ const rows = [
         annotations: "semantic segmentation, point cloud segmentation, instance segmentation, 3d bounding boxes",
         licensing: "Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
         relatedDatasets: "",
-        publishDate: "2020.04",
+        publishDate: new Date("2020-4").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/2004.06320.pdf"
     },
@@ -494,8 +494,8 @@ const rows = [
         annotations: "bounding boxes",
         licensing: "",
         relatedDatasets: "",
-        publishDate: "2010.03",
-        lastUpdate: "2019.01",
+        publishDate: new Date("2010-3").toISOString().split('T')[0],
+        lastUpdate: new Date("2019-1").toISOString().split('T')[0],
         relatedPaper: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf"
     },    
     {
@@ -514,8 +514,8 @@ const rows = [
         annotations: "",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
         relatedDatasets: "",
-        publishDate:"2017.09",
-        lastUpdate: "2019.06",
+        publishDate: new Date("2017-9").toISOString().split('T')[0],
+        lastUpdate: new Date("2019-6").toISOString().split('T')[0],
         relatedPaper: "https://irap.kaist.ac.kr/dataset/papers/IJRR2019_dataset.pdf"
     },
     {
@@ -533,7 +533,7 @@ const rows = [
         annotations: "2d bounding boxes",
         licensing: "MIT",
         relatedDatasets: "",
-        publishDate:"2016.09",
+        publishDate: new Date("2016-9").toISOString().split('T')[0],
         lastUpdate: ""
     },
     {
@@ -553,7 +553,7 @@ const rows = [
         annotations: "3d point cloud maps, ground reflectivity map",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
         relatedDatasets: "",
-        publishDate:"2020.03",
+        publishDate: new Date("2020-3").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf"
     },
@@ -572,7 +572,7 @@ const rows = [
         annotations: "2d bounding boxes, semantic map, motion/trajectories",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "",
-        publishDate:"2019.09",
+        publishDate: new Date("2019-9").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1910.03088.pdf"
     },
@@ -594,7 +594,7 @@ const rows = [
         annotations: "semantic segmentation of objects, traffic lights, traffic signs, lanes",
         licensing: "",
         relatedDatasets: "",
-        publishDate:"2019.12",
+        publishDate: new Date("2019-12").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1912.06258.pdf"
     },
@@ -616,7 +616,7 @@ const rows = [
         annotations: "ground truth data",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
         relatedDatasets: "Oxford Robot Car",
-        publishDate:"2020.02",
+        publishDate: new Date("2020-2").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1909.01300.pdf"
     },
@@ -635,7 +635,7 @@ const rows = [
         annotations: "bounding boxes, attributes, temporal tracking annotations",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "",
-        publishDate:"2018.12",
+        publishDate: new Date("2018-12").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18b/neumann18b.pdf"
     },
@@ -654,7 +654,7 @@ const rows = [
         annotations: "",
         licensing: "Creative Commons Attribution-ShareAlike 4.0 International",
         relatedDatasets: "DDD 17",
-        publishDate:"2020.02",
+        publishDate: new Date("2020-2").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/2005.08605.pdf"
     },
@@ -674,7 +674,7 @@ const rows = [
         annotations: "3d bounding boxes",
         licensing: "",
         relatedDatasets: "",
-        publishDate: "2019.03",
+        publishDate: new Date("2019-3").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1903.01568.pdf"
     },
@@ -693,7 +693,7 @@ const rows = [
         annotations: "",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
         relatedDatasets: "",
-        publishDate: "2020.10",
+        publishDate: new Date("2020-10").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/2009.06364.pdf"
     },
@@ -712,7 +712,7 @@ const rows = [
         annotations: "point-wise",
         licensing: "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
         relatedDatasets: "",
-        publishDate:"2021.03",
+        publishDate: new Date("2021-3").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/2104.02493.pdf"
     },
@@ -731,7 +731,7 @@ const rows = [
         annotations: "semantic segmentation",
         licensing: "",
         relatedDatasets: "",
-        publishDate: "2018.11",
+        publishDate: new Date("2018-11").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf"
     },
@@ -751,7 +751,7 @@ const rows = [
             "instance segmentation, depth segmentation, scene metadata",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "",
-        publishDate: "2018.10",
+        publishDate: new Date("2018-10").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/1810.08705v1.pdf"
     },
@@ -771,7 +771,7 @@ const rows = [
         annotations: "2d bounding boxes",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
         relatedDatasets: "",
-        publishDate: "2020.10",
+        publishDate: new Date("2020-10").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://arxiv.org/pdf/2010.09076.pdf"
     },
@@ -791,7 +791,7 @@ const rows = [
         annotations: "bounding boxes, state",
         licensing: "freely available for non-commercial purposes",
         relatedDatasets: "",
-        publishDate:"2017.05",
+        publishDate: new Date("2017-5").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7989163"
     },
@@ -1294,7 +1294,7 @@ const rows = [
         annotations: "",
         licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public (CC BY-NC-SA 4.0)",
         relatedDatasets: "Argoverse 3D Tracking",
-        publishDate:"2021.04",
+        publishDate: new Date("2021-4").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: ""
     },
@@ -1353,7 +1353,7 @@ const rows = [
         annotations: "Semantic Segmentation",
         licensing: "",
         relatedDatasets: "",
-        publishDate:"05 June 2020",
+        publishDate: new Date("2020-6-5").toISOString().split('T')[0],
         lastUpdate: "",
         relatedPaper: "https://ieeexplore.ieee.org/document/9109704"
     },

@@ -16,15 +16,13 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/react-scripts start; yarn git-info",
+    "start": "REACT_APP_GIT_SHA=`git log -1 --date=short --format=%cd` ./node_modules/.bin/react-scripts start",
     "predeploy": "npm run build && cp ../CNAME build/CNAME",
     "deploy": "gh-pages -d build",
-    "build": "./node_modules/.bin/react-scripts build; yarn git-info",
+    "build": "REACT_APP_GIT_SHA=`git log -1 --date=short --format=%cd` ./node_modules/.bin/react-scripts build",
     "test": "./node_modules/.bin/react-scripts test",
     "eject": "./node_modules/.bin/react-scripts eject",
-    "prod": "echo \"Add your build command here\"",
-    "git-info": "echo export default \"{\\\"logMessage\\\": \\\"$(git log -1 --oneline)\\\"}\"  > src/_git_commit.js",
-    "precommit": "lint-staged"
+    "prod": "echo \"Add your build command here\""
   },
   "eslintConfig": {
     "extends": [

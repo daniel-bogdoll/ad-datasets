@@ -397,6 +397,24 @@ const columns = [
                 </Link>
         ),
     },
+    {
+        field: 'location',
+        headerName: 'Location',
+        width: 380,
+        hide: true,
+        type: "string",
+        sortable: false,
+        renderCell: renderCellExpand
+    },
+    {
+        field: 'rawData',
+        headerName: 'Provide raw data',
+        width: 150,
+        hide: true,
+        type: "string",
+        sortable: false,
+        renderCell: renderCellExpand
+    },
 ];
 
 export { columns };

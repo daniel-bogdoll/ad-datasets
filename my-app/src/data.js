@@ -17,7 +17,9 @@ const rows = [
         relatedDatasets: 'Semantic KITTI, KITTI-360',
         publishDate: new Date("2012-3").toISOString().split('T')[0],
         lastUpdate: new Date("2021-2").toISOString().split('T')[0],
-        relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
+        relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
+        location: "Karlsruhe, Germany",
+        rawData: "Yes"
     },
     {
         id: "nuScenes", //05.08. //fertig
@@ -38,7 +40,9 @@ const rows = [
         relatedDatasets: "nuImages",
         publishDate: new Date("2019-3").toISOString().split('T')[0],
         lastUpdate: new Date("2020-12").toISOString().split('T')[0],
-        relatedPaper: "https://arxiv.org/pdf/1903.11027.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1903.11027.pdf",
+        location: "Boston, USA and Singapore",
+        rawData: "Yes"
     },
     {
         id: "Oxford Robot Car", //05.08. fertig
@@ -59,7 +63,9 @@ const rows = [
         relatedDatasets: "Oxford Radar Robot Car",
         publishDate: new Date("2016-11").toISOString().split('T')[0],
         lastUpdate: new Date("2020-2").toISOString().split('T')[0],
-        relatedPaper: "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf"
+        relatedPaper: "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf",
+        location: "Oxford, UK",
+        rawData: "Yes"
     },
     {
         id: "Waymo Open Perception", //07.08. fertig
@@ -78,7 +84,9 @@ const rows = [
         relatedDatasets: "Waymo Open Motion",
         publishDate: new Date("2019-8").toISOString().split('T')[0],
         lastUpdate: new Date("2020-3").toISOString().split('T')[0],
-        relatedPaper: "https://arxiv.org/pdf/1912.04838.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1912.04838.pdf",
+        location: "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
+        rawData: "Yes"
     },
     {
         id: "Argoverse Motion Forecasting", //22.08. fertig
@@ -98,7 +106,9 @@ const rows = [
         relatedDatasets: "Argoverse 3D Tracking",
         publishDate: new Date("2019-6").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf",
+        location: "Miami and Pittsburgh, USA",
+        rawData: "No"
     },    
     {
         id: "Argoverse 3D Tracking", //22.08. fertig
@@ -118,7 +128,9 @@ const rows = [
         relatedDatasets: "Argoverse Motion Forecasting",
         publishDate: new Date("2019-6").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1911.02620.pdf",
+        location: "Miami and Pittsburgh, USA",
+        rawData: "Yes"
     },
     {
         id: "Semantic KITTI", //22.08. fertig
@@ -139,7 +151,9 @@ const rows = [
         relatedDatasets: "KITTI",
         publishDate: new Date("2019-7").toISOString().split('T')[0],
         lastUpdate: new Date("2021-2").toISOString().split('T')[0],
-        relatedPaper: "https://arxiv.org/abs/1904.01416.pdf"
+        relatedPaper: "https://arxiv.org/abs/1904.01416.pdf",
+        location: "Karlsruhe, Germany",
+        rawData: "No"
     },
     {
         id: "ApolloScape", //04.08. fertig
@@ -161,7 +175,9 @@ const rows = [
         relatedDatasets: '',
         publishDate: new Date("2018-3").toISOString().split('T')[0],
         lastUpdate: new Date("2020-9").toISOString().split('T')[0],
-        relatedPaper: "https://arxiv.org/pdf/1803.06184.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1803.06184.pdf",
+        location: "Beijing, Shanghai and Shenzhen, China",
+        rawData: "Yes"
     },
     {
         id: "BDD100k", //07.08. //fertig
@@ -182,7 +198,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2020-4").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1805.04687.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1805.04687.pdf",
+        location: "New York, Berkeley, San Francisco and Bay Area, USA",
+        rawData: "Yes"
     },
     {
         id: "WildDash", //09.08. fertig
@@ -201,7 +219,9 @@ const rows = [
         relatedDatasets: '',
         publishDate: new Date("2018-2").toISOString().split('T')[0],
         lastUpdate: new Date("2020-6").toISOString().split('T')[0],
-        relatedPaper: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Oliver_Zendel_WildDash_-_Creating_ECCV_2018_paper.pdf"
+        relatedPaper: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Oliver_Zendel_WildDash_-_Creating_ECCV_2018_paper.pdf",
+        location: "All over the world", 
+        rawData: "Yes"
     },
     {
         id: "Lyft Level5 Prediction", //20.08. fertig
@@ -220,7 +240,9 @@ const rows = [
         relatedDatasets: 'Lyft Level5 Perception',
         publishDate: new Date("2020-6").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://tinyurl.com/lyft-prediction-dataset"
+        relatedPaper: "https://tinyurl.com/lyft-prediction-dataset",
+        location: "Palo Alto, USA",
+        rawData: "No"
     },
     {
         id:   "Cityscapes 3D", //20.08. fertig
@@ -241,7 +263,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2016-2").toISOString().split('T')[0],
         lastUpdate: new Date("2020-10").toISOString().split('T')[0],
-        relatedPaper: "https://arxiv.org/pdf/2006.07864.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2006.07864.pdf",
+        location: "50 cities in Germany and neighboring countries",
+        rawData: "Yes"
     },
     {
         id: "Lyft Level5 Perception", //20.08. fertig
@@ -260,6 +284,9 @@ const rows = [
         relatedDatasets: 'Lyft Level5 Prediction',
         publishDate: new Date("2019-7").toISOString().split('T')[0],
         lastUpdate: "",
+        // relatedPaper: "",
+        location: "Palo Alto, USA",
+        rawData: "Yes"
     },
     {
         id: "nuImages", //20.08. fertig
@@ -279,6 +306,8 @@ const rows = [
         relatedDatasets: "nuScenes",
         publishDate: new Date("2020-7").toISOString().split('T')[0],
         lastUpdate: "",
+        location: "Boston, USA and Singapore",
+        rawData: "Yes"
     },
     {
         id: "PandaSet", //05.08. fertig
@@ -299,6 +328,8 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2020-4").toISOString().split('T')[0],
         lastUpdate: "",
+        location: "San Francisco and El Camina Real, USA",
+        rawData: "Yes"
     },
     {
         id: "Waymo Open Motion", //07.08. fertig
@@ -317,7 +348,9 @@ const rows = [
         relatedDatasets: "Waymo Open Perception",
         publishDate: new Date("2021-3").toISOString().split('T')[0],
         lastUpdate: new Date("2021-9").toISOString().split('T')[0],
-        relatedPaper: "https://arxiv.org/pdf/2104.10133.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2104.10133.pdf",
+        location: "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
+        rawData: "No"
     },
     {
         id: "openDD", //09.08. fertig
@@ -336,7 +369,9 @@ const rows = [
         relatedDatasets: '',
         publishData: new Date("2020-9").toISOString().split('T')[0],
         lastUpdate: '',
-        relatedPaper: "https://arxiv.org/pdf/2007.08463.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2007.08463.pdf",
+        location: "Wolfsburg and Ingolstadt, Germany",
+        rawData: "Yes"
     },
 
     {
@@ -358,7 +393,10 @@ const rows = [
         relatedDatasets: 'RoadObstacle21',
         publishDate: new Date("2021-4").toISOString().split('T')[0],
         lastUpdate: '',
-        relatedPaper: "https://arxiv.org/pdf/2104.14812.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2104.14812.pdf",
+        location: "", //not mentioned, data were collected from web resources
+        rawData: "Yes"
+
     },
     {
         id: "Comma2k19", //10.08. fertig
@@ -378,7 +416,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2018-12").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "http://export.arxiv.org/pdf/1812.05752"
+        relatedPaper: "http://export.arxiv.org/pdf/1812.05752",
+        location: "California's 280 highway, USA",
+        rawData: "Yes"
     },
     {
         id: "KITTI-360", //21.08. fertig
@@ -398,7 +438,9 @@ const rows = [
         relatedDatasets: "KITTI",
         publishDate: new Date("2015-11").toISOString().split('T')[0],
         lastUpdate: new Date("2021-4").toISOString().split('T')[0],
-        relatedPaper: "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf"
+        relatedPaper: "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf",
+        location: "Karlsruhe, Germany",
+        rawData: "Yes"
     },
     {
         id: "Fishyscapes", //21.08. fertig
@@ -418,7 +460,9 @@ const rows = [
         relatedDatasets: "Cityscapes, LostAndFound",
         publishDate: new Date("2019-9").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1904.03215.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1904.03215.pdf",
+        location: "",
+        rawData: "No"
     },
     {
         id: "LostAndFound", //22.08. fertig
@@ -437,7 +481,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2016-9").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1609.04653.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1609.04653.pdf",
+        location: "", //not mentioned
+        rawData: "Yes"
     },
     {
         id: "KAIST Multi-Spectral Day/Night", //22.08. fertig
@@ -457,7 +503,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2017-12").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689"
+        relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689",
+        location: "", //not mentioned
+        rawData: "Yes"
     },
     {
         id: "A2D2", //22.08. fertig
@@ -477,7 +525,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2020-4").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/2004.06320.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2004.06320.pdf",
+        location: "Three cities in the south of Germany",
+        rawData: "Yes"
     },
     {
         id: "Caltech Pedestrian", //22.08. fertig
@@ -496,7 +546,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2010-3").toISOString().split('T')[0],
         lastUpdate: new Date("2019-1").toISOString().split('T')[0],
-        relatedPaper: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf"
+        relatedPaper: "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf",
+        location: "Loa Angeles, USA",
+        rawData: "Yes"
     },    
     {
         id: "KAIST Urban", //22.08. fertig
@@ -516,7 +568,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2017-9").toISOString().split('T')[0],
         lastUpdate: new Date("2019-6").toISOString().split('T')[0],
-        relatedPaper: "https://irap.kaist.ac.kr/dataset/papers/IJRR2019_dataset.pdf"
+        relatedPaper: "https://irap.kaist.ac.kr/dataset/papers/IJRR2019_dataset.pdf",
+        location: "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
+        rawData: "Yes"
     },
     {
         id: "Udacity", //22.08. fertig
@@ -534,7 +588,9 @@ const rows = [
         licensing: "MIT",
         relatedDatasets: "",
         publishDate: new Date("2016-9").toISOString().split('T')[0],
-        lastUpdate: ""
+        lastUpdate: "",
+        location: "", //not mentioned
+        rawData: "True"
     },
     {
         id: "Ford Autonomous Vehicle Dataset", //20.08. fertig
@@ -555,7 +611,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2020-3").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf"
+        relatedPaper: "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+        location: "Michigan, USA",
+        rawData: "True"
     },
     {
         id: "INTERACTION dataset", //18.08. fertig
@@ -574,7 +632,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2019-9").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1910.03088.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1910.03088.pdf",
+        location: "USA, China, Germany and Bulgaria",
+        rawData: "Yes"
     },
     {
         id: "MCity Data Collection", //23.08. fertig
@@ -596,7 +656,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2019-12").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1912.06258.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1912.06258.pdf",
+        location: "Ann Arbor, USA",
+        rawData: "Yes"
     },
     {
         id: "Oxford Radar Robot Car", //18.08. fertig
@@ -618,7 +680,9 @@ const rows = [
         relatedDatasets: "Oxford Robot Car",
         publishDate: new Date("2020-2").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1909.01300.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1909.01300.pdf",
+        location: "Oxford",
+        rawData: "Yes"
     },
     {
         id: "NightOwls", //18.08. fertig
@@ -637,7 +701,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2018-12").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18b/neumann18b.pdf"
+        relatedPaper: "https://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18b/neumann18b.pdf",
+        location: "Several cities across Europe",
+        rawData: "Yes"
     },
     {
         id: "DDD 20", //17.08. fertig
@@ -656,7 +722,9 @@ const rows = [
         relatedDatasets: "DDD 17",
         publishDate: new Date("2020-2").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/2005.08605.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2005.08605.pdf",
+        location: "California, USA",
+        rawData: "Yes"
     },
     {
         id: "H3D", //16.08. fertig
@@ -676,7 +744,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2019-3").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1903.01568.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1903.01568.pdf",
+        location: "San Francisco Bay Area, USA", 
+        rawData: "Yes"
     },
     {
         id: "4Seasons", //16.08.21 fertig
@@ -695,7 +765,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2020-10").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/2009.06364.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2009.06364.pdf",
+        location: "", //not mentioned
+        rawData: "Yes"
     },
     {
         id: "RadarScenes", //16.08. fertig
@@ -714,7 +786,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2021-3").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/2104.02493.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2104.02493.pdf",
+        location: "", //not mentioned
+        rawData: "Yes"
     },
     {
         id: "India Driving Dataset", //12.08. fertig
@@ -733,7 +807,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2018-11").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf"
+        relatedPaper: "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf",
+        location: "Bangalore and Hyderabad, India",
+        rawData: "Yes"
     },
     {
         id: "Synscapes", //12.08. fertig
@@ -753,7 +829,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2018-10").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/1810.08705v1.pdf"
+        relatedPaper: "https://arxiv.org/pdf/1810.08705v1.pdf",
+        location: "", //synscapes dataset
+        rawData: ""
     },
     {
         id: "RADIATE", //12.08. fertig
@@ -773,7 +851,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2020-10").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://arxiv.org/pdf/2010.09076.pdf"
+        relatedPaper: "https://arxiv.org/pdf/2010.09076.pdf",
+        location: "", //not mentioned
+        rawData: "Yes"
     },
     {
         id: "Bosch Small Traffic Lights Dataset", //12.08. fertig
@@ -793,7 +873,9 @@ const rows = [
         relatedDatasets: "",
         publishDate: new Date("2017-5").toISOString().split('T')[0],
         lastUpdate: "",
-        relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7989163"
+        relatedPaper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7989163",
+        location: "", //not mentioned
+        rawData: "Yes"
     },
     {
         id: "PepScenes",
@@ -802,7 +884,7 @@ const rows = [
     },
     {
         id: "WZ-traffic dataset",
-        href: "https://github.com/Fangyu0505/traffic-scene-recognition"
+        href: "https://github.com/Fangyu0505/traffic-scene-recognition"  //No dataset is avaliable, just a readme file
     },
     {
         id: "Nighttime Driving",

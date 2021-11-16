@@ -6,24 +6,29 @@ import Typography from "@material-ui/core/Typography";
  * @see ./package.json git-info for how to generate this commit
  */
 
-export class DateDater extends React.Component {
+export class LastUpdate extends React.Component {
     render() {
         return (
-        <div>
-            <Typography label="lidar"
-                  size="small"
-                  variant="outlined"
+        <div style={{
+            position: "absolute",
+            top: window.innerHeight*0.005,
+            width: window.innerWidth*0.1,
+            border: "1px solid white",
+            borderRadius: "5px",
+            padding: "0.2%",
+            fontSize: "0.51vw",
+            right: "0.5%",
+            height: window.innerHeight*0.015,
+            backgroundColor: "white",
+
+        }}>
+            <Typography
                   style={{
-                      color: "primary",
-                      border: "1px solid black",
-                      borderRadius: "5px",
-                      padding: "4px",
-                      fontSize: "14px",
-                      position: "fixed",
-                      left: "0.5%",
-                      bottom: "1%"
+                      color: "#3f51b5",
+                      fontSize: "0.51vw",
+                      textAlign: "center"
                   }}>
-                Last Update: {process.env.REACT_APP_GIT_SHA}
+                LAST UPDATE      {process.env.REACT_APP_GIT_SHA}
             </Typography>
         </div>
         )

@@ -1447,6 +1447,21 @@ const rows = [
         lastUpdate: "",
         relatedPaper: "https://ieeexplore.ieee.org/document/9109704"
     },
+    {
+        id: "SemKITTI-DVPS", //07.08. fertig
+        href: "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
+        relatedDatasets: 'SemanticKITTI ',
+        relatedPaper: "https://arxiv.org/pdf/2012.05258",
+        location: "Karlsruhe, Germany",
+        rawData: "Yes"
+    },
+    {
+        id: "Cityscapes-DVPS", //07.08. fertig
+        href: "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
+        relatedDatasets: 'Cityscapes ',
+        relatedPaper: "https://arxiv.org/pdf/2012.05258",
+        rawData: "Yes"
+    }
 ];
 
 export { rows };

@@ -44,7 +44,7 @@ This is how the KITTI dataset is integrated into the website:
 \* You're missing a dataset? Simply create a [pull request](https://github.com/daniel-bogdoll/ad-datasets/blob/main/my-app/src/data.js) ;)
 
 
-### FAQ
+### Metadata
 
 In the following, the scheme according to which the entries of the respective properties have resulted is illuminated. 
 
@@ -82,7 +82,7 @@ set can be found under this category. If no explicit
 information on the date of publication of the data
 set could be found, the submission date of the paper
 related to the set was used at this point.
-####### Related Data Sets
+###### Related Data Sets
 If data sets are related, the names
 of the related sets can be examined as well. Related
 data sets are, for example, those published by the

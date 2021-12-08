@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RenderExpandCellGrid() {
 
-    const [dimensions, setDimensions] = React.useState({
+    const [, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
     });

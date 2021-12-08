@@ -11,24 +11,26 @@ export class LastUpdate extends React.Component {
         return (
         <div style={{
             position: "absolute",
-            top: window.innerHeight*0.005,
-            width: window.innerWidth*0.1,
+            top: window.innerHeight*0.02,
+//            width: window.innerHeight*0.2,
+            minWidth: "125px",
             border: "1px solid white",
             borderRadius: "5px",
-            padding: "0.2%",
-            fontSize: "0.51vw",
-            right: "0.5%",
-            height: window.innerHeight*0.015,
+            fontSize: 0.01*window.innerHeight,
+            left: "0.5%",
+//            height: window.innerHeight*0.015,
             backgroundColor: "white",
+            paddingLeft: "0.25%",
+            paddingRight: "0.25%"
 
         }}>
             <Typography
                   style={{
                       color: "#3f51b5",
-                      fontSize: "0.51vw",
+                      fontSize: 0.015*window.innerHeight,
                       textAlign: "center"
                   }}>
-                LAST UPDATE      {process.env.REACT_APP_GIT_SHA}
+                Last Update {process.env.REACT_APP_GIT_SHA}
             </Typography>
         </div>
         )

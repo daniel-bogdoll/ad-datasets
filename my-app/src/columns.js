@@ -189,7 +189,7 @@ const columns = [
     {
         field: 'id',
         headerName: 'Name',
-        width: 200,
+        width: 240,
         renderCell: (params) => (
             <strong>
                 <Link
@@ -344,6 +344,24 @@ const columns = [
         renderCell: renderCellExpand
     },
     {
+        field: 'location',
+        headerName: 'Location',
+        width: 380,
+        hide: true,
+        type: "string",
+        sortable: false,
+        renderCell: renderCellExpand
+    },
+    {
+        field: 'rawData',
+        headerName: 'Provide raw data',
+        width: 150,
+        hide: true,
+        type: "string",
+        sortable: false,
+        renderCell: renderCellExpand
+    },
+    {
         field: 'licensing',
         headerName: 'Licensing',
         width: 350,
@@ -392,28 +410,8 @@ const columns = [
                     target={'_blank'}
                 >
                     <ReceiptIcon/>
-
-
                 </Link>
         ),
-    },
-    {
-        field: 'location',
-        headerName: 'Location',
-        width: 380,
-        hide: true,
-        type: "string",
-        sortable: false,
-        renderCell: renderCellExpand
-    },
-    {
-        field: 'rawData',
-        headerName: 'Provide raw data',
-        width: 150,
-        hide: true,
-        type: "string",
-        sortable: false,
-        renderCell: renderCellExpand
     },
 ];
 

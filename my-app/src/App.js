@@ -5,7 +5,6 @@ import {rows} from "./data.js";
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
-import {LastUpdate} from "./components/Date";
 import json2mq from 'json2mq';
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
@@ -14,8 +13,7 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         right: "0.5%",
         top: window.innerHeight*0.01,
-//        width: window.innerHeight*0.5,
-        fontSize: 0.015*window.innerHeight,
+        fontSize: 0.007*window.innerWidth,
         border: "1px solid white",
         borderRadius: "5px",
         paddingLeft: "0.25%",
@@ -23,19 +21,31 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         textTransform: "none"
     },
+    lastUpdate: {
+        position: "absolute",
+        left: "0.5%",
+        top: window.innerHeight*0.01,
+        fontSize: 0.007*window.innerWidth,
+        border: "1px solid white",
+        borderRadius: "5px",
+        padding: "0.5%",
+        color: "#3f51b5",
+        textTransform: "none",
+        backgroundColor: "white",
+    },
     title: {
         display: 'block',
         textAlign: 'center',
         float: 'center',
 //        fontSize: "calc(15px + 1vw)",
-        fontSize: 0.04*window.innerHeight,
+        fontSize: 0.02*window.innerWidth,
         paddingTop: ".2%"
     },
     subTitle: {
         textAlign: 'center',
         float: "center",
 //        fontSize: "0.8vw",
-        fontSize: 0.02*window.innerHeight,
+        fontSize: 0.01*window.innerWidth,
         position: "relative"
     },
     customDatagrid: {
@@ -65,7 +75,6 @@ export default function RenderExpandCellGrid() {
         }
         window.addEventListener('resize', handleResize);
         return _ => {
-            console.log("Resized");
             window.removeEventListener('resize', handleResize)
         }
     });
@@ -95,7 +104,6 @@ export default function RenderExpandCellGrid() {
                 Complete* and curated list of autonomous driving related datasets
                 </Typography>
             </div>
-            <LastUpdate/>
             <Button className={classes.note} target={'_blank'} style={{visibility: visContribute}}
                     href={"https://github.com/daniel-bogdoll/ad-datasets"}>
                 *Could not find your dataset? <br/> Simply create a pull request ;)
@@ -104,6 +112,9 @@ export default function RenderExpandCellGrid() {
                     href={"https://github.com/daniel-bogdoll/ad-datasets"}>
                 *GitHub
             </Button>
+            <Typography className={classes.lastUpdate}>
+                Last Update: {process.env.REACT_APP_GIT_SHA}
+            </Typography>
             <DataGrid rows={rows} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
                       sortingOrder={['desc', 'asc']}
                       pageSize={pageSize}

@@ -996,7 +996,8 @@ const rows = [
     },
     {
         id: "CARLA100",
-        href: "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md"
+        href: "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
+        relatedPaper: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Codevilla_Exploring_the_Limitations_of_Behavior_Cloning_for_Autonomous_Driving_ICCV_2019_paper.pdf"
     },
     {
         id: "VITRO",

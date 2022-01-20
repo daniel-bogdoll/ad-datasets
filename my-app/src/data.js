@@ -1246,10 +1246,6 @@ const rows = [
         href: "https://paperswithcode.com/dataset/streetlearn"
     },
     {
-        id: "UTBM robot car",
-        href: "https://epan-utbm.github.io/utbm_robocar_dataset/"
-    },
-    {
         id: "Multi Vehicle Stereo Event Camera",
         href: "https://daniilidis-group.github.io/mvsec/"
     },

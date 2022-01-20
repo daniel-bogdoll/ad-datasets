@@ -1468,6 +1468,13 @@ const rows = [
         relatedPaper: "https://arxiv.org/pdf/2004.08298.pdf",
         benchmark: "semantic segmentation",
         rawData: "Yes"
+    },
+    {
+        id: "UTBM EU LTD",
+        href: "https://epan-utbm.github.io/utbm_robocar_dataset/",
+        relatedPaper: "https://arxiv.org/pdf/1909.03330.pdf",
+        rawData: "Yes",
+        publishDate: new Date("2020-8").toISOString().split('T')[0],
     }
 ];
 

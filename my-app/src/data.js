@@ -1458,8 +1458,15 @@ const rows = [
     {
         id: "Cityscapes-DVPS", //07.08. fertig
         href: "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
-        relatedDatasets: 'Cityscapes ',
+        relatedDatasets: 'Cityscapes',
         relatedPaper: "https://arxiv.org/pdf/2012.05258",
+        rawData: "Yes"
+    },
+    {
+        id: "IDDA",
+        href: "https://idda-dataset.github.io/home/",
+        relatedPaper: "https://arxiv.org/pdf/2004.08298.pdf",
+        benchmark: "semantic segmentation",
         rawData: "Yes"
     }
 ];

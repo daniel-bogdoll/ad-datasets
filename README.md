@@ -20,24 +20,26 @@ This is how the KITTI dataset is integrated into the website:
 ```
 [...]
 {
-    id: "KITTI",                                        
-    href: "http://www.cvlibs.net/datasets/kitti/",      
-    size_hours: "6",                                    
-    size_storage: "180",                                
-    frames: "",                                             
-    numberOfScenes: '50',                               
-    samplingRate: "10",                                 
-    lengthOfScenes: "",                                 
-    sensors: "camera, lidar, gps/imu",                  
+    id: "KITTI", //07.08. fertig
+    href: "http://www.cvlibs.net/datasets/kitti/",
+    size_hours: "6",
+    size_storage: "180",
+    frames: "",
+    numberOfScenes: '50',
+    samplingRate: "10",
+    lengthOfScenes: "",
+    sensors: "camera, lidar, gps/imu",
     sensorDetail: "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and " +
         "GPS navigation system",
     benchmark: " stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
     annotations: "3d bounding boxes",
     licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
     relatedDatasets: 'Semantic KITTI, KITTI-360',
-    publishDate: "2012.03",
-    lastUpdate: "2021.02",
-    relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
+    publishDate: new Date("2012-3").toISOString().split('T')[0],
+    lastUpdate: new Date("2021-2").toISOString().split('T')[0],
+    relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
+    location: "Karlsruhe, Germany",
+    rawData: "Yes"
 },
 [...]
 ```

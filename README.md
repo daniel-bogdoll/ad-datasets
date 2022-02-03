@@ -50,7 +50,7 @@ This is how the KITTI dataset is integrated into the website:
 
 In the following, the scheme according to which the entries of the respective properties have resulted is illuminated. 
 
-###### Annotations.
+###### Annotations
 This property describes the types
 of annotations with which the data sets have been
 provided.
@@ -124,4 +124,7 @@ storage size of the data set in gigabytes.
 The Size [h] property is the equivalent of the
 Size [GB] described above, but provides information
 on the size of the data set in hours.
-
+###### Location
+The place(s) the data was recorded at
+###### rawData
+Denotes if the dataset provides raw or processed data

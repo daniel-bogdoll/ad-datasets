@@ -128,3 +128,14 @@ on the size of the data set in hours.
 The place(s) the data was recorded at
 ###### rawData
 Denotes if the dataset provides raw or processed data
+
+## Citation
+If you find this code useful for your research, please cite our paper:
+```
+@article{Bogdoll_addatasets_2022_VEHITS,
+    author    = {Bogdoll, Daniel and Schreyer, Felix, and Z\"{o}llner, J. Marius},
+    title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
+    journal   = {arXiv preprint:2202.01909},
+    year      = {2022},
+}
+```

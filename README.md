@@ -130,7 +130,7 @@ The place(s) the data was recorded at
 Denotes if the dataset provides raw or processed data
 
 ## Citation
-If you find this code useful for your research, please cite our paper:
+If you find our work useful for your research, please cite our paper:
 ```
 @article{Bogdoll_addatasets_2022_VEHITS,
     author    = {Bogdoll, Daniel and Schreyer, Felix, and Z\"{o}llner, J. Marius},

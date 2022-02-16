@@ -1333,6 +1333,11 @@ const rows = [
         
     },
     {
+        id: "MOTSynth",
+        href: "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
+        relatedPaper: "https://arxiv.org/pdf/2108.09518.pdf"
+    },
+    {
         id: "EISATS",
         href: "https://ccv.wordpress.fos.auckland.ac.nz/eisats/",
         size_storage: "",

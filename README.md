@@ -1,6 +1,6 @@
-## [AD Datasets](https://ad-datasets.com)
+## [ad-datasets](https://ad-datasets.com)
 
-Complete* and curated list of autonomous driving related datasets. More details can be found in [ad-datasets: a meta-collection of data sets for autonomous driving](https://arxiv.org/abs/2202.01909).
+Complete* and curated list of datasets in the field of autonomous driving. More details can be found in [ad-datasets: a meta-collection of data sets for autonomous driving](https://arxiv.org/abs/2202.01909).
 
 ## Contributing
 

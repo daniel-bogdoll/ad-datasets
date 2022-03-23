@@ -41,6 +41,7 @@ jobs:
   build-process: #second job responsible for building the updated version of the application
     needs: build
     runs-on: ubuntu-latest
+    if: always()
     strategy: 
       max-parallel: 1
       matrix:

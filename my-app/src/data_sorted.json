@@ -669,6 +669,29 @@
         "citationCount": 23
     },
     {
+        "id": "Ford Autonomous Vehicle Dataset",
+        "href": "https://avdata.ford.com/",
+        "size_storage": "",
+        "size_hours": "",
+        "frames": "",
+        "numberOfScenes": "",
+        "samplingRate": "",
+        "lengthOfScenes": "",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
+        "benchmark": "",
+        "annotations": "3d point cloud maps, ground reflectivity map",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "",
+        "publishDate": "2020-03-01",
+        "lastUpdate": "",
+        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+        "location": "Michigan, USA",
+        "rawData": "True",
+        "DOI": "10.1177/0278364920961451",
+        "citationCount": 22
+    },
+    {
         "id": "UTBM EU LTD",
         "href": "https://epan-utbm.github.io/utbm_robocar_dataset/",
         "relatedPaper": "https://arxiv.org/pdf/1909.03330.pdf",
@@ -933,29 +956,6 @@
         "lastUpdate": "",
         "location": "",
         "rawData": "True",
-        "citationCount": 0
-    },
-    {
-        "id": "Ford Autonomous Vehicle Dataset",
-        "href": "https://avdata.ford.com/",
-        "size_storage": "",
-        "size_hours": "",
-        "frames": "",
-        "numberOfScenes": "",
-        "samplingRate": "",
-        "lengthOfScenes": "",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
-        "benchmark": "",
-        "annotations": "3d point cloud maps, ground reflectivity map",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "",
-        "publishDate": "2020-03-01",
-        "lastUpdate": "",
-        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
-        "location": "Michigan, USA",
-        "rawData": "True",
-        "DOI": "10.1177/0278364920961451",
         "citationCount": 0
     },
     {
@@ -1618,6 +1618,11 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
+        "citationCount": 0
+    },
+    {
+        "id": "Test Data Set",
+        "href": "google.com",
         "citationCount": 0
     }
 ]

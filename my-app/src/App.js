@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import {columns} from './columns.js';
-import {rows} from "./deprecated/data.js";
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';

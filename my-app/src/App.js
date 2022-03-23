@@ -3,8 +3,7 @@ import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import {columns} from './columns.js';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import { Button } from '@material-ui/core';
-import json2mq from 'json2mq';
+
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Data from './data_sorted.json';
 

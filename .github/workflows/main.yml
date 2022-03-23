@@ -3,6 +3,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy: 
+      max-parallel: 1
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 

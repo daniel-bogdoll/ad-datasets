@@ -395,6 +395,14 @@ const columns = [
         renderCell: renderCellExpand
     },
     {
+        field: 'citationCount',
+        headerName: '# of Citations',
+        width: 150,
+        hide: true,
+        type: "number",
+        renderCell: renderCellExpand
+    },
+    {
         field: 'relatedPaper',
         headerName: 'Related Paper',
         width: 150,

@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 769
+        "citationCount": 770
     },
     {
         "id": "Caltech Pedestrian",
@@ -269,7 +269,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 117
+        "citationCount": 118
     },
     {
         "id": "KITTI-360",
@@ -539,6 +539,28 @@
         "location": "",
         "rawData": "Yes",
         "citationCount": 58
+    },
+    {
+        "id": "Fishyscapes",
+        "href": "https://fishyscapes.com/",
+        "size_storage": "",
+        "size_hours": "",
+        "frames": "",
+        "numberOfScenes": "",
+        "samplingRate": "",
+        "lengthOfScenes": "",
+        "sensors": "camera",
+        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
+        "benchmark": "anomaly detection for semantic segmentation",
+        "annotations": "semantic segmentation",
+        "licensing": "",
+        "relatedDatasets": "Cityscapes, LostAndFound",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "",
+        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
+        "location": "",
+        "rawData": "No",
+        "citationCount": 43
     },
     {
         "id": "NightOwls",
@@ -913,28 +935,6 @@
         "lastUpdate": "",
         "location": "San Francisco and El Camina Real, USA",
         "rawData": "Yes",
-        "citationCount": 0
-    },
-    {
-        "id": "Fishyscapes",
-        "href": "https://fishyscapes.com/",
-        "size_storage": "",
-        "size_hours": "",
-        "frames": "",
-        "numberOfScenes": "",
-        "samplingRate": "",
-        "lengthOfScenes": "",
-        "sensors": "camera",
-        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
-        "benchmark": "anomaly detection for semantic segmentation",
-        "annotations": "semantic segmentation",
-        "licensing": "",
-        "relatedDatasets": "Cityscapes, LostAndFound",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "",
-        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
-        "location": "",
-        "rawData": "No",
         "citationCount": 0
     },
     {
@@ -1618,21 +1618,6 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
-        "citationCount": 0
-    },
-    {
-        "id": "Test Data Set",
-        "href": "google.com",
-        "citationCount": 0
-    },
-    {
-        "id": "Test Data Set 2",
-        "href": "microsoft.com",
-        "citationCount": 0
-    },
-    {
-        "id": "Test Data Set 3",
-        "href": "microsoft.com",
         "citationCount": 0
     }
 ]

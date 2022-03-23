@@ -3,7 +3,7 @@ name: Sort Entries of Data Sets
 on:
   push:
     branches: [ main ]
-
+    paths: [my-app/src/data.json]
 jobs:
   build:
     runs-on: ubuntu-latest

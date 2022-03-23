@@ -1,5 +1,10 @@
 name: Build gh-pages
-on: [push]
+on:
+  workflow_run:
+    workflows: ["CI build"]
+    types:
+        - completed
+  push:
 jobs:
   build-process:
     runs-on: ubuntu-latest
@@ -25,3 +30,5 @@ jobs:
         cname: ad-datasets.com
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+        
+      

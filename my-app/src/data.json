@@ -1458,17 +1458,5 @@
 "id": "MOTSynth",
 "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
 "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf"
-},
-{
-"id": "Test Data Set",
-"href": "google.com"
-},
-  {
-    "id": "Test Data Set 2",
-    "href": "microsoft.com"
-  },
-  {
-    "id": "Test Data Set 3",
-    "href": "microsoft.com"
-  }
+}
 ]

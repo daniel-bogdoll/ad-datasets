@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import {columns} from './columns.js';
-import {rows} from "./data.js";
+import {rows} from "./deprecated/data.js";
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
 import json2mq from 'json2mq';
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import Data from './data_sorted.json';
 
 const useStyles = makeStyles((theme) => ({
     note: {
@@ -115,7 +116,7 @@ export default function RenderExpandCellGrid() {
             <Typography className={classes.lastUpdate}>
                 Last Update: {process.env.REACT_APP_GIT_SHA}
             </Typography>
-            <DataGrid rows={rows} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
+            <DataGrid rows={Data} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
                       sortingOrder={['desc', 'asc']}
                       pageSize={pageSize}
                       onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}

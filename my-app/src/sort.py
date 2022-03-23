@@ -2,8 +2,8 @@ import json
 import requests
 import warnings
 
-file_name = "data.json"
-file_save = "data_sorted.json"
+file_name = "my-app/src/data.json"
+file_save = "my-app/src/data_sorted.json"
 
 # convert json into python dictionary
 with open(file_name, "r") as ds:

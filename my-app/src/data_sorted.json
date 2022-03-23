@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 769
+        "citationCount": 770
     },
     {
         "id": "Caltech Pedestrian",
@@ -269,7 +269,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 117
+        "citationCount": 118
     },
     {
         "id": "KITTI-360",

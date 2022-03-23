@@ -38,6 +38,13 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
            github_token: ${{ secrets.GITHUB_TOKEN }}
+  build-process:
+    runs-on: ubuntu-latest
+    strategy: 
+      max-parallel: 1
+      matrix:
+        node-version: [12.x]
+    steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2

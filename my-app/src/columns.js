@@ -8,28 +8,66 @@ import { makeStyles } from '@material-ui/styles';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import {CameraTag, LidarTag, RadarTag, RandomTag, AnalyzedTag, PartiallyAnalyzedTag, IncompleteAnalyzedTag} from "./components/tags";
 
+
 function isOverflown(element) {
     return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
 
+// Number of properties the application currently covers
+let NUMBER_OF_JSON_PROPERTIES = 21;
 
+/***
+ *
+ * @param dataset: data set whose completeness has to be checked
+ * @returns {number} returns a number between 0 and 2
+ * 0 represents a complete dataset
+ * 1 represents a partially complete data set (contains essential info, but misses non-essential)
+ * 2 represents an incomplete data set that misses essential (=name, href, DOI or arxiv link) information
+ *
+ * Function that checks whether the information on a given data set is complete, partially complete or missing essential
+ * information and therefore incomplete
+ */
 function checkCompleteness(dataset) {
-    let info = (Object.entries(dataset)[2][1]);
-    let info2 = (Object.entries(info));
-    let test=0;
-    info2.forEach(entry => {
-        if (entry[1]===""){
-            test = 1;
+    let info = (Object.entries(Object.entries(dataset.row)));
+    let x = 0;
+
+    // Check whether data set entry covers all properties
+    // Distinction between data sets with and without DOI as data set without doi but with arxiv paper can be complete
+    try {
+        if(info[19][0]==="DOI")
+            if (info.length<NUMBER_OF_JSON_PROPERTIES){
+                x = 1;
+            }
+        else {
+            if (info.length<NUMBER_OF_JSON_PROPERTIES-1){
+                x = 1;
+            }
+        }
+    }
+    catch (e) {
+        x = 1
+    }
+    // Check if entries in data set properties remained empty
+    info.forEach(entry => {
+        if (!entry[1][1]){
+            x = 1;
         }
     });
-    console.log(dataset.getValue(dataset.id, 'DOI'))
-    if ((dataset.getValue(dataset.id, 'DOI')===undefined && !dataset.getValue(dataset.id, 'relatedPaper').includes("arxiv"))||
-        dataset.getValue(dataset.id, 'href')===undefined|| dataset.getValue(dataset.id, 'id')===undefined) {
-        return 2;
-    } else if(test===1){
-        return 1;
+
+    // Check whether data set entry misses essential properties as name, href, or DOI/arxiv paper
+    if (
+        (
+        dataset.getValue(dataset.id, 'DOI')===undefined &&
+        (dataset.getValue(dataset.id, 'relatedPaper')!==undefined && !dataset.getValue(dataset.id, 'relatedPaper').includes("arxiv"))
+        )
+        || dataset.getValue(dataset.id, 'href')===undefined
+        || dataset.getValue(dataset.id, 'id')===undefined
+        || (dataset.getValue(dataset.id, 'DOI')===undefined && dataset.getValue(dataset.id, 'relatedPaper')===undefined)
+    ) {
+        x = 2;
     }
-    else return 0
+    //If x=2 data set incomplete, if x=1 data set partially complete, if x=0 data set complete
+    return x
 }
 
 

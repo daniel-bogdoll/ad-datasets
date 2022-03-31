@@ -1,5 +1,4 @@
 import Chip from "@material-ui/core/Chip";
-import ReactTooltip from "react-tooltip";
 import * as React from "react";
 import TimelineDot from '@mui/lab/TimelineDot';
 

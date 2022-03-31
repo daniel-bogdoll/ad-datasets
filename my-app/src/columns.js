@@ -1,5 +1,4 @@
 import * as React from 'react';
-import ReactTooltip from "react-tooltip";
 import Link from "@material-ui/core/Link";
 import Typography from "@material-ui/core/Typography"
 import PropTypes from 'prop-types';

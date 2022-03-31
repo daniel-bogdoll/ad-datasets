@@ -57,6 +57,8 @@ provided.
 ###### Benchmark
 If benchmark challenges are explicitly
 listed with the data sets, they are specified here.
+###### Citations
+Citations states the number of citations of the respective paper of a data set.
 ###### Frames
 Frames states the number of frames in the
 data set. This includes training, test and validation

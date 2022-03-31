@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ReactTooltip from "react-tooltip";
 import Link from "@material-ui/core/Link";
 import Typography from "@material-ui/core/Typography"
 import PropTypes from 'prop-types';
@@ -6,12 +7,31 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
 import ReceiptIcon from '@material-ui/icons/Receipt';
-import {CameraTag, LidarTag, RadarTag, RandomTag} from "./components/tags";
+import {CameraTag, LidarTag, RadarTag, RandomTag, AnalyzedTag, PartiallyAnalyzedTag, IncompleteAnalyzedTag} from "./components/tags";
 
 function isOverflown(element) {
     return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
 
+
+function checkCompleteness(dataset) {
+    let info = (Object.entries(dataset)[2][1]);
+    let info2 = (Object.entries(info));
+    let test=0;
+    info2.forEach(entry => {
+        if (entry[1]===""){
+            test = 1;
+        }
+    });
+    console.log(dataset.getValue(dataset.id, 'DOI'))
+    if (dataset.getValue(dataset.id, 'DOI')===undefined||dataset.getValue(dataset.id, 'href')===undefined||
+        dataset.getValue(dataset.id, 'id')===undefined) {
+        return 2;
+    } else if(test===1){
+        return 1;
+    }
+    else return 0
+}
 
 
 /***
@@ -190,20 +210,77 @@ const columns = [
         field: 'id',
         headerName: 'Name',
         width: 240,
-        renderCell: (params) => (
-            <strong>
-                <Link
-                    variant="contained"
-                    color="primary"
-                    size="small"
-                    style={{ marginLeft: 16 }}
-                    href={params.getValue(params.id, 'href') || ''}
-                    target={'_blank'}
-                >
-                    {params.getValue(params.id, 'id') || ''}
-                </Link>
-            </strong>
-        ),
+        renderCell: (params) => {
+            if (checkCompleteness(params)===0) {
+                return(
+                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
+                    <AnalyzedTag/>
+                    <strong>
+                        <Link
+                            variant="contained"
+                            color="primary"
+                            size="small"
+                            style={{marginLeft: 6}}
+                            href={params.getValue(params.id, 'href') || ''}
+                            target={'_blank'}
+                        >
+                            {params.getValue(params.id, 'id') || ''}
+                        </Link>
+                    </strong>
+                </div>)
+            }
+            else if (checkCompleteness(params)===1){
+                return (
+                    <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
+                        <PartiallyAnalyzedTag/>
+                        <strong>
+                            <Link
+                                variant="contained"
+                                color="primary"
+                                size="small"
+                                style={{marginLeft: 6}}
+                                href={params.getValue(params.id, 'href') || ''}
+                                target={'_blank'}
+                            >
+                                {params.getValue(params.id, 'id') || ''}
+                            </Link>
+                        </strong>
+                    </div>
+                )
+            }
+            else if (checkCompleteness(params)===2)
+                return (
+                    <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
+                        <IncompleteAnalyzedTag/>
+                        <strong>
+                            <Link
+                                variant="contained"
+                                color="primary"
+                                size="small"
+                                style={{marginLeft: 6}}
+                                href={params.getValue(params.id, 'href') || ''}
+                                target={'_blank'}
+                            >
+                                {params.getValue(params.id, 'id') || ''}
+                            </Link>
+                        </strong>
+                    </div>
+                )
+        },
+    },
+    {
+        field: 'citationCount',
+        headerName: '# of Citations',
+        width: 150,
+        align: 'right',
+        type: 'number',
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted !== "0" && valueFormatted !== "NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        }
     },
     {
         field: 'size_hours',
@@ -392,14 +469,6 @@ const columns = [
         width: 150,
         hide: true,
         type: "date",
-        renderCell: renderCellExpand
-    },
-    {
-        field: 'citationCount',
-        headerName: '# of Citations',
-        width: 150,
-        hide: true,
-        type: "number",
         renderCell: renderCellExpand
     },
     {

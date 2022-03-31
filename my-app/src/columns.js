@@ -23,8 +23,8 @@ function checkCompleteness(dataset) {
         }
     });
     console.log(dataset.getValue(dataset.id, 'DOI'))
-    if (dataset.getValue(dataset.id, 'DOI')===undefined||dataset.getValue(dataset.id, 'href')===undefined||
-        dataset.getValue(dataset.id, 'id')===undefined) {
+    if ((dataset.getValue(dataset.id, 'DOI')===undefined && !dataset.getValue(dataset.id, 'relatedPaper').includes("arxiv"))||
+        dataset.getValue(dataset.id, 'href')===undefined|| dataset.getValue(dataset.id, 'id')===undefined) {
         return 2;
     } else if(test===1){
         return 1;

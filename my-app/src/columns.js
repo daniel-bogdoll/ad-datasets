@@ -179,12 +179,15 @@ GridCellExpand.propTypes = {
 };
 
 function renderCellExpand(params) {
-    return (
-        <GridCellExpand
-            value={params.value ? params.value.toString() : ''}
-            width={params.colDef.width}
-        />
-    );
+    if(params.value!== "-" ) {
+        return (
+            <GridCellExpand
+                value={params.value ? params.value.toString() : ''}
+                width={params.colDef.width}
+            />
+        );
+    }
+    return "";
 }
 
 renderCellExpand.propTypes = {
@@ -344,6 +347,13 @@ const columns = [
         width: 180,
         hide: true,
         type: "number",
+        valueFormatter: (params) => {
+            const valueFormatted = Number(params.value).toLocaleString();
+            if (valueFormatted!=="0" && valueFormatted!=="NaN")
+                return `${valueFormatted}`;
+            else
+                return "";
+        },
     },
     {
         field: 'lengthOfScenes',

@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4388
+        "citationCount": 4406
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1093
+        "citationCount": 1107
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1093
+        "citationCount": 1107
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 774
+        "citationCount": 779
     },
     {
         "id": "Caltech Pedestrian",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 489
+        "citationCount": 499
     },
     {
         "id": "BDD100k",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 403
+        "citationCount": 410
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 396
+        "citationCount": 400
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 396
+        "citationCount": 400
     },
     {
         "id": "ApolloScape",
@@ -224,7 +224,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 199
+        "citationCount": 200
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -248,6 +248,28 @@
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
         "citationCount": 127
+    },
+    {
+        "id": "INTERACTION dataset",
+        "href": "https://interaction-dataset.com/",
+        "size_storage": "-",
+        "size_hours": "16.5",
+        "frames": "594588",
+        "numberOfScenes": "-",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
+        "benchmark": "motion prediction",
+        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
+        "location": "USA, China, Germany and Bulgaria",
+        "rawData": "Yes",
+        "citationCount": 120
     },
     {
         "id": "KITTI-360",
@@ -292,29 +314,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 118
-    },
-    {
-        "id": "INTERACTION dataset",
-        "href": "https://interaction-dataset.com/",
-        "size_storage": "-",
-        "size_hours": "16.5",
-        "frames": "594588",
-        "numberOfScenes": "-",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
-        "benchmark": "motion prediction",
-        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
-        "location": "USA, China, Germany and Bulgaria",
-        "rawData": "Yes",
-        "citationCount": 116
+        "citationCount": 119
     },
     {
         "id": "India Driving Dataset",
@@ -360,7 +360,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 99
+        "citationCount": 100
     },
     {
         "id": "H3D",
@@ -382,7 +382,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1903.01568.pdf",
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 92
+        "citationCount": 93
     },
     {
         "id": "KAIST Urban",
@@ -450,7 +450,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 76
+        "citationCount": 78
     },
     {
         "id": "A2D2",
@@ -472,7 +472,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 66
+        "citationCount": 68
     },
     {
         "id": "Lyft Level5 Prediction",
@@ -494,7 +494,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 64
+        "citationCount": 65
     },
     {
         "id": "Lyft Level5 Perception",
@@ -516,7 +516,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 64
+        "citationCount": 65
     },
     {
         "id": "LostAndFound",
@@ -583,7 +583,7 @@
         "location": "Several cities across Europe",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
-        "citationCount": 36
+        "citationCount": 37
     },
     {
         "id": "SemKITTI-DVPS",
@@ -592,7 +592,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
-        "citationCount": 33
+        "citationCount": 35
     },
     {
         "id": "Cityscapes-DVPS",
@@ -600,7 +600,7 @@
         "relatedDatasets": "Cityscapes",
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
-        "citationCount": 33
+        "citationCount": 35
     },
     {
         "id": "Waymo Open Motion",
@@ -644,7 +644,7 @@
         "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
-        "citationCount": 23
+        "citationCount": 24
     },
     {
         "id": "RADIATE",
@@ -666,15 +666,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 23
-    },
-    {
-        "id": "UTBM EU LTD",
-        "href": "https://epan-utbm.github.io/utbm_robocar_dataset/",
-        "relatedPaper": "https://arxiv.org/pdf/1909.03330.pdf",
-        "rawData": "Yes",
-        "publishDate": "2020-08-01",
-        "citationCount": 23
+        "citationCount": 24
     },
     {
         "id": "Ford Autonomous Vehicle Dataset",
@@ -697,7 +689,15 @@
         "location": "Michigan, USA",
         "rawData": "True",
         "DOI": "10.1177/0278364920961451",
-        "citationCount": 22
+        "citationCount": 23
+    },
+    {
+        "id": "UTBM EU LTD",
+        "href": "https://epan-utbm.github.io/utbm_robocar_dataset/",
+        "relatedPaper": "https://arxiv.org/pdf/1909.03330.pdf",
+        "rawData": "Yes",
+        "publishDate": "2020-08-01",
+        "citationCount": 23
     },
     {
         "id": "DDD 20",
@@ -719,7 +719,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2005.08605.pdf",
         "location": "California, USA",
         "rawData": "Yes",
-        "citationCount": 19
+        "citationCount": 20
     },
     {
         "id": "4Seasons",
@@ -739,6 +739,28 @@
         "publishDate": "2020-10-01",
         "lastUpdate": "-",
         "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 12
+    },
+    {
+        "id": "RadarScenes",
+        "href": "https://radar-scenes.com/",
+        "size_storage": "-",
+        "size_hours": "4",
+        "frames": "-",
+        "numberOfScenes": "158",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, odometry",
+        "sensorDetail": "4x 77 GHz series production automotive 60° radar sensor, 1x documentary camera",
+        "benchmark": "-",
+        "annotations": "point-wise",
+        "licensing": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2021-03-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2104.02493.pdf",
         "location": "-",
         "rawData": "Yes",
         "citationCount": 12
@@ -794,28 +816,6 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 11
-    },
-    {
-        "id": "RadarScenes",
-        "href": "https://radar-scenes.com/",
-        "size_storage": "-",
-        "size_hours": "4",
-        "frames": "-",
-        "numberOfScenes": "158",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, radar, odometry",
-        "sensorDetail": "4x 77 GHz series production automotive 60° radar sensor, 1x documentary camera",
-        "benchmark": "-",
-        "annotations": "point-wise",
-        "licensing": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2021-03-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2104.02493.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 10
     },
     {
         "id": "Semantic KITTI",
@@ -915,6 +915,12 @@
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
         "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
         "citationCount": 4
+    },
+    {
+        "id": "SODA10M",
+        "href": "https://soda-2d.github.io/",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
+        "citationCount": 1
     },
     {
         "id": "PandaSet",
@@ -1618,6 +1624,16 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
+        "citationCount": 0
+    },
+    {
+        "id": "Argoverse 2",
+        "href": "https://www.argoverse.org/av2.html",
+        "citationCount": 0
+    },
+    {
+        "id": "CODA",
+        "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
         "citationCount": 0
     }
 ]

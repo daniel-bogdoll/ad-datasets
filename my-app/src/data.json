@@ -1458,5 +1458,18 @@
 "id": "MOTSynth",
 "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
 "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf"
-}
+},
+  {
+    "id": "Argoverse 2",
+    "href": "https://www.argoverse.org/av2.html"
+  },
+  {
+    "id": "CODA",
+    "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf"
+  },
+  {
+    "id": "SODA10M",
+    "href": "https://soda-2d.github.io/",
+    "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf"
+  }
 ]

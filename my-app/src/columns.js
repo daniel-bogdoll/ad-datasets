@@ -16,6 +16,10 @@ function isOverflown(element) {
 // Number of properties the application currently covers
 let NUMBER_OF_JSON_PROPERTIES = 21;
 
+export var fullyAnalyzed = 0;
+export var partiallyAnalyzed = 0;
+export var incomplete = 0;
+
 /***
  *
  * @param dataset: data set whose completeness has to be checked
@@ -310,7 +314,7 @@ const columns = [
     },
     {
         field: 'citationCount',
-        headerName: '# of Citations',
+        headerName: 'N° Citations',
         width: 150,
         align: 'right',
         type: 'number',

@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4406
+        "citationCount": 4419
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1107
+        "citationCount": 1114
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1107
+        "citationCount": 1114
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 779
+        "citationCount": 783
     },
     {
         "id": "Caltech Pedestrian",
@@ -111,7 +111,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 640
+        "citationCount": 639
     },
     {
         "id": "Waymo Open Perception",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 410
+        "citationCount": 416
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 400
+        "citationCount": 402
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 400
+        "citationCount": 402
     },
     {
         "id": "ApolloScape",
@@ -224,7 +224,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 200
+        "citationCount": 202
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -247,7 +247,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 127
+        "citationCount": 128
     },
     {
         "id": "INTERACTION dataset",
@@ -268,6 +268,28 @@
         "lastUpdate": "-",
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
+        "rawData": "Yes",
+        "citationCount": 122
+    },
+    {
+        "id": "Oxford Radar Robot Car",
+        "href": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
+        "size_storage": "4700",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "32",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, radar, gps/imu",
+        "sensorDetail": "1 x Navtech CTS350-X Millimetre-Wave FMCW radar 4 Hz, 2 x Velodyne HDL-32E LIDAR 360°32 planes 20 Hz, 1 x Point Grey Bumblebee XB3 trinocular stereo camera 1280×960×3 16 Hz 66°3 x Point Grey Grasshopper2 1024×1024 11.1 Hz 180°, 2 x SICK LMS-151 2D LIDAR 270° 50Hz, 1 x NovAtel SPAN-CPT ALIGN inertial and GPS navigation system 6 axis 50Hz,",
+        "benchmark": "-",
+        "annotations": "ground truth data",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "Oxford Robot Car",
+        "publishDate": "2020-02-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
+        "location": "Oxford",
         "rawData": "Yes",
         "citationCount": 120
     },
@@ -295,28 +317,6 @@
         "citationCount": 119
     },
     {
-        "id": "Oxford Radar Robot Car",
-        "href": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
-        "size_storage": "4700",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "32",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, radar, gps/imu",
-        "sensorDetail": "1 x Navtech CTS350-X Millimetre-Wave FMCW radar 4 Hz, 2 x Velodyne HDL-32E LIDAR 360°32 planes 20 Hz, 1 x Point Grey Bumblebee XB3 trinocular stereo camera 1280×960×3 16 Hz 66°3 x Point Grey Grasshopper2 1024×1024 11.1 Hz 180°, 2 x SICK LMS-151 2D LIDAR 270° 50Hz, 1 x NovAtel SPAN-CPT ALIGN inertial and GPS navigation system 6 axis 50Hz,",
-        "benchmark": "-",
-        "annotations": "ground truth data",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "Oxford Robot Car",
-        "publishDate": "2020-02-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
-        "location": "Oxford",
-        "rawData": "Yes",
-        "citationCount": 119
-    },
-    {
         "id": "India Driving Dataset",
         "href": "https://idd.insaan.iiit.ac.in/",
         "size_storage": "-",
@@ -337,7 +337,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 113
+        "citationCount": 114
     },
     {
         "id": "KAIST Multi-Spectral Day/Night",
@@ -427,7 +427,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
         "location": "-",
         "rawData": "-",
-        "citationCount": 79
+        "citationCount": 80
     },
     {
         "id": "WildDash",
@@ -450,7 +450,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 78
+        "citationCount": 79
     },
     {
         "id": "A2D2",
@@ -494,7 +494,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 65
+        "citationCount": 67
     },
     {
         "id": "Lyft Level5 Perception",
@@ -516,7 +516,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 65
+        "citationCount": 67
     },
     {
         "id": "LostAndFound",
@@ -538,7 +538,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 58
+        "citationCount": 59
     },
     {
         "id": "Fishyscapes",
@@ -622,7 +622,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 27
+        "citationCount": 28
     },
     {
         "id": "Comma2k19",
@@ -644,7 +644,7 @@
         "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
-        "citationCount": 24
+        "citationCount": 25
     },
     {
         "id": "RADIATE",

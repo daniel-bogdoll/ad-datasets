@@ -7,6 +7,8 @@ import { Button } from '@material-ui/core';
 import json2mq from 'json2mq';
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Data from './data_sorted.json';
+import {AnalyzedTag, IncompleteAnalyzedTag, PartiallyAnalyzedTag} from "./components/tags";
+import {fullyAnalyzed, partiallyAnalyzed, incomplete} from "./columns";
 
 const useStyles = makeStyles((theme) => ({
     note: {
@@ -57,6 +59,14 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#3f51b5",
         color: "white",
     },
+    legend: {
+        bottom: "1%",
+        left: "1%",
+        backgroundColor: "white",
+        position: "absolute",
+        fontSize: "10px",
+        display: "flex", flexDirection: "row", alignItems: "flex-start"
+    }
 }));
 
 
@@ -114,6 +124,21 @@ export default function RenderExpandCellGrid() {
             </Button>
             <Typography className={classes.lastUpdate}>
                 Last Update: {process.env.REACT_APP_GIT_SHA}
+            </Typography>
+            <Typography className={classes.legend}>
+                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
+                    <AnalyzedTag/>
+                    <p>Completely Analyzed Dataset {fullyAnalyzed}</p>
+                </div>
+                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
+                    <PartiallyAnalyzedTag/>
+                    <p>Partially Analyzed Dataset {partiallyAnalyzed}</p>
+                </div>
+                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
+                    <IncompleteAnalyzedTag/>
+                    <p>Dataset missing essential information {incomplete} </p>
+
+                </div>
             </Typography>
             <DataGrid rows={Data} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
                       sortingOrder={['desc', 'asc']}

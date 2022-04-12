@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4419
+        "citationCount": 4425
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1114
+        "citationCount": 1118
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1114
+        "citationCount": 1118
     },
     {
         "id": "Oxford Robot Car",
@@ -111,7 +111,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 639
+        "citationCount": 640
     },
     {
         "id": "Waymo Open Perception",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 499
+        "citationCount": 500
     },
     {
         "id": "BDD100k",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 416
+        "citationCount": 417
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 402
+        "citationCount": 403
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 402
+        "citationCount": 403
     },
     {
         "id": "ApolloScape",
@@ -291,7 +291,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 120
+        "citationCount": 121
     },
     {
         "id": "KITTI-360",
@@ -337,7 +337,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 114
+        "citationCount": 115
     },
     {
         "id": "KAIST Multi-Spectral Day/Night",
@@ -405,7 +405,7 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 81
+        "citationCount": 82
     },
     {
         "id": "Synscapes",
@@ -592,7 +592,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
-        "citationCount": 35
+        "citationCount": 36
     },
     {
         "id": "Cityscapes-DVPS",
@@ -600,7 +600,7 @@
         "relatedDatasets": "Cityscapes",
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
-        "citationCount": 35
+        "citationCount": 36
     },
     {
         "id": "Waymo Open Motion",
@@ -884,6 +884,12 @@
         "citationCount": 6
     },
     {
+        "id": "MOTSynth",
+        "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
+        "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
+        "citationCount": 5
+    },
+    {
         "id": "PepScenes",
         "href": "https://github.com/huawei-noah/PePScenes",
         "relatedPaper": "https://arxiv.org/pdf/2012.07773.pdf",
@@ -908,12 +914,6 @@
         "lastUpdate": "",
         "relatedPaper": "https://ieeexplore.ieee.org/document/9109704",
         "DOI": "10.1109/MITS.2020.2990183",
-        "citationCount": 4
-    },
-    {
-        "id": "MOTSynth",
-        "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
-        "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
         "citationCount": 4
     },
     {
@@ -1634,6 +1634,12 @@
     {
         "id": "CODA",
         "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
+        "citationCount": 0
+    },
+    {
+        "id": "Rope3D",
+        "href": "https://thudair.baai.ac.cn/rope",
+        "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf",
         "citationCount": 0
     }
 ]

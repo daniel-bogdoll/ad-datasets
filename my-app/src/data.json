@@ -1471,5 +1471,10 @@
     "id": "SODA10M",
     "href": "https://soda-2d.github.io/",
     "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf"
+  },
+ {
+    "id": "Rope3D",
+    "href": "https://thudair.baai.ac.cn/rope",
+    "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf"
   }
 ]

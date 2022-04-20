@@ -872,7 +872,26 @@
 },
 {
 "id": "AIODrive",
-"href": "http://www.aiodrive.org/overview.html"
+"href": "http://www.aiodrive.org/overview.html",
+"size_hours": "",
+"size_storage": "3,041.71",
+"frames": "100,000",
+"numberOfScenes": "100",
+"samplingRate": "",
+"lengthOfScenes": "100",
+"sensors": "camera, lidar, radar, gps/imu",
+"sensorDetail": "5x color cameras 1920x720 10Hz, 5x depth cameras 1920x720 10Hz, 3x lidar 64/800/1200 channels 360° 10Hz, 1x SPAD-LiDAR, 4x radar 360° 10Hz, 1x gps/imu 10Hz",
+"type": "synthetic",
+"benchmark": "3d object detection, trajectory forecasting",
+"annotations": "2d/3d bounding boxes, object category and attributes, 2d-3d semantic, instance and panoptic segmentation",
+"licensing": "freely available for both commercial and non-commercial purposes",
+"relatedDatasets": "-",
+"publishDate": "2021-04-06",
+"lastUpdate": "",
+"relatedPaper": "https://www.xinshuoweng.com/papers/AIODrive/arXiv.pdf",
+"location": "CARLA environment",
+"rawData": "Yes",
+"DOI": ""
 },
 {
 "id": "ROAD",

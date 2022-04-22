@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4448
+        "citationCount": 4451
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1137
+        "citationCount": 1142
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1137
+        "citationCount": 1142
     },
     {
         "id": "Oxford Robot Car",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 511
+        "citationCount": 513
     },
     {
         "id": "BDD100k",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 424
+        "citationCount": 426
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 411
+        "citationCount": 413
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 411
+        "citationCount": 413
     },
     {
         "id": "ApolloScape",
@@ -224,7 +224,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 207
+        "citationCount": 208
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -337,7 +337,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 119
+        "citationCount": 120
     },
     {
         "id": "KAIST Multi-Spectral Day/Night",
@@ -360,7 +360,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 100
+        "citationCount": 101
     },
     {
         "id": "H3D",
@@ -472,7 +472,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 69
+        "citationCount": 70
     },
     {
         "id": "Lyft Level5 Perception",
@@ -494,7 +494,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 69
+        "citationCount": 70
     },
     {
         "id": "A2D2",
@@ -516,7 +516,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 69
+        "citationCount": 70
     },
     {
         "id": "LostAndFound",
@@ -727,7 +727,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.08298.pdf",
         "benchmark": "semantic segmentation",
         "rawData": "Yes",
-        "citationCount": 13
+        "citationCount": 14
     },
     {
         "id": "RoadAnomaly21",
@@ -1253,6 +1253,11 @@
     {
         "id": "Highway Work Zones",
         "href": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/",
+        "citationCount": 0
+    },
+    {
+        "id": "Amodal Cityscapes",
+        "href": "https://github.com/ifnspaml/AmodalCityscapes",
         "citationCount": 0
     },
     {

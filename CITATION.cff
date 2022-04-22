@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you find our work useful, please cite it as below."
+authors:
+- family-names: "Bogdoll"
+  given-names: "Daniel"
+  orcid: "https://orcid.org/0000-0003-0432-4937"
+- family-names: "Schreyer"
+  given-names: "Felix"
+- family-names: "Zöllner"
+  given-names: "J. Marius"
+title: "ad-datasets: a meta-collection of data sets for autonomous driving"
+url: "https://ad-datasets.com/"
+preferred-citation:
+  type: inproceedings
+  authors:
+  - family-names: "Bogdoll"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0000-0003-0432-4937"
+  - family-names: "Schreyer"
+    given-names: "Felix"
+  - family-names: "Zöllner"
+    given-names: "J. Marius"
+  journal: "Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems"
+  title: "ad-datasets: a meta-collection of data sets for autonomous driving"
+  year: 2022

@@ -1534,6 +1534,11 @@
     "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf"
   },
  {
+    "id": "A9",
+    "href": "https://innovation-mobility.com/en/a9-dataset/",
+    "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf"
+  },
+ {
     "id": "Rope3D",
     "href": "https://thudair.baai.ac.cn/rope",
     "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf"

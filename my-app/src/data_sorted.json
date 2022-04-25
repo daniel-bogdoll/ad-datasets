@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4451
+        "citationCount": 4457
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1142
+        "citationCount": 1145
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1142
+        "citationCount": 1145
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 786
+        "citationCount": 787
     },
     {
         "id": "Caltech Pedestrian",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 513
+        "citationCount": 515
     },
     {
         "id": "BDD100k",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 426
+        "citationCount": 427
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 413
+        "citationCount": 414
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 413
+        "citationCount": 414
     },
     {
         "id": "ApolloScape",
@@ -247,7 +247,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 131
+        "citationCount": 132
     },
     {
         "id": "INTERACTION dataset",
@@ -294,6 +294,29 @@
         "citationCount": 123
     },
     {
+        "id": "India Driving Dataset",
+        "href": "https://idd.insaan.iiit.ac.in/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "10004",
+        "numberOfScenes": "182",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1080p & 720p stereo image",
+        "benchmark": "Pixel-Level Semantic Segmentation Task, Instance-Level Semantic Segmentation Task",
+        "annotations": "semantic segmentation",
+        "licensing": "-",
+        "relatedDatasets": "-",
+        "publishDate": "2018-11-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf",
+        "location": "Bangalore and Hyderabad, India",
+        "rawData": "Yes",
+        "DOI": "10.1109/WACV.2019.00190",
+        "citationCount": 121
+    },
+    {
         "id": "KITTI-360",
         "href": "http://www.cvlibs.net/datasets/kitti-360/",
         "size_storage": "-",
@@ -317,29 +340,6 @@
         "citationCount": 120
     },
     {
-        "id": "India Driving Dataset",
-        "href": "https://idd.insaan.iiit.ac.in/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "10004",
-        "numberOfScenes": "182",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "1080p & 720p stereo image",
-        "benchmark": "Pixel-Level Semantic Segmentation Task, Instance-Level Semantic Segmentation Task",
-        "annotations": "semantic segmentation",
-        "licensing": "-",
-        "relatedDatasets": "-",
-        "publishDate": "2018-11-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf",
-        "location": "Bangalore and Hyderabad, India",
-        "rawData": "Yes",
-        "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 120
-    },
-    {
         "id": "KAIST Multi-Spectral Day/Night",
         "href": "http://multispectral.kaist.ac.kr",
         "size_storage": "-",
@@ -360,7 +360,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 101
+        "citationCount": 103
     },
     {
         "id": "H3D",
@@ -382,7 +382,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1903.01568.pdf",
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 95
+        "citationCount": 96
     },
     {
         "id": "KAIST Urban",
@@ -405,7 +405,7 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 83
+        "citationCount": 84
     },
     {
         "id": "Synscapes",
@@ -427,7 +427,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
         "location": "-",
         "rawData": "-",
-        "citationCount": 81
+        "citationCount": 82
     },
     {
         "id": "WildDash",
@@ -647,6 +647,14 @@
         "citationCount": 27
     },
     {
+        "id": "UTBM EU LTD",
+        "href": "https://epan-utbm.github.io/utbm_robocar_dataset/",
+        "relatedPaper": "https://arxiv.org/pdf/1909.03330.pdf",
+        "rawData": "Yes",
+        "publishDate": "2020-08-01",
+        "citationCount": 26
+    },
+    {
         "id": "RADIATE",
         "href": "http://pro.hw.ac.uk/radiate/",
         "size_storage": "-",
@@ -666,14 +674,6 @@
         "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 24
-    },
-    {
-        "id": "UTBM EU LTD",
-        "href": "https://epan-utbm.github.io/utbm_robocar_dataset/",
-        "relatedPaper": "https://arxiv.org/pdf/1909.03330.pdf",
-        "rawData": "Yes",
-        "publishDate": "2020-08-01",
         "citationCount": 24
     },
     {
@@ -938,6 +938,12 @@
         "rawData": "Yes",
         "DOI": "10.1109/TPAMI.2022.3150906",
         "citationCount": 3
+    },
+    {
+        "id": "A9",
+        "href": "https://innovation-mobility.com/en/a9-dataset/",
+        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
+        "citationCount": 2
     },
     {
         "id": "CODA",

@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4457
+        "citationCount": 4461
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1145
+        "citationCount": 1154
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1145
+        "citationCount": 1154
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 787
+        "citationCount": 788
     },
     {
         "id": "Caltech Pedestrian",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 515
+        "citationCount": 516
     },
     {
         "id": "BDD100k",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 427
+        "citationCount": 428
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 414
+        "citationCount": 415
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 414
+        "citationCount": 415
     },
     {
         "id": "ApolloScape",
@@ -224,7 +224,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 208
+        "citationCount": 210
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -247,7 +247,29 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 132
+        "citationCount": 133
+    },
+    {
+        "id": "Oxford Radar Robot Car",
+        "href": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
+        "size_storage": "4700",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "32",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, radar, gps/imu",
+        "sensorDetail": "1 x Navtech CTS350-X Millimetre-Wave FMCW radar 4 Hz, 2 x Velodyne HDL-32E LIDAR 360°32 planes 20 Hz, 1 x Point Grey Bumblebee XB3 trinocular stereo camera 1280×960×3 16 Hz 66°3 x Point Grey Grasshopper2 1024×1024 11.1 Hz 180°, 2 x SICK LMS-151 2D LIDAR 270° 50Hz, 1 x NovAtel SPAN-CPT ALIGN inertial and GPS navigation system 6 axis 50Hz,",
+        "benchmark": "-",
+        "annotations": "ground truth data",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "Oxford Robot Car",
+        "publishDate": "2020-02-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
+        "location": "Oxford",
+        "rawData": "Yes",
+        "citationCount": 124
     },
     {
         "id": "INTERACTION dataset",
@@ -272,28 +294,6 @@
         "citationCount": 123
     },
     {
-        "id": "Oxford Radar Robot Car",
-        "href": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
-        "size_storage": "4700",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "32",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, radar, gps/imu",
-        "sensorDetail": "1 x Navtech CTS350-X Millimetre-Wave FMCW radar 4 Hz, 2 x Velodyne HDL-32E LIDAR 360°32 planes 20 Hz, 1 x Point Grey Bumblebee XB3 trinocular stereo camera 1280×960×3 16 Hz 66°3 x Point Grey Grasshopper2 1024×1024 11.1 Hz 180°, 2 x SICK LMS-151 2D LIDAR 270° 50Hz, 1 x NovAtel SPAN-CPT ALIGN inertial and GPS navigation system 6 axis 50Hz,",
-        "benchmark": "-",
-        "annotations": "ground truth data",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "Oxford Robot Car",
-        "publishDate": "2020-02-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
-        "location": "Oxford",
-        "rawData": "Yes",
-        "citationCount": 123
-    },
-    {
         "id": "India Driving Dataset",
         "href": "https://idd.insaan.iiit.ac.in/",
         "size_storage": "-",
@@ -314,7 +314,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 121
+        "citationCount": 122
     },
     {
         "id": "KITTI-360",
@@ -405,7 +405,7 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 84
+        "citationCount": 86
     },
     {
         "id": "Synscapes",
@@ -472,7 +472,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 70
+        "citationCount": 71
     },
     {
         "id": "Lyft Level5 Perception",
@@ -494,7 +494,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 70
+        "citationCount": 71
     },
     {
         "id": "A2D2",
@@ -583,7 +583,7 @@
         "location": "Several cities across Europe",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
-        "citationCount": 38
+        "citationCount": 39
     },
     {
         "id": "SemKITTI-DVPS",
@@ -722,6 +722,28 @@
         "citationCount": 21
     },
     {
+        "id": "4Seasons",
+        "href": "https://www.4seasons-dataset.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "30",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera, imu/rtk-gnss",
+        "sensorDetail": "2x cameras stereo baseline 30cm 800x400 (after cropping)",
+        "benchmark": "globally consistent reference poses",
+        "annotations": "-",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2020-10-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 14
+    },
+    {
         "id": "IDDA",
         "href": "https://idda-dataset.github.io/home/",
         "relatedPaper": "https://arxiv.org/pdf/2004.08298.pdf",
@@ -747,28 +769,6 @@
         "publishDate": "2021-04-01",
         "lastUpdate": "-",
         "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 12
-    },
-    {
-        "id": "4Seasons",
-        "href": "https://www.4seasons-dataset.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "30",
-        "samplingRate": "30",
-        "lengthOfScenes": "-",
-        "sensors": "camera, imu/rtk-gnss",
-        "sensorDetail": "2x cameras stereo baseline 30cm 800x400 (after cropping)",
-        "benchmark": "globally consistent reference poses",
-        "annotations": "-",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "-",
-        "publishDate": "2020-10-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
         "location": "-",
         "rawData": "Yes",
         "citationCount": 12
@@ -1699,6 +1699,12 @@
     {
         "id": "Argoverse 2",
         "href": "https://www.argoverse.org/av2.html",
+        "citationCount": 0
+    },
+    {
+        "id": "Synthetic Discrepancy Datasets",
+        "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
+        "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
         "citationCount": 0
     },
     {

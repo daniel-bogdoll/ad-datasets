@@ -1528,6 +1528,11 @@
     "id": "CODA",
     "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf"
   },
+ {
+   "id": "Synthetic Discrepancy Datasets",
+   "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
+    "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf"
+  },
   {
     "id": "SODA10M",
     "href": "https://soda-2d.github.io/",

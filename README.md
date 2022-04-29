@@ -59,6 +59,7 @@ If benchmark challenges are explicitly
 listed with the data sets, they are specified here.
 ###### Citations
 Citations states the number of citations of the respective paper of a data set.
+They are automatically obtained via the Semantic Scholar API based upon either the arxiv link of the related paper or its DOI.
 ###### Frames
 Frames states the number of frames in the
 data set. This includes training, test and validation
@@ -71,7 +72,8 @@ category.
 In order to give the users an impression
 of the licenses of the data sets, information on them
 is already included in the tool.
-Location. This category lists the areas where the data
+###### Location 
+This category lists the areas where the data
 sets have been recorded.
 ###### N° Scenes
 N° Scenes shows the number of scenes
@@ -94,8 +96,8 @@ same authors and building on one another.
 ###### Related Paper
 This property solely consists of a
 link to the paper related to the data set.
-Sampling Rate [Hz]. The Sampling Rate [Hz]
-property specifies the sampling rate in Hertz at which
+###### Sampling Rate [Hz] 
+The Sampling Rate [Hz] property specifies the sampling rate in Hertz at which
 the sensors in the data set work. However, this
 declaration is only made if all sensors are working at
 the same rate or, alternatively, if the sensors are being
@@ -126,8 +128,6 @@ storage size of the data set in gigabytes.
 The Size [h] property is the equivalent of the
 Size [GB] described above, but provides information
 on the size of the data set in hours.
-###### Location
-The place(s) the data was recorded at
 ###### rawData
 Denotes if the dataset provides raw or processed data
 

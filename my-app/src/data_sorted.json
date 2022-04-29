@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4461
+        "citationCount": 4465
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1154
+        "citationCount": 1156
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1154
+        "citationCount": 1156
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 788
+        "citationCount": 789
     },
     {
         "id": "Caltech Pedestrian",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 516
+        "citationCount": 518
     },
     {
         "id": "BDD100k",

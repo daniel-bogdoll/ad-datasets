@@ -987,23 +987,23 @@
 {
 "id": "nuPlan",
 "href": "https://arxiv.org/abs/2106.11810",
-"size_storage": "",
+"size_storage": "-",
 "size_hours": "1500",
-"frames": "",
-"numberOfScenes": "",
-"samplingRate": "",
-"lengthOfScenes": "",
+"frames": "-",
+"numberOfScenes": "-",
+"samplingRate": "-",
+"lengthOfScenes": "-",
 "sensors": "camera, lidar, gps/imu",
 "sensorDetail": "8x cameras 2000x1200 10Hz, 5x lidar 20Hz, 1x imu 100Hz, 1x gnss 20Hz",
 "benchmark": "autonomous vehicle planning",
 "annotations": "2d/3d bounding boxes",
 "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
-"relatedDatasets": "",
+"relatedDatasets": "-",
 "publishDate":"2021-12-10",
-"lastUpdate": "",
+"lastUpdate": "-",
 "relatedPaper": "https://arxiv.org/abs/2106.11810",
 "location": "Boston, Pittsburgh, Las Vegas and Singapore",
-"rawData": "",
+"rawData": "-",
 "DOI": "10.48550/arXiv.2106.11810",
 "citationCount": 0
 },
@@ -1576,32 +1576,32 @@
 "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
 "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf"
 },
-  {
-    "id": "Argoverse 2",
-    "href": "https://www.argoverse.org/av2.html"
-  },
-  {
-    "id": "CODA",
-    "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf"
-  },
- {
-   "id": "Synthetic Discrepancy Datasets",
-   "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
-    "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf"
-  },
-  {
-    "id": "SODA10M",
-    "href": "https://soda-2d.github.io/",
-    "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf"
-  },
- {
-    "id": "A9",
-    "href": "https://innovation-mobility.com/en/a9-dataset/",
-    "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf"
-  },
- {
-    "id": "Rope3D",
-    "href": "https://thudair.baai.ac.cn/rope",
-    "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf"
-  }
+{
+  "id": "Argoverse 2",
+  "href": "https://www.argoverse.org/av2.html"
+},
+{
+  "id": "CODA",
+  "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf"
+},
+{
+  "id": "Synthetic Discrepancy Datasets",
+  "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
+  "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf"
+},
+{
+  "id": "SODA10M",
+  "href": "https://soda-2d.github.io/",
+  "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf"
+},
+{
+  "id": "A9",
+  "href": "https://innovation-mobility.com/en/a9-dataset/",
+  "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf"
+},
+{
+  "id": "Rope3D",
+  "href": "https://thudair.baai.ac.cn/rope",
+  "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf"
+}
 ]

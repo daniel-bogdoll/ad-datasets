@@ -30,7 +30,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
           git add --all
-          git commit -m "Update Order of Data Sets" -a
+          git commit -m "Update Order of Data Sets" -a || echo "Nothing to push"
           echo "::set-output name=push::true"
         shell: bash
       - name: Push changes

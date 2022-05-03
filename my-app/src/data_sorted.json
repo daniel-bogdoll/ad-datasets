@@ -250,6 +250,29 @@
         "citationCount": 135
     },
     {
+        "id": "Bosch TL",
+        "href": "https://github.com/asimonov/Bosch-TL-Dataset",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "13427",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "camera 1280x720",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes",
+        "licensing": "freely available for non-commercial use",
+        "relatedDatasets": "-",
+        "publishDate": "2017-07-24",
+        "lastUpdate": "-",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/7989163",
+        "location": "El Camino Real in the San Francisco Bay Area, California",
+        "rawData": "Yes",
+        "DOI": "10.1109/ICRA.2017.7989163",
+        "citationCount": 135
+    },
+    {
         "id": "Oxford Radar Robot Car",
         "href": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
         "size_storage": "4700",
@@ -758,7 +781,7 @@
         "benchmark": "-",
         "annotations": "2d bounding boxes",
         "licensing": "freely available for non-commercial research and teaching activities",
-        "relatedDatasets": "",
+        "relatedDatasets": "-",
         "publishDate": "2018-11-27",
         "lastUpdate": "2021-04",
         "relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
@@ -964,7 +987,7 @@
     },
     {
         "id": "ROAD",
-        "href": "https://arxiv.org/abs/2102.11585",
+        "href": "https://github.com/gurkirt/road-dataset",
         "size_hours": "2.83",
         "size_storage": "-",
         "frames": "122000",
@@ -977,8 +1000,8 @@
         "annotations": "2d/3d bounding boxes, action label and location labels",
         "licensing": "Creative Commons Attribution Share Alike 4.0 International",
         "relatedDatasets": "Oxford Robot Car Dataset (OxRD)",
-        "publishDate": "",
-        "lastUpdate": "",
+        "publishDate": "-",
+        "lastUpdate": "-",
         "relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
         "location": "Oxford, UK",
         "rawData": "Yes",
@@ -1023,6 +1046,17 @@
         "id": "SODA10M",
         "href": "https://soda-2d.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
+        "citationCount": 1
+    },
+    {
+        "id": "Boreas",
+        "href": "https://www.boreas.utias.utoronto.ca/#/",
+        "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
+        "citationCount": 1
+    },
+    {
+        "id": "DG-Labeler and DGL-MOTS",
+        "relatedPaper": "https://arxiv.org/pdf/2110.07790.pdf",
         "citationCount": 1
     },
     {
@@ -1124,11 +1158,6 @@
         "citationCount": 0
     },
     {
-        "id": "Bosch TL",
-        "href": "https://github.com/asimonov/Bosch-TL-Dataset",
-        "citationCount": 0
-    },
-    {
         "id": "Steet Hazards Dataset",
         "href": "https://once-for-auto-driving.github.io/index.html",
         "citationCount": 0
@@ -1136,6 +1165,24 @@
     {
         "id": "JAAD",
         "href": "https://paperswithcode.com/dataset/jaad",
+        "size_storage": "3.1",
+        "size_hours": "-",
+        "frames": "82032",
+        "numberOfScenes": "346",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x camera 1920x1080 110°, 1x camera 1920x1080 170°, 1x camera 1280x720 100°",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes, behavioral tags, contextual tags",
+        "licensing": "MIT License",
+        "relatedDatasets": "PIE Dataset",
+        "publishDate": "2016-09-15",
+        "lastUpdate": "-",
+        "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf",
+        "location": "North America and Europe",
+        "rawData": "Yes",
+        "DOI": "10.48550/arXiv.1609.04741",
         "citationCount": 0
     },
     {
@@ -1765,6 +1812,28 @@
         "id": "Rope3D",
         "href": "https://thudair.baai.ac.cn/rope",
         "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf",
+        "citationCount": 0
+    },
+    {
+        "id": "OpenMPD",
+        "href": "http://openmpd.com/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/9682587",
+        "citationCount": 0
+    },
+    {
+        "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
+        "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf",
+        "citationCount": 0
+    },
+    {
+        "id": "The Autonomous Platform Inertial Dataset",
+        "href": "https://github.com/ansfl/Navigation-Data-Project/",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
+        "citationCount": 0
+    },
+    {
+        "id": "PIE",
+        "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/",
         "citationCount": 0
     }
 ]

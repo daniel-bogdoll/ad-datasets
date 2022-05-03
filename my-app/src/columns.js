@@ -16,9 +16,6 @@ function isOverflown(element) {
 // Number of properties the application currently covers
 let NUMBER_OF_JSON_PROPERTIES = 21;
 
-export var fullyAnalyzed = 0;
-export var partiallyAnalyzed = 0;
-export var incomplete = 0;
 
 /***
  *

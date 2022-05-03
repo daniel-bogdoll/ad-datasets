@@ -8,7 +8,7 @@ import json2mq from 'json2mq';
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Data from './data_sorted.json';
 import {AnalyzedTag, IncompleteAnalyzedTag, PartiallyAnalyzedTag} from "./components/tags";
-import {fullyAnalyzed, partiallyAnalyzed, incomplete} from "./columns";
+
 
 const useStyles = makeStyles((theme) => ({
     note: {
@@ -64,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
         left: "1%",
         backgroundColor: "white",
         position: "absolute",
+        zIndex: "-1",
         fontSize: "10px",
         display: "flex", flexDirection: "row", alignItems: "flex-start"
     }
@@ -88,6 +89,7 @@ export default function RenderExpandCellGrid() {
             window.removeEventListener('resize', handleResize)
         }
     });
+
 
     const classes = useStyles();
     const [pageSize, setPageSize] = React.useState(10);
@@ -128,15 +130,15 @@ export default function RenderExpandCellGrid() {
             <Typography className={classes.legend}>
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
                     <AnalyzedTag/>
-                    <p>Completely Analyzed Dataset {fullyAnalyzed}</p>
+                    <p>Completely Analyzed Dataset </p>
                 </div>
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
                     <PartiallyAnalyzedTag/>
-                    <p>Partially Analyzed Dataset {partiallyAnalyzed}</p>
+                    <p>Partially Analyzed Dataset </p>
                 </div>
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
                     <IncompleteAnalyzedTag/>
-                    <p>Dataset missing essential information {incomplete} </p>
+                    <p>Dataset Missing Essential Information  </p>
 
                 </div>
             </Typography>
@@ -146,6 +148,7 @@ export default function RenderExpandCellGrid() {
                       onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
                       rowsPerPageOptions={[10, 25, 50]}
                       pagination
+                      disableSelectionOnClick
                       columnBuffer={3}
                       className={classes.customDatagrid}
                       style={{width: Window.innerWidth}}/>

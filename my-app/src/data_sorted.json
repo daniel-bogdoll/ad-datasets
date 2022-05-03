@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4473
+        "citationCount": 4476
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1157
+        "citationCount": 1160
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1157
+        "citationCount": 1160
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +88,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 789
+        "citationCount": 790
     },
     {
         "id": "Caltech Pedestrian",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 429
+        "citationCount": 431
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -224,7 +224,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 211
+        "citationCount": 212
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -742,7 +742,7 @@
         "location": "China",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 19
+        "citationCount": 20
     },
     {
         "id": "DriveU Traffic Light Dataset",

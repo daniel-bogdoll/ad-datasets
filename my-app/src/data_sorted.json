@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4465
+        "citationCount": 4473
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1156
+        "citationCount": 1157
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1156
+        "citationCount": 1157
     },
     {
         "id": "Oxford Robot Car",
@@ -111,7 +111,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 639
+        "citationCount": 634
     },
     {
         "id": "Waymo Open Perception",
@@ -134,7 +134,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 518
+        "citationCount": 519
     },
     {
         "id": "BDD100k",
@@ -156,7 +156,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 428
+        "citationCount": 429
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -179,7 +179,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 415
+        "citationCount": 416
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -202,7 +202,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 415
+        "citationCount": 416
     },
     {
         "id": "ApolloScape",
@@ -224,7 +224,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 210
+        "citationCount": 211
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -247,7 +247,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 133
+        "citationCount": 135
     },
     {
         "id": "Oxford Radar Robot Car",
@@ -269,7 +269,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 124
+        "citationCount": 125
     },
     {
         "id": "INTERACTION dataset",
@@ -291,7 +291,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 123
+        "citationCount": 124
     },
     {
         "id": "India Driving Dataset",
@@ -472,7 +472,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 71
+        "citationCount": 72
     },
     {
         "id": "Lyft Level5 Perception",
@@ -494,7 +494,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 71
+        "citationCount": 72
     },
     {
         "id": "A2D2",
@@ -592,7 +592,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
-        "citationCount": 37
+        "citationCount": 38
     },
     {
         "id": "Cityscapes-DVPS",
@@ -600,7 +600,7 @@
         "relatedDatasets": "Cityscapes",
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
-        "citationCount": 37
+        "citationCount": 38
     },
     {
         "id": "Waymo Open Motion",
@@ -622,7 +622,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 29
+        "citationCount": 30
     },
     {
         "id": "Comma2k19",
@@ -798,28 +798,6 @@
         "citationCount": 14
     },
     {
-        "id": "RoadAnomaly21",
-        "href": "https://segmentmeifyoucan.com/datasets",
-        "size_storage": "0.05",
-        "size_hours": "-",
-        "frames": "100",
-        "numberOfScenes": "100",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
-        "benchmark": "anomaly segmentation",
-        "annotations": "semantic segmentation",
-        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
-        "relatedDatasets": "RoadObstacle21",
-        "publishDate": "2021-04-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 12
-    },
-    {
         "id": "RadarScenes",
         "href": "https://radar-scenes.com/",
         "size_storage": "-",
@@ -837,6 +815,28 @@
         "publishDate": "2021-03-01",
         "lastUpdate": "-",
         "relatedPaper": "https://arxiv.org/pdf/2104.02493.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 13
+    },
+    {
+        "id": "RoadAnomaly21",
+        "href": "https://segmentmeifyoucan.com/datasets",
+        "size_storage": "0.05",
+        "size_hours": "-",
+        "frames": "100",
+        "numberOfScenes": "100",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
+        "benchmark": "anomaly segmentation",
+        "annotations": "semantic segmentation",
+        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
+        "relatedDatasets": "RoadObstacle21",
+        "publishDate": "2021-04-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
         "location": "-",
         "rawData": "Yes",
         "citationCount": 12

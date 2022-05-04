@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4477
+        "citationCount": 4481
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1160
+        "citationCount": 1161
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1160
+        "citationCount": 1161
     },
     {
         "id": "Oxford Robot Car",
@@ -157,7 +157,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 520
+        "citationCount": 522
     },
     {
         "id": "BDD100k",
@@ -179,7 +179,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 431
+        "citationCount": 433
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -360,7 +360,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 122
+        "citationCount": 123
     },
     {
         "id": "KITTI-360",
@@ -496,7 +496,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 79
+        "citationCount": 80
     },
     {
         "id": "Lyft Level5 Prediction",
@@ -606,6 +606,29 @@
         "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
         "location": "-",
         "rawData": "No",
+        "citationCount": 45
+    },
+    {
+        "id": "CADC",
+        "href": "http://cadcd.uwaterloo.ca/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "75",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "cameras, lidar, gps",
+        "sensorDetail": "8x camera Ximea MQ013CG-E2 1280x1024 10Hz,  1x lidar Veldyne VLP-32C 360° 10Hz, 1x NovAtel OEM638 Triple-Frequency GPS, 1x Sensonor STIM300 MEMS 100Hz IMU, 2x Xsens 200Hz IMU",
+        "benchmark": "-",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2020-01-27",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2001.10117.pdf",
+        "location": "Waterloo region in Ontorio, Canada",
+        "rawData": "Yes",
+        "DOI": "10.1177/0278364920979368",
         "citationCount": 44
     },
     {
@@ -638,7 +661,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
-        "citationCount": 38
+        "citationCount": 39
     },
     {
         "id": "Cityscapes-DVPS",
@@ -646,7 +669,7 @@
         "relatedDatasets": "Cityscapes",
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
-        "citationCount": 38
+        "citationCount": 39
     },
     {
         "id": "The EuroCity Persons Dataset",
@@ -811,7 +834,7 @@
         "location": "China",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 20
+        "citationCount": 21
     },
     {
         "id": "DriveU Traffic Light Dataset",
@@ -835,6 +858,29 @@
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2018.8460737",
         "citationCount": 19
+    },
+    {
+        "id": "CARRADA Dataset",
+        "href": "https://arxiv.org/abs/2005.01456",
+        "size_storage": "288",
+        "size_hours": "-",
+        "frames": "12666",
+        "numberOfScenes": "30",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar",
+        "sensorDetail": "1x camera 1238x1024,  1x radar 180°",
+        "benchmark": "-",
+        "annotations": "range-angle Doppler annotations",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2020-05-04",
+        "lastUpdate": "2021-07",
+        "relatedPaper": "https://arxiv.org/pdf/2005.01456.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "DOI": "10.1109/ICPR48806.2021.9413181",
+        "citationCount": 18
     },
     {
         "id": "4Seasons",
@@ -1078,15 +1124,15 @@
         "citationCount": 3
     },
     {
+        "id": "CODA",
+        "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
+        "citationCount": 2
+    },
+    {
         "id": "A9",
         "href": "https://innovation-mobility.com/en/a9-dataset/",
         "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
         "citationCount": 2
-    },
-    {
-        "id": "CODA",
-        "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
-        "citationCount": 1
     },
     {
         "id": "SODA10M",
@@ -1242,23 +1288,8 @@
         "citationCount": 0
     },
     {
-        "id": "CADC",
-        "href": "http://cadcd.uwaterloo.ca/",
-        "citationCount": 0
-    },
-    {
         "id": "FAIRNets Dataset",
         "href": "https://zenodo.org/record/3885249",
-        "citationCount": 0
-    },
-    {
-        "id": "Diverse Complexity Measures for Dataset Curation in Self-driving",
-        "href": "https://arxiv.org/abs/2101.06554",
-        "citationCount": 0
-    },
-    {
-        "id": "CARRADA Dataset",
-        "href": "https://arxiv.org/abs/2005.01456",
         "citationCount": 0
     },
     {

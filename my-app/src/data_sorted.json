@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4481
+        "citationCount": 4483
     },
     {
         "id": "nuScenes",
@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1161
+        "citationCount": 1162
     },
     {
         "id": "nuImages",
@@ -65,7 +65,13 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1161
+        "citationCount": 1162
+    },
+    {
+        "id": "GTA5",
+        "href": "https://download.visinf.tu-darmstadt.de/data/from_games/",
+        "relatedPaper": "https://arxiv.org/pdf/1608.02192v1.pdf",
+        "citationCount": 1089
     },
     {
         "id": "Oxford Robot Car",
@@ -88,7 +94,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 790
+        "citationCount": 792
     },
     {
         "id": "Caltech Pedestrian",
@@ -134,7 +140,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 601
+        "citationCount": 602
     },
     {
         "id": "Waymo Open Perception",
@@ -157,7 +163,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 522
+        "citationCount": 523
     },
     {
         "id": "BDD100k",
@@ -202,7 +208,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 416
+        "citationCount": 418
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -225,7 +231,13 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 416
+        "citationCount": 418
+    },
+    {
+        "id": "Road Damage",
+        "href": "https://github.com/sekilab/RoadDamageDetector/",
+        "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
+        "citationCount": 223
     },
     {
         "id": "ApolloScape",
@@ -383,7 +395,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2016.401",
-        "citationCount": 120
+        "citationCount": 121
     },
     {
         "id": "KAIST Multi-Spectral Day/Night",
@@ -451,7 +463,7 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 86
+        "citationCount": 87
     },
     {
         "id": "Synscapes",
@@ -562,7 +574,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 70
+        "citationCount": 71
     },
     {
         "id": "LostAndFound",
@@ -714,7 +726,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 30
+        "citationCount": 31
     },
     {
         "id": "Comma2k19",
@@ -1511,11 +1523,6 @@
     {
         "id": "NEXET",
         "href": "https://blog.getnexar.com/https-medium-com-itayklein-intro-nexet-50e9b596d0e5",
-        "citationCount": 0
-    },
-    {
-        "id": "Road Damage",
-        "href": "https://arxiv.org/pdf/1801.09454.pdf",
         "citationCount": 0
     },
     {

@@ -39,7 +39,7 @@ jobs:
         with:
            github_token: ${{ secrets.GITHUB_TOKEN }}
   buildWebsite: #second job responsible for building the updated version of the application
-    needs: build
+    needs: updateOrder
     runs-on: ubuntu-latest
     if: always()
     strategy: 

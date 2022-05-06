@@ -43,7 +43,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1162
+        "citationCount": 1163
     },
     {
         "id": "nuImages",
@@ -65,7 +65,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1162
+        "citationCount": 1163
     },
     {
         "id": "GTA5",
@@ -94,7 +94,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 792
+        "citationCount": 793
     },
     {
         "id": "Caltech Pedestrian",
@@ -163,7 +163,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 523
+        "citationCount": 524
     },
     {
         "id": "BDD100k",
@@ -208,7 +208,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 418
+        "citationCount": 419
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -231,7 +231,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 418
+        "citationCount": 419
     },
     {
         "id": "Road Damage",
@@ -282,7 +282,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 135
+        "citationCount": 136
     },
     {
         "id": "Bosch TL",
@@ -305,7 +305,7 @@
         "location": "El Camino Real in the San Francisco Bay Area, California",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 135
+        "citationCount": 136
     },
     {
         "id": "Oxford Radar Robot Car",
@@ -530,7 +530,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 72
+        "citationCount": 73
     },
     {
         "id": "Lyft Level5 Perception",
@@ -552,7 +552,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 72
+        "citationCount": 73
     },
     {
         "id": "A2D2",
@@ -869,7 +869,7 @@
         "location": "10 cities across Germany",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2018.8460737",
-        "citationCount": 19
+        "citationCount": 20
     },
     {
         "id": "CARRADA Dataset",
@@ -914,7 +914,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 14
+        "citationCount": 15
     },
     {
         "id": "IDDA",

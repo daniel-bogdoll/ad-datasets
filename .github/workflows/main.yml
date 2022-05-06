@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 jobs:
-  build: #first job that updates the chronological order of data sets
+  updateOrder: #first job that updates the chronological order of data sets
     runs-on: ubuntu-latest
     strategy: 
       max-parallel: 1
@@ -38,7 +38,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
            github_token: ${{ secrets.GITHUB_TOKEN }}
-  build-process: #second job responsible for building the updated version of the application
+  buildWebsite: #second job responsible for building the updated version of the application
     needs: build
     runs-on: ubuntu-latest
     if: always()

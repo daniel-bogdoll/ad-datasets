@@ -1747,9 +1747,5 @@
 {
   "id": "PIE",
   "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/"
-},
-  {
-    "id": "Test",
-    "href": "google.com"
-  }
+}
 ]

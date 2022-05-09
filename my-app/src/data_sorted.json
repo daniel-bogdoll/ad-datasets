@@ -117,7 +117,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 634
+        "citationCount": 633
     },
     {
         "id": "Beyond PASCAL",
@@ -163,7 +163,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 524
+        "citationCount": 525
     },
     {
         "id": "BDD100k",
@@ -208,7 +208,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 419
+        "citationCount": 418
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -231,7 +231,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 419
+        "citationCount": 418
     },
     {
         "id": "Road Damage",
@@ -1133,6 +1133,12 @@
         "location": "Boston, Pittsburgh, Las Vegas and Singapore",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11810",
+        "citationCount": 3
+    },
+    {
+        "id": "nuPlan",
+        "href": "https://www.nuscenes.org/nuplan",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11810.pdf",
         "citationCount": 3
     },
     {

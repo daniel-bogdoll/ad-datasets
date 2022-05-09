@@ -1739,6 +1739,11 @@
   "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
   "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf"
 },
+ {
+  "id": "nuPlan",
+   "href":"https://www.nuscenes.org/nuplan",
+  "relatedPaper": "https://arxiv.org/pdf/2106.11810.pdf"
+},
 {
   "id": "The Autonomous Platform Inertial Dataset",
   "href": "https://github.com/ansfl/Navigation-Data-Project/",

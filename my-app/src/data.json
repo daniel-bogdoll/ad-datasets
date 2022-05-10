@@ -1105,10 +1105,6 @@
 "citationCount": 0
 },
 {
-"id": "Diverse Complexity Measures for Dataset Curation in Self-driving",
-"href": "http://www.cs.toronto.edu/~sergio/publication/dataset/"
-},
-{
 "id": "CADC",
 "href": "http://cadcd.uwaterloo.ca/",
 "size_storage": "-",
@@ -1130,10 +1126,6 @@
 "rawData": "Yes",
 "DOI": "10.1177/0278364920979368",
 "citationCount": 0
-},
-{
-"id": "FAIRNets Dataset",
-"href": "https://zenodo.org/record/3885249"
 },
 {
 "id": "CARRADA Dataset",

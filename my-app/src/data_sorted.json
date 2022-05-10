@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4483
+        "citationCount": 4487
     },
     {
         "id": "nuScenes",
@@ -208,7 +208,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 418
+        "citationCount": 419
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -231,7 +231,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 418
+        "citationCount": 419
     },
     {
         "id": "Road Damage",
@@ -308,6 +308,28 @@
         "citationCount": 136
     },
     {
+        "id": "INTERACTION dataset",
+        "href": "https://interaction-dataset.com/",
+        "size_storage": "-",
+        "size_hours": "16.5",
+        "frames": "594588",
+        "numberOfScenes": "-",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
+        "benchmark": "motion prediction",
+        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
+        "location": "USA, China, Germany and Bulgaria",
+        "rawData": "Yes",
+        "citationCount": 125
+    },
+    {
         "id": "Oxford Radar Robot Car",
         "href": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
         "size_storage": "4700",
@@ -328,28 +350,6 @@
         "location": "Oxford",
         "rawData": "Yes",
         "citationCount": 125
-    },
-    {
-        "id": "INTERACTION dataset",
-        "href": "https://interaction-dataset.com/",
-        "size_storage": "-",
-        "size_hours": "16.5",
-        "frames": "594588",
-        "numberOfScenes": "-",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
-        "benchmark": "motion prediction",
-        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
-        "location": "USA, China, Germany and Bulgaria",
-        "rawData": "Yes",
-        "citationCount": 124
     },
     {
         "id": "India Driving Dataset",
@@ -440,7 +440,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1903.01568.pdf",
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 96
+        "citationCount": 97
     },
     {
         "id": "KAIST Urban",
@@ -644,6 +644,23 @@
         "citationCount": 44
     },
     {
+        "id": "SemKITTI-DVPS",
+        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
+        "relatedDatasets": "SemanticKITTI",
+        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
+        "location": "Karlsruhe, Germany",
+        "rawData": "Yes",
+        "citationCount": 40
+    },
+    {
+        "id": "Cityscapes-DVPS",
+        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
+        "relatedDatasets": "Cityscapes",
+        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
+        "rawData": "Yes",
+        "citationCount": 40
+    },
+    {
         "id": "NightOwls",
         "href": "https://www.nightowls-dataset.org/",
         "size_storage": "-",
@@ -664,23 +681,6 @@
         "location": "Several cities across Europe",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
-        "citationCount": 39
-    },
-    {
-        "id": "SemKITTI-DVPS",
-        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
-        "relatedDatasets": "SemanticKITTI",
-        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
-        "location": "Karlsruhe, Germany",
-        "rawData": "Yes",
-        "citationCount": 39
-    },
-    {
-        "id": "Cityscapes-DVPS",
-        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
-        "relatedDatasets": "Cityscapes",
-        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
-        "rawData": "Yes",
         "citationCount": 39
     },
     {
@@ -726,7 +726,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 31
+        "citationCount": 32
     },
     {
         "id": "Comma2k19",
@@ -823,7 +823,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2005.08605.pdf",
         "location": "California, USA",
         "rawData": "Yes",
-        "citationCount": 21
+        "citationCount": 22
     },
     {
         "id": "ONCE",
@@ -1069,6 +1069,29 @@
         "citationCount": 4
     },
     {
+        "id": "nuPlan",
+        "href": "https://arxiv.org/abs/2106.11810",
+        "size_storage": "-",
+        "size_hours": "1500",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "8x cameras 2000x1200 10Hz, 5x lidar 20Hz, 1x imu 100Hz, 1x gnss 20Hz",
+        "benchmark": "autonomous vehicle planning",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2021-12-10",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/abs/2106.11810",
+        "location": "Boston, Pittsburgh, Las Vegas and Singapore",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2106.11810",
+        "citationCount": 4
+    },
+    {
         "id": "The USyd Campus Dataset",
         "href": "http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/",
         "size_storage": "",
@@ -1087,6 +1110,12 @@
         "lastUpdate": "",
         "relatedPaper": "https://ieeexplore.ieee.org/document/9109704",
         "DOI": "10.1109/MITS.2020.2990183",
+        "citationCount": 4
+    },
+    {
+        "id": "nuPlan",
+        "href": "https://www.nuscenes.org/nuplan",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11810.pdf",
         "citationCount": 4
     },
     {
@@ -1110,35 +1139,6 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1109/TPAMI.2022.3150906",
-        "citationCount": 3
-    },
-    {
-        "id": "nuPlan",
-        "href": "https://arxiv.org/abs/2106.11810",
-        "size_storage": "-",
-        "size_hours": "1500",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "8x cameras 2000x1200 10Hz, 5x lidar 20Hz, 1x imu 100Hz, 1x gnss 20Hz",
-        "benchmark": "autonomous vehicle planning",
-        "annotations": "2d/3d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "-",
-        "publishDate": "2021-12-10",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/abs/2106.11810",
-        "location": "Boston, Pittsburgh, Las Vegas and Singapore",
-        "rawData": "-",
-        "DOI": "10.48550/arXiv.2106.11810",
-        "citationCount": 3
-    },
-    {
-        "id": "nuPlan",
-        "href": "https://www.nuscenes.org/nuplan",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11810.pdf",
         "citationCount": 3
     },
     {
@@ -1298,16 +1298,6 @@
     {
         "id": "RoadObstacle21",
         "href": "https://segmentmeifyoucan.com/datasets",
-        "citationCount": 0
-    },
-    {
-        "id": "Diverse Complexity Measures for Dataset Curation in Self-driving",
-        "href": "http://www.cs.toronto.edu/~sergio/publication/dataset/",
-        "citationCount": 0
-    },
-    {
-        "id": "FAIRNets Dataset",
-        "href": "https://zenodo.org/record/3885249",
         "citationCount": 0
     },
     {

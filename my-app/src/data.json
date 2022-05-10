@@ -1782,5 +1782,15 @@
 {
   "id": "PIE",
   "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/"
+},
+{
+  "id": "SeeingThroughFog",
+  "href": "https://github.com/princeton-computational-imaging/SeeingThroughFog",
+  "relatedPaper": "https://www.cs.princeton.edu/~fheide/AdverseWeatherFusion/figures/AdverseWeatherFusion.pdf"
+},
+{
+  "id": "Gated2Gated",
+  "href": "https://github.com/princeton-computational-imaging/Gated2Gated#gated2gated--self-supervised-depth-estimation-from-gated-images",
+  "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf"
 }
 ]

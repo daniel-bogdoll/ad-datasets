@@ -1159,29 +1159,6 @@
 "href": "https://ieeexplore.ieee.org/document/8990038"
 },
 {
-"id": "Playing for Data",
-"href": "http://download.visinf.tu-darmstadt.de/data/from_games/index.html",
-"size_storage": "57.05",
-"size_hours": "-",
-"frames": "24966",
-"numberOfScenes": "-",
-"samplingRate": "-",
-"lengthOfScenes": "-",
-"sensors": "camera",
-"sensorDetail": "camera 1914x1052",
-"benchmark": "-",
-"annotations": "semantic segmentation of different classes",
-"licensing": "Freely available for research and educational purposes",
-"relatedDatasets": "-",
-"publishDate":"2016-04-08",
-"lastUpdate": "-",
-"relatedPaper": "https://arxiv.org/pdf/1608.02192.pdf",
-"location": "Game: Grand Theft Auto 5",
-"rawData": "-",
-"DOI": "10.1007/978-3-319-46475-6_7",
-"citationCount": 0
-},
-{
 "id": "Talk2Car",
 "href": "https://talk2car.github.io/",
 "size_storage": "300",
@@ -1372,7 +1349,25 @@
 {
 "id": "GTA5",
 "href": "https://download.visinf.tu-darmstadt.de/data/from_games/",
-"relatedPaper": "https://arxiv.org/pdf/1608.02192v1.pdf"
+"size_storage": "57.05",
+"size_hours": "-",
+"frames": "24966",
+"numberOfScenes": "-",
+"samplingRate": "-",
+"lengthOfScenes": "-",
+"sensors": "camera",
+"sensorDetail": "camera 1914x1052",
+"benchmark": "-",
+"annotations": "semantic segmentation of different classes",
+"licensing": "Freely available for research and educational purposes",
+"relatedDatasets": "-",
+"publishDate":"2016-04-08",
+"lastUpdate": "-",
+"relatedPaper": "https://arxiv.org/pdf/1608.02192.pdf",
+"location": "Game: Grand Theft Auto 5",
+"rawData": "-",
+"DOI": "10.1007/978-3-319-46475-6_7",
+"citationCount": 0
 },
 {
 "id": "Ground Truth Stixel Dataset",
@@ -1768,11 +1763,6 @@
 {
   "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
   "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf"
-},
- {
-  "id": "nuPlan",
-   "href":"https://www.nuscenes.org/nuplan",
-  "relatedPaper": "https://arxiv.org/pdf/2106.11810.pdf"
 },
 {
   "id": "The Autonomous Platform Inertial Dataset",

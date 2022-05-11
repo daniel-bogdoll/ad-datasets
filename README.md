@@ -134,10 +134,10 @@ Denotes if the dataset provides raw or processed data
 ## Citation
 If you find our work useful for your research, please cite our [paper](https://arxiv.org/abs/2202.01909):
 ```
-@article{Bogdoll_addatasets_2022_VEHITS,
-    author    = {Bogdoll, Daniel and Schreyer, Felix, and Z\"{o}llner, J. Marius},
+@inProceedings{Bogdoll_Addatasets_2022_VEHITS,
+    author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
     title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
-    journal   = {arXiv preprint:2202.01909},
-    year      = {2022},
+    journal   = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
+    year      = {2022}
 }
 ```

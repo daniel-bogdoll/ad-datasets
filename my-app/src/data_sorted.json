@@ -889,6 +889,32 @@
         "citationCount": 21
     },
     {
+        "id": "PointCloudDeNoising",
+        "href": "https://github.com/rheinzler/PointCloudDeNoising",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "175941",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "lidar",
+        "sensorDetail": "1 Velodyne VLP32c lidar sensor",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "Real",
+        "benchmark": "-",
+        "annotations": "pointwise annotations",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "Gated2Depth, Gated2Gated, SeeingThroughFog",
+        "publishDate": "2019-12-09",
+        "lastUpdate": "-",
+        "paperTitle": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
+        "location": "CEREMA's climatic chamber",
+        "rawData": "Yes",
+        "DOI": "10.1109/LRA.2020.2972865",
+        "citationCount": 21
+    },
+    {
         "id": "DriveU Traffic Light Dataset",
         "href": "https://www.uni-ulm.de/en/in/driveu/projects/driveu-traffic-light-dataset/",
         "size_storage": "-",
@@ -909,6 +935,32 @@
         "location": "10 cities across Germany",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2018.8460737",
+        "citationCount": 20
+    },
+    {
+        "id": "Gated2Depth",
+        "href": "https://github.com/gruberto/Gated2Depth",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "17686",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar",
+        "sensorDetail": "1x Aptina AR0230 stereo camera 1920x1080 30Hz, 1x Velodyne HDL64-S3 lidar, 1x gated camera 10bit images 1280x720 120Hz",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "Real",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "SeeingThroughFog, PointCloudDeNoising, Gated2Gated",
+        "publishDate": "2020-02-13",
+        "lastUpdate": "2020-04-12",
+        "paperTitle": "Gated2Depth: Real-Time Dense Lidar From Gated Images",
+        "relatedPaper": "https://arxiv.org/pdf/1902.04997.pdf",
+        "location": "Germany, Denmark and Sweden",
+        "rawData": "Yes",
+        "DOI": "10.48550/arXiv.1902.04997",
         "citationCount": 20
     },
     {
@@ -1340,11 +1392,6 @@
         "citationCount": 0
     },
     {
-        "id": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
-        "href": "https://ieeexplore.ieee.org/document/8990038",
-        "citationCount": 0
-    },
-    {
         "id": "A Parametric Top-View Representation of Complex Road Scenes",
         "href": "https://www.nec-labs.com/~mas/BEV/",
         "citationCount": 0
@@ -1352,11 +1399,6 @@
     {
         "id": "DRIV100",
         "href": "https://arxiv.org/pdf/2102.00150.pdf",
-        "citationCount": 0
-    },
-    {
-        "id": "PointCloudDeNoising",
-        "href": "https://github.com/rheinzler/PointCloudDeNoising",
         "citationCount": 0
     },
     {
@@ -1933,13 +1975,53 @@
     {
         "id": "SeeingThroughFog",
         "href": "https://github.com/princeton-computational-imaging/SeeingThroughFog",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "1400000",
+        "numberOfScenes": "-",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, lidar, imu, weather sensor",
+        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "real",
+        "benchmark": "-",
+        "annotations": "weather of scenes in frames",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "Gated2Gated, Gated2Depth, PointCloudDeNoising",
+        "publishDate": "2019-02-24",
+        "lastUpdate": "-",
+        "paperTitle": "Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather",
         "relatedPaper": "https://www.cs.princeton.edu/~fheide/AdverseWeatherFusion/figures/AdverseWeatherFusion.pdf",
+        "location": "Germany, Sweden, Denmark and Finland",
+        "rawData": "Yes",
+        "DOI": "10.48550/arXiv.1902.08913",
         "citationCount": 0
     },
     {
         "id": "Gated2Gated",
         "href": "https://github.com/princeton-computational-imaging/Gated2Gated#gated2gated--self-supervised-depth-estimation-from-gated-images",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "130000",
+        "numberOfScenes": "1835",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, lidar, imu, weather sensor",
+        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "real",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "SeeingThroughFog, PointCloudDeNoising, Gated2Depth",
+        "publishDate": "2021-12-04",
+        "lastUpdate": "-",
+        "paperTitle": "Gated2Gated: Self-Supervised Depth Estimation from Gated Images",
         "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf",
+        "location": "Germany, Sweden, Denmark and Finland",
+        "rawData": "Yes",
+        "DOI": "10.48550/arXiv.2112.02416",
         "citationCount": 0
     }
 ]

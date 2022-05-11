@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4491
+        "citationCount": 4492
     },
     {
         "id": "nuScenes",
@@ -68,8 +68,8 @@
         "citationCount": 1163
     },
     {
-        "id": "Playing for Data",
-        "href": "http://download.visinf.tu-darmstadt.de/data/from_games/index.html",
+        "id": "GTA5",
+        "href": "https://download.visinf.tu-darmstadt.de/data/from_games/",
         "size_storage": "57.05",
         "size_hours": "-",
         "frames": "24966",
@@ -88,12 +88,6 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1089
-    },
-    {
-        "id": "GTA5",
-        "href": "https://download.visinf.tu-darmstadt.de/data/from_games/",
-        "relatedPaper": "https://arxiv.org/pdf/1608.02192v1.pdf",
         "citationCount": 1089
     },
     {
@@ -186,7 +180,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 525
+        "citationCount": 527
     },
     {
         "id": "BDD100k",
@@ -231,7 +225,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 419
+        "citationCount": 420
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -254,7 +248,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 419
+        "citationCount": 420
     },
     {
         "id": "Road Damage",
@@ -707,6 +701,28 @@
         "citationCount": 39
     },
     {
+        "id": "Waymo Open Motion",
+        "href": "https://waymo.com/open/data/motion/",
+        "size_hours": "574",
+        "size_storage": "-",
+        "frames": "20670800",
+        "numberOfScenes": "103354",
+        "samplingRate": "10",
+        "lengthOfScenes": "20",
+        "sensors": "camera, lidar",
+        "sensorDetail": "5x cameras, 5x lidar, ",
+        "benchmark": "motion prediction, interaction prediction",
+        "annotations": "3d bounding boxes, 3d hd map information",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "Waymo Open Perception",
+        "publishDate": "2021-03-01",
+        "lastUpdate": "2021-09-01",
+        "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
+        "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
+        "rawData": "No",
+        "citationCount": 33
+    },
+    {
         "id": "The EuroCity Persons Dataset",
         "href": "https://arxiv.org/abs/1805.07193",
         "size_storage": "-",
@@ -728,28 +744,6 @@
         "rawData": "Yes",
         "DOI": "10.1109/TPAMI.2019.2897684",
         "citationCount": 33
-    },
-    {
-        "id": "Waymo Open Motion",
-        "href": "https://waymo.com/open/data/motion/",
-        "size_hours": "574",
-        "size_storage": "-",
-        "frames": "20670800",
-        "numberOfScenes": "103354",
-        "samplingRate": "10",
-        "lengthOfScenes": "20",
-        "sensors": "camera, lidar",
-        "sensorDetail": "5x cameras, 5x lidar, ",
-        "benchmark": "motion prediction, interaction prediction",
-        "annotations": "3d bounding boxes, 3d hd map information",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "Waymo Open Perception",
-        "publishDate": "2021-03-01",
-        "lastUpdate": "2021-09-01",
-        "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
-        "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
-        "rawData": "No",
-        "citationCount": 32
     },
     {
         "id": "Comma2k19",
@@ -1156,12 +1150,6 @@
         "lastUpdate": "",
         "relatedPaper": "https://ieeexplore.ieee.org/document/9109704",
         "DOI": "10.1109/MITS.2020.2990183",
-        "citationCount": 4
-    },
-    {
-        "id": "nuPlan",
-        "href": "https://www.nuscenes.org/nuplan",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11810.pdf",
         "citationCount": 4
     },
     {

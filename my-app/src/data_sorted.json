@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4492
+        "citationCount": 4493
     },
     {
         "id": "nuScenes",
@@ -88,7 +88,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1089
+        "citationCount": 1090
     },
     {
         "id": "Oxford Robot Car",
@@ -157,7 +157,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 602
+        "citationCount": 603
     },
     {
         "id": "Waymo Open Perception",
@@ -1130,7 +1130,7 @@
         "id": "MOTSynth",
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
         "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
-        "citationCount": 7
+        "citationCount": 8
     },
     {
         "id": "openDD",

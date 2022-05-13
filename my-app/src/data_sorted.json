@@ -211,7 +211,7 @@
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
         "citationCount": 433,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -266,7 +266,7 @@
         "href": "https://github.com/sekilab/RoadDamageDetector/",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
         "citationCount": 223,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "ApolloScape",
@@ -289,7 +289,7 @@
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
         "citationCount": 212,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -360,7 +360,7 @@
         "location": "Oxford",
         "rawData": "Yes",
         "citationCount": 126,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "INTERACTION dataset",
@@ -383,7 +383,7 @@
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
         "citationCount": 125,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "India Driving Dataset",
@@ -478,7 +478,7 @@
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
         "citationCount": 97,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "KAIST Urban",
@@ -525,7 +525,7 @@
         "location": "-",
         "rawData": "-",
         "citationCount": 82,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "WildDash",
@@ -572,7 +572,7 @@
         "location": "Palo Alto, USA",
         "rawData": "No",
         "citationCount": 73,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Lyft Level5 Perception",
@@ -595,7 +595,7 @@
         "location": "Palo Alto, USA",
         "rawData": "Yes",
         "citationCount": 73,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "A2D2",
@@ -618,7 +618,7 @@
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
         "citationCount": 71,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "LostAndFound",
@@ -641,7 +641,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 61,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Fishyscapes",
@@ -664,7 +664,7 @@
         "location": "-",
         "rawData": "No",
         "citationCount": 45,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "CADC",
@@ -698,7 +698,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "citationCount": 40,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Cityscapes-DVPS",
@@ -707,7 +707,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
         "citationCount": 40,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "NightOwls",
@@ -754,7 +754,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
         "citationCount": 33,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "The EuroCity Persons Dataset",
@@ -801,7 +801,7 @@
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
         "citationCount": 27,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "UTBM EU LTD",
@@ -810,7 +810,7 @@
         "rawData": "Yes",
         "publishDate": "2020-08-01",
         "citationCount": 26,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RADIATE",
@@ -833,7 +833,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 25,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Talk2Car",
@@ -904,7 +904,7 @@
         "location": "California, USA",
         "rawData": "Yes",
         "citationCount": 22,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "ONCE",
@@ -1053,7 +1053,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 15,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "IDDA",
@@ -1062,7 +1062,7 @@
         "benchmark": "semantic segmentation",
         "rawData": "Yes",
         "citationCount": 14,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RadarScenes",
@@ -1085,7 +1085,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 13,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "RoadAnomaly21",
@@ -1108,7 +1108,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 12,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Cityscapes 3D",
@@ -1131,7 +1131,7 @@
         "location": "50 cities in Germany and neighboring countries",
         "rawData": "Yes",
         "citationCount": 11,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "Semantic KITTI",
@@ -1154,7 +1154,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "No",
         "citationCount": 8,
-        "completionStatus": "incomplete"
+        "completionStatus": "complete"
     },
     {
         "id": "MCity Data Collection",
@@ -1177,14 +1177,14 @@
         "location": "Ann Arbor, USA",
         "rawData": "Yes",
         "citationCount": 8,
-        "completionStatus": "partially Complete"
+        "completionStatus": "complete"
     },
     {
         "id": "MOTSynth",
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
         "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
         "citationCount": 8,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "openDD",
@@ -1207,14 +1207,14 @@
         "location": "Wolfsburg and Ingolstadt, Germany",
         "rawData": "Yes",
         "citationCount": 6,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "PepScenes",
         "href": "https://github.com/huawei-noah/PePScenes",
         "relatedPaper": "https://arxiv.org/pdf/2012.07773.pdf",
         "citationCount": 4,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "nuPlan",
@@ -1297,21 +1297,21 @@
         "href": "https://innovation-mobility.com/en/a9-dataset/",
         "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
         "citationCount": 2,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "SODA10M",
         "href": "https://soda-2d.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
         "citationCount": 1,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Boreas",
         "href": "https://www.boreas.utias.utoronto.ca/#/",
         "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
         "citationCount": 1,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DG-Labeler and DGL-MOTS",
@@ -1339,7 +1339,7 @@
         "location": "San Francisco and El Camina Real, USA",
         "rawData": "Yes",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Udacity",
@@ -1361,19 +1361,19 @@
         "location": "-",
         "rawData": "True",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "WZ-traffic dataset",
         "href": "https://github.com/Fangyu0505/traffic-scene-recognition",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Nighttime Driving",
         "href": "http://people.ee.ethz.ch/~daid/NightDriving/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Cooperative Driving Dataset (CODD)",
@@ -1427,7 +1427,7 @@
         "id": "Steet Hazards Dataset",
         "href": "https://once-for-auto-driving.github.io/index.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "JAAD",
@@ -1457,19 +1457,19 @@
         "id": "RoadObstacle21",
         "href": "https://segmentmeifyoucan.com/datasets",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Astyx Dataset",
         "href": "https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/astyx_dataset.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "A Parametric Top-View Representation of Complex Road Scenes",
         "href": "https://www.nec-labs.com/~mas/BEV/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DRIV100",
@@ -1481,13 +1481,13 @@
         "id": "Cars Dataset",
         "href": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "CADP",
         "href": "https://ppms.cit.cmu.edu/media/project_files/CADP_IEEE_Camera_Ready_Final.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "CARLA100",
@@ -1500,13 +1500,13 @@
         "id": "VITRO",
         "href": "https://vitro-testing.com/test-data/dashcam-annotations/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "UDrive Dataset",
         "href": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqnfKIoK3uAhUOuaQKHZwcDEgQFjASegQIFBAC&url=https%3A%2F%2Ferticonetwork.com%2Fwp-content%2Fuploads%2F2017%2F12%2FUDRIVE-D41.1-UDrive-dataset-and-key-analysis-results-with-annotation-codebook.pdf&usg=AOvVaw17NgwnPrIal53hUYco9klG",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "D^2 City",
@@ -1518,19 +1518,19 @@
         "id": "Semantic Segmentation Dataset for Urban Driving Scenes",
         "href": "https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "MIT-AVT Clustered Driving Scene Dataset",
         "href": "https://ieeexplore.ieee.org/abstract/document/9304677/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DDAD",
         "href": "https://github.com/AdrienGaidon-TRI/DDAD",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RELLIS-3D Dataset",
@@ -1542,241 +1542,241 @@
         "id": "PolySync Dataset",
         "href": "http://selfracingcars.com/blog/2016/7/26/polysync",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Scale AI",
         "href": "https://techcrunch.com/2020/05/22/scale-ai-releases-free-lidar-dataset-to-power-self-driving-car-development/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKGZ2LrvykvUJnpRzaXr-_6O48Af6iBGBjQWN7BZfLzH2l4dnkXnLk-oKzrjz7ioojEPaSDvwQ0TG3QuvY4e85v3r9I9pjNMaYpy5xGEmNFS9c3kr5nCthPREhtld9lFxWXquUMhJ2ReECLW3BWsibXJp7JOOHxCtw0XCg2GhRQa&guccounter=2",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DriveSeg",
         "href": "https://news.mit.edu/2020/mit-toyota-release-visual-open-data-accelerate-autonomous-driving-research-0618",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "KUL Belgium Traffic Sign dataset",
         "href": "https://people.ee.ethz.ch/~timofter/traffic_signs/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Brain4Cars",
         "href": "http://brain4cars.com/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Seasonal Variation Dataset",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Bay Area Dataset",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Illumination Changes in a day",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "comma.ai",
         "href": "http://research.comma.ai/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "CULane Dataset",
         "href": "https://xingangpan.github.io/projects/CULane.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DAVIS Driving Dataset",
         "href": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DBNet",
         "href": "http://www.dbehavior.net/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DIPLECS Autonomous Driving Datasets",
         "href": "https://cvssp.org/data/diplecs/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DR(eye)VE",
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=8",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "SemanticPOSS",
         "href": "http://www.poss.pku.edu.cn/semanticposs.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "SemanticUSL",
         "href": "https://unmannedlab.github.io/semanticusl",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "ELEKTRA",
         "href": "http://adas.cvc.uab.es/elektra/datasets/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "German Traffic Sign",
         "href": "https://benchmark.ini.rub.de/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "HCI Challenging Stereo",
         "href": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "HD1K",
         "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Highway Work Zones",
         "href": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Amodal Cityscapes",
         "href": "https://github.com/ifnspaml/AmodalCityscapes",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "LISA Traffic Sign Dataset",
         "href": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Malaga Stereo",
         "href": "https://www.mrpt.org/MalagaUrbanDataset",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Malaga Laser Urban",
         "href": "https://www.mrpt.org/MalagaUrbanDataset",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Mapillary Vistas",
         "href": "https://www.mapillary.com/dataset/vistas",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "NEXET",
         "href": "https://blog.getnexar.com/https-medium-com-itayklein-intro-nexet-50e9b596d0e5",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Ground Truth Stixel Dataset",
         "href": "http://www.6d-vision.com/ground-truth-stixel-dataset",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Boxy",
         "href": "https://boxy-dataset.com/boxy/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "TME Motorway",
         "href": "http://cmp.felk.cvut.cz/data/motorway/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "TuSimple",
         "href": "https://www.tusimple.com/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "UAH-DriveSet",
         "href": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Unsupervised Llamas",
         "href": "https://unsupervised-llamas.com/llamas/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Dense Depth for Autonomous Driving",
         "href": "https://github.com/TRI-ML/DDAD",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Canadian Adverse Driving Conditions",
         "href": "http://cadcd.uwaterloo.ca/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Street Hazards",
         "href": "https://github.com/hendrycks/anomaly-seg",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Astyx HiRes 2019",
         "href": "https://www.astyx.com/fileadmin/redakteur/dokumente/Astyx_Dataset_HiRes2019_specification.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "A*3D",
         "href": "https://github.com/I2RDL2/ASTAR-3D",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "camvid",
         "href": "https://www.kaggle.com/carlolepelaars/camvid",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Daimler Urban Segmentation",
         "href": "https://computervisiononline.com/dataset/1105138608",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "VPGNet",
@@ -1788,25 +1788,25 @@
         "id": "Toronto 3D",
         "href": "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Toronto City",
         "href": "http://www.cs.toronto.edu/~byang/papers/Tcity_iccv17.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Synthia",
         "href": "https://synthia-dataset.net/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RANUS",
         "href": "https://sites.google.com/site/gmchoe1/ranus",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "One Thousand and One Hours",
@@ -1824,103 +1824,103 @@
         "id": "Stanford Track Collection",
         "href": "https://cs.stanford.edu/people/teichman/stc/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "LiDAR-Video Driving Dataset",
         "href": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_LiDAR-Video_Driving_Dataset_CVPR_2018_paper.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "WoodScape",
         "href": "https://paperswithcode.com/dataset/woodscape",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Raincouver",
         "href": "https://ieeexplore.ieee.org/document/7970170",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "TRoM",
         "href": "https://ieeexplore.ieee.org/document/8317749",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Caltech Lanes",
         "href": "http://www.mohamedaly.info/datasets/caltech-lanes",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Complex Urban Dataset",
         "href": "https://irap.kaist.ac.kr/dataset/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "CCSAD",
         "href": "https://www.researchgate.net/publication/277476726_Towards_Ubiquitous_Autonomous_Driving_The_CCSAD_Dataset",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Street Learn",
         "href": "https://paperswithcode.com/dataset/streetlearn",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Multi Vehicle Stereo Event Camera",
         "href": "https://daniilidis-group.github.io/mvsec/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "AMUSE",
         "href": "http://www.cvl.isy.liu.se/research/datasets/amuse/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Cheddar Gorge Dataset",
         "href": "https://www.researchgate.net/publication/228428941_The_Cheddar_Gorge_Data_Set",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "The Annotated Laser Dataset",
         "href": "https://journals.sagepub.com/doi/pdf/10.1177/0278364910389840",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DDD 17",
         "href": "https://www.paperswithcode.com/dataset/ddd17",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "BLVD",
         "href": "https://paperswithcode.com/dataset/blvd",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "FLIR Thermal Dataset",
         "href": "https://www.flir.com/oem/adas/adas-dataset-form/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Multispectral Object Detection",
         "href": "https://deepai.org/publication/multispectral-object-detection-with-deep-learning",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "CityPersons",
@@ -1932,68 +1932,68 @@
         "id": "Tsinghua Daimler Cyclist Detection",
         "href": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "TDU Brussels Pedestrian",
         "href": "https://www.researchgate.net/figure/Results-on-the-TUD-Brussels-Pedestrian-Dataset_fig13_321232691",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "ETH Pedestrian",
         "href": "https://paperswithcode.com/dataset/eth",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Daimler Pedestrian",
         "href": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "GROUNDED Localizing Ground Penetrating Radar (LGPR) Evaluation Dataset",
         "href": "https://lgprdata.com/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "highD",
         "href": "https://www.highd-dataset.com/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "inD",
         "href": "https://www.ind-dataset.com/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "rounD",
         "href": "https://www.round-dataset.com/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "TAF-BW",
         "href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Road Scene Graph",
         "href": "https://github.com/TianYafu/road-status-graph-dataset",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "R3 Driving Dataset",
         "href": "https://github.com/rllab-snu/R3-Driving-Dataset",
         "relatedPaper": "https://arxiv.org/pdf/2109.07995.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "EISATS",
@@ -2104,7 +2104,7 @@
         "id": "Argoverse 2",
         "href": "https://www.argoverse.org/av2.html",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Synthetic Discrepancy Datasets",
@@ -2118,7 +2118,7 @@
         "href": "https://thudair.baai.ac.cn/rope",
         "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "OpenMPD",
@@ -2144,7 +2144,7 @@
         "id": "PIE",
         "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "SeeingThroughFog",

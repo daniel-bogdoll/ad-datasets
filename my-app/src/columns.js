@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
-import ReceiptIcon from '@material-ui/icons/Receipt';
 import {CameraTag, LidarTag, RadarTag, RandomTag, AnalyzedTag, PartiallyAnalyzedTag, IncompleteAnalyzedTag} from "./components/tags";
 
 
@@ -526,16 +525,18 @@ const columns = [
         hide: false,
         type: "string",
         renderCell: (params) => (
+            <strong>
                 <Link
                     variant="contained"
                     color="primary"
                     size="small"
-                    style={{ marginLeft: 16 }}
-                    href={params.getValue(params.id, 'relatedPaper')}
+                    style={{marginLeft: 16}}
+                    href={params.getValue(params.id, 'relatedPaper') || ''}
                     target={'_blank'}
                 >
-                    <ReceiptIcon/>
+                    {params.getValue(params.id, 'paperTitle') || ''}
                 </Link>
+            </strong>
         ),
     },
 ];

@@ -73,6 +73,9 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RenderExpandCellGrid() {
 
+    const center = { lat: -34.397, lng: 150.644 };
+    const zoom = 4;
+
     const [, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth

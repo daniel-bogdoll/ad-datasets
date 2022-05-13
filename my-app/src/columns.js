@@ -12,65 +12,6 @@ function isOverflown(element) {
     return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
 
-// Number of properties the application currently covers
-let NUMBER_OF_JSON_PROPERTIES = 21;
-
-
-/***
- *
- * @param dataset: data set whose completeness has to be checked
- * @returns {number} returns a number between 0 and 2
- * 0 represents a complete dataset
- * 1 represents a partially complete data set (contains essential info, but misses non-essential)
- * 2 represents an incomplete data set that misses essential (=name, href, DOI or arxiv link) information
- *
- * Function that checks whether the information on a given data set is complete, partially complete or missing essential
- * information and therefore incomplete
- */
-function checkCompleteness(dataset) {
-    let info = (Object.entries(Object.entries(dataset.row)));
-    let x = 0;
-
-    // Check whether data set entry covers all properties
-    // Distinction between data sets with and without DOI as data set without doi but with arxiv paper can be complete
-    try {
-        if(info[19][0]==="DOI")
-            if (info.length<NUMBER_OF_JSON_PROPERTIES){
-                x = 1;
-            }
-        else {
-            if (info.length<NUMBER_OF_JSON_PROPERTIES-1){
-                x = 1;
-            }
-        }
-    }
-    catch (e) {
-        x = 1
-    }
-    // Check if entries in data set properties remained empty
-    info.forEach(entry => {
-        if (!entry[1][1]){
-            x = 1;
-        }
-    });
-
-    // Check whether data set entry misses essential properties as name, href, or DOI/arxiv paper
-    if (
-        (
-        dataset.getValue(dataset.id, 'DOI')===undefined &&
-        (dataset.getValue(dataset.id, 'relatedPaper')!==undefined && !dataset.getValue(dataset.id, 'relatedPaper').includes("arxiv"))
-        )
-        || dataset.getValue(dataset.id, 'href')===undefined
-        || dataset.getValue(dataset.id, 'id')===undefined
-        || (dataset.getValue(dataset.id, 'DOI')===undefined && dataset.getValue(dataset.id, 'relatedPaper')===undefined)
-    ) {
-        x = 2;
-    }
-    //If x=2 data set incomplete, if x=1 data set partially complete, if x=0 data set complete
-    return x
-}
-
-
 /***
  *
  *
@@ -251,7 +192,7 @@ const columns = [
         headerName: 'Name',
         width: 240,
         renderCell: (params) => {
-            if (checkCompleteness(params)===0) {
+            if (params.getValue(params.id, 'completionStatus') ==="complete") {
                 return(
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
                     <AnalyzedTag/>
@@ -269,7 +210,7 @@ const columns = [
                     </strong>
                 </div>)
             }
-            else if (checkCompleteness(params)===1){
+            else if (params.getValue(params.id, 'completionStatus') ==="partially Complete"){
                 return (
                     <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
                         <PartiallyAnalyzedTag/>
@@ -288,7 +229,7 @@ const columns = [
                     </div>
                 )
             }
-            else if (checkCompleteness(params)===2)
+            else if (params.getValue(params.id, 'completionStatus') ==="incomplete")
                 return (
                     <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
                         <IncompleteAnalyzedTag/>

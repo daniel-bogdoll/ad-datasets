@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1w5RgRSwoMbXXVJJvOE1bs5fw1Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -19,6 +26,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="calculations.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/calculations.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.calculations.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,7 +75,8 @@
       <workItem from="1631389883530" duration="560000" />
       <workItem from="1641893642266" duration="15000" />
       <workItem from="1641893676181" duration="1176000" />
-      <workItem from="1652282329779" duration="2341000" />
+      <workItem from="1652282329779" duration="2887000" />
+      <workItem from="1652444064133" duration="3153000" />
     </task>
     <servers />
   </component>
@@ -66,17 +84,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629561104185">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1652446832630">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="426" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1629561104185" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1627748735721">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1652446832630" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1652446832629">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1627748735721" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1628343078183">
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1652446832629" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1652446832628">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1628343078183" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1652446832628" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1652446832630">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1652446832630" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1652446217063">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1652446217063" />
   </component>
 </project>

@@ -73,7 +73,7 @@ for x in data:
             if "DOI" not in x:
                 incomplete.append(x['id'])
     except Exception as e:
-        warnings.warn(e)
+        print(e)
 
 
 # remove duplicate entries from lists

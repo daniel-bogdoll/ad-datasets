@@ -8,6 +8,7 @@ import json2mq from 'json2mq';
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Data from './data_sorted.json';
 import {AnalyzedTag, IncompleteAnalyzedTag, PartiallyAnalyzedTag} from "./components/tags";
+import {complete, parComplete, incomplete} from "./calculations";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -73,9 +74,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RenderExpandCellGrid() {
 
-    const center = { lat: -34.397, lng: 150.644 };
-    const zoom = 4;
-
     const [, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
@@ -133,15 +131,15 @@ export default function RenderExpandCellGrid() {
             <Typography className={classes.legend}>
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
                     <AnalyzedTag/>
-                    <p>Completely Analyzed Dataset </p>
+                    <p>Number of Completely Analyzed Datasets: {complete} </p>
                 </div>
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
                     <PartiallyAnalyzedTag/>
-                    <p>Partially Analyzed Dataset </p>
+                    <p>Number of Partially Analyzed Datasets: {parComplete} </p>
                 </div>
                 <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
                     <IncompleteAnalyzedTag/>
-                    <p>Dataset Missing Essential Information  </p>
+                    <p>Number of Datasets Missing Essential Information: {incomplete} </p>
 
                 </div>
             </Typography>

@@ -23,7 +23,7 @@ jobs:
             pip install -r my-app/requirements.txt
       - name: execute py script 
         run: |
-          python my-app/src/sort.py
+          python my-app/src/setupData.py
       - name: Commit files 
         id: commit
         run: |

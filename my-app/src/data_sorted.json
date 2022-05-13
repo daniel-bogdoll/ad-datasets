@@ -20,7 +20,8 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4493
+        "citationCount": 4493,
+        "completionStatus": "complete"
     },
     {
         "id": "nuScenes",
@@ -43,7 +44,8 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1163
+        "citationCount": 1163,
+        "completionStatus": "complete"
     },
     {
         "id": "nuImages",
@@ -65,7 +67,8 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1163
+        "citationCount": 1163,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "GTA5",
@@ -88,7 +91,8 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1090
+        "citationCount": 1090,
+        "completionStatus": "complete"
     },
     {
         "id": "Oxford Robot Car",
@@ -111,7 +115,8 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 793
+        "citationCount": 793,
+        "completionStatus": "complete"
     },
     {
         "id": "Caltech Pedestrian",
@@ -134,7 +139,8 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 633
+        "citationCount": 633,
+        "completionStatus": "complete"
     },
     {
         "id": "Beyond PASCAL",
@@ -157,7 +163,8 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 603
+        "citationCount": 604,
+        "completionStatus": "complete"
     },
     {
         "id": "Waymo Open Perception",
@@ -180,7 +187,8 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 527
+        "citationCount": 529,
+        "completionStatus": "complete"
     },
     {
         "id": "BDD100k",
@@ -202,7 +210,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 433
+        "citationCount": 433,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Argoverse Motion Forecasting",
@@ -225,7 +234,8 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 420
+        "citationCount": 420,
+        "completionStatus": "complete"
     },
     {
         "id": "Argoverse 3D Tracking",
@@ -248,13 +258,15 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 420
+        "citationCount": 420,
+        "completionStatus": "complete"
     },
     {
         "id": "Road Damage",
         "href": "https://github.com/sekilab/RoadDamageDetector/",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
-        "citationCount": 223
+        "citationCount": 223,
+        "completionStatus": "incomplete"
     },
     {
         "id": "ApolloScape",
@@ -276,7 +288,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 212
+        "citationCount": 212,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -299,7 +312,8 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 136
+        "citationCount": 136,
+        "completionStatus": "complete"
     },
     {
         "id": "Bosch TL",
@@ -322,29 +336,8 @@
         "location": "El Camino Real in the San Francisco Bay Area, California",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 136
-    },
-    {
-        "id": "INTERACTION dataset",
-        "href": "https://interaction-dataset.com/",
-        "size_storage": "-",
-        "size_hours": "16.5",
-        "frames": "594588",
-        "numberOfScenes": "-",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
-        "benchmark": "motion prediction",
-        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
-        "location": "USA, China, Germany and Bulgaria",
-        "rawData": "Yes",
-        "citationCount": 125
+        "citationCount": 136,
+        "completionStatus": "complete"
     },
     {
         "id": "Oxford Radar Robot Car",
@@ -366,7 +359,31 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 125
+        "citationCount": 126,
+        "completionStatus": "incomplete"
+    },
+    {
+        "id": "INTERACTION dataset",
+        "href": "https://interaction-dataset.com/",
+        "size_storage": "-",
+        "size_hours": "16.5",
+        "frames": "594588",
+        "numberOfScenes": "-",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
+        "benchmark": "motion prediction",
+        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
+        "location": "USA, China, Germany and Bulgaria",
+        "rawData": "Yes",
+        "citationCount": 125,
+        "completionStatus": "incomplete"
     },
     {
         "id": "India Driving Dataset",
@@ -389,7 +406,8 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 123
+        "citationCount": 123,
+        "completionStatus": "complete"
     },
     {
         "id": "KITTI-360",
@@ -412,7 +430,8 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2016.401",
-        "citationCount": 121
+        "citationCount": 121,
+        "completionStatus": "complete"
     },
     {
         "id": "KAIST Multi-Spectral Day/Night",
@@ -435,7 +454,8 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 103
+        "citationCount": 103,
+        "completionStatus": "complete"
     },
     {
         "id": "H3D",
@@ -457,7 +477,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1903.01568.pdf",
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 97
+        "citationCount": 97,
+        "completionStatus": "incomplete"
     },
     {
         "id": "KAIST Urban",
@@ -480,7 +501,8 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 87
+        "citationCount": 87,
+        "completionStatus": "complete"
     },
     {
         "id": "Synscapes",
@@ -502,7 +524,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
         "location": "-",
         "rawData": "-",
-        "citationCount": 82
+        "citationCount": 82,
+        "completionStatus": "incomplete"
     },
     {
         "id": "WildDash",
@@ -525,7 +548,8 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 80
+        "citationCount": 80,
+        "completionStatus": "complete"
     },
     {
         "id": "Lyft Level5 Prediction",
@@ -547,7 +571,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 73
+        "citationCount": 73,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Lyft Level5 Perception",
@@ -569,7 +594,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 73
+        "citationCount": 73,
+        "completionStatus": "incomplete"
     },
     {
         "id": "A2D2",
@@ -591,7 +617,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 71
+        "citationCount": 71,
+        "completionStatus": "incomplete"
     },
     {
         "id": "LostAndFound",
@@ -613,7 +640,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 61
+        "citationCount": 61,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Fishyscapes",
@@ -635,7 +663,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
         "location": "-",
         "rawData": "No",
-        "citationCount": 45
+        "citationCount": 45,
+        "completionStatus": "incomplete"
     },
     {
         "id": "CADC",
@@ -658,7 +687,8 @@
         "location": "Waterloo region in Ontorio, Canada",
         "rawData": "Yes",
         "DOI": "10.1177/0278364920979368",
-        "citationCount": 44
+        "citationCount": 44,
+        "completionStatus": "complete"
     },
     {
         "id": "SemKITTI-DVPS",
@@ -667,7 +697,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
-        "citationCount": 40
+        "citationCount": 40,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Cityscapes-DVPS",
@@ -675,7 +706,8 @@
         "relatedDatasets": "Cityscapes",
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
-        "citationCount": 40
+        "citationCount": 40,
+        "completionStatus": "incomplete"
     },
     {
         "id": "NightOwls",
@@ -698,7 +730,8 @@
         "location": "Several cities across Europe",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
-        "citationCount": 39
+        "citationCount": 39,
+        "completionStatus": "complete"
     },
     {
         "id": "Waymo Open Motion",
@@ -720,7 +753,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 33
+        "citationCount": 33,
+        "completionStatus": "incomplete"
     },
     {
         "id": "The EuroCity Persons Dataset",
@@ -743,7 +777,8 @@
         "location": "12 countries and 31 cities across Europe",
         "rawData": "Yes",
         "DOI": "10.1109/TPAMI.2019.2897684",
-        "citationCount": 33
+        "citationCount": 33,
+        "completionStatus": "complete"
     },
     {
         "id": "Comma2k19",
@@ -765,7 +800,8 @@
         "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
-        "citationCount": 27
+        "citationCount": 27,
+        "completionStatus": "incomplete"
     },
     {
         "id": "UTBM EU LTD",
@@ -773,7 +809,31 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.03330.pdf",
         "rawData": "Yes",
         "publishDate": "2020-08-01",
-        "citationCount": 26
+        "citationCount": 26,
+        "completionStatus": "incomplete"
+    },
+    {
+        "id": "RADIATE",
+        "href": "http://pro.hw.ac.uk/radiate/",
+        "size_storage": "-",
+        "size_hours": "5",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, radar, gps/imu",
+        "sensorDetail": "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, 1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-10-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 25,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Talk2Car",
@@ -796,29 +856,8 @@
         "location": "Boston and Singapore",
         "rawData": "Yes",
         "DOI": "10.18653/v1/D19-1215",
-        "citationCount": 25
-    },
-    {
-        "id": "RADIATE",
-        "href": "http://pro.hw.ac.uk/radiate/",
-        "size_storage": "-",
-        "size_hours": "5",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, radar, gps/imu",
-        "sensorDetail": "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, 1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
-        "benchmark": "-",
-        "annotations": "2d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-10-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 24
+        "citationCount": 25,
+        "completionStatus": "complete"
     },
     {
         "id": "Ford Autonomous Vehicle Dataset",
@@ -841,7 +880,8 @@
         "location": "Michigan, USA",
         "rawData": "True",
         "DOI": "10.1177/0278364920961451",
-        "citationCount": 23
+        "citationCount": 23,
+        "completionStatus": "complete"
     },
     {
         "id": "DDD 20",
@@ -863,7 +903,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2005.08605.pdf",
         "location": "California, USA",
         "rawData": "Yes",
-        "citationCount": 22
+        "citationCount": 22,
+        "completionStatus": "incomplete"
     },
     {
         "id": "ONCE",
@@ -886,7 +927,8 @@
         "location": "China",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 21
+        "citationCount": 21,
+        "completionStatus": "complete"
     },
     {
         "id": "PointCloudDeNoising",
@@ -912,7 +954,8 @@
         "location": "CEREMA's climatic chamber",
         "rawData": "Yes",
         "DOI": "10.1109/LRA.2020.2972865",
-        "citationCount": 21
+        "citationCount": 21,
+        "completionStatus": "complete"
     },
     {
         "id": "DriveU Traffic Light Dataset",
@@ -935,7 +978,8 @@
         "location": "10 cities across Germany",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2018.8460737",
-        "citationCount": 20
+        "citationCount": 20,
+        "completionStatus": "complete"
     },
     {
         "id": "Gated2Depth",
@@ -961,7 +1005,8 @@
         "location": "Germany, Denmark and Sweden",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.1902.04997",
-        "citationCount": 20
+        "citationCount": 20,
+        "completionStatus": "complete"
     },
     {
         "id": "CARRADA Dataset",
@@ -984,7 +1029,8 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICPR48806.2021.9413181",
-        "citationCount": 18
+        "citationCount": 18,
+        "completionStatus": "complete"
     },
     {
         "id": "4Seasons",
@@ -1006,7 +1052,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 15
+        "citationCount": 15,
+        "completionStatus": "incomplete"
     },
     {
         "id": "IDDA",
@@ -1014,7 +1061,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.08298.pdf",
         "benchmark": "semantic segmentation",
         "rawData": "Yes",
-        "citationCount": 14
+        "citationCount": 14,
+        "completionStatus": "incomplete"
     },
     {
         "id": "RadarScenes",
@@ -1036,7 +1084,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.02493.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 13
+        "citationCount": 13,
+        "completionStatus": "incomplete"
     },
     {
         "id": "RoadAnomaly21",
@@ -1058,7 +1107,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 12
+        "citationCount": 12,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Cityscapes 3D",
@@ -1080,7 +1130,8 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.07864.pdf",
         "location": "50 cities in Germany and neighboring countries",
         "rawData": "Yes",
-        "citationCount": 11
+        "citationCount": 11,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Semantic KITTI",
@@ -1102,7 +1153,8 @@
         "relatedPaper": "https://arxiv.org/abs/1904.01416.pdf",
         "location": "Karlsruhe, Germany",
         "rawData": "No",
-        "citationCount": 8
+        "citationCount": 8,
+        "completionStatus": "incomplete"
     },
     {
         "id": "MCity Data Collection",
@@ -1124,13 +1176,15 @@
         "relatedPaper": "https://arxiv.org/pdf/1912.06258.pdf",
         "location": "Ann Arbor, USA",
         "rawData": "Yes",
-        "citationCount": 8
+        "citationCount": 8,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "MOTSynth",
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
         "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
-        "citationCount": 8
+        "citationCount": 8,
+        "completionStatus": "incomplete"
     },
     {
         "id": "openDD",
@@ -1152,13 +1206,15 @@
         "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
         "location": "Wolfsburg and Ingolstadt, Germany",
         "rawData": "Yes",
-        "citationCount": 6
+        "citationCount": 6,
+        "completionStatus": "incomplete"
     },
     {
         "id": "PepScenes",
         "href": "https://github.com/huawei-noah/PePScenes",
         "relatedPaper": "https://arxiv.org/pdf/2012.07773.pdf",
-        "citationCount": 4
+        "citationCount": 4,
+        "completionStatus": "incomplete"
     },
     {
         "id": "nuPlan",
@@ -1181,7 +1237,8 @@
         "location": "Boston, Pittsburgh, Las Vegas and Singapore",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11810",
-        "citationCount": 4
+        "citationCount": 4,
+        "completionStatus": "complete"
     },
     {
         "id": "The USyd Campus Dataset",
@@ -1202,7 +1259,8 @@
         "lastUpdate": "",
         "relatedPaper": "https://ieeexplore.ieee.org/document/9109704",
         "DOI": "10.1109/MITS.2020.2990183",
-        "citationCount": 4
+        "citationCount": 4,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "ROAD",
@@ -1225,35 +1283,41 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1109/TPAMI.2022.3150906",
-        "citationCount": 3
+        "citationCount": 3,
+        "completionStatus": "complete"
     },
     {
         "id": "CODA",
         "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
-        "citationCount": 2
+        "citationCount": 2,
+        "completionStatus": "incomplete"
     },
     {
         "id": "A9",
         "href": "https://innovation-mobility.com/en/a9-dataset/",
         "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
-        "citationCount": 2
+        "citationCount": 2,
+        "completionStatus": "incomplete"
     },
     {
         "id": "SODA10M",
         "href": "https://soda-2d.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
-        "citationCount": 1
+        "citationCount": 1,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Boreas",
         "href": "https://www.boreas.utias.utoronto.ca/#/",
         "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
-        "citationCount": 1
+        "citationCount": 1,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DG-Labeler and DGL-MOTS",
         "relatedPaper": "https://arxiv.org/pdf/2110.07790.pdf",
-        "citationCount": 1
+        "citationCount": 1,
+        "completionStatus": "incomplete"
     },
     {
         "id": "PandaSet",
@@ -1274,7 +1338,8 @@
         "lastUpdate": "-",
         "location": "San Francisco and El Camina Real, USA",
         "rawData": "Yes",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Udacity",
@@ -1295,17 +1360,20 @@
         "lastUpdate": "-",
         "location": "-",
         "rawData": "True",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "WZ-traffic dataset",
         "href": "https://github.com/Fangyu0505/traffic-scene-recognition",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Nighttime Driving",
         "href": "http://people.ee.ethz.ch/~daid/NightDriving/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Cooperative Driving Dataset (CODD)",
@@ -1328,7 +1396,8 @@
         "location": "CARLA environment",
         "rawData": "Yes",
         "DOI": "10.1109/LRA.2021.3137888",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "complete"
     },
     {
         "id": "AIODrive",
@@ -1351,12 +1420,14 @@
         "location": "CARLA environment",
         "rawData": "Yes",
         "DOI": "10.13140/RG.2.2.21621.81122",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "complete"
     },
     {
         "id": "Steet Hazards Dataset",
         "href": "https://once-for-auto-driving.github.io/index.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "JAAD",
@@ -1379,459 +1450,550 @@
         "location": "North America and Europe",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.1609.04741",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "complete"
     },
     {
         "id": "RoadObstacle21",
         "href": "https://segmentmeifyoucan.com/datasets",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Astyx Dataset",
         "href": "https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/astyx_dataset.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "A Parametric Top-View Representation of Complex Road Scenes",
         "href": "https://www.nec-labs.com/~mas/BEV/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DRIV100",
         "href": "https://arxiv.org/pdf/2102.00150.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Cars Dataset",
         "href": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "CADP",
         "href": "https://ppms.cit.cmu.edu/media/project_files/CADP_IEEE_Camera_Ready_Final.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Codevilla_Exploring_the_Limitations_of_Behavior_Cloning_for_Autonomous_Driving_ICCV_2019_paper.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "VITRO",
         "href": "https://vitro-testing.com/test-data/dashcam-annotations/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "UDrive Dataset",
         "href": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqnfKIoK3uAhUOuaQKHZwcDEgQFjASegQIFBAC&url=https%3A%2F%2Ferticonetwork.com%2Fwp-content%2Fuploads%2F2017%2F12%2FUDRIVE-D41.1-UDrive-dataset-and-key-analysis-results-with-annotation-codebook.pdf&usg=AOvVaw17NgwnPrIal53hUYco9klG",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "D^2 City",
         "href": "https://arxiv.org/abs/1904.01975v1",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Semantic Segmentation Dataset for Urban Driving Scenes",
         "href": "https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "MIT-AVT Clustered Driving Scene Dataset",
         "href": "https://ieeexplore.ieee.org/abstract/document/9304677/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DDAD",
         "href": "https://github.com/AdrienGaidon-TRI/DDAD",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "RELLIS-3D Dataset",
         "href": "https://arxiv.org/abs/2011.12954",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "PolySync Dataset",
         "href": "http://selfracingcars.com/blog/2016/7/26/polysync",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Scale AI",
         "href": "https://techcrunch.com/2020/05/22/scale-ai-releases-free-lidar-dataset-to-power-self-driving-car-development/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKGZ2LrvykvUJnpRzaXr-_6O48Af6iBGBjQWN7BZfLzH2l4dnkXnLk-oKzrjz7ioojEPaSDvwQ0TG3QuvY4e85v3r9I9pjNMaYpy5xGEmNFS9c3kr5nCthPREhtld9lFxWXquUMhJ2ReECLW3BWsibXJp7JOOHxCtw0XCg2GhRQa&guccounter=2",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DriveSeg",
         "href": "https://news.mit.edu/2020/mit-toyota-release-visual-open-data-accelerate-autonomous-driving-research-0618",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "KUL Belgium Traffic Sign dataset",
         "href": "https://people.ee.ethz.ch/~timofter/traffic_signs/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Brain4Cars",
         "href": "http://brain4cars.com/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Seasonal Variation Dataset",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Bay Area Dataset",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Illumination Changes in a day",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "comma.ai",
         "href": "http://research.comma.ai/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "CULane Dataset",
         "href": "https://xingangpan.github.io/projects/CULane.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DAVIS Driving Dataset",
         "href": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DBNet",
         "href": "http://www.dbehavior.net/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DIPLECS Autonomous Driving Datasets",
         "href": "https://cvssp.org/data/diplecs/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DR(eye)VE",
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=8",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "SemanticPOSS",
         "href": "http://www.poss.pku.edu.cn/semanticposs.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "SemanticUSL",
         "href": "https://unmannedlab.github.io/semanticusl",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "ELEKTRA",
         "href": "http://adas.cvc.uab.es/elektra/datasets/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "German Traffic Sign",
         "href": "https://benchmark.ini.rub.de/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "HCI Challenging Stereo",
         "href": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "HD1K",
         "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Highway Work Zones",
         "href": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Amodal Cityscapes",
         "href": "https://github.com/ifnspaml/AmodalCityscapes",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "LISA Traffic Sign Dataset",
         "href": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Malaga Stereo",
         "href": "https://www.mrpt.org/MalagaUrbanDataset",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Malaga Laser Urban",
         "href": "https://www.mrpt.org/MalagaUrbanDataset",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Mapillary Vistas",
         "href": "https://www.mapillary.com/dataset/vistas",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "NEXET",
         "href": "https://blog.getnexar.com/https-medium-com-itayklein-intro-nexet-50e9b596d0e5",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Ground Truth Stixel Dataset",
         "href": "http://www.6d-vision.com/ground-truth-stixel-dataset",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Boxy",
         "href": "https://boxy-dataset.com/boxy/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "TME Motorway",
         "href": "http://cmp.felk.cvut.cz/data/motorway/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "TuSimple",
         "href": "https://www.tusimple.com/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "UAH-DriveSet",
         "href": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Unsupervised Llamas",
         "href": "https://unsupervised-llamas.com/llamas/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Dense Depth for Autonomous Driving",
         "href": "https://github.com/TRI-ML/DDAD",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Canadian Adverse Driving Conditions",
         "href": "http://cadcd.uwaterloo.ca/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Street Hazards",
         "href": "https://github.com/hendrycks/anomaly-seg",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Astyx HiRes 2019",
         "href": "https://www.astyx.com/fileadmin/redakteur/dokumente/Astyx_Dataset_HiRes2019_specification.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "A*3D",
         "href": "https://github.com/I2RDL2/ASTAR-3D",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "camvid",
         "href": "https://www.kaggle.com/carlolepelaars/camvid",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Daimler Urban Segmentation",
         "href": "https://computervisiononline.com/dataset/1105138608",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "VPGNet",
         "href": "https://arxiv.org/abs/1710.06288",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Toronto 3D",
         "href": "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Toronto City",
         "href": "http://www.cs.toronto.edu/~byang/papers/Tcity_iccv17.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Synthia",
         "href": "https://synthia-dataset.net/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "RANUS",
         "href": "https://sites.google.com/site/gmchoe1/ranus",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "One Thousand and One Hours",
         "href": "https://arxiv.org/abs/2006.14480v2",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "LIBRE",
         "href": "https://arxiv.org/abs/2003.06129",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Stanford Track Collection",
         "href": "https://cs.stanford.edu/people/teichman/stc/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "LiDAR-Video Driving Dataset",
         "href": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_LiDAR-Video_Driving_Dataset_CVPR_2018_paper.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "WoodScape",
         "href": "https://paperswithcode.com/dataset/woodscape",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Raincouver",
         "href": "https://ieeexplore.ieee.org/document/7970170",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "TRoM",
         "href": "https://ieeexplore.ieee.org/document/8317749",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Caltech Lanes",
         "href": "http://www.mohamedaly.info/datasets/caltech-lanes",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Complex Urban Dataset",
         "href": "https://irap.kaist.ac.kr/dataset/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "CCSAD",
         "href": "https://www.researchgate.net/publication/277476726_Towards_Ubiquitous_Autonomous_Driving_The_CCSAD_Dataset",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Street Learn",
         "href": "https://paperswithcode.com/dataset/streetlearn",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Multi Vehicle Stereo Event Camera",
         "href": "https://daniilidis-group.github.io/mvsec/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "AMUSE",
         "href": "http://www.cvl.isy.liu.se/research/datasets/amuse/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Cheddar Gorge Dataset",
         "href": "https://www.researchgate.net/publication/228428941_The_Cheddar_Gorge_Data_Set",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "The Annotated Laser Dataset",
         "href": "https://journals.sagepub.com/doi/pdf/10.1177/0278364910389840",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "DDD 17",
         "href": "https://www.paperswithcode.com/dataset/ddd17",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "BLVD",
         "href": "https://paperswithcode.com/dataset/blvd",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "FLIR Thermal Dataset",
         "href": "https://www.flir.com/oem/adas/adas-dataset-form/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Multispectral Object Detection",
         "href": "https://deepai.org/publication/multispectral-object-detection-with-deep-learning",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "CityPersons",
         "href": "https://arxiv.org/abs/1702.05693",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Tsinghua Daimler Cyclist Detection",
         "href": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "TDU Brussels Pedestrian",
         "href": "https://www.researchgate.net/figure/Results-on-the-TUD-Brussels-Pedestrian-Dataset_fig13_321232691",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "ETH Pedestrian",
         "href": "https://paperswithcode.com/dataset/eth",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Daimler Pedestrian",
         "href": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "GROUNDED Localizing Ground Penetrating Radar (LGPR) Evaluation Dataset",
         "href": "https://lgprdata.com/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "highD",
         "href": "https://www.highd-dataset.com/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "inD",
         "href": "https://www.ind-dataset.com/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "rounD",
         "href": "https://www.round-dataset.com/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "TAF-BW",
         "href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Road Scene Graph",
         "href": "https://github.com/TianYafu/road-status-graph-dataset",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "R3 Driving Dataset",
         "href": "https://github.com/rllab-snu/R3-Driving-Dataset",
         "relatedPaper": "https://arxiv.org/pdf/2109.07995.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "EISATS",
@@ -1851,7 +2013,8 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Ford CAMPUS",
@@ -1871,7 +2034,8 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Argoverse Stereo",
@@ -1891,7 +2055,8 @@
         "publishDate": "2021-04-01",
         "lastUpdate": "",
         "relatedPaper": "",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "uniD",
@@ -1911,7 +2076,8 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "exiD",
@@ -1931,46 +2097,54 @@
         "publishDate": " ",
         "lastUpdate": "",
         "relatedPaper": "",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Argoverse 2",
         "href": "https://www.argoverse.org/av2.html",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Synthetic Discrepancy Datasets",
         "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
         "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "Rope3D",
         "href": "https://thudair.baai.ac.cn/rope",
         "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "OpenMPD",
         "href": "http://openmpd.com/",
         "relatedPaper": "https://ieeexplore.ieee.org/document/9682587",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
         "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "The Autonomous Platform Inertial Dataset",
         "href": "https://github.com/ansfl/Navigation-Data-Project/",
         "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "PIE",
         "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "SeeingThroughFog",
@@ -1996,7 +2170,8 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.1902.08913",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "complete"
     },
     {
         "id": "Gated2Gated",
@@ -2022,6 +2197,7 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.2112.02416",
-        "citationCount": 0
+        "citationCount": 0,
+        "completionStatus": "complete"
     }
 ]

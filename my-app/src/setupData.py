@@ -2,10 +2,8 @@ import json
 import requests
 import warnings
 
-#file_name = "my-app/src/data.json"
-#file_save = "my-app/src/data_sorted.json"
-file_name = "data.json"
-file_save = "data_sorted.json"
+file_name = "my-app/src/data.json"
+file_save = "my-app/src/data_sorted.json"
 incomplete = []
 partiallyComplete = []
 complete = []

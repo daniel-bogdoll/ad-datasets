@@ -1222,7 +1222,7 @@
 {
 "id": "CARLA100",
 "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
-"relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Codevilla_Exploring_the_Limitations_of_Behavior_Cloning_for_Autonomous_Driving_ICCV_2019_paper.pdf"
+"relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf"
 },
 {
 "id": "VITRO",
@@ -1738,10 +1738,12 @@
 },
 {
   "id": "Argoverse 2",
-  "href": "https://www.argoverse.org/av2.html"
+  "href": "https://www.argoverse.org/av2.html",
+  "relatedPaper": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/4734ba6f3de83d861c3176a6273cac6d-Paper-round2.pdf"
 },
 {
   "id": "CODA",
+  "href": "https://coda-dataset.github.io/",
   "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf"
 },
 {
@@ -1770,7 +1772,8 @@
   "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf"
 },
 {
-  "id": "DG-Labeler and DGL-MOTS",
+  "id": "DGL-MOTS",
+  "href": "https://goodproj13.github.io/DGL-MOTS/",
   "relatedPaper": "https://arxiv.org/pdf/2110.07790.pdf"
 },
 {

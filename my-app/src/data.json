@@ -1300,11 +1300,29 @@
 },
 {
 "id": "D^2 City",
-"href": "https://arxiv.org/abs/1904.01975v1"
-},
-{
-"id": "Semantic Segmentation Dataset for Urban Driving Scenes",
-"href": "https://autonomous-driving.org/2018/07/15/semantic-segmentation-datasets-for-urban-driving-scenes/"
+"href": "https://outreach.didichuxing.com/d2city",
+"size_storage": "-",
+"size_hours": "-",
+"frames": "-",
+"numberOfScenes": "11211",
+"samplingRate": "25",
+"lengthOfScenes": "30",
+"sensors": "camera",
+"sensorDetail": "",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"benchmark": "-",
+"annotations": "2d bounding boxes and t",
+"licensing": "-",
+"relatedDatasets": "-",
+"publishDate":"2019-04-03",
+"lastUpdate": "-",
+"paperTitle": "D^2-City: A Large-Scale Dashcam Video Dataset of Diverse Traffic Scenarios",
+"relatedPaper": "https://arxiv.org/pdf/1904.01975v1.pdf",
+"location": "5 Chinese cities",
+"rawData": "Yes",
+"DOI": "10.48550/arXiv.1904.01975",
+"citationCount": 0
 },
 {
 "id": "MIT-AVT Clustered Driving Scene Dataset",

@@ -877,17 +877,19 @@
 "lengthOfScenes": "-",
 "sensors": "lidar",
 "sensorDetail": "-",
+"recordingPerspective": "Top Shot",
+"dataType":"Real",
 "benchmark": "-",
 "annotations": "3d bounding boxes",
 "licensing": "Creative Commons Attribution Share Alike 4.0 International",
 "relatedDatasets": "-",
 "publishDate": "2021-11-23",
 "lastUpdate": "-",
+"paperTitle": "Fast and Robust Registration of Partially Overlapping Point Clouds",
 "relatedPaper": "https://arxiv.org/pdf/2112.09922.pdf",
 "location": "CARLA environment",
 "rawData": "Yes",
-"DOI": "10.1109/LRA.2021.3137888",
-"citationCount": 0
+"DOI": "10.1109/LRA.2021.3137888"
 },
 {
 "id": "AIODrive",
@@ -900,17 +902,19 @@
 "lengthOfScenes": "100",
 "sensors": "camera, lidar, radar, gps/imu",
 "sensorDetail": "5x color cameras 1920x720 10Hz, 5x depth cameras 1920x720 10Hz, 3x lidar 64/800/1200 channels 360° 10Hz, 1x SPAD-LiDAR, 4x radar 360° 10Hz, 1x gps/imu 10Hz",
+"recordingPerspective": "Bird’s Eye",
+"dataType":"Real",
 "benchmark": "3d object detection, trajectory forecasting",
 "annotations": "2d/3d bounding boxes, object category and attributes, 2d-3d semantic, instance and panoptic segmentation",
 "licensing": "freely available for both commercial and non-commercial purposes",
 "relatedDatasets": "-",
 "publishDate": "2021-04-06",
 "lastUpdate": "-",
+"paperTitle": "All-In-One Drive: A Comprehensive Perception Dataset with High-Density Long-Range Point Clouds",
 "relatedPaper": "https://www.xinshuoweng.com/papers/AIODrive/arXiv.pdf",
 "location": "CARLA environment",
 "rawData": "Yes",
-"DOI": "10.13140/RG.2.2.21621.81122",
-"citationCount": 0
+"DOI": "10.13140/RG.2.2.21621.81122"
 },
 {
 "id": "ROAD",
@@ -923,17 +927,19 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
 "benchmark": "agent detection, action detection and road event detection",
 "annotations": "2d/3d bounding boxes, action label and location labels",
 "licensing": "Creative Commons Attribution Share Alike 4.0 International",
 "relatedDatasets": "Oxford Robot Car Dataset (OxRD)",
 "publishDate": "-",
 "lastUpdate": "-",
+"paperTitle": "ROAD: The ROad event Awareness Dataset for Autonomous Driving",
 "relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
 "location": "Oxford, UK",
 "rawData": "Yes",
-"DOI": "10.1109/TPAMI.2022.3150906",
-"citationCount": 0
+"DOI": "10.1109/TPAMI.2022.3150906"
 },
 {
 "id": "ONCE",
@@ -946,17 +952,19 @@
 "lengthOfScenes": "-",
 "sensors": "camera, lidar",
 "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
 "benchmark": "3d object detection",
 "annotations": "2d/3d bounding boxes",
 "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
 "relatedDatasets": "ONCE-3DLanes",
 "publishDate":"2021-05-18",
 "lastUpdate": "2021-08-05",
+"paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
 "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
 "location": "China",
 "rawData": "Yes",
-"DOI": "10.48550/arXiv.2106.11037",
-"citationCount": 0
+"DOI": "10.48550/arXiv.2106.11037"
 },
 {
 "id": "DriveU Traffic Light Dataset",
@@ -969,17 +977,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "1x stereo camera 60°, 1x stereo camera 130°",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData":"Yes",
 "benchmark": "-",
 "annotations": "2d bounding boxes",
 "licensing": "freely available for non-commercial research and teaching activities",
 "relatedDatasets": "-",
 "publishDate":"2018-11-27",
 "lastUpdate": "2021-04",
+"paperTitle": "The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets",
 "relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
 "location": "10 cities across Germany",
 "rawData": "Yes",
-"DOI": "10.1109/ICRA.2018.8460737",
-"citationCount": 0
+"DOI": "10.1109/ICRA.2018.8460737"
 },
 {
 "id": "Bosch TL",
@@ -992,17 +1003,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "camera 1280x720",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "2d bounding boxes",
 "licensing": "freely available for non-commercial use",
 "relatedDatasets": "-",
 "publishDate":"2017-07-24",
 "lastUpdate": "-",
+"paperTitle": "A deep learning approach to traffic lights: Detection, tracking, and classification",
 "relatedPaper": "https://ieeexplore.ieee.org/document/7989163",
 "location": "El Camino Real in the San Francisco Bay Area, California",
 "rawData": "Yes",
-"DOI": "10.1109/ICRA.2017.7989163",
-"citationCount": 0
+"DOI": "10.1109/ICRA.2017.7989163"
 },
 {
 "id": "nuPlan",
@@ -1015,17 +1029,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera, lidar, gps/imu",
 "sensorDetail": "8x cameras 2000x1200 10Hz, 5x lidar 20Hz, 1x imu 100Hz, 1x gnss 20Hz",
+"recordingPerspective": "-",
+"dataType":"Real",
+"mapData":"No",
 "benchmark": "autonomous vehicle planning",
 "annotations": "2d/3d bounding boxes",
 "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
 "relatedDatasets": "-",
 "publishDate":"2021-12-10",
 "lastUpdate": "-",
+"paperTitle": "nuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles",
 "relatedPaper": "https://arxiv.org/abs/2106.11810",
 "location": "Boston, Pittsburgh, Las Vegas and Singapore",
 "rawData": "-",
-"DOI": "10.48550/arXiv.2106.11810",
-"citationCount": 0
+"DOI": "10.48550/arXiv.2106.11810"
 },
 {
 "id": "Steet Hazards Dataset",
@@ -1042,17 +1059,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "1x camera 1920x1080 110°, 1x camera 1920x1080 170°, 1x camera 1280x720 100°",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "2d bounding boxes, behavioral tags, contextual tags",
 "licensing": "MIT License",
 "relatedDatasets": "PIE Dataset",
 "publishDate":"2016-09-15",
 "lastUpdate": "-",
+"paperTitle": "Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian Crosswalk Behavior",
 "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf",
 "location": "North America and Europe",
 "rawData": "Yes",
-"DOI": "10.48550/arXiv.1609.04741",
-"citationCount": 0
+"DOI": "10.1109/ICCVW.2017.33"
 },
 {
 "id": "RoadObstacle21",
@@ -1067,7 +1087,10 @@
 "numberOfScenes": "-",
 "samplingRate": "-",
 "lengthOfScenes": "-",
-"sensors": "camera, CAD models",
+"sensors": "camera",
+"recordingPerspective": "-",
+"dataType":"Real",
+"mapData":"No",
 "sensorDetail": "-",
 "benchmark": "3d object detection and pose estimation",
 "annotations": "label landmarks of the CAD model on the 2D image",
@@ -1075,11 +1098,11 @@
 "relatedDatasets": "-",
 "publishDate":"2014-03-26",
 "lastUpdate": "-",
+"paperTitle": "Beyond PASCAL: A Benchmark for 3D Object Detection in the Wild",
 "relatedPaper": "https://cvgl.stanford.edu/papers/xiang_wacv14.pdf",
 "location": "-",
 "rawData": "-",
-"DOI": "10.1109/WACV.2014.6836101",
-"citationCount": 0
+"DOI": "10.1109/WACV.2014.6836101"
 },
 {
 "id": "The EuroCity Persons Dataset",
@@ -1092,17 +1115,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "1x camera 1920x1080 20Hz",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData":"Yes",
 "benchmark": "object detection",
 "annotations": "2d bounding boxes",
 "licensing": "freely available for research use by eligiible persons",
 "relatedDatasets": "ECP2.5D - Person Localization in Traffic Scenes",
 "publishDate":"2019-03-31",
 "lastUpdate": "2020-11-11",
+"paperTitle": "The EuroCity Persons Dataset: A Novel Benchmark for Object Detection",
 "relatedPaper": "https://arxiv.org/pdf/1805.07193.pdf",
 "location": "12 countries and 31 cities across Europe",
 "rawData": "Yes",
-"DOI": "10.1109/TPAMI.2019.2897684",
-"citationCount": 0
+"DOI": "10.1109/TPAMI.2019.2897684"
 },
 {
 "id": "CADC",
@@ -1115,21 +1141,24 @@
 "lengthOfScenes": "-",
 "sensors": "cameras, lidar, gps",
 "sensorDetail": "8x camera Ximea MQ013CG-E2 1280x1024 10Hz,  1x lidar Veldyne VLP-32C 360° 10Hz, 1x NovAtel OEM638 Triple-Frequency GPS, 1x Sensonor STIM300 MEMS 100Hz IMU, 2x Xsens 200Hz IMU",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData":"Yes",
 "benchmark": "-",
 "annotations": "2d/3d bounding boxes",
 "licensing": "Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0)",
 "relatedDatasets": "-",
 "publishDate":"2020-01-27",
 "lastUpdate": "-",
+"paperTitle": "Canadian Adverse Driving Conditions Dataset",
 "relatedPaper": "https://arxiv.org/pdf/2001.10117.pdf",
 "location": "Waterloo region in Ontorio, Canada",
 "rawData": "Yes",
-"DOI": "10.1177/0278364920979368",
-"citationCount": 0
+"DOI": "10.1177/0278364920979368"
 },
 {
 "id": "CARRADA Dataset",
-"href": "https://arxiv.org/abs/2005.01456",
+"href": "https://github.com/valeoai/carrada_dataset",
 "size_storage": "288",
 "size_hours": "-",
 "frames": "12666",
@@ -1138,17 +1167,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera, radar",
 "sensorDetail": "1x camera 1238x1024,  1x radar 180°",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "range-angle Doppler annotations",
 "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
 "relatedDatasets": "-",
 "publishDate":"2020-05-04",
 "lastUpdate": "2021-07",
+"paperTitle": "CARRADA Dataset: Camera and Automotive Radar with Range-Angle-Doppler Annotations",
 "relatedPaper": "https://arxiv.org/pdf/2005.01456.pdf",
 "location": "-",
 "rawData": "Yes",
-"DOI": "10.1109/ICPR48806.2021.9413181",
-"citationCount": 0
+"DOI": "10.1109/ICPR48806.2021.9413181"
 },
 {
 "id": "Astyx Dataset",
@@ -1167,6 +1199,7 @@
 "sensorDetail": "1 Velodyne VLP32c lidar sensor",
 "recordingPerspective": "Ego-perspective",
 "dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "pointwise annotations",
 "licensing": "Freely available for research and teaching purposes",
@@ -1177,8 +1210,7 @@
 "relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
 "location": "CEREMA's climatic chamber",
 "rawData": "Yes",
-"DOI": "10.1109/LRA.2020.2972865",
-"citationCount": 0
+"DOI": "10.1109/LRA.2020.2972865"
 },
 {
 "id": "Talk2Car",
@@ -1191,17 +1223,20 @@
 "lengthOfScenes": "20",
 "sensors": "camera, lidar, radar, gps/imu",
 "sensorDetail": "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x gps/imu 1000Hz",
+"recordingPerspective": "Ego-perspective",
+"dataType":"Real",
+"mapData":"No",
 "benchmark": "find bounding box for objects based on user commands in natural language",
 "annotations": "bounding box and command in natural language related to the bounding box",
 "licensing": "MIT license",
 "relatedDatasets": "-",
 "publishDate":"2020-03-18",
 "lastUpdate": "2021-10-06",
+"paperTitle": "Talk2Car: Taking Control of Your Self-Driving Car",
 "relatedPaper": "https://arxiv.org/pdf/1909.10838.pdf",
 "location": "Boston and Singapore",
 "rawData": "Yes",
-"DOI": "10.18653/v1/D19-1215",
-"citationCount": 0
+"DOI": "10.18653/v1/D19-1215"
 },
 {
 "id": "A Parametric Top-View Representation of Complex Road Scenes",
@@ -1220,6 +1255,7 @@
 "sensorDetail": "-",
 "recordingPerspective": "ego-perspective",
 "dataType":"Real",
+"mapData":"No",
 "benchmark": "Domain adaptation techniques on in-the-wild road-scene videos collected from the Internet",
 "annotations": "pixel level semantic segmentation",
 "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
@@ -1230,8 +1266,7 @@
 "relatedPaper": "https://arxiv.org/pdf/2102.00150.pdf",
 "location": "Random videos from YouTube",
 "rawData": "Yes",
-"DOI": "10.5281/zenodo.4389243",
-"citationCount": 0
+"DOI": "10.5281/zenodo.4389243"
 },
 {
 "id": "Cars Dataset",
@@ -1244,8 +1279,9 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "camera",
-"recordingPerspective": "",
+"recordingPerspective": "-",
 "dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "car make, model, year",
 "licensing": "freely available for non-commercial research and educational use",
@@ -1256,8 +1292,7 @@
 "relatedPaper": "https://ai.stanford.edu/~jkrause/papers/3drr13.pdf",
 "location": "Sourced from internet",
 "rawData": "Yes",
-"DOI": "10.1109/ICCVW.2013.77",
-"citationCount": 0
+"DOI": "10.1109/ICCVW.2013.77"
 },
 {
 "id": "CADP",
@@ -1270,8 +1305,9 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "-",
-"recordingPerspective": "CCTV traffic camera",
+"recordingPerspective": "Bird's Eye",
 "dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "Object detectiona and accident forecasting",
 "licensing": "freely available for non-commercial use",
@@ -1282,8 +1318,7 @@
 "relatedPaper": "https://ppms.cit.cmu.edu/media/project_files/CADP_IEEE_Camera_Ready_Final.pdf",
 "location": "Videos sampled from YouTube",
 "rawData": "Yes",
-"DOI": "10.1109/AVSS.2018.8639160",
-"citationCount": 0
+"DOI": "10.1109/AVSS.2018.8639160"
 },
 {
 "id": "CARLA100",
@@ -1311,8 +1346,9 @@
 "sensorDetail": "",
 "recordingPerspective": "ego-perspective",
 "dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
-"annotations": "2d bounding boxes and t",
+"annotations": "2d bounding boxes and inter-frame tracking labels",
 "licensing": "-",
 "relatedDatasets": "-",
 "publishDate":"2019-04-03",
@@ -1321,8 +1357,7 @@
 "relatedPaper": "https://arxiv.org/pdf/1904.01975v1.pdf",
 "location": "5 Chinese cities",
 "rawData": "Yes",
-"DOI": "10.48550/arXiv.1904.01975",
-"citationCount": 0
+"DOI": "10.48550/arXiv.1904.01975"
 },
 {
 "id": "MIT-AVT Clustered Driving Scene Dataset",
@@ -1348,8 +1383,7 @@
 "relatedPaper": "https://ieeexplore.ieee.org/abstract/document/9304677/",
 "location": "Many states across the USA",
 "rawData": "Yes",
-"DOI": "10.1109/IV47402.2020.9304677",
-"citationCount": 0
+"DOI": "10.1109/IV47402.2020.9304677"
 },
 {
 "id": "DDAD",
@@ -1482,17 +1516,20 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "camera 1914x1052",
+"recordingPerspective": "ego-perspective",
+"dataType":"Synthetic",
+"mapData": "No",
 "benchmark": "-",
 "annotations": "semantic segmentation of different classes",
 "licensing": "Freely available for research and educational purposes",
 "relatedDatasets": "-",
 "publishDate":"2016-04-08",
 "lastUpdate": "-",
+"paperTitle": "Playing for Data: Ground Truth from Computer Games",
 "relatedPaper": "https://arxiv.org/pdf/1608.02192.pdf",
 "location": "Game: Grand Theft Auto 5",
 "rawData": "-",
-"DOI": "10.1007/978-3-319-46475-6_7",
-"citationCount": 0
+"DOI": "10.1007/978-3-319-46475-6_7"
 },
 {
 "id": "Ground Truth Stixel Dataset",
@@ -1911,9 +1948,10 @@
 "samplingRate": "10",
 "lengthOfScenes": "-",
 "sensors": "camera, radar, lidar, imu, weather sensor",
-"sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor",
+"sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
 "recordingPerspective": "Ego-perspective",
 "dataType":"real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "weather of scenes in frames",
 "licensing": "Freely available for research and teaching purposes",
@@ -1923,9 +1961,8 @@
 "paperTitle": "Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather",
 "relatedPaper": "https://www.cs.princeton.edu/~fheide/AdverseWeatherFusion/figures/AdverseWeatherFusion.pdf",
 "location": "Germany, Sweden, Denmark and Finland",
-"rawData": "Yes",
-"DOI": "10.48550/arXiv.1902.08913",
-"citationCount": 0
+"rawData": "-",
+"DOI": "10.1109/CVPR42600.2020.01170"
 },
 {
 "id": "Gated2Gated",
@@ -1937,9 +1974,10 @@
 "samplingRate": "10",
 "lengthOfScenes": "-",
 "sensors": "camera, radar, lidar, imu, weather sensor",
-"sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor",
+"sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
 "recordingPerspective": "Ego-perspective",
 "dataType":"real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "-",
 "licensing": "Freely available for research and teaching purposes",
@@ -1949,9 +1987,8 @@
 "paperTitle": "Gated2Gated: Self-Supervised Depth Estimation from Gated Images",
 "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf",
 "location": "Germany, Sweden, Denmark and Finland",
-"rawData": "Yes",
-"DOI": "10.48550/arXiv.2112.02416",
-"citationCount": 0
+"rawData": "-",
+"DOI": "10.48550/arXiv.2112.02416"
 },
 {
 "id": "Gated2Depth",
@@ -1966,6 +2003,7 @@
 "sensorDetail": "1x Aptina AR0230 stereo camera 1920x1080 30Hz, 1x Velodyne HDL64-S3 lidar, 1x gated camera 10bit images 1280x720 120Hz",
 "recordingPerspective": "Ego-perspective",
 "dataType":"Real",
+"mapData":"No",
 "benchmark": "-",
 "annotations": "-",
 "licensing": "Freely available for research and teaching purposes",
@@ -1975,8 +2013,7 @@
 "paperTitle": "Gated2Depth: Real-Time Dense Lidar From Gated Images",
 "relatedPaper": "https://arxiv.org/pdf/1902.04997.pdf",
 "location": "Germany, Denmark and Sweden",
-"rawData": "Yes",
-"DOI": "10.48550/arXiv.1902.04997",
-"citationCount": 0
+"rawData": "-",
+"DOI": "10.1109/ICCV.2019.00159"
 }
 ]

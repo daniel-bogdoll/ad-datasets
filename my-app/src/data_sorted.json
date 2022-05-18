@@ -292,7 +292,7 @@
         "id": "Road Damage",
         "href": "https://github.com/sekilab/RoadDamageDetector/",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
-        "citationCount": 223,
+        "citationCount": 224,
         "completionStatus": "partially Complete"
     },
     {
@@ -1416,6 +1416,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "MIT-AVT Clustered Driving Scene Dataset",
+        "href": "https://ieeexplore.ieee.org/abstract/document/9304677/",
+        "size_storage": "4000",
+        "size_hours": "3212",
+        "frames": "-",
+        "numberOfScenes": "1156592",
+        "samplingRate": "30",
+        "lengthOfScenes": "10",
+        "sensors": "camera, imu, gps",
+        "sensorDetail": "-",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "Seasons, Weather, Lanes, Illuminnation, Simplified Road Type, Others",
+        "licensing": "Not released publically",
+        "relatedDatasets": "-",
+        "publishDate": "2020-11-13",
+        "lastUpdate": "-",
+        "paperTitle": "MIT-AVT Clustered Driving Scene Dataset: Evaluating Perception Systems in Real-World Naturalistic Driving Scenarios",
+        "relatedPaper": "https://ieeexplore.ieee.org/abstract/document/9304677/",
+        "location": "Many states across the USA",
+        "rawData": "Yes",
+        "DOI": "10.1109/IV47402.2020.9304677",
+        "citationCount": 1,
+        "completionStatus": "complete"
+    },
+    {
         "id": "SODA10M",
         "href": "https://soda-2d.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
@@ -1597,12 +1625,6 @@
     {
         "id": "UDrive Dataset",
         "href": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqnfKIoK3uAhUOuaQKHZwcDEgQFjASegQIFBAC&url=https%3A%2F%2Ferticonetwork.com%2Fwp-content%2Fuploads%2F2017%2F12%2FUDRIVE-D41.1-UDrive-dataset-and-key-analysis-results-with-annotation-codebook.pdf&usg=AOvVaw17NgwnPrIal53hUYco9klG",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "MIT-AVT Clustered Driving Scene Dataset",
-        "href": "https://ieeexplore.ieee.org/abstract/document/9304677/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

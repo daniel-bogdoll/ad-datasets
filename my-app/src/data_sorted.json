@@ -10,7 +10,7 @@
         "lengthOfScenes": "-",
         "sensors": "camera, lidar, gps/imu",
         "sensorDetail": "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and GPS navigation system",
-        "benchmark": " stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
+        "benchmark": "stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
         "annotations": "3d bounding boxes",
         "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "relatedDatasets": "Semantic KITTI, KITTI-360",
@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4501,
+        "citationCount": 4506,
         "completionStatus": "complete"
     },
     {
@@ -48,7 +48,7 @@
         "location": "Sourced from internet",
         "rawData": "Yes",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1514,
+        "citationCount": 1515,
         "completionStatus": "complete"
     },
     {
@@ -72,7 +72,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1170,
+        "citationCount": 1177,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +95,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1170,
+        "citationCount": 1177,
         "completionStatus": "partially Complete"
     },
     {
@@ -123,7 +123,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1093,
+        "citationCount": 1094,
         "completionStatus": "complete"
     },
     {
@@ -188,7 +188,7 @@
         "dataType": "Real",
         "mapData": "No",
         "sensorDetail": "-",
-        "benchmark": "3d object detection and pose estimation",
+        "benchmark": "anomaly detection, 3D object detection and pose estimation",
         "annotations": "label landmarks of the CAD model on the 2D image",
         "licensing": "-",
         "relatedDatasets": "-",
@@ -223,7 +223,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 531,
+        "citationCount": 536,
         "completionStatus": "complete"
     },
     {
@@ -246,7 +246,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 434,
+        "citationCount": 435,
         "completionStatus": "complete"
     },
     {
@@ -324,7 +324,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 212,
+        "citationCount": 214,
         "completionStatus": "complete"
     },
     {
@@ -406,7 +406,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 127,
+        "citationCount": 128,
         "completionStatus": "complete"
     },
     {
@@ -529,7 +529,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 103,
+        "citationCount": 104,
         "completionStatus": "complete"
     },
     {
@@ -706,7 +706,7 @@
         "lengthOfScenes": "-",
         "sensors": "camera",
         "sensorDetail": "stereo camera setup baseline 21cm 2048x1024",
-        "benchmark": "-",
+        "benchmark": "anomaly detection",
         "annotations": "semantic segmentation",
         "licensing": "freely available for non-commercial purposes",
         "relatedDatasets": "-",
@@ -743,7 +743,7 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.01170",
-        "citationCount": 54,
+        "citationCount": 55,
         "completionStatus": "complete"
     },
     {
@@ -757,7 +757,7 @@
         "lengthOfScenes": "-",
         "sensors": "camera",
         "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
-        "benchmark": "anomaly detection for semantic segmentation",
+        "benchmark": "anomaly detection, semantic segmentation",
         "annotations": "semantic segmentation",
         "licensing": "-",
         "relatedDatasets": "Cityscapes, LostAndFound",
@@ -939,7 +939,7 @@
         "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
-        "citationCount": 27,
+        "citationCount": 28,
         "completionStatus": "complete"
     },
     {
@@ -1074,7 +1074,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2005.08605.pdf",
         "location": "California, USA",
         "rawData": "Yes",
-        "citationCount": 22,
+        "citationCount": 23,
         "completionStatus": "complete"
     },
     {
@@ -1133,34 +1133,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "DriveU Traffic Light Dataset",
-        "href": "https://www.uni-ulm.de/en/in/driveu/projects/driveu-traffic-light-dataset/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "15",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "1x stereo camera 60°, 1x stereo camera 130°",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "-",
-        "annotations": "2d bounding boxes",
-        "licensing": "freely available for non-commercial research and teaching activities",
-        "relatedDatasets": "-",
-        "publishDate": "2018-11-27",
-        "lastUpdate": "2021-04",
-        "paperTitle": "The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets",
-        "relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
-        "location": "10 cities across Germany",
-        "rawData": "Yes",
-        "DOI": "10.1109/ICRA.2018.8460737",
-        "citationCount": 20,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Gated2Depth",
         "href": "https://github.com/gruberto/Gated2Depth",
         "size_storage": "-",
@@ -1185,6 +1157,34 @@
         "location": "Germany, Denmark and Sweden",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2019.00159",
+        "citationCount": 21,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "DriveU Traffic Light Dataset",
+        "href": "https://www.uni-ulm.de/en/in/driveu/projects/driveu-traffic-light-dataset/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "15",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x stereo camera 60°, 1x stereo camera 130°",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes",
+        "licensing": "freely available for non-commercial research and teaching activities",
+        "relatedDatasets": "-",
+        "publishDate": "2018-11-27",
+        "lastUpdate": "2021-04",
+        "paperTitle": "The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets",
+        "relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
+        "location": "10 cities across Germany",
+        "rawData": "Yes",
+        "DOI": "10.1109/ICRA.2018.8460737",
         "citationCount": 20,
         "completionStatus": "complete"
     },
@@ -1236,7 +1236,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 15,
+        "citationCount": 16,
         "completionStatus": "complete"
     },
     {
@@ -1282,7 +1282,7 @@
         "lengthOfScenes": "-",
         "sensors": "camera",
         "sensorDetail": "images from web resources 2048x1024 & 1280x720",
-        "benchmark": "anomaly segmentation",
+        "benchmark": "anomaly detection",
         "annotations": "semantic segmentation",
         "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
         "relatedDatasets": "RoadObstacle21",
@@ -1316,6 +1316,13 @@
         "rawData": "Yes",
         "citationCount": 11,
         "completionStatus": "complete"
+    },
+    {
+        "id": "MOTSynth",
+        "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
+        "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
+        "citationCount": 9,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Semantic KITTI",
@@ -1362,13 +1369,6 @@
         "rawData": "Yes",
         "citationCount": 8,
         "completionStatus": "complete"
-    },
-    {
-        "id": "MOTSynth",
-        "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
-        "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
-        "citationCount": 8,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "openDD",
@@ -1481,6 +1481,7 @@
         "id": "CODA",
         "href": "https://coda-dataset.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
+        "benchmark": "anomaly detection",
         "citationCount": 2,
         "completionStatus": "partially Complete"
     },

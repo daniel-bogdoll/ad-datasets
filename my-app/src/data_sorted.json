@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4509,
+        "citationCount": 4523,
         "completionStatus": "complete"
     },
     {
@@ -46,9 +46,9 @@
         "paperTitle": "3D Object Representations for Fine-Grained Categorization",
         "relatedPaper": "https://ai.stanford.edu/~jkrause/papers/3drr13.pdf",
         "location": "Sourced from internet",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1515,
+        "citationCount": 1523,
         "completionStatus": "complete"
     },
     {
@@ -72,7 +72,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1177,
+        "citationCount": 1189,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +95,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1177,
+        "citationCount": 1189,
         "completionStatus": "partially Complete"
     },
     {
@@ -123,7 +123,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1096,
+        "citationCount": 1098,
         "completionStatus": "complete"
     },
     {
@@ -147,7 +147,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 799,
+        "citationCount": 807,
         "completionStatus": "complete"
     },
     {
@@ -199,7 +199,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 604,
+        "citationCount": 606,
         "completionStatus": "complete"
     },
     {
@@ -223,7 +223,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 536,
+        "citationCount": 540,
         "completionStatus": "complete"
     },
     {
@@ -246,7 +246,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 435,
+        "citationCount": 437,
         "completionStatus": "complete"
     },
     {
@@ -270,7 +270,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 421,
+        "citationCount": 425,
         "completionStatus": "complete"
     },
     {
@@ -294,14 +294,14 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 421,
+        "citationCount": 425,
         "completionStatus": "complete"
     },
     {
         "id": "Road Damage",
         "href": "https://github.com/sekilab/RoadDamageDetector/",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
-        "citationCount": 223,
+        "citationCount": 225,
         "completionStatus": "partially Complete"
     },
     {
@@ -324,7 +324,35 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 214,
+        "citationCount": 215,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Brain4Cars",
+        "href": "http://brain4cars.com/",
+        "size_storage": "16",
+        "size_hours": "-",
+        "frames": "2000000",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, speed logger, gps",
+        "sensorDetail": "-",
+        "recordingPerspective": "Face camera, ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "driving events (lane changes, turns, driving straight)",
+        "licensing": "free for educational and non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2015-12-13",
+        "lastUpdate": "-",
+        "paperTitle": "Car that Knows Before You Do: Anticipating Maneuvers via Learning Temporal Driving Models",
+        "relatedPaper": "http://brain4cars.com/pdfs/iccv2015.pdf",
+        "location": "USA",
+        "rawData": "-",
+        "DOI": "10.1109/ICCV.2015.364",
+        "citationCount": 180,
         "completionStatus": "complete"
     },
     {
@@ -352,14 +380,14 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 172,
+        "citationCount": 174,
         "completionStatus": "complete"
     },
     {
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 150,
+        "citationCount": 153,
         "completionStatus": "partially Complete"
     },
     {
@@ -409,7 +437,7 @@
         "paperTitle": "A deep learning approach to traffic lights: Detection, tracking, and classification",
         "relatedPaper": "https://ieeexplore.ieee.org/document/7989163",
         "location": "El Camino Real in the San Francisco Bay Area, California",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/ICRA.2017.7989163",
         "citationCount": 136,
         "completionStatus": "complete"
@@ -434,7 +462,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 128,
+        "citationCount": 129,
         "completionStatus": "complete"
     },
     {
@@ -457,7 +485,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 126,
+        "citationCount": 127,
         "completionStatus": "complete"
     },
     {
@@ -531,7 +559,7 @@
         "paperTitle": "Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian Crosswalk Behavior",
         "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf",
         "location": "North America and Europe",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
         "citationCount": 106,
         "completionStatus": "complete"
@@ -557,7 +585,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 104,
+        "citationCount": 105,
         "completionStatus": "complete"
     },
     {
@@ -771,7 +799,7 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.01170",
-        "citationCount": 55,
+        "citationCount": 56,
         "completionStatus": "complete"
     },
     {
@@ -820,7 +848,7 @@
         "paperTitle": "Canadian Adverse Driving Conditions Dataset",
         "relatedPaper": "https://arxiv.org/pdf/2001.10117.pdf",
         "location": "Waterloo region in Ontorio, Canada",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1177/0278364920979368",
         "citationCount": 44,
         "completionStatus": "complete"
@@ -888,7 +916,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 34,
+        "citationCount": 35,
         "completionStatus": "complete"
     },
     {
@@ -914,7 +942,7 @@
         "paperTitle": "The EuroCity Persons Dataset: A Novel Benchmark for Object Detection",
         "relatedPaper": "https://arxiv.org/pdf/1805.07193.pdf",
         "location": "12 countries and 31 cities across Europe",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/TPAMI.2019.2897684",
         "citationCount": 33,
         "completionStatus": "complete"
@@ -942,7 +970,7 @@
         "paperTitle": "D^2-City: A Large-Scale Dashcam Video Dataset of Diverse Traffic Scenarios",
         "relatedPaper": "https://arxiv.org/pdf/1904.01975v1.pdf",
         "location": "5 Chinese cities",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.48550/arXiv.1904.01975",
         "citationCount": 29,
         "completionStatus": "complete"
@@ -1053,9 +1081,33 @@
         "paperTitle": "Talk2Car: Taking Control of Your Self-Driving Car",
         "relatedPaper": "https://arxiv.org/pdf/1909.10838.pdf",
         "location": "Boston and Singapore",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.18653/v1/D19-1215",
         "citationCount": 25,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Ford Autonomous Vehicle Dataset",
+        "href": "https://avdata.ford.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
+        "benchmark": "-",
+        "annotations": "3d point cloud maps, ground reflectivity map",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+        "location": "Michigan, USA",
+        "rawData": "True",
+        "DOI": "10.1177/0278364920961451",
+        "citationCount": 24,
         "completionStatus": "complete"
     },
     {
@@ -1081,33 +1133,9 @@
         "paperTitle": "CADP: A Novel Dataset for CCTV Traffic Camera based Accident Analysis",
         "relatedPaper": "https://ppms.cit.cmu.edu/media/project_files/CADP_IEEE_Camera_Ready_Final.pdf",
         "location": "Videos sampled from YouTube",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/AVSS.2018.8639160",
         "citationCount": 24,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Ford Autonomous Vehicle Dataset",
-        "href": "https://avdata.ford.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
-        "benchmark": "-",
-        "annotations": "3d point cloud maps, ground reflectivity map",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
-        "location": "Michigan, USA",
-        "rawData": "True",
-        "DOI": "10.1177/0278364920961451",
-        "citationCount": 23,
         "completionStatus": "complete"
     },
     {
@@ -1162,33 +1190,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "ONCE",
-        "href": "https://once-for-auto-driving.github.io/index.html",
-        "size_storage": "-",
-        "size_hours": "144",
-        "frames": "1000000",
-        "numberOfScenes": "581",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar",
-        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "benchmark": "3d object detection",
-        "annotations": "2d/3d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "ONCE-3DLanes",
-        "publishDate": "2021-05-18",
-        "lastUpdate": "2021-08-05",
-        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
-        "location": "China",
-        "rawData": "Yes",
-        "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 21,
-        "completionStatus": "complete"
-    },
-    {
         "id": "PointCloudDeNoising",
         "href": "https://github.com/rheinzler/PointCloudDeNoising",
         "size_storage": "-",
@@ -1211,8 +1212,35 @@
         "paperTitle": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
         "relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
         "location": "CEREMA's climatic chamber",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/LRA.2020.2972865",
+        "citationCount": 22,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "ONCE",
+        "href": "https://once-for-auto-driving.github.io/index.html",
+        "size_storage": "-",
+        "size_hours": "144",
+        "frames": "1000000",
+        "numberOfScenes": "581",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar",
+        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "benchmark": "3d object detection",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "ONCE-3DLanes",
+        "publishDate": "2021-05-18",
+        "lastUpdate": "2021-08-05",
+        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
+        "location": "China",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2106.11037",
         "citationCount": 21,
         "completionStatus": "complete"
     },
@@ -1267,7 +1295,7 @@
         "paperTitle": "The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets",
         "relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
         "location": "10 cities across Germany",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/ICRA.2018.8460737",
         "citationCount": 20,
         "completionStatus": "complete"
@@ -1295,7 +1323,7 @@
         "paperTitle": "CARRADA Dataset: Camera and Automotive Radar with Range-Angle-Doppler Annotations",
         "relatedPaper": "https://arxiv.org/pdf/2005.01456.pdf",
         "location": "-",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/ICPR48806.2021.9413181",
         "citationCount": 19,
         "completionStatus": "complete"
@@ -1405,7 +1433,7 @@
         "id": "MOTSynth",
         "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
         "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
-        "citationCount": 9,
+        "citationCount": 10,
         "completionStatus": "partially Complete"
     },
     {
@@ -1474,7 +1502,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
         "location": "Wolfsburg and Ingolstadt, Germany",
         "rawData": "Yes",
-        "citationCount": 6,
+        "citationCount": 7,
         "completionStatus": "partially Complete"
     },
     {
@@ -1556,7 +1584,7 @@
         "paperTitle": "ROAD: The ROad event Awareness Dataset for Autonomous Driving",
         "relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
         "location": "Oxford, UK",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/TPAMI.2022.3150906",
         "citationCount": 3,
         "completionStatus": "complete"
@@ -1573,6 +1601,13 @@
         "id": "A9",
         "href": "https://innovation-mobility.com/en/a9-dataset/",
         "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
+        "citationCount": 2,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "Boreas",
+        "href": "https://www.boreas.utias.utoronto.ca/#/",
+        "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
         "citationCount": 2,
         "completionStatus": "partially Complete"
     },
@@ -1599,7 +1634,7 @@
         "paperTitle": "DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation",
         "relatedPaper": "https://arxiv.org/pdf/2102.00150.pdf",
         "location": "Random videos from YouTube",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.5281/zenodo.4389243",
         "citationCount": 1,
         "completionStatus": "complete"
@@ -1636,13 +1671,6 @@
         "id": "SODA10M",
         "href": "https://soda-2d.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
-        "citationCount": 1,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Boreas",
-        "href": "https://www.boreas.utias.utoronto.ca/#/",
-        "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
         "citationCount": 1,
         "completionStatus": "partially Complete"
     },
@@ -1731,7 +1759,7 @@
         "paperTitle": "Fast and Robust Registration of Partially Overlapping Point Clouds",
         "relatedPaper": "https://arxiv.org/pdf/2112.09922.pdf",
         "location": "CARLA environment",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.1109/LRA.2021.3137888",
         "citationCount": 0,
         "completionStatus": "complete"
@@ -1758,7 +1786,7 @@
         "paperTitle": "All-In-One Drive: A Comprehensive Perception Dataset with High-Density Long-Range Point Clouds",
         "relatedPaper": "https://www.xinshuoweng.com/papers/AIODrive/arXiv.pdf",
         "location": "CARLA environment",
-        "rawData": "Yes",
+        "rawData": "-",
         "DOI": "10.13140/RG.2.2.21621.81122",
         "citationCount": 0,
         "completionStatus": "complete"
@@ -1849,7 +1877,7 @@
         "mapData": "No",
         "benchmark": "-",
         "annotations": "pixel-wise semantic annotation",
-        "licensing": "",
+        "licensing": "-",
         "relatedDatasets": "DriveSeg (MANUAL), MIT-AVT Clustered Driving Scene Dataset",
         "publishDate": "2020-04-06",
         "lastUpdate": "-",
@@ -1864,12 +1892,6 @@
     {
         "id": "KUL Belgium Traffic Sign dataset",
         "href": "https://people.ee.ethz.ch/~timofter/traffic_signs/",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Brain4Cars",
-        "href": "http://brain4cars.com/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

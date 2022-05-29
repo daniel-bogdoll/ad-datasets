@@ -888,7 +888,7 @@
 "paperTitle": "Fast and Robust Registration of Partially Overlapping Point Clouds",
 "relatedPaper": "https://arxiv.org/pdf/2112.09922.pdf",
 "location": "CARLA environment",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/LRA.2021.3137888"
 },
 {
@@ -913,7 +913,7 @@
 "paperTitle": "All-In-One Drive: A Comprehensive Perception Dataset with High-Density Long-Range Point Clouds",
 "relatedPaper": "https://www.xinshuoweng.com/papers/AIODrive/arXiv.pdf",
 "location": "CARLA environment",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.13140/RG.2.2.21621.81122"
 },
 {
@@ -938,7 +938,7 @@
 "paperTitle": "ROAD: The ROad event Awareness Dataset for Autonomous Driving",
 "relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
 "location": "Oxford, UK",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/TPAMI.2022.3150906"
 },
 {
@@ -963,7 +963,7 @@
 "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
 "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
 "location": "China",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.48550/arXiv.2106.11037"
 },
 {
@@ -989,7 +989,7 @@
 "paperTitle": "The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets",
 "relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
 "location": "10 cities across Germany",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/ICRA.2018.8460737"
 },
 {
@@ -1015,7 +1015,7 @@
 "paperTitle": "A deep learning approach to traffic lights: Detection, tracking, and classification",
 "relatedPaper": "https://ieeexplore.ieee.org/document/7989163",
 "location": "El Camino Real in the San Francisco Bay Area, California",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/ICRA.2017.7989163"
 },
 {
@@ -1071,7 +1071,7 @@
 "paperTitle": "Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian Crosswalk Behavior",
 "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf",
 "location": "North America and Europe",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/ICCVW.2017.33"
 },
 {
@@ -1127,7 +1127,7 @@
 "paperTitle": "The EuroCity Persons Dataset: A Novel Benchmark for Object Detection",
 "relatedPaper": "https://arxiv.org/pdf/1805.07193.pdf",
 "location": "12 countries and 31 cities across Europe",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/TPAMI.2019.2897684"
 },
 {
@@ -1153,7 +1153,7 @@
 "paperTitle": "Canadian Adverse Driving Conditions Dataset",
 "relatedPaper": "https://arxiv.org/pdf/2001.10117.pdf",
 "location": "Waterloo region in Ontorio, Canada",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1177/0278364920979368"
 },
 {
@@ -1179,7 +1179,7 @@
 "paperTitle": "CARRADA Dataset: Camera and Automotive Radar with Range-Angle-Doppler Annotations",
 "relatedPaper": "https://arxiv.org/pdf/2005.01456.pdf",
 "location": "-",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/ICPR48806.2021.9413181"
 },
 {
@@ -1209,7 +1209,7 @@
 "paperTitle": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
 "relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
 "location": "CEREMA's climatic chamber",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/LRA.2020.2972865"
 },
 {
@@ -1235,7 +1235,7 @@
 "paperTitle": "Talk2Car: Taking Control of Your Self-Driving Car",
 "relatedPaper": "https://arxiv.org/pdf/1909.10838.pdf",
 "location": "Boston and Singapore",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.18653/v1/D19-1215"
 },
 {
@@ -1265,7 +1265,7 @@
 "paperTitle": "DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation",
 "relatedPaper": "https://arxiv.org/pdf/2102.00150.pdf",
 "location": "Random videos from YouTube",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.5281/zenodo.4389243"
 },
 {
@@ -1291,7 +1291,7 @@
 "paperTitle": "3D Object Representations for Fine-Grained Categorization",
 "relatedPaper": "https://ai.stanford.edu/~jkrause/papers/3drr13.pdf",
 "location": "Sourced from internet",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/ICCVW.2013.77"
 },
 {
@@ -1317,7 +1317,7 @@
 "paperTitle": "CADP: A Novel Dataset for CCTV Traffic Camera based Accident Analysis",
 "relatedPaper": "https://ppms.cit.cmu.edu/media/project_files/CADP_IEEE_Camera_Ready_Final.pdf",
 "location": "Videos sampled from YouTube",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.1109/AVSS.2018.8639160"
 },
 {
@@ -1356,7 +1356,7 @@
 "paperTitle": "D^2-City: A Large-Scale Dashcam Video Dataset of Diverse Traffic Scenarios",
 "relatedPaper": "https://arxiv.org/pdf/1904.01975v1.pdf",
 "location": "5 Chinese cities",
-"rawData": "Yes",
+"rawData": "-",
 "DOI": "10.48550/arXiv.1904.01975"
 },
 {
@@ -1483,7 +1483,7 @@
 "mapData": "No",
 "benchmark": "-",
 "annotations": "pixel-wise semantic annotation",
-"licensing": "",
+"licensing": "-",
 "relatedDatasets": "DriveSeg (MANUAL), MIT-AVT Clustered Driving Scene Dataset",
 "publishDate":"2020-04-06",
 "lastUpdate": "-",
@@ -1499,7 +1499,29 @@
 },
 {
 "id": "Brain4Cars",
-"href": "http://brain4cars.com/"
+"href": "http://brain4cars.com/",
+"size_storage": "16",
+"size_hours": "-",
+"frames": "2000000",
+"numberOfScenes": "-",
+"samplingRate": "-",
+"lengthOfScenes": "-",
+"sensors": "camera, speed logger, gps",
+"sensorDetail": "-",
+"recordingPerspective": "Face camera, ego-perspective",
+"dataType":"Real",
+"mapData": "No",
+"benchmark": "-",
+"annotations": "driving events (lane changes, turns, driving straight)",
+"licensing": "free for educational and non-commercial purposes",
+"relatedDatasets": "-",
+"publishDate":"2015-12-13",
+"lastUpdate": "-",
+"paperTitle": "Car that Knows Before You Do: Anticipating Maneuvers via Learning Temporal Driving Models",
+"relatedPaper": "http://brain4cars.com/pdfs/iccv2015.pdf",
+"location": "USA",
+"rawData": "-",
+"DOI": "10.1109/ICCV.2015.364"
 },
 {
 "id": "Seasonal Variation Dataset",

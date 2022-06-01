@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4523,
+        "citationCount": 4535,
         "completionStatus": "complete"
     },
     {
@@ -48,7 +48,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1523,
+        "citationCount": 1529,
         "completionStatus": "complete"
     },
     {
@@ -72,7 +72,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1189,
+        "citationCount": 1194,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +95,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1189,
+        "citationCount": 1194,
         "completionStatus": "partially Complete"
     },
     {
@@ -123,7 +123,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1098,
+        "citationCount": 1102,
         "completionStatus": "complete"
     },
     {
@@ -147,7 +147,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 807,
+        "citationCount": 808,
         "completionStatus": "complete"
     },
     {
@@ -199,7 +199,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 606,
+        "citationCount": 607,
         "completionStatus": "complete"
     },
     {
@@ -223,7 +223,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 540,
+        "citationCount": 547,
         "completionStatus": "complete"
     },
     {
@@ -246,7 +246,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 437,
+        "citationCount": 442,
         "completionStatus": "complete"
     },
     {
@@ -270,7 +270,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 425,
+        "citationCount": 429,
         "completionStatus": "complete"
     },
     {
@@ -294,14 +294,14 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 425,
+        "citationCount": 429,
         "completionStatus": "complete"
     },
     {
         "id": "Road Damage",
         "href": "https://github.com/sekilab/RoadDamageDetector/",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
-        "citationCount": 225,
+        "citationCount": 230,
         "completionStatus": "partially Complete"
     },
     {
@@ -324,7 +324,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 215,
+        "citationCount": 216,
         "completionStatus": "complete"
     },
     {
@@ -356,6 +356,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "comma.ai",
+        "href": "http://research.comma.ai/",
+        "size_storage": "80",
+        "size_hours": "7.25",
+        "frames": "-",
+        "numberOfScenes": "10",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "-",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
+        "relatedDatasets": "-",
+        "publishDate": "2016-08-03",
+        "lastUpdate": "-",
+        "paperTitle": "Learning a Driving Simulator",
+        "relatedPaper": "https://arxiv.org/pdf/1608.01230",
+        "location": "-",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.1608.01230",
+        "citationCount": 176,
+        "completionStatus": "complete"
+    },
+    {
         "id": "DDAD",
         "href": "https://github.com/AdrienGaidon-TRI/DDAD",
         "size_storage": "254",
@@ -380,7 +408,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 174,
+        "citationCount": 175,
         "completionStatus": "complete"
     },
     {
@@ -485,7 +513,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 127,
+        "citationCount": 128,
         "completionStatus": "complete"
     },
     {
@@ -537,6 +565,30 @@
         "completionStatus": "complete"
     },
     {
+        "id": "KAIST Multi-Spectral Day/Night",
+        "href": "http://multispectral.kaist.ac.kr",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "25",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu, thermal camera",
+        "sensorDetail": "2x PointGrey Flea3 RGB camera 1280 × 960, 1x FLIR A655Sc thermal camera 640x480 50Hz, 1x Velodyne HDL-32E 3D LiDAR 360° 32 beams 10Hz, 1x OXTS RT2002 gps/ins 100Hz",
+        "benchmark": "object detection, vision sensor enhancement, depth estimation, multi-spectral colorization",
+        "annotations": "dense depth map, bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        "relatedDatasets": "-",
+        "publishDate": "2017-12",
+        "lastUpdate": "-",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689",
+        "location": "-",
+        "rawData": "Yes",
+        "DOI": "10.1109/TITS.2018.2791533",
+        "citationCount": 106,
+        "completionStatus": "complete"
+    },
+    {
         "id": "JAAD",
         "href": "https://paperswithcode.com/dataset/jaad",
         "size_storage": "3.1",
@@ -562,30 +614,6 @@
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
         "citationCount": 106,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "KAIST Multi-Spectral Day/Night",
-        "href": "http://multispectral.kaist.ac.kr",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "25",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu, thermal camera",
-        "sensorDetail": "2x PointGrey Flea3 RGB camera 1280 × 960, 1x FLIR A655Sc thermal camera 640x480 50Hz, 1x Velodyne HDL-32E 3D LiDAR 360° 32 beams 10Hz, 1x OXTS RT2002 gps/ins 100Hz",
-        "benchmark": "object detection, vision sensor enhancement, depth estimation, multi-spectral colorization",
-        "annotations": "dense depth map, bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-        "relatedDatasets": "-",
-        "publishDate": "2017-12",
-        "lastUpdate": "-",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689",
-        "location": "-",
-        "rawData": "Yes",
-        "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 105,
         "completionStatus": "complete"
     },
     {
@@ -632,7 +660,7 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 88,
+        "citationCount": 89,
         "completionStatus": "complete"
     },
     {
@@ -679,7 +707,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 80,
+        "citationCount": 81,
         "completionStatus": "complete"
     },
     {
@@ -702,7 +730,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 74,
+        "citationCount": 75,
         "completionStatus": "complete"
     },
     {
@@ -725,7 +753,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 74,
+        "citationCount": 75,
         "completionStatus": "complete"
     },
     {
@@ -854,25 +882,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "SemKITTI-DVPS",
-        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
-        "relatedDatasets": "SemanticKITTI",
-        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
-        "location": "Karlsruhe, Germany",
-        "rawData": "Yes",
-        "citationCount": 40,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Cityscapes-DVPS",
-        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
-        "relatedDatasets": "Cityscapes",
-        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
-        "rawData": "Yes",
-        "citationCount": 40,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "NightOwls",
         "href": "https://www.nightowls-dataset.org/",
         "size_storage": "-",
@@ -893,8 +902,27 @@
         "location": "Several cities across Europe",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
-        "citationCount": 39,
+        "citationCount": 40,
         "completionStatus": "complete"
+    },
+    {
+        "id": "SemKITTI-DVPS",
+        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
+        "relatedDatasets": "SemanticKITTI",
+        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
+        "location": "Karlsruhe, Germany",
+        "rawData": "Yes",
+        "citationCount": 40,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "Cityscapes-DVPS",
+        "href": "https://github.com/joe-siyuan-qiao/ViP-DeepLab",
+        "relatedDatasets": "Cityscapes",
+        "relatedPaper": "https://arxiv.org/pdf/2012.05258",
+        "rawData": "Yes",
+        "citationCount": 40,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Waymo Open Motion",
@@ -916,7 +944,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 35,
+        "citationCount": 37,
         "completionStatus": "complete"
     },
     {
@@ -972,7 +1000,7 @@
         "location": "5 Chinese cities",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1904.01975",
-        "citationCount": 29,
+        "citationCount": 30,
         "completionStatus": "complete"
     },
     {
@@ -1445,6 +1473,29 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "RoadAnomaly21",
+        "href": "https://segmentmeifyoucan.com/datasets",
+        "size_storage": "0.05",
+        "size_hours": "-",
+        "frames": "100",
+        "numberOfScenes": "100",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
+        "benchmark": "anomaly detection",
+        "annotations": "semantic segmentation",
+        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
+        "relatedDatasets": "RoadObstacle21",
+        "publishDate": "2021-04-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 13,
+        "completionStatus": "complete"
+    },
+    {
         "id": "RadarScenes",
         "href": "https://radar-scenes.com/",
         "size_storage": "-",
@@ -1468,29 +1519,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "RoadAnomaly21",
-        "href": "https://segmentmeifyoucan.com/datasets",
-        "size_storage": "0.05",
-        "size_hours": "-",
-        "frames": "100",
-        "numberOfScenes": "100",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
-        "benchmark": "anomaly detection",
-        "annotations": "semantic segmentation",
-        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
-        "relatedDatasets": "RoadObstacle21",
-        "publishDate": "2021-04-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 12,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Cityscapes 3D",
         "href": "https://www.cityscapes-dataset.com/",
         "size_hours": "-",
@@ -1510,7 +1538,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.07864.pdf",
         "location": "50 cities in Germany and neighboring countries",
         "rawData": "Yes",
-        "citationCount": 11,
+        "citationCount": 12,
         "completionStatus": "complete"
     },
     {
@@ -1597,6 +1625,33 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "ROAD",
+        "href": "https://github.com/gurkirt/road-dataset",
+        "size_hours": "2.83",
+        "size_storage": "-",
+        "frames": "122000",
+        "numberOfScenes": "22",
+        "samplingRate": "12",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "benchmark": "agent detection, action detection and road event detection",
+        "annotations": "2d/3d bounding boxes, action label and location labels",
+        "licensing": "Creative Commons Attribution Share Alike 4.0 International",
+        "relatedDatasets": "Oxford Robot Car Dataset (OxRD)",
+        "publishDate": "-",
+        "lastUpdate": "-",
+        "paperTitle": "ROAD: The ROad event Awareness Dataset for Autonomous Driving",
+        "relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
+        "location": "Oxford, UK",
+        "rawData": "-",
+        "DOI": "10.1109/TPAMI.2022.3150906",
+        "citationCount": 4,
+        "completionStatus": "complete"
+    },
+    {
         "id": "nuPlan",
         "href": "https://arxiv.org/abs/2106.11810",
         "size_storage": "-",
@@ -1645,33 +1700,6 @@
         "DOI": "10.1109/MITS.2020.2990183",
         "citationCount": 4,
         "completionStatus": "partially Complete"
-    },
-    {
-        "id": "ROAD",
-        "href": "https://github.com/gurkirt/road-dataset",
-        "size_hours": "2.83",
-        "size_storage": "-",
-        "frames": "122000",
-        "numberOfScenes": "22",
-        "samplingRate": "12",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "benchmark": "agent detection, action detection and road event detection",
-        "annotations": "2d/3d bounding boxes, action label and location labels",
-        "licensing": "Creative Commons Attribution Share Alike 4.0 International",
-        "relatedDatasets": "Oxford Robot Car Dataset (OxRD)",
-        "publishDate": "-",
-        "lastUpdate": "-",
-        "paperTitle": "ROAD: The ROad event Awareness Dataset for Autonomous Driving",
-        "relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
-        "location": "Oxford, UK",
-        "rawData": "-",
-        "DOI": "10.1109/TPAMI.2022.3150906",
-        "citationCount": 3,
-        "completionStatus": "complete"
     },
     {
         "id": "CODA",
@@ -1982,12 +2010,6 @@
     {
         "id": "comma10k",
         "href": "https://github.com/commaai/comma10k",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "comma.ai",
-        "href": "http://research.comma.ai/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

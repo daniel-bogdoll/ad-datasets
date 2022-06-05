@@ -2228,6 +2228,21 @@
   "relatedPaper": "https://arxiv.org/pdf/2203.00214.pdf"
 },
 {
+  "id": "MAVD Multimodal Audio-Visual Detection",
+  "href": "http://multimodal-distill.cs.uni-freiburg.de/",
+  "relatedPaper": "https://arxiv.org/abs/2103.01353"
+},
+{
+  "id": "KITTI-360-APS",
+  "href": "http://amodal-panoptic.cs.uni-freiburg.de/",
+  "relatedPaper": "https://arxiv.org/pdf/2202.11542.pdf"
+},
+{
+  "id": "BDD100K-APS",
+  "href": "http://amodal-panoptic.cs.uni-freiburg.de/",
+  "relatedPaper": "https://arxiv.org/pdf/2202.11542.pdf"
+},
+{
   "id": "Boreas",
   "href": "https://www.boreas.utias.utoronto.ca/#/",
   "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf"

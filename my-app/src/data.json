@@ -1805,6 +1805,16 @@
 "href": "https://www.mrpt.org/MalagaUrbanDataset"
 },
 {
+"id": "KITTI-360 PanopticBEV",
+"href": "http://panoptic-bev.cs.uni-freiburg.de/",
+"relatedPaper":"https://ieeexplore.ieee.org/document/9681287"
+},
+{
+"id": "nuScenes PanopticBEV",
+"href": "http://panoptic-bev.cs.uni-freiburg.de/",
+"relatedPaper":"https://ieeexplore.ieee.org/document/9681287"
+}, 
+{
 "id": "Mapillary Vistas",
 "href": "https://www.mapillary.com/dataset/vistas"
 },

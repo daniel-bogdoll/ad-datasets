@@ -2241,6 +2241,20 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "KITTI-360 PanopticBEV",
+        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
+        "citationCount": 0,
+        "completionStatus": "incomplete"
+    },
+    {
+        "id": "nuScenes PanopticBEV",
+        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
+        "citationCount": 0,
+        "completionStatus": "incomplete"
+    },
+    {
         "id": "Mapillary Vistas",
         "href": "https://www.mapillary.com/dataset/vistas",
         "citationCount": 0,

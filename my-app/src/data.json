@@ -1794,7 +1794,8 @@
 },
  {
 "id": "Amodal Cityscapes",
-"href": "https://github.com/ifnspaml/AmodalCityscapes"
+"href": "https://github.com/ifnspaml/AmodalCityscapes",
+"relatedPaper": "https://arxiv.org/abs/2206.00527"   
 },
 {
 "id": "LISA Traffic Sign Dataset",

@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4560,
+        "citationCount": 4567,
         "completionStatus": "complete"
     },
     {
@@ -48,7 +48,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1548,
+        "citationCount": 1555,
         "completionStatus": "complete"
     },
     {
@@ -72,7 +72,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1211,
+        "citationCount": 1222,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +95,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1211,
+        "citationCount": 1222,
         "completionStatus": "partially Complete"
     },
     {
@@ -123,7 +123,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1108,
+        "citationCount": 1110,
         "completionStatus": "complete"
     },
     {
@@ -147,7 +147,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 812,
+        "citationCount": 815,
         "completionStatus": "complete"
     },
     {
@@ -171,7 +171,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 630,
+        "citationCount": 628,
         "completionStatus": "complete"
     },
     {
@@ -199,7 +199,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 610,
+        "citationCount": 611,
         "completionStatus": "complete"
     },
     {
@@ -223,7 +223,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 553,
+        "citationCount": 558,
         "completionStatus": "complete"
     },
     {
@@ -246,7 +246,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 448,
+        "citationCount": 449,
         "completionStatus": "complete"
     },
     {
@@ -270,7 +270,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 429,
+        "citationCount": 432,
         "completionStatus": "complete"
     },
     {
@@ -294,7 +294,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 429,
+        "citationCount": 432,
         "completionStatus": "complete"
     },
     {
@@ -322,7 +322,7 @@
         "location": "Beijing",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 297,
+        "citationCount": 300,
         "completionStatus": "complete"
     },
     {
@@ -352,7 +352,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 217,
+        "citationCount": 219,
         "completionStatus": "complete"
     },
     {
@@ -408,7 +408,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1608.01230",
-        "citationCount": 176,
+        "citationCount": 177,
         "completionStatus": "complete"
     },
     {
@@ -443,7 +443,7 @@
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 155,
+        "citationCount": 156,
         "completionStatus": "partially Complete"
     },
     {
@@ -518,7 +518,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 129,
+        "citationCount": 131,
         "completionStatus": "complete"
     },
     {
@@ -617,7 +617,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/TPAMI.2018.2845370",
-        "citationCount": 117,
+        "citationCount": 119,
         "completionStatus": "complete"
     },
     {
@@ -645,7 +645,7 @@
         "location": "North America and Europe",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
-        "citationCount": 107,
+        "citationCount": 108,
         "completionStatus": "complete"
     },
     {
@@ -669,7 +669,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 106,
+        "citationCount": 107,
         "completionStatus": "complete"
     },
     {
@@ -860,7 +860,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2018.00615",
-        "citationCount": 71,
+        "citationCount": 72,
         "completionStatus": "complete"
     },
     {
@@ -1028,7 +1028,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 37,
+        "citationCount": 39,
         "completionStatus": "complete"
     },
     {
@@ -1088,6 +1088,29 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Comma2k19",
+        "href": "https://github.com/commaai/comma2k19",
+        "size_storage": "100",
+        "size_hours": "33.65",
+        "frames": "-",
+        "numberOfScenes": "2019",
+        "samplingRate": "-",
+        "lengthOfScenes": "60",
+        "sensors": "camera, radar, gnss/imu ",
+        "sensorDetail": "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "MIT",
+        "relatedDatasets": "-",
+        "publishDate": "2018-12-01",
+        "lastUpdate": "-",
+        "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
+        "location": "California's 280 highway, USA",
+        "rawData": "Yes",
+        "citationCount": 29,
+        "completionStatus": "complete"
+    },
+    {
         "id": "DIPLECS Autonomous Driving Datasets",
         "href": "https://cvssp.org/data/diplecs/",
         "size_storage": "-",
@@ -1116,29 +1139,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Comma2k19",
-        "href": "https://github.com/commaai/comma2k19",
-        "size_storage": "100",
-        "size_hours": "33.65",
-        "frames": "-",
-        "numberOfScenes": "2019",
-        "samplingRate": "-",
-        "lengthOfScenes": "60",
-        "sensors": "camera, radar, gnss/imu ",
-        "sensorDetail": "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "MIT",
-        "relatedDatasets": "-",
-        "publishDate": "2018-12-01",
-        "lastUpdate": "-",
-        "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
-        "location": "California's 280 highway, USA",
-        "rawData": "Yes",
-        "citationCount": 28,
-        "completionStatus": "complete"
-    },
-    {
         "id": "RUGD: Robot Unstructured Ground Driving",
         "href": "http://rugd.vision/",
         "size_storage": "5.4",
@@ -1163,7 +1163,30 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/IROS40897.2019.8968283",
-        "citationCount": 28,
+        "citationCount": 29,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "RADIATE",
+        "href": "http://pro.hw.ac.uk/radiate/",
+        "size_storage": "-",
+        "size_hours": "5",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, radar, gps/imu",
+        "sensorDetail": "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, 1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-10-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 26,
         "completionStatus": "complete"
     },
     {
@@ -1200,57 +1223,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "RADIATE",
-        "href": "http://pro.hw.ac.uk/radiate/",
-        "size_storage": "-",
-        "size_hours": "5",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, radar, gps/imu",
-        "sensorDetail": "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, 1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
-        "benchmark": "-",
-        "annotations": "2d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-10-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 25,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Talk2Car",
-        "href": "https://talk2car.github.io/",
-        "size_storage": "300",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "850",
-        "samplingRate": "-",
-        "lengthOfScenes": "20",
-        "sensors": "camera, lidar, radar, gps/imu",
-        "sensorDetail": "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x gps/imu 1000Hz",
-        "recordingPerspective": "Ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "find bounding box for objects based on user commands in natural language",
-        "annotations": "bounding box and command in natural language related to the bounding box",
-        "licensing": "MIT license",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-18",
-        "lastUpdate": "2021-10-06",
-        "paperTitle": "Talk2Car: Taking Control of Your Self-Driving Car",
-        "relatedPaper": "https://arxiv.org/pdf/1909.10838.pdf",
-        "location": "Boston and Singapore",
-        "rawData": "-",
-        "DOI": "10.18653/v1/D19-1215",
-        "citationCount": 25,
-        "completionStatus": "complete"
-    },
-    {
         "id": "CADP",
         "href": "https://ankitshah009.github.io/accident_forecasting_traffic_camera",
         "size_storage": "-",
@@ -1275,6 +1247,34 @@
         "location": "Videos sampled from YouTube",
         "rawData": "-",
         "DOI": "10.1109/AVSS.2018.8639160",
+        "citationCount": 25,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "RELLIS-3D Dataset",
+        "href": "https://unmannedlab.github.io/research/RELLIS-3D",
+        "size_storage": "58.1",
+        "size_hours": "-",
+        "frames": "13556",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "1x Nerian Karmin2 + Nerian SceneScan: 3D StereoCamera 10Hz, 1x RGB Camera: Basler acA1920-50gc camera with 16mm/F18 EDMUND Optics lens 1920x1200 10Hz, 1x Ouster OS1 LiDAR 64 Channels 10 Hz, 1x Velodyne Ultra Puck: 32 Channels 10Hz, Vectornav VN-300 Dual Antenna GNSS/INS 300Hz GPS, 100Hz IMU",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "semantic segmentation of 2d image and 3d point clouds",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
+        "relatedDatasets": "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adaptation",
+        "publishDate": "2020-11-26",
+        "lastUpdate": "2022-01-24",
+        "paperTitle": "RELLIS-3D Dataset: Data, Benchmarks and Analysis",
+        "relatedPaper": "https://arxiv.org/pdf/2011.12954.pdf",
+        "location": "Rellis Campus of Texas A&M University",
+        "rawData": "-",
+        "DOI": "10.1109/ICRA48506.2021.9561251",
         "citationCount": 24,
         "completionStatus": "complete"
     },
@@ -1330,30 +1330,30 @@
         "completionStatus": "complete"
     },
     {
-        "id": "RELLIS-3D Dataset",
-        "href": "https://unmannedlab.github.io/research/RELLIS-3D",
-        "size_storage": "58.1",
+        "id": "Talk2Car",
+        "href": "https://talk2car.github.io/",
+        "size_storage": "300",
         "size_hours": "-",
-        "frames": "13556",
-        "numberOfScenes": "-",
+        "frames": "-",
+        "numberOfScenes": "850",
         "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "1x Nerian Karmin2 + Nerian SceneScan: 3D StereoCamera 10Hz, 1x RGB Camera: Basler acA1920-50gc camera with 16mm/F18 EDMUND Optics lens 1920x1200 10Hz, 1x Ouster OS1 LiDAR 64 Channels 10 Hz, 1x Velodyne Ultra Puck: 32 Channels 10Hz, Vectornav VN-300 Dual Antenna GNSS/INS 300Hz GPS, 100Hz IMU",
-        "recordingPerspective": "ego-perspective",
+        "lengthOfScenes": "20",
+        "sensors": "camera, lidar, radar, gps/imu",
+        "sensorDetail": "1x lidar 32 channels 360° 20Hz, 5x long range radar 13Hz, 6x camera 1600x1200 12Hz, 1x gps/imu 1000Hz",
+        "recordingPerspective": "Ego-perspective",
         "dataType": "Real",
         "mapData": "No",
-        "benchmark": "-",
-        "annotations": "semantic segmentation of 2d image and 3d point clouds",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
-        "relatedDatasets": "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adaptation",
-        "publishDate": "2020-11-26",
-        "lastUpdate": "2022-01-24",
-        "paperTitle": "RELLIS-3D Dataset: Data, Benchmarks and Analysis",
-        "relatedPaper": "https://arxiv.org/pdf/2011.12954.pdf",
-        "location": "Rellis Campus of Texas A&M University",
+        "benchmark": "find bounding box for objects based on user commands in natural language",
+        "annotations": "bounding box and command in natural language related to the bounding box",
+        "licensing": "MIT license",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-18",
+        "lastUpdate": "2021-10-06",
+        "paperTitle": "Talk2Car: Taking Control of Your Self-Driving Car",
+        "relatedPaper": "https://arxiv.org/pdf/1909.10838.pdf",
+        "location": "Boston and Singapore",
         "rawData": "-",
-        "DOI": "10.1109/ICRA48506.2021.9561251",
+        "DOI": "10.18653/v1/D19-1215",
         "citationCount": 23,
         "completionStatus": "complete"
     },
@@ -1789,7 +1789,7 @@
         "location": "Boston, Pittsburgh, Las Vegas and Singapore",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11810",
-        "citationCount": 5,
+        "citationCount": 6,
         "completionStatus": "complete"
     },
     {
@@ -2207,6 +2207,12 @@
     {
         "id": "HD1K",
         "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "LUMPI",
+        "href": "https://data.uni-hannover.de/ne/dataset/lumpi",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

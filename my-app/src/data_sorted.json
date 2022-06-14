@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4567,
+        "citationCount": 4577,
         "completionStatus": "complete"
     },
     {
@@ -48,7 +48,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1555,
+        "citationCount": 1563,
         "completionStatus": "complete"
     },
     {
@@ -72,7 +72,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1222,
+        "citationCount": 1232,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +95,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1222,
+        "citationCount": 1232,
         "completionStatus": "partially Complete"
     },
     {
@@ -123,7 +123,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1110,
+        "citationCount": 1111,
         "completionStatus": "complete"
     },
     {
@@ -147,7 +147,35 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 815,
+        "citationCount": 819,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "GTSRB",
+        "href": "https://benchmark.ini.rub.de/gtsrb_news.html",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "50000",
+        "numberOfScenes": "-",
+        "samplingRate": "25",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x Prosilica GC 1380CH 1360x1024 25Hz",
+        "recordingPerspective": "ego-perspetive",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "Traffic Sign Recognition",
+        "annotations": "2d bounding box",
+        "licensing": "Free to use",
+        "relatedDatasets": "GTSDB",
+        "publishDate": "2010-12-01",
+        "lastUpdate": "2011-01-19",
+        "paperTitle": "The German Traffic Sign Recognition Benchmark: A multi-class classification competition",
+        "relatedPaper": "https://www.ini.rub.de/upload/file/1470692848_f03494010c16c36bab9e/StallkampEtAl_GTSRB_IJCNN2011.pdf",
+        "location": "Germany",
+        "rawData": "-",
+        "DOI": "10.1109/IJCNN.2011.6033395",
+        "citationCount": 682,
         "completionStatus": "complete"
     },
     {
@@ -171,7 +199,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 628,
+        "citationCount": 625,
         "completionStatus": "complete"
     },
     {
@@ -223,7 +251,35 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 558,
+        "citationCount": 561,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "GTSDB",
+        "href": "https://benchmark.ini.rub.de/gtsdb_news.html",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "900",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x Prosilica GC 1380CH camera 1360x1024",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "Traffic Sign Detection",
+        "annotations": "2d bounding box",
+        "licensing": "-",
+        "relatedDatasets": "GTSRB",
+        "publishDate": "2012-12-01",
+        "lastUpdate": "2013-08-09",
+        "paperTitle": "Detection of traffic signs in real-world images: The German traffic sign detection benchmark",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/6706807",
+        "location": "Bochum, Germany",
+        "rawData": "-",
+        "DOI": "10.1109/IJCNN.2013.6706807",
+        "citationCount": 510,
         "completionStatus": "complete"
     },
     {
@@ -246,7 +302,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 449,
+        "citationCount": 454,
         "completionStatus": "complete"
     },
     {
@@ -270,7 +326,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 432,
+        "citationCount": 436,
         "completionStatus": "complete"
     },
     {
@@ -294,7 +350,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 432,
+        "citationCount": 436,
         "completionStatus": "complete"
     },
     {
@@ -319,17 +375,17 @@
         "lastUpdate": "-",
         "paperTitle": "Spatial as Deep: Spatial CNN for Traffic Scene Understanding",
         "relatedPaper": "https://arxiv.org/pdf/1712.06080",
-        "location": "Beijing",
+        "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 300,
+        "citationCount": 301,
         "completionStatus": "complete"
     },
     {
         "id": "Road Damage",
         "href": "https://github.com/sekilab/RoadDamageDetector/",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
-        "citationCount": 231,
+        "citationCount": 232,
         "completionStatus": "partially Complete"
     },
     {
@@ -352,7 +408,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 219,
+        "citationCount": 220,
         "completionStatus": "complete"
     },
     {
@@ -384,6 +440,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "DDAD",
+        "href": "https://github.com/AdrienGaidon-TRI/DDAD",
+        "size_storage": "254",
+        "size_hours": "-",
+        "frames": "21200",
+        "numberOfScenes": "435",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar",
+        "sensorDetail": "6x cameras 2.4MP 1936x1216 10Hz, 1x Luminar-H2 Lidar sensor 360° 10Hz",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+        "relatedDatasets": "-",
+        "publishDate": "2020-06-19",
+        "lastUpdate": "-",
+        "paperTitle": "3D Packing for Self-Supervised Monocular Depth Estimation",
+        "relatedPaper": "https://arxiv.org/pdf/1905.02693.pdf",
+        "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
+        "rawData": "-",
+        "DOI": "10.1109/CVPR42600.2020.00256",
+        "citationCount": 177,
+        "completionStatus": "complete"
+    },
+    {
         "id": "comma.ai",
         "href": "http://research.comma.ai/",
         "size_storage": "80",
@@ -412,38 +496,10 @@
         "completionStatus": "complete"
     },
     {
-        "id": "DDAD",
-        "href": "https://github.com/AdrienGaidon-TRI/DDAD",
-        "size_storage": "254",
-        "size_hours": "-",
-        "frames": "21200",
-        "numberOfScenes": "435",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar",
-        "sensorDetail": "6x cameras 2.4MP 1936x1216 10Hz, 1x Luminar-H2 Lidar sensor 360° 10Hz",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
-        "relatedDatasets": "-",
-        "publishDate": "2020-06-19",
-        "lastUpdate": "-",
-        "paperTitle": "3D Packing for Self-Supervised Monocular Depth Estimation",
-        "relatedPaper": "https://arxiv.org/pdf/1905.02693.pdf",
-        "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
-        "rawData": "-",
-        "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 175,
-        "completionStatus": "complete"
-    },
-    {
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 156,
+        "citationCount": 157,
         "completionStatus": "partially Complete"
     },
     {
@@ -467,7 +523,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 136,
+        "citationCount": 137,
         "completionStatus": "complete"
     },
     {
@@ -495,7 +551,7 @@
         "location": "El Camino Real in the San Francisco Bay Area, California",
         "rawData": "-",
         "DOI": "10.1109/ICRA.2017.7989163",
-        "citationCount": 136,
+        "citationCount": 137,
         "completionStatus": "complete"
     },
     {
@@ -518,7 +574,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 131,
+        "citationCount": 133,
         "completionStatus": "complete"
     },
     {
@@ -565,7 +621,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 125,
+        "citationCount": 126,
         "completionStatus": "complete"
     },
     {
@@ -589,7 +645,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2016.401",
-        "citationCount": 122,
+        "citationCount": 123,
         "completionStatus": "complete"
     },
     {
@@ -601,7 +657,7 @@
         "numberOfScenes": "74",
         "samplingRate": "-",
         "lengthOfScenes": "300",
-        "sensors": "camera, eye tracking glasses",
+        "sensors": "camera, eye tracker",
         "sensorDetail": "1x roof mounted GARMIN VirbX camera 1080p 25Hz, 1x SMI ETG 2w Eye Tracking Glasses (ETG) 60Hz, 1x frontal camera 720p 30Hz",
         "recordingPerspective": "ego-perspective",
         "dataType": "Real",
@@ -739,7 +795,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
         "location": "-",
         "rawData": "-",
-        "citationCount": 83,
+        "citationCount": 84,
         "completionStatus": "complete"
     },
     {
@@ -786,7 +842,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 76,
+        "citationCount": 78,
         "completionStatus": "complete"
     },
     {
@@ -809,7 +865,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 76,
+        "citationCount": 78,
         "completionStatus": "complete"
     },
     {
@@ -832,7 +888,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 72,
+        "citationCount": 74,
         "completionStatus": "complete"
     },
     {
@@ -864,6 +920,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "HCI Challenging Stereo",
+        "href": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "10000",
+        "numberOfScenes": "11",
+        "samplingRate": "100",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "2 x Photon Focus MV1-D1312-160-CL-12",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Freely available for research purposes only",
+        "relatedDatasets": "-",
+        "publishDate": "2012-03-07",
+        "lastUpdate": "-",
+        "paperTitle": "Outdoor stereo camera system for the generation of real-world benchmark data sets",
+        "relatedPaper": "https://www.spiedigitallibrary.org/journals/Optical-Engineering/volume-51/issue-2/021107/Outdoor-stereo-camera-system-for-the-generation-of-real-world/10.1117/1.OE.51.2.021107.short?SSO=1",
+        "location": "-",
+        "rawData": "-",
+        "DOI": "10.1117/1.OE.51.2.021107",
+        "citationCount": 66,
+        "completionStatus": "complete"
+    },
+    {
         "id": "LostAndFound",
         "href": "http://www.6d-vision.com/lostandfounddataset",
         "size_storage": "-",
@@ -883,7 +967,35 @@
         "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 64,
+        "citationCount": 65,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "HD1K",
+        "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "55",
+        "samplingRate": "25",
+        "lengthOfScenes": "-",
+        "sensors": "lidar, camera, gps/imu",
+        "sensorDetail": "1x RIEGL VMX-250-CS6 laser scanner, 1x stereo system with 2 cameras 2560x1080 69.5° 200Hz, 1x Applanix POS-LV 510 gnss & imu unit",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "stereo, optical flow, single image depth prediction, object detection, and semantic segmentation",
+        "annotations": "depth and optical flow",
+        "licensing": "Freely available for research purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2018-02-01",
+        "lastUpdate": "2018-03-05",
+        "paperTitle": "e HCI Benchmark Suite: Stereo And Flow Ground Truth With Uncertainties for Urban Autonomous Driving",
+        "relatedPaper": "http://hci-benchmark.iwr.uni-heidelberg.de/media/publications//kondermann2016.pdf",
+        "location": "-",
+        "rawData": "-",
+        "DOI": "10.1109/CVPRW.2016.10",
+        "citationCount": 63,
         "completionStatus": "complete"
     },
     {
@@ -911,30 +1023,7 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.01170",
-        "citationCount": 57,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Fishyscapes",
-        "href": "https://fishyscapes.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
-        "benchmark": "anomaly detection, semantic segmentation",
-        "annotations": "semantic segmentation",
-        "licensing": "-",
-        "relatedDatasets": "Cityscapes, LostAndFound",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
-        "location": "-",
-        "rawData": "No",
-        "citationCount": 45,
+        "citationCount": 58,
         "completionStatus": "complete"
     },
     {
@@ -962,6 +1051,29 @@
         "location": "Waterloo region in Ontorio, Canada",
         "rawData": "-",
         "DOI": "10.1177/0278364920979368",
+        "citationCount": 46,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Fishyscapes",
+        "href": "https://fishyscapes.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
+        "benchmark": "anomaly detection, semantic segmentation",
+        "annotations": "semantic segmentation",
+        "licensing": "-",
+        "relatedDatasets": "Cityscapes, LostAndFound",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
+        "location": "-",
+        "rawData": "No",
         "citationCount": 45,
         "completionStatus": "complete"
     },
@@ -985,6 +1097,29 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "Waymo Open Motion",
+        "href": "https://waymo.com/open/data/motion/",
+        "size_hours": "574",
+        "size_storage": "-",
+        "frames": "20670800",
+        "numberOfScenes": "103354",
+        "samplingRate": "10",
+        "lengthOfScenes": "20",
+        "sensors": "camera, lidar",
+        "sensorDetail": "5x cameras, 5x lidar, ",
+        "benchmark": "motion prediction, interaction prediction",
+        "annotations": "3d bounding boxes, 3d hd map information",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "Waymo Open Perception",
+        "publishDate": "2021-03-01",
+        "lastUpdate": "2021-09-01",
+        "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
+        "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
+        "rawData": "No",
+        "citationCount": 41,
+        "completionStatus": "complete"
+    },
+    {
         "id": "NightOwls",
         "href": "https://www.nightowls-dataset.org/",
         "size_storage": "-",
@@ -1006,29 +1141,6 @@
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
         "citationCount": 40,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Waymo Open Motion",
-        "href": "https://waymo.com/open/data/motion/",
-        "size_hours": "574",
-        "size_storage": "-",
-        "frames": "20670800",
-        "numberOfScenes": "103354",
-        "samplingRate": "10",
-        "lengthOfScenes": "20",
-        "sensors": "camera, lidar",
-        "sensorDetail": "5x cameras, 5x lidar, ",
-        "benchmark": "motion prediction, interaction prediction",
-        "annotations": "3d bounding boxes, 3d hd map information",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "Waymo Open Perception",
-        "publishDate": "2021-03-01",
-        "lastUpdate": "2021-09-01",
-        "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
-        "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
-        "rawData": "No",
-        "citationCount": 39,
         "completionStatus": "complete"
     },
     {
@@ -1056,7 +1168,7 @@
         "location": "12 countries and 31 cities across Europe",
         "rawData": "-",
         "DOI": "10.1109/TPAMI.2019.2897684",
-        "citationCount": 33,
+        "citationCount": 34,
         "completionStatus": "complete"
     },
     {
@@ -1167,6 +1279,30 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Ford Autonomous Vehicle Dataset",
+        "href": "https://avdata.ford.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
+        "benchmark": "-",
+        "annotations": "3d point cloud maps, ground reflectivity map",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+        "location": "Michigan, USA",
+        "rawData": "True",
+        "DOI": "10.1177/0278364920961451",
+        "citationCount": 26,
+        "completionStatus": "complete"
+    },
+    {
         "id": "RADIATE",
         "href": "http://pro.hw.ac.uk/radiate/",
         "size_storage": "-",
@@ -1199,30 +1335,6 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "Ford Autonomous Vehicle Dataset",
-        "href": "https://avdata.ford.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
-        "benchmark": "-",
-        "annotations": "3d point cloud maps, ground reflectivity map",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
-        "location": "Michigan, USA",
-        "rawData": "True",
-        "DOI": "10.1177/0278364920961451",
-        "citationCount": 25,
-        "completionStatus": "complete"
-    },
-    {
         "id": "CADP",
         "href": "https://ankitshah009.github.io/accident_forecasting_traffic_camera",
         "size_storage": "-",
@@ -1248,6 +1360,34 @@
         "rawData": "-",
         "DOI": "10.1109/AVSS.2018.8639160",
         "citationCount": 25,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "PointCloudDeNoising",
+        "href": "https://github.com/rheinzler/PointCloudDeNoising",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "175941",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "lidar",
+        "sensorDetail": "1 Velodyne VLP32c lidar sensor",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "pointwise annotations",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "Gated2Depth, Gated2Gated, SeeingThroughFog",
+        "publishDate": "2019-12-09",
+        "lastUpdate": "-",
+        "paperTitle": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
+        "location": "CEREMA's climatic chamber",
+        "rawData": "-",
+        "DOI": "10.1109/LRA.2020.2972865",
+        "citationCount": 24,
         "completionStatus": "complete"
     },
     {
@@ -1302,30 +1442,29 @@
         "completionStatus": "complete"
     },
     {
-        "id": "PointCloudDeNoising",
-        "href": "https://github.com/rheinzler/PointCloudDeNoising",
+        "id": "ONCE",
+        "href": "https://once-for-auto-driving.github.io/index.html",
         "size_storage": "-",
-        "size_hours": "-",
-        "frames": "175941",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
+        "size_hours": "144",
+        "frames": "1000000",
+        "numberOfScenes": "581",
+        "samplingRate": "10",
         "lengthOfScenes": "-",
-        "sensors": "lidar",
-        "sensorDetail": "1 Velodyne VLP32c lidar sensor",
-        "recordingPerspective": "Ego-perspective",
+        "sensors": "camera, lidar",
+        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
+        "recordingPerspective": "ego-perspective",
         "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "pointwise annotations",
-        "licensing": "Freely available for research and teaching purposes",
-        "relatedDatasets": "Gated2Depth, Gated2Gated, SeeingThroughFog",
-        "publishDate": "2019-12-09",
-        "lastUpdate": "-",
-        "paperTitle": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
-        "location": "CEREMA's climatic chamber",
+        "benchmark": "3d object detection",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "ONCE-3DLanes",
+        "publishDate": "2021-05-18",
+        "lastUpdate": "2021-08-05",
+        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
+        "location": "China",
         "rawData": "-",
-        "DOI": "10.1109/LRA.2020.2972865",
+        "DOI": "10.48550/arXiv.2106.11037",
         "citationCount": 23,
         "completionStatus": "complete"
     },
@@ -1460,40 +1599,13 @@
         "licensing": "Creative Commons Attribution-ShareAlike 4.0 International License",
         "relatedDatasets": "DDD17",
         "publishDate": "2017-06-05",
-        "lastUpdate": "2020-02",
+        "lastUpdate": "2020-02-01",
         "paperTitle": "DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction",
         "relatedPaper": "https://arxiv.org/pdf/2005.08605.pdf",
         "location": "Various states of USA, Switzerland and Germany",
         "rawData": "Yes",
         "DOI": "10.1109/ITSC45102.2020.9294515",
         "citationCount": 23,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "ONCE",
-        "href": "https://once-for-auto-driving.github.io/index.html",
-        "size_storage": "-",
-        "size_hours": "144",
-        "frames": "1000000",
-        "numberOfScenes": "581",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar",
-        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "benchmark": "3d object detection",
-        "annotations": "2d/3d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "ONCE-3DLanes",
-        "publishDate": "2021-05-18",
-        "lastUpdate": "2021-08-05",
-        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
-        "location": "China",
-        "rawData": "-",
-        "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 21,
         "completionStatus": "complete"
     },
     {
@@ -1604,6 +1716,13 @@
         "completionStatus": "complete"
     },
     {
+        "id": "MAVD Multimodal Audio-Visual Detection",
+        "href": "http://multimodal-distill.cs.uni-freiburg.de/",
+        "relatedPaper": "https://arxiv.org/abs/2103.01353",
+        "citationCount": 16,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "IDDA",
         "href": "https://idda-dataset.github.io/home/",
         "relatedPaper": "https://arxiv.org/pdf/2004.08298.pdf",
@@ -1613,11 +1732,27 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "MAVD Multimodal Audio-Visual Detection",
-        "href": "http://multimodal-distill.cs.uni-freiburg.de/",
-        "relatedPaper": "https://arxiv.org/abs/2103.01353",
-        "citationCount": 14,
-        "completionStatus": "partially Complete"
+        "id": "Cityscapes 3D",
+        "href": "https://www.cityscapes-dataset.com/",
+        "size_hours": "-",
+        "size_storage": "63.141",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "17",
+        "lengthOfScenes": "1.8",
+        "sensors": "camera, gps, thermometer",
+        "sensorDetail": "stereo cameras 22 cm baseline 17Hz, odometry from in-vehicle \"sensors\" & outs\"id\"e temperature & GPS tracks",
+        "benchmark": "pixel-level semantic labeling, instance-level semantic labeling, panoptic semantic sabeling 3d vehicle detection",
+        "annotations": "dense semantic segmentation, instance segmentation for vehicles & people, 3d bounding boxes",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2016-02-01",
+        "lastUpdate": "2020-10-01",
+        "relatedPaper": "https://arxiv.org/pdf/2006.07864.pdf",
+        "location": "50 cities in Germany and neighboring countries",
+        "rawData": "Yes",
+        "citationCount": 13,
+        "completionStatus": "complete"
     },
     {
         "id": "RoadAnomaly21",
@@ -1663,29 +1798,6 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 13,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Cityscapes 3D",
-        "href": "https://www.cityscapes-dataset.com/",
-        "size_hours": "-",
-        "size_storage": "63.141",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "17",
-        "lengthOfScenes": "1.8",
-        "sensors": "camera, gps, thermometer",
-        "sensorDetail": "stereo cameras 22 cm baseline 17Hz, odometry from in-vehicle \"sensors\" & outs\"id\"e temperature & GPS tracks",
-        "benchmark": "pixel-level semantic labeling, instance-level semantic labeling, panoptic semantic sabeling 3d vehicle detection",
-        "annotations": "dense semantic segmentation, instance segmentation for vehicles & people, 3d bounding boxes",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2016-02-01",
-        "lastUpdate": "2020-10-01",
-        "relatedPaper": "https://arxiv.org/pdf/2006.07864.pdf",
-        "location": "50 cities in Germany and neighboring countries",
-        "rawData": "Yes",
-        "citationCount": 12,
         "completionStatus": "complete"
     },
     {
@@ -1849,6 +1961,13 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "A9",
+        "href": "https://innovation-mobility.com/en/a9-dataset/",
+        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
+        "citationCount": 3,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "Boreas",
         "href": "https://www.boreas.utias.utoronto.ca/#/",
         "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
@@ -1867,13 +1986,6 @@
         "id": "SODA10M",
         "href": "https://soda-2d.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
-        "citationCount": 2,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "A9",
-        "href": "https://innovation-mobility.com/en/a9-dataset/",
-        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
         "citationCount": 2,
         "completionStatus": "partially Complete"
     },
@@ -2189,24 +2301,6 @@
     {
         "id": "ELEKTRA",
         "href": "http://adas.cvc.uab.es/elektra/datasets/",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "German Traffic Sign",
-        "href": "https://benchmark.ini.rub.de/",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "HCI Challenging Stereo",
-        "href": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "HD1K",
-        "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

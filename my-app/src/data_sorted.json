@@ -20,7 +20,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4577,
+        "citationCount": 4581,
         "completionStatus": "complete"
     },
     {
@@ -72,7 +72,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1232,
+        "citationCount": 1234,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +95,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1232,
+        "citationCount": 1234,
         "completionStatus": "partially Complete"
     },
     {
@@ -147,7 +147,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 819,
+        "citationCount": 821,
         "completionStatus": "complete"
     },
     {
@@ -175,7 +175,7 @@
         "location": "Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2011.6033395",
-        "citationCount": 682,
+        "citationCount": 684,
         "completionStatus": "complete"
     },
     {
@@ -251,7 +251,35 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 561,
+        "citationCount": 563,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "LISA Traffic Sign Dataset",
+        "href": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "6610",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "-",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes with description",
+        "licensing": "Academic license",
+        "relatedDatasets": "LISA Traffic Light Dataset",
+        "publishDate": "2012-10-19",
+        "lastUpdate": "-",
+        "paperTitle": "Vision-Based Traffic Sign Detection and Analysis for Intelligent Driver Assistance Systems: Perspectives and Survey",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6335478&casa_token=iD5J89e1Y0MAAAAA:OKU-qJJPvSmZk1wJGlPb4G3Z7SF12nHZdr7mEV03pwgl2Q8ASZlH7T2zbo5n65e4yBniT_S5jQfn&tag=1",
+        "location": "USA",
+        "rawData": "-",
+        "DOI": "10.1109/TITS.2012.2209421",
+        "citationCount": 512,
         "completionStatus": "complete"
     },
     {
@@ -302,7 +330,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 454,
+        "citationCount": 455,
         "completionStatus": "complete"
     },
     {
@@ -378,7 +406,7 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 301,
+        "citationCount": 304,
         "completionStatus": "complete"
     },
     {
@@ -464,7 +492,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 177,
+        "citationCount": 178,
         "completionStatus": "complete"
     },
     {
@@ -492,15 +520,43 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1608.01230",
-        "citationCount": 177,
+        "citationCount": 178,
         "completionStatus": "complete"
     },
     {
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 157,
+        "citationCount": 158,
         "completionStatus": "partially Complete"
+    },
+    {
+        "id": "LISA Traffic Light Dataset",
+        "href": "http://cvrr.ucsd.edu/LISA/datasets.html",
+        "size_storage": "5",
+        "size_hours": "0.75",
+        "frames": "43007",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x Point Grey's Bumblebee XB3 (BBX3-13S2C-60) stereo camera 1280x960 ",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes with the description of state of traffic light",
+        "licensing": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "LISA Traffic Sign Dataset",
+        "publishDate": "2016-02-03",
+        "lastUpdate": "-",
+        "paperTitle": "Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/7398055",
+        "location": "San Diego, California, USA",
+        "rawData": "-",
+        "DOI": "10.1109/TITS.2015.2509509",
+        "citationCount": 149,
+        "completionStatus": "complete"
     },
     {
         "id": "Bosch Small Traffic Lights Dataset",
@@ -574,7 +630,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 133,
+        "citationCount": 135,
         "completionStatus": "complete"
     },
     {
@@ -677,6 +733,30 @@
         "completionStatus": "complete"
     },
     {
+        "id": "KAIST Multi-Spectral Day/Night",
+        "href": "http://multispectral.kaist.ac.kr",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "25",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu, thermal camera",
+        "sensorDetail": "2x PointGrey Flea3 RGB camera 1280 × 960, 1x FLIR A655Sc thermal camera 640x480 50Hz, 1x Velodyne HDL-32E 3D LiDAR 360° 32 beams 10Hz, 1x OXTS RT2002 gps/ins 100Hz",
+        "benchmark": "object detection, vision sensor enhancement, depth estimation, multi-spectral colorization",
+        "annotations": "dense depth map, bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        "relatedDatasets": "-",
+        "publishDate": "2017-12",
+        "lastUpdate": "-",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689",
+        "location": "-",
+        "rawData": "Yes",
+        "DOI": "10.1109/TITS.2018.2791533",
+        "citationCount": 108,
+        "completionStatus": "complete"
+    },
+    {
         "id": "JAAD",
         "href": "https://paperswithcode.com/dataset/jaad",
         "size_storage": "3.1",
@@ -702,30 +782,6 @@
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
         "citationCount": 108,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "KAIST Multi-Spectral Day/Night",
-        "href": "http://multispectral.kaist.ac.kr",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "25",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu, thermal camera",
-        "sensorDetail": "2x PointGrey Flea3 RGB camera 1280 × 960, 1x FLIR A655Sc thermal camera 640x480 50Hz, 1x Velodyne HDL-32E 3D LiDAR 360° 32 beams 10Hz, 1x OXTS RT2002 gps/ins 100Hz",
-        "benchmark": "object detection, vision sensor enhancement, depth estimation, multi-spectral colorization",
-        "annotations": "dense depth map, bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-        "relatedDatasets": "-",
-        "publishDate": "2017-12",
-        "lastUpdate": "-",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8293689",
-        "location": "-",
-        "rawData": "Yes",
-        "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 107,
         "completionStatus": "complete"
     },
     {
@@ -842,7 +898,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 78,
+        "citationCount": 79,
         "completionStatus": "complete"
     },
     {
@@ -865,7 +921,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 78,
+        "citationCount": 79,
         "completionStatus": "complete"
     },
     {
@@ -995,7 +1051,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPRW.2016.10",
-        "citationCount": 63,
+        "citationCount": 64,
         "completionStatus": "complete"
     },
     {
@@ -1172,6 +1228,29 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Comma2k19",
+        "href": "https://github.com/commaai/comma2k19",
+        "size_storage": "100",
+        "size_hours": "33.65",
+        "frames": "-",
+        "numberOfScenes": "2019",
+        "samplingRate": "-",
+        "lengthOfScenes": "60",
+        "sensors": "camera, radar, gnss/imu ",
+        "sensorDetail": "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "MIT",
+        "relatedDatasets": "-",
+        "publishDate": "2018-12-01",
+        "lastUpdate": "-",
+        "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
+        "location": "California's 280 highway, USA",
+        "rawData": "Yes",
+        "citationCount": 30,
+        "completionStatus": "complete"
+    },
+    {
         "id": "D^2 City",
         "href": "https://outreach.didichuxing.com/d2city",
         "size_storage": "-",
@@ -1197,29 +1276,6 @@
         "rawData": "-",
         "DOI": "10.48550/arXiv.1904.01975",
         "citationCount": 30,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Comma2k19",
-        "href": "https://github.com/commaai/comma2k19",
-        "size_storage": "100",
-        "size_hours": "33.65",
-        "frames": "-",
-        "numberOfScenes": "2019",
-        "samplingRate": "-",
-        "lengthOfScenes": "60",
-        "sensors": "camera, radar, gnss/imu ",
-        "sensorDetail": "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "MIT",
-        "relatedDatasets": "-",
-        "publishDate": "2018-12-01",
-        "lastUpdate": "-",
-        "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
-        "location": "California's 280 highway, USA",
-        "rawData": "Yes",
-        "citationCount": 29,
         "completionStatus": "complete"
     },
     {
@@ -1299,7 +1355,7 @@
         "location": "Michigan, USA",
         "rawData": "True",
         "DOI": "10.1177/0278364920961451",
-        "citationCount": 26,
+        "citationCount": 27,
         "completionStatus": "complete"
     },
     {
@@ -1831,6 +1887,29 @@
         "completionStatus": "complete"
     },
     {
+        "id": "openDD",
+        "href": "https://l3pilot.eu/data/opendd",
+        "size_storage": "-",
+        "size_hours": "62.7",
+        "frames": "6771600",
+        "numberOfScenes": "501",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "DJI Phantom 4 3840×2160 camera drone",
+        "benchmark": "trajectory predictions",
+        "annotations": "2d bounding boxes, trajectories",
+        "licensing": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ",
+        "relatedDatasets": "-",
+        "publishData": "2020-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
+        "location": "Wolfsburg and Ingolstadt, Germany",
+        "rawData": "Yes",
+        "citationCount": 8,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "MCity Data Collection",
         "href": "https://arxiv.org/pdf/1912.06258.pdf",
         "size_storage": "11000",
@@ -1852,29 +1931,6 @@
         "rawData": "Yes",
         "citationCount": 8,
         "completionStatus": "complete"
-    },
-    {
-        "id": "openDD",
-        "href": "https://l3pilot.eu/data/opendd",
-        "size_storage": "-",
-        "size_hours": "62.7",
-        "frames": "6771600",
-        "numberOfScenes": "501",
-        "samplingRate": "30",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "DJI Phantom 4 3840×2160 camera drone",
-        "benchmark": "trajectory predictions",
-        "annotations": "2d bounding boxes, trajectories",
-        "licensing": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ",
-        "relatedDatasets": "-",
-        "publishData": "2020-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
-        "location": "Wolfsburg and Ingolstadt, Germany",
-        "rawData": "Yes",
-        "citationCount": 7,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "nuPlan",
@@ -2320,12 +2376,6 @@
         "id": "Amodal Cityscapes",
         "href": "https://github.com/ifnspaml/AmodalCityscapes",
         "relatedPaper": "https://arxiv.org/abs/2206.00527",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "LISA Traffic Sign Dataset",
-        "href": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

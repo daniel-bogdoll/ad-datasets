@@ -8,6 +8,7 @@
     "@emotion/styled": "^11.8.1",
     "@material-ui/core": "latest",
     "@material-ui/lab": "^4.0.0-alpha.61",
+    "@material-ui/icons": "latest",
     "@material-ui/styles": "latest",
     "@mui/x-data-grid": "latest",
     "@testing-library/jest-dom": "^5.14.1",

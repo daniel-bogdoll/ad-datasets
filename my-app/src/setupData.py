@@ -51,7 +51,7 @@ for x in data:
             x.update({'citationCount': 0})
             warnings.warn(x["id"])
     '''
-    check the analysis status if the dataset
+    check the analysis status of the dataset
     datasets that are missing id, link to related paper and DOI if it's not an arxiv paper are considered
     incomplete
     '''

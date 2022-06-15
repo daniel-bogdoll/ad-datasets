@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import { makeStyles } from '@material-ui/styles';
-import {CameraTag, LidarTag, RadarTag, RandomTag, AnalyzedTag, PartiallyAnalyzedTag, IncompleteAnalyzedTag} from "./components/tags";
+import {CameraTag, LidarTag, RadarTag, RandomTag, AnalyzedTag, PartiallyAnalyzedTag, IncompleteAnalyzedTag} from "./components/Tags";
 
 
 function isOverflown(element) {

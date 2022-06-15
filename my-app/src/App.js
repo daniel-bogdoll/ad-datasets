@@ -1,83 +1,74 @@
 import * as React from 'react';
-import { DataGrid, GridToolbar } from '@mui/x-data-grid';
+import { DataGrid} from '@mui/x-data-grid';
 import {columns} from './columns.js';
-import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import { Button } from '@material-ui/core';
-import json2mq from 'json2mq';
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Data from './data_sorted.json';
-import {AnalyzedTag, IncompleteAnalyzedTag, PartiallyAnalyzedTag} from "./components/tags";
-import {complete, parComplete, incomplete} from "./calculations";
+import {QuickSearchToolbar} from "./components/Toolbar";
+import {Header} from "./components/Header";
+import {CustomFooter} from "./components/Footer";
 
 
 const useStyles = makeStyles((theme) => ({
-    note: {
-        position: "absolute",
-        right: "0.5%",
-        top: window.innerHeight*0.01,
-        fontSize: 0.007*window.innerWidth,
-        border: "1px solid white",
-        borderRadius: "5px",
-        paddingLeft: "0.25%",
-        paddingRight: "0.25%",
-        color: "white",
-        textTransform: "none"
-    },
-    lastUpdate: {
-        position: "absolute",
-        left: "0.5%",
-        top: window.innerHeight*0.01,
-        fontSize: 0.007*window.innerWidth,
-        border: "1px solid white",
-        borderRadius: "5px",
-        padding: "0.5%",
-        color: "#3f51b5",
-        textTransform: "none",
-        backgroundColor: "white",
-    },
-    title: {
-        display: 'block',
-        textAlign: 'center',
-        float: 'center',
-//        fontSize: "calc(15px + 1vw)",
-        fontSize: 0.02*window.innerWidth,
-        paddingTop: ".2%"
-    },
-    subTitle: {
-        textAlign: 'center',
-        float: "center",
-//        fontSize: "0.8vw",
-        fontSize: 0.01*window.innerWidth,
-        position: "relative"
-    },
     customDatagrid: {
-        height: window.innerHeight*0.9,
-    },
-    headBand: {
-        width: window.innerWidth,
-        height: window.innerHeight*0.1,
-        backgroundColor: "#3f51b5",
-        color: "white",
+        height: window.innerHeight*0.5,
+        width: Window.innerWidth
     },
     legend: {
-        bottom: "1%",
         left: "1%",
-        backgroundColor: "white",
         position: "absolute",
-        zIndex: "-1",
         fontSize: "10px",
-        display: "flex", flexDirection: "row", alignItems: "flex-start"
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "flex-start",
+    },
+    trafficSigns: {
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "flex-start",
+        marginLeft: "2%"
+    },
+    pagination: {
+        alignItems: "center",
     }
 }));
 
 
-export default function RenderExpandCellGrid() {
+function escapeRegExp(value) {
+    return value.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+}
 
-    const [, setDimensions] = React.useState({
+export default function RenderExpandCellGrid() {
+    const classes = useStyles();
+
+    const [searchText, setSearchText] = React.useState('');
+    const [page, setPage] = React.useState(0);
+    const [rowsPerPage, setRowsPerPage] = React.useState(20);
+    const [rows, setRows] = React.useState(Data);
+    const [dimension, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
     });
+
+    const onChangePage = (event, newPage) => {
+        setPage(newPage);
+    };
+
+    const handleChangeRowsPerPage = (value) => {
+        setRowsPerPage(parseInt(value, 10));
+        setPage(0);
+    };
+
+    const requestSearch = (searchValue) => {
+        setSearchText(searchValue);
+        const searchRegex = new RegExp(escapeRegExp(searchValue), 'i');
+        const filteredRows = Data.filter((row) => {
+            return Object.keys(row).some((field) => {
+                return searchRegex.test(row[field].toString());
+            });
+        });
+        setRows(filteredRows)
+    };
+
     React.useEffect(() => {
         function handleResize() {
             setDimensions({
@@ -91,68 +82,42 @@ export default function RenderExpandCellGrid() {
         }
     });
 
-
-    const classes = useStyles();
-    const [pageSize, setPageSize] = React.useState(10);
-    const matches = useMediaQuery(
-        json2mq({
-            minWidth: 0.535*window.screen.width
-        }),
-    );
-    let visContribute = 'visible';
-    let visGit = 'hidden';
-    if (matches === false) {
-        visContribute  = 'hidden';
-        visGit = 'visible';
-    }
-
-
     return (
-        <div style={{width: '100%', height: window.innerHeight}}>
-            <div className={classes.headBand} style={{width: window.innerWidth}}>
-                <Typography className={classes.title}>
-                    ad-datasets
-                </Typography>
-                <Typography className={classes.subTitle} >
-                Complete* and curated list of autonomous driving related datasets
-                </Typography>
-            </div>
-            <Button className={classes.note} target={'_blank'} style={{visibility: visContribute}}
-                    href={"https://github.com/daniel-bogdoll/ad-datasets"}>
-                *Could not find your dataset? <br/> Simply create a pull request ;)
-            </Button>
-            <Button className={classes.note} target={'_blank'} style={{visibility: visGit}}
-                    href={"https://github.com/daniel-bogdoll/ad-datasets"}>
-                *GitHub
-            </Button>
-            <Typography className={classes.lastUpdate}>
-                Last Update: {process.env.REACT_APP_GIT_SHA}
-            </Typography>
-            <Typography className={classes.legend}>
-                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
-                    <AnalyzedTag/>
-                    <p>Number of Completely Analyzed Datasets: {complete} </p>
-                </div>
-                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
-                    <PartiallyAnalyzedTag/>
-                    <p>Number of Partially Analyzed Datasets: {parComplete} </p>
-                </div>
-                <div style={{display: "flex", flexDirection: "row", alignItems: "flex-start", marginLeft: "2%"}}>
-                    <IncompleteAnalyzedTag/>
-                    <p>Number of Datasets Missing Essential Information: {incomplete} </p>
+        <div style={{width: dimension.width, height: '90vh'}}>
+            <Header title={'ad-datasets'} subtitle={'Complete* and curated list of autonomous driving related datasets'}/>
 
-                </div>
-            </Typography>
-            <DataGrid rows={Data} columns={columns} components={{Toolbar: GridToolbar}} disableColumnMenu={true}
-                      sortingOrder={['desc', 'asc']}
-                      pageSize={pageSize}
-                      onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
-                      rowsPerPageOptions={[10, 25, 50]}
-                      pagination
-                      disableSelectionOnClick
-                      columnBuffer={3}
-                      className={classes.customDatagrid}
-                      style={{width: Window.innerWidth}}/>
+
+            <DataGrid rows={rows} columns={columns} disableColumnMenu={true} className={classes.customDatagrid}
+                      sortingOrder={['desc', 'asc']} page={page}
+                      components={{ Toolbar: QuickSearchToolbar, Footer: CustomFooter}}
+                      onPageSizeChange={(newPageSize) => setPage(newPageSize)}
+                      pageSize={rowsPerPage}
+                      componentsProps={{
+                          toolbar: {
+                              value: searchText,
+                              onChange: (event) => requestSearch(event.target.value),
+                              clearSearch: () => requestSearch(''),
+                          },
+                          footer: {
+                              count: rows.length,
+                              page: page,
+                              rows: rowsPerPage,
+                              onPageChange: onChangePage,
+                              onRowsPerPageChange: (event) => handleChangeRowsPerPage(event.target.value)
+                          }
+                      }}
+            />
         </div>
     );
 }
+
+
+
+
+
+
+
+
+
+
+

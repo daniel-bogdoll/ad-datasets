@@ -1893,10 +1893,31 @@
 "id": "Highway Work Zones",
 "href": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/"
 },
- {
+{
 "id": "Amodal Cityscapes",
 "href": "https://github.com/ifnspaml/AmodalCityscapes",
-"relatedPaper": "https://arxiv.org/abs/2206.00527"   
+"size_storage": "-",
+"size_hours": "-",
+"frames": "3472",
+"numberOfScenes": "-",
+"samplingRate": "-",
+"lengthOfScenes": "-",
+"sensors": "camera",
+"sensorDetail": "Dataset taken from Cityscapes and occlusions pasted artficially for amodal segmentation tasks",
+"recordingPerspective": "ego-perspective",
+"dataType":"-",
+"mapData": "No",
+"benchmark": "amodal semantic segmentation method",
+"annotations": "semantic segmentation and amodal semantic segmentation",
+"licensing": "Freely available code to generate the dataset",
+"relatedDatasets": "-",
+"publishDate":"2022-06-01",
+"lastUpdate": "-",
+"paperTitle": "Amodal Cityscapes: A New Dataset, its Generation, and an Amodal Semantic Segmentation Challenge Baseline",
+"relatedPaper": "https://arxiv.org/pdf/2206.00527.pdf",
+"location": "-",
+"rawData": "-",
+"DOI": "10.48550/arXiv.2206.00527"
 },
 {
 "id": "LISA Traffic Sign Dataset",
@@ -1951,12 +1972,30 @@
 "DOI": "10.1109/TITS.2015.2509509"
 },
 {
-"id": "Malaga Stereo",
-"href": "https://www.mrpt.org/MalagaUrbanDataset"
-},
-{
-"id": "Malaga Laser Urban",
-"href": "https://www.mrpt.org/MalagaUrbanDataset"
+"id": "Malaga Stereo and Laser Urban",
+"href": "https://www.mrpt.org/MalagaUrbanDataset",
+"size_storage": "4.76",
+"size_hours": "1.55",
+"frames": "-",
+"numberOfScenes": "15",
+"samplingRate": "-",
+"lengthOfScenes": "-",
+"sensors": "camera, lidar, gps/imu",
+"sensorDetail": "1x Point Grey Research Bumblebee 2 stereo camera 1024x768 20Hz, 3x Hokuyo UTM-30LX laser scanners 270°, 2x SICK LMS-200 laser scanners, 1x xSens MTi imu 100Hz, 2x mmGPS devices from Topcon gps",
+"recordingPerspective": "ego-perspective and bird's eye",
+"dataType":"Real",
+"mapData": "Yes",
+"benchmark": "-",
+"annotations": "-",
+"licensing": "-",
+"relatedDatasets": "-",
+"publishDate":"2013-10-09",
+"lastUpdate": "2018-09-13",
+"paperTitle": "The Málaga urban dataset: High-rate stereo and LiDAR in a realistic urban scenario",
+"relatedPaper": "https://journals.sagepub.com/doi/10.1177/0278364913507326",
+"location": "Málaga, Spain",
+"rawData": "-",
+"DOI": "10.1177/0278364913507326"
 },
 {
 "id": "KITTI-360 PanopticBEV",

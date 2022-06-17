@@ -6,9 +6,7 @@
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
-    "@material-ui/core": "latest",
     "@material-ui/lab": "^4.0.0-alpha.61",
-    "@material-ui/icons": "latest",
     "@material-ui/styles": "latest",
     "@mui/x-data-grid": "latest",
     "@testing-library/jest-dom": "^5.14.1",
@@ -51,9 +49,9 @@
     ]
   },
   "devDependencies": {
-    "@material-ui/core": "^4.12.3",
+    "@material-ui/core": "^4.12.4",
     "@material-ui/data-grid": "^4.0.0-alpha.35",
-    "@material-ui/icons": "^4.11.2",
+    "@material-ui/icons": "^4.11.3",
     "@mui/lab": "^5.0.0-alpha.74",
     "@mui/material": "^5.2.3",
     "@mui/x-data-grid-generator": "^5.11.0",

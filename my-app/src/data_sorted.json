@@ -16,11 +16,12 @@
         "relatedDatasets": "Semantic KITTI, KITTI-360",
         "publishDate": "2012-03-01",
         "lastUpdate": "2021-02-01",
+        "paperTitle": "Vision meets Robotics: The KITTI Dataset",
         "relatedPaper": "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4581,
+        "citationCount": 4587,
         "completionStatus": "complete"
     },
     {
@@ -48,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1563,
+        "citationCount": 1565,
         "completionStatus": "complete"
     },
     {
@@ -68,11 +69,12 @@
         "relatedDatasets": "nuImages",
         "publishDate": "2019-03-01",
         "lastUpdate": "2020-12-01",
+        "paperTitle": "nuScenes: A multimodal dataset for autonomous driving",
         "relatedPaper": "https://arxiv.org/pdf/1903.11027.pdf",
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1234,
+        "citationCount": 1240,
         "completionStatus": "complete"
     },
     {
@@ -95,7 +97,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1234,
+        "citationCount": 1240,
         "completionStatus": "partially Complete"
     },
     {
@@ -123,7 +125,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1112,
+        "citationCount": 1115,
         "completionStatus": "complete"
     },
     {
@@ -143,11 +145,12 @@
         "relatedDatasets": "Oxford Radar Robot Car",
         "publishDate": "2016-11-01",
         "lastUpdate": "2020-02-01",
+        "paperTitle": "1 Year, 1000km: The Oxford RobotCar Dataset",
         "relatedPaper": "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf",
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 821,
+        "citationCount": 825,
         "completionStatus": "complete"
     },
     {
@@ -175,7 +178,7 @@
         "location": "Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2011.6033395",
-        "citationCount": 684,
+        "citationCount": 685,
         "completionStatus": "complete"
     },
     {
@@ -195,7 +198,8 @@
         "relatedDatasets": "-",
         "publishDate": "2010-03-01",
         "lastUpdate": "2019-01-01",
-        "relatedPaper": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf",
+        "paperTitle": "Pedestrian Detection: A Benchmark",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206631",
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
@@ -227,7 +231,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 611,
+        "citationCount": 612,
         "completionStatus": "complete"
     },
     {
@@ -247,11 +251,40 @@
         "relatedDatasets": "Waymo Open Motion",
         "publishDate": "2019-08-01",
         "lastUpdate": "2020-03-01",
+        "paperTitle": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset",
         "relatedPaper": "https://arxiv.org/pdf/1912.04838.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 563,
+        "citationCount": 568,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "GTSDB",
+        "href": "https://benchmark.ini.rub.de/gtsdb_news.html",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "900",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x Prosilica GC 1380CH camera 1360x1024",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "Traffic Sign Detection",
+        "annotations": "2d bounding box",
+        "licensing": "-",
+        "relatedDatasets": "GTSRB",
+        "publishDate": "2012-12-01",
+        "lastUpdate": "2013-08-09",
+        "paperTitle": "Detection of traffic signs in real-world images: The German traffic sign detection benchmark",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/6706807",
+        "location": "Bochum, Germany",
+        "rawData": "-",
+        "DOI": "10.1109/IJCNN.2013.6706807",
+        "citationCount": 512,
         "completionStatus": "complete"
     },
     {
@@ -283,34 +316,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "GTSDB",
-        "href": "https://benchmark.ini.rub.de/gtsdb_news.html",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "900",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "1x Prosilica GC 1380CH camera 1360x1024",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "Traffic Sign Detection",
-        "annotations": "2d bounding box",
-        "licensing": "-",
-        "relatedDatasets": "GTSRB",
-        "publishDate": "2012-12-01",
-        "lastUpdate": "2013-08-09",
-        "paperTitle": "Detection of traffic signs in real-world images: The German traffic sign detection benchmark",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/6706807",
-        "location": "Bochum, Germany",
-        "rawData": "-",
-        "DOI": "10.1109/IJCNN.2013.6706807",
-        "citationCount": 510,
-        "completionStatus": "complete"
-    },
-    {
         "id": "BDD100k",
         "href": "https://www.bdd100k.com/",
         "size_storage": "1800",
@@ -327,10 +332,11 @@
         "relatedDatasets": "-",
         "publishDate": "2020-04-01",
         "lastUpdate": "-",
+        "paperTitle": "BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning",
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 455,
+        "citationCount": 456,
         "completionStatus": "complete"
     },
     {
@@ -350,11 +356,12 @@
         "relatedDatasets": "Argoverse 3D Tracking",
         "publishDate": "2019-06-01",
         "lastUpdate": "-",
+        "paperTitle": "Argoverse: 3D Tracking and Forecasting with Rich Maps",
         "relatedPaper": "https://arxiv.org/pdf/1911.02620.pdf",
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 436,
+        "citationCount": 438,
         "completionStatus": "complete"
     },
     {
@@ -374,11 +381,12 @@
         "relatedDatasets": "Argoverse Motion Forecasting",
         "publishDate": "2019-06-01",
         "lastUpdate": "-",
+        "paperTitle": "Argoverse: 3D Tracking and Forecasting with Rich Maps",
         "relatedPaper": "https://arxiv.org/pdf/1911.02620.pdf",
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 436,
+        "citationCount": 438,
         "completionStatus": "complete"
     },
     {
@@ -406,14 +414,15 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 304,
+        "citationCount": 305,
         "completionStatus": "complete"
     },
     {
         "id": "Road Damage",
         "href": "https://github.com/sekilab/RoadDamageDetector/",
+        "paperTitle": "Road Damage Detection Using Deep Neural Networks with\nImages Captured Through a Smartphone",
         "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf",
-        "citationCount": 232,
+        "citationCount": 233,
         "completionStatus": "partially Complete"
     },
     {
@@ -433,10 +442,11 @@
         "relatedDatasets": "-",
         "publishDate": "2018-03-01",
         "lastUpdate": "2020-09-01",
+        "paperTitle": "The ApolloScape Open Dataset for Autonomous Driving and its Application",
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 220,
+        "citationCount": 221,
         "completionStatus": "complete"
     },
     {
@@ -492,7 +502,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 178,
+        "citationCount": 179,
         "completionStatus": "complete"
     },
     {
@@ -580,7 +590,7 @@
         "rawData": "Yes",
         "DOI": "10.1109/ICRA.2017.7989163",
         "citationCount": 137,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Bosch TL",
@@ -631,7 +641,7 @@
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
         "citationCount": 135,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Oxford Radar Robot Car",
@@ -653,8 +663,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 129,
-        "completionStatus": "complete"
+        "citationCount": 130,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "India Driving Dataset",
@@ -678,7 +688,7 @@
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
         "citationCount": 126,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "KITTI-360",
@@ -702,7 +712,7 @@
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2016.401",
         "citationCount": 123,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DR(eye)VE",
@@ -754,7 +764,7 @@
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
         "citationCount": 108,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "JAAD",
@@ -805,7 +815,7 @@
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
         "citationCount": 97,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "KAIST Urban",
@@ -829,7 +839,7 @@
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
         "citationCount": 89,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Synscapes",
@@ -852,7 +862,7 @@
         "location": "-",
         "rawData": "-",
         "citationCount": 84,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "WildDash",
@@ -876,7 +886,7 @@
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
         "citationCount": 82,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Lyft Level5 Prediction",
@@ -899,7 +909,7 @@
         "location": "Palo Alto, USA",
         "rawData": "No",
         "citationCount": 79,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Lyft Level5 Perception",
@@ -922,7 +932,7 @@
         "location": "Palo Alto, USA",
         "rawData": "Yes",
         "citationCount": 79,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "A2D2",
@@ -945,7 +955,7 @@
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
         "citationCount": 74,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DBNet",
@@ -1024,7 +1034,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 65,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "HD1K",
@@ -1131,7 +1141,7 @@
         "location": "-",
         "rawData": "No",
         "citationCount": 45,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "SemKITTI-DVPS",
@@ -1140,7 +1150,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
-        "citationCount": 42,
+        "citationCount": 43,
         "completionStatus": "partially Complete"
     },
     {
@@ -1149,7 +1159,7 @@
         "relatedDatasets": "Cityscapes",
         "relatedPaper": "https://arxiv.org/pdf/2012.05258",
         "rawData": "Yes",
-        "citationCount": 42,
+        "citationCount": 43,
         "completionStatus": "partially Complete"
     },
     {
@@ -1173,7 +1183,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
         "citationCount": 41,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "NightOwls",
@@ -1197,7 +1207,7 @@
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-20887-5_43",
         "citationCount": 40,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "The EuroCity Persons Dataset",
@@ -1248,7 +1258,7 @@
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
         "citationCount": 30,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "D^2 City",
@@ -1356,7 +1366,7 @@
         "rawData": "True",
         "DOI": "10.1177/0278364920961451",
         "citationCount": 27,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RADIATE",
@@ -1379,7 +1389,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 26,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "UTBM EU LTD",
@@ -1495,7 +1505,7 @@
         "location": "California, USA",
         "rawData": "Yes",
         "citationCount": 23,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "ONCE",
@@ -1749,6 +1759,13 @@
         "completionStatus": "complete"
     },
     {
+        "id": "MAVD Multimodal Audio-Visual Detection",
+        "href": "http://multimodal-distill.cs.uni-freiburg.de/",
+        "relatedPaper": "https://arxiv.org/abs/2103.01353",
+        "citationCount": 18,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "4Seasons",
         "href": "https://www.4seasons-dataset.com/",
         "size_storage": "-",
@@ -1769,13 +1786,6 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 17,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "MAVD Multimodal Audio-Visual Detection",
-        "href": "http://multimodal-distill.cs.uni-freiburg.de/",
-        "relatedPaper": "https://arxiv.org/abs/2103.01353",
-        "citationCount": 16,
         "completionStatus": "partially Complete"
     },
     {
@@ -1808,7 +1818,7 @@
         "location": "50 cities in Germany and neighboring countries",
         "rawData": "Yes",
         "citationCount": 13,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RoadAnomaly21",
@@ -1831,7 +1841,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 13,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RadarScenes",
@@ -1854,7 +1864,7 @@
         "location": "-",
         "rawData": "Yes",
         "citationCount": 13,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "MOTSynth",
@@ -1884,7 +1894,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "No",
         "citationCount": 8,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "openDD",
@@ -1930,7 +1940,7 @@
         "location": "Ann Arbor, USA",
         "rawData": "Yes",
         "citationCount": 8,
-        "completionStatus": "complete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "nuPlan",
@@ -2017,6 +2027,14 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "CODA",
+        "href": "https://coda-dataset.github.io/",
+        "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
+        "benchmark": "anomaly detection",
+        "citationCount": 3,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "A9",
         "href": "https://innovation-mobility.com/en/a9-dataset/",
         "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
@@ -2028,14 +2046,6 @@
         "href": "https://www.boreas.utias.utoronto.ca/#/",
         "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
         "citationCount": 3,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "CODA",
-        "href": "https://coda-dataset.github.io/",
-        "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
-        "benchmark": "anomaly detection",
-        "citationCount": 2,
         "completionStatus": "partially Complete"
     },
     {

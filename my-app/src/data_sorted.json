@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4587,
+        "citationCount": 4590,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1565,
+        "citationCount": 1566,
         "completionStatus": "complete"
     },
     {
@@ -74,7 +74,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1240,
+        "citationCount": 1244,
         "completionStatus": "complete"
     },
     {
@@ -97,7 +97,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1240,
+        "citationCount": 1244,
         "completionStatus": "partially Complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1115,
+        "citationCount": 1116,
         "completionStatus": "complete"
     },
     {
@@ -231,7 +231,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 612,
+        "citationCount": 613,
         "completionStatus": "complete"
     },
     {
@@ -256,7 +256,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 568,
+        "citationCount": 570,
         "completionStatus": "complete"
     },
     {
@@ -284,7 +284,7 @@
         "location": "Bochum, Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2013.6706807",
-        "citationCount": 512,
+        "citationCount": 513,
         "completionStatus": "complete"
     },
     {
@@ -312,7 +312,7 @@
         "location": "USA",
         "rawData": "-",
         "DOI": "10.1109/TITS.2012.2209421",
-        "citationCount": 512,
+        "citationCount": 513,
         "completionStatus": "complete"
     },
     {
@@ -336,7 +336,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 456,
+        "citationCount": 460,
         "completionStatus": "complete"
     },
     {
@@ -361,7 +361,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 438,
+        "citationCount": 439,
         "completionStatus": "complete"
     },
     {
@@ -386,7 +386,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 438,
+        "citationCount": 439,
         "completionStatus": "complete"
     },
     {
@@ -414,7 +414,7 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 305,
+        "citationCount": 306,
         "completionStatus": "complete"
     },
     {
@@ -447,6 +447,34 @@
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
         "citationCount": 221,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Malaga Stereo and Laser Urban",
+        "href": "https://www.mrpt.org/MalagaUrbanDataset",
+        "size_storage": "4.76",
+        "size_hours": "1.55",
+        "frames": "-",
+        "numberOfScenes": "15",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "1x Point Grey Research Bumblebee 2 stereo camera 1024x768 20Hz, 3x Hokuyo UTM-30LX laser scanners 270°, 2x SICK LMS-200 laser scanners, 1x xSens MTi imu 100Hz, 2x mmGPS devices from Topcon gps",
+        "recordingPerspective": "ego-perspective and bird's eye",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "-",
+        "relatedDatasets": "-",
+        "publishDate": "2013-10-09",
+        "lastUpdate": "2018-09-13",
+        "paperTitle": "The Málaga urban dataset: High-rate stereo and LiDAR in a realistic urban scenario",
+        "relatedPaper": "https://journals.sagepub.com/doi/10.1177/0278364913507326",
+        "location": "Málaga, Spain",
+        "rawData": "-",
+        "DOI": "10.1177/0278364913507326",
+        "citationCount": 192,
         "completionStatus": "complete"
     },
     {
@@ -537,7 +565,7 @@
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 158,
+        "citationCount": 159,
         "completionStatus": "partially Complete"
     },
     {
@@ -687,7 +715,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 126,
+        "citationCount": 127,
         "completionStatus": "partially Complete"
     },
     {
@@ -861,7 +889,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
         "location": "-",
         "rawData": "-",
-        "citationCount": 84,
+        "citationCount": 85,
         "completionStatus": "partially Complete"
     },
     {
@@ -954,7 +982,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 74,
+        "citationCount": 75,
         "completionStatus": "partially Complete"
     },
     {
@@ -1257,7 +1285,7 @@
         "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
-        "citationCount": 30,
+        "citationCount": 31,
         "completionStatus": "partially Complete"
     },
     {
@@ -1429,6 +1457,61 @@
         "completionStatus": "complete"
     },
     {
+        "id": "RELLIS-3D Dataset",
+        "href": "https://unmannedlab.github.io/research/RELLIS-3D",
+        "size_storage": "58.1",
+        "size_hours": "-",
+        "frames": "13556",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "1x Nerian Karmin2 + Nerian SceneScan: 3D StereoCamera 10Hz, 1x RGB Camera: Basler acA1920-50gc camera with 16mm/F18 EDMUND Optics lens 1920x1200 10Hz, 1x Ouster OS1 LiDAR 64 Channels 10 Hz, 1x Velodyne Ultra Puck: 32 Channels 10Hz, Vectornav VN-300 Dual Antenna GNSS/INS 300Hz GPS, 100Hz IMU",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "semantic segmentation of 2d image and 3d point clouds",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
+        "relatedDatasets": "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adaptation",
+        "publishDate": "2020-11-26",
+        "lastUpdate": "2022-01-24",
+        "paperTitle": "RELLIS-3D Dataset: Data, Benchmarks and Analysis",
+        "relatedPaper": "https://arxiv.org/pdf/2011.12954.pdf",
+        "location": "Rellis Campus of Texas A&M University",
+        "rawData": "-",
+        "DOI": "10.1109/ICRA48506.2021.9561251",
+        "citationCount": 25,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "ONCE",
+        "href": "https://once-for-auto-driving.github.io/index.html",
+        "size_storage": "-",
+        "size_hours": "144",
+        "frames": "1000000",
+        "numberOfScenes": "581",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar",
+        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "benchmark": "3d object detection",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "ONCE-3DLanes",
+        "publishDate": "2021-05-18",
+        "lastUpdate": "2021-08-05",
+        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
+        "location": "China",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2106.11037",
+        "citationCount": 24,
+        "completionStatus": "complete"
+    },
+    {
         "id": "PointCloudDeNoising",
         "href": "https://github.com/rheinzler/PointCloudDeNoising",
         "size_storage": "-",
@@ -1457,34 +1540,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "RELLIS-3D Dataset",
-        "href": "https://unmannedlab.github.io/research/RELLIS-3D",
-        "size_storage": "58.1",
-        "size_hours": "-",
-        "frames": "13556",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "1x Nerian Karmin2 + Nerian SceneScan: 3D StereoCamera 10Hz, 1x RGB Camera: Basler acA1920-50gc camera with 16mm/F18 EDMUND Optics lens 1920x1200 10Hz, 1x Ouster OS1 LiDAR 64 Channels 10 Hz, 1x Velodyne Ultra Puck: 32 Channels 10Hz, Vectornav VN-300 Dual Antenna GNSS/INS 300Hz GPS, 100Hz IMU",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "semantic segmentation of 2d image and 3d point clouds",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License",
-        "relatedDatasets": "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adaptation",
-        "publishDate": "2020-11-26",
-        "lastUpdate": "2022-01-24",
-        "paperTitle": "RELLIS-3D Dataset: Data, Benchmarks and Analysis",
-        "relatedPaper": "https://arxiv.org/pdf/2011.12954.pdf",
-        "location": "Rellis Campus of Texas A&M University",
-        "rawData": "-",
-        "DOI": "10.1109/ICRA48506.2021.9561251",
-        "citationCount": 24,
-        "completionStatus": "complete"
-    },
-    {
         "id": "DDD 20",
         "href": "https://sites.google.com/view/davis-driving-dataset-2020/home",
         "size_storage": "1300",
@@ -1506,33 +1561,6 @@
         "rawData": "Yes",
         "citationCount": 23,
         "completionStatus": "partially Complete"
-    },
-    {
-        "id": "ONCE",
-        "href": "https://once-for-auto-driving.github.io/index.html",
-        "size_storage": "-",
-        "size_hours": "144",
-        "frames": "1000000",
-        "numberOfScenes": "581",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar",
-        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "benchmark": "3d object detection",
-        "annotations": "2d/3d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "ONCE-3DLanes",
-        "publishDate": "2021-05-18",
-        "lastUpdate": "2021-08-05",
-        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
-        "location": "China",
-        "rawData": "-",
-        "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 23,
-        "completionStatus": "complete"
     },
     {
         "id": "Talk2Car",
@@ -1755,7 +1783,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/ICPR48806.2021.9413181",
-        "citationCount": 19,
+        "citationCount": 20,
         "completionStatus": "complete"
     },
     {
@@ -2385,21 +2413,30 @@
     {
         "id": "Amodal Cityscapes",
         "href": "https://github.com/ifnspaml/AmodalCityscapes",
-        "relatedPaper": "https://arxiv.org/abs/2206.00527",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "3472",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "Dataset taken from Cityscapes and occlusions pasted artficially for amodal segmentation tasks",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "-",
+        "mapData": "No",
+        "benchmark": "amodal semantic segmentation method",
+        "annotations": "semantic segmentation and amodal semantic segmentation",
+        "licensing": "Freely available code to generate the dataset",
+        "relatedDatasets": "-",
+        "publishDate": "2022-06-01",
+        "lastUpdate": "-",
+        "paperTitle": "Amodal Cityscapes: A New Dataset, its Generation, and an Amodal Semantic Segmentation Challenge Baseline",
+        "relatedPaper": "https://arxiv.org/pdf/2206.00527.pdf",
+        "location": "-",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2206.00527",
         "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Malaga Stereo",
-        "href": "https://www.mrpt.org/MalagaUrbanDataset",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Malaga Laser Urban",
-        "href": "https://www.mrpt.org/MalagaUrbanDataset",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
+        "completionStatus": "complete"
     },
     {
         "id": "KITTI-360 PanopticBEV",

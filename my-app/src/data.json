@@ -15,6 +15,7 @@
   "relatedDatasets": "Semantic KITTI, KITTI-360",
   "publishDate": "2012-03-01",
   "lastUpdate": "2021-02-01",
+  "paperTitle": "Vision meets Robotics: The KITTI Dataset",
   "relatedPaper": "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
   "location": "Karlsruhe, Germany",
   "rawData": "Yes",
@@ -37,6 +38,7 @@
 "relatedDatasets": "nuImages",
 "publishDate": "2019-03-01",
 "lastUpdate": "2020-12-01",
+"paperTitle": "nuScenes: A multimodal dataset for autonomous driving",
 "relatedPaper": "https://arxiv.org/pdf/1903.11027.pdf",
 "location": "Boston, USA and Singapore",
 "rawData": "Yes",
@@ -59,6 +61,7 @@
 "relatedDatasets": "Oxford Radar Robot Car",
 "publishDate": "2016-11-01",
 "lastUpdate": "2020-02-01",
+"paperTitle": "1 Year, 1000km: The Oxford RobotCar Dataset",
 "relatedPaper": "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf",
 "location": "Oxford, UK",
 "rawData": "Yes",
@@ -81,6 +84,7 @@
 "relatedDatasets": "Waymo Open Motion",
 "publishDate": "2019-08-01",
 "lastUpdate": "2020-03-01",
+"paperTitle": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset",
 "relatedPaper": "https://arxiv.org/pdf/1912.04838.pdf",
 "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
 "rawData": "Yes",
@@ -103,6 +107,7 @@
 "relatedDatasets": "Argoverse 3D Tracking",
 "publishDate": "2019-06-01",
 "lastUpdate": "-",
+"paperTitle": "Argoverse: 3D Tracking and Forecasting with Rich Maps",
 "relatedPaper": "https://arxiv.org/pdf/1911.02620.pdf",
 "location": "Miami and Pittsburgh, USA",
 "rawData": "No",
@@ -125,6 +130,7 @@
 "relatedDatasets": "Argoverse Motion Forecasting",
 "publishDate": "2019-06-01",
 "lastUpdate": "-",
+"paperTitle": "Argoverse: 3D Tracking and Forecasting with Rich Maps",
 "relatedPaper": "https://arxiv.org/pdf/1911.02620.pdf",
 "location": "Miami and Pittsburgh, USA",
 "rawData": "Yes",
@@ -168,6 +174,7 @@
 "relatedDatasets": "-",
 "publishDate": "2018-03-01",
 "lastUpdate": "2020-09-01",
+"paperTitle": "The ApolloScape Open Dataset for Autonomous Driving and its Application",
 "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
 "location": "Beijing, Shanghai and Shenzhen, China",
 "rawData": "Yes"
@@ -189,6 +196,7 @@
 "relatedDatasets": "-",
 "publishDate": "2020-04-01",
 "lastUpdate": "-",
+"paperTitle": "BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning",
 "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
 "location": "New York, Berkeley, San Francisco and Bay Area, USA",
 "rawData": "Yes"
@@ -529,7 +537,8 @@
 "relatedDatasets": "-",
 "publishDate": "2010-03-01",
 "lastUpdate": "2019-01-01",
-"relatedPaper": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/CVPR09pedestrians.pdf",
+"paperTitle": "Pedestrian Detection: A Benchmark",
+"relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206631",
 "location": "Loa Angeles, USA",
 "rawData": "Yes",
 "DOI": "10.1109/CVPR.2009.5206631"
@@ -1970,6 +1979,7 @@
 {
 "id": "Road Damage",
 "href":"https://github.com/sekilab/RoadDamageDetector/",
+"paperTitle": "Road Damage Detection Using Deep Neural Networks with\nImages Captured Through a Smartphone",
 "relatedPaper": "https://arxiv.org/pdf/1801.09454.pdf"
 },
 {

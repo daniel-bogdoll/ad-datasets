@@ -2048,13 +2048,23 @@
 "DOI": "10.1007/978-3-319-46475-6_7"
 },
 {
-"id": "Ground Truth Stixel Dataset",
+"id": "Ground Truth Stixel",
 "href": "http://www.6d-vision.com/ground-truth-stixel-dataset"
 },
 {
 "id": "Boxy",
 "href": "https://boxy-dataset.com/boxy/"
 },
+{
+"id": "CarlaScenes",
+"href": "https://github.com/CarlaScenes/CarlaSence",
+ "relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Kloukiniotis_CarlaScenes_A_Synthetic_Dataset_for_Odometry_in_Autonomous_Driving_CVPRW_2022_paper.pdf"
+},
+{
+"id": "K-Lane",
+"href": "https://github.com/kaist-avelab/k-lane",
+"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.pdf" 
+}, 
 {
 "id": "TME Motorway",
 "href": "http://cmp.felk.cvut.cz/data/motorway/"

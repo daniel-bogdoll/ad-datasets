@@ -2302,7 +2302,16 @@
 },
 {
 "id": "VPGNet",
-"href": "https://arxiv.org/abs/1710.06288"
+"href":"https://github.com/SeokjuLee/VPGNet",
+"relatedPaper": "https://arxiv.org/abs/1710.06288",
+"paperTitle": "VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition",
+"relatedDatasets": "Caltech Lanes",
+},
+{
+"id": "SUTD-TrafficQA",
+"href":"https://github.com/SUTDCV/SUTD-TrafficQA",
+"relatedPaper": "https://arxiv.org/pdf/2103.15538.pdf",
+"paperTitle": "SUTD-TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events"
 },
 {
 "id": "Toronto 3D",
@@ -2355,7 +2364,9 @@
 },
 {
 "id": "Caltech Lanes",
-"href": "http://www.mohamedaly.info/datasets/caltech-lanes"
+"href": "http://www.mohamedaly.info/datasets/caltech-lanes",
+"relatedPaper":"https://arxiv.org/pdf/1411.7113.pdf",
+"paperTitle":"Real time Detection of Lane Markers in Urban Streets"
 },
 {
 "id": "Complex Urban Dataset",
@@ -2444,7 +2455,9 @@
 },
 {
 "id":"TAF-BW",
-"href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset"
+"href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset",
+"relatedPaper":"https://www.researchgate.net/publication/327449884_Towards_Large_Scale_Urban_Traffic_Reference_Data_Smart_Infrastructure_in_the_Test_Area_Autonomous_Driving_Baden-Wurttemberg",
+"paperTitle":"Towards Large Scale Urban Traffic Reference Data: Smart Infrastructure in the Test Area Autonomous Driving Baden-Württemberg"
 },
 {
 "id":"Road Scene Graph",

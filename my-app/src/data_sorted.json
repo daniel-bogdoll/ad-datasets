@@ -3158,6 +3158,12 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "Small Obstacle",
+        "href": "https://small-obstacle-dataset.github.io/",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "GROUNDED Localizing Ground Penetrating Radar (LGPR) Evaluation Dataset",
         "href": "https://lgprdata.com/",
         "citationCount": 0,

@@ -2610,7 +2610,7 @@
 {
 "id": "RoadSaW",
 "href": "https://www.viscoda.com/index.php/downloads/roadsaw-dataset",
-"relatedPaper:" "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Cordes_RoadSaW_A_Large-Scale_Dataset_for_Camera-Based_Road_Surface_and_Wetness_CVPRW_2022_paper.pdf"
+"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Cordes_RoadSaW_A_Large-Scale_Dataset_for_Camera-Based_Road_Surface_and_Wetness_CVPRW_2022_paper.pdf"
 },
 {
 "id": "Daimler Pedestrian",

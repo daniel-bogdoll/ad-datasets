@@ -20,7 +20,7 @@ This is how the KITTI dataset is integrated into the website:
 ```
 [...]
 {
-    id: "KITTI", //07.08. fertig
+    id: "KITTI",
     href: "http://www.cvlibs.net/datasets/kitti/",
     size_hours: "6",
     size_storage: "180",

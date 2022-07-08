@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4639,
+        "citationCount": 4644,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1586,
+        "citationCount": 1590,
         "completionStatus": "complete"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1346,
+        "citationCount": 1348,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1294,
+        "citationCount": 1300,
         "completionStatus": "complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1294,
+        "citationCount": 1300,
         "completionStatus": "partially Complete"
     },
     {
@@ -153,7 +153,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1126,
+        "citationCount": 1128,
         "completionStatus": "complete"
     },
     {
@@ -181,7 +181,7 @@
         "location": "United Kingdom",
         "rawData": "Yes",
         "DOI": "10.1016/j.patrec.2008.04.005",
-        "citationCount": 908,
+        "citationCount": 909,
         "completionStatus": "complete"
     },
     {
@@ -206,7 +206,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 833,
+        "citationCount": 832,
         "completionStatus": "complete"
     },
     {
@@ -234,7 +234,7 @@
         "location": "Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2011.6033395",
-        "citationCount": 687,
+        "citationCount": 688,
         "completionStatus": "complete"
     },
     {
@@ -262,7 +262,32 @@
         "location": "Europe, North and South America, Asia, Africa and Oceania",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.534",
-        "citationCount": 627,
+        "citationCount": 628,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Caltech Pedestrian",
+        "href": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
+        "size_storage": "-",
+        "size_hours": "10",
+        "frames": "1000000",
+        "numberOfScenes": "137",
+        "samplingRate": "30",
+        "lengthOfScenes": "60",
+        "sensors": "camera",
+        "sensorDetail": "1x camera 640x480 30Hz",
+        "benchmark": "pedestrian detection",
+        "annotations": "bounding boxes",
+        "licensing": "-",
+        "relatedDatasets": "-",
+        "publishDate": "2010-03-01",
+        "lastUpdate": "2019-01-01",
+        "paperTitle": "Pedestrian Detection: A Benchmark",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206631",
+        "location": "Loa Angeles, USA",
+        "rawData": "Yes",
+        "DOI": "10.1109/CVPR.2009.5206631",
+        "citationCount": 618,
         "completionStatus": "complete"
     },
     {
@@ -294,31 +319,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Caltech Pedestrian",
-        "href": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
-        "size_storage": "-",
-        "size_hours": "10",
-        "frames": "1000000",
-        "numberOfScenes": "137",
-        "samplingRate": "30",
-        "lengthOfScenes": "60",
-        "sensors": "camera",
-        "sensorDetail": "1x camera 640x480 30Hz",
-        "benchmark": "pedestrian detection",
-        "annotations": "bounding boxes",
-        "licensing": "-",
-        "relatedDatasets": "-",
-        "publishDate": "2010-03-01",
-        "lastUpdate": "2019-01-01",
-        "paperTitle": "Pedestrian Detection: A Benchmark",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206631",
-        "location": "Loa Angeles, USA",
-        "rawData": "Yes",
-        "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 614,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Waymo Open Perception",
         "href": "https://waymo.com/open/data/perception/",
         "size_hours": "10.83",
@@ -340,7 +340,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 594,
+        "citationCount": 596,
         "completionStatus": "complete"
     },
     {
@@ -368,7 +368,7 @@
         "location": "Bochum, Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2013.6706807",
-        "citationCount": 518,
+        "citationCount": 519,
         "completionStatus": "complete"
     },
     {
@@ -420,7 +420,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 476,
+        "citationCount": 478,
         "completionStatus": "complete"
     },
     {
@@ -445,7 +445,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 452,
+        "citationCount": 453,
         "completionStatus": "complete"
     },
     {
@@ -470,7 +470,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 452,
+        "citationCount": 453,
         "completionStatus": "complete"
     },
     {
@@ -554,7 +554,7 @@
         "location": "Japan",
         "rawData": "-",
         "DOI": "10.1111/mice.12387",
-        "citationCount": 233,
+        "citationCount": 234,
         "completionStatus": "complete"
     },
     {
@@ -606,7 +606,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 225,
+        "citationCount": 226,
         "completionStatus": "complete"
     },
     {
@@ -851,7 +851,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 134,
+        "citationCount": 135,
         "completionStatus": "partially Complete"
     },
     {
@@ -1007,7 +1007,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 110,
+        "citationCount": 109,
         "completionStatus": "partially Complete"
     },
     {
@@ -1129,7 +1129,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 82,
+        "citationCount": 83,
         "completionStatus": "partially Complete"
     },
     {
@@ -1152,7 +1152,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 81,
+        "citationCount": 82,
         "completionStatus": "partially Complete"
     },
     {
@@ -1175,7 +1175,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 81,
+        "citationCount": 82,
         "completionStatus": "partially Complete"
     },
     {
@@ -1198,7 +1198,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 76,
+        "citationCount": 77,
         "completionStatus": "partially Complete"
     },
     {
@@ -1258,6 +1258,29 @@
         "completionStatus": "complete"
     },
     {
+        "id": "LostAndFound",
+        "href": "http://www.6d-vision.com/lostandfounddataset",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "21040",
+        "numberOfScenes": "112",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "stereo camera setup baseline 21cm 2048x1024",
+        "benchmark": "anomaly detection",
+        "annotations": "semantic segmentation",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2016-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 67,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "HD1K",
         "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
         "size_storage": "-",
@@ -1284,29 +1307,6 @@
         "DOI": "10.1109/CVPRW.2016.10",
         "citationCount": 67,
         "completionStatus": "complete"
-    },
-    {
-        "id": "LostAndFound",
-        "href": "http://www.6d-vision.com/lostandfounddataset",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "21040",
-        "numberOfScenes": "112",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "stereo camera setup baseline 21cm 2048x1024",
-        "benchmark": "anomaly detection",
-        "annotations": "semantic segmentation",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2016-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 66,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "HCI Challenging Stereo",
@@ -1365,6 +1365,52 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Waymo Open Motion",
+        "href": "https://waymo.com/open/data/motion/",
+        "size_hours": "574",
+        "size_storage": "-",
+        "frames": "20670800",
+        "numberOfScenes": "103354",
+        "samplingRate": "10",
+        "lengthOfScenes": "20",
+        "sensors": "camera, lidar",
+        "sensorDetail": "5x cameras, 5x lidar, ",
+        "benchmark": "motion prediction, interaction prediction",
+        "annotations": "3d bounding boxes, 3d hd map information",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "Waymo Open Perception",
+        "publishDate": "2021-03-01",
+        "lastUpdate": "2021-09-01",
+        "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
+        "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
+        "rawData": "No",
+        "citationCount": 47,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "Fishyscapes",
+        "href": "https://fishyscapes.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
+        "benchmark": "anomaly detection, semantic segmentation",
+        "annotations": "semantic segmentation",
+        "licensing": "-",
+        "relatedDatasets": "Cityscapes, LostAndFound",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
+        "location": "-",
+        "rawData": "No",
+        "citationCount": 47,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "CADC",
         "href": "http://cadcd.uwaterloo.ca/",
         "size_storage": "-",
@@ -1393,29 +1439,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Fishyscapes",
-        "href": "https://fishyscapes.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
-        "benchmark": "anomaly detection, semantic segmentation",
-        "annotations": "semantic segmentation",
-        "licensing": "-",
-        "relatedDatasets": "Cityscapes, LostAndFound",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
-        "location": "-",
-        "rawData": "No",
-        "citationCount": 46,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Toronto 3D",
         "href": "https://github.com/WeikaiTan/Toronto-3D",
         "size_storage": "-",
@@ -1442,29 +1465,6 @@
         "DOI": "10.1109/CVPRW50498.2020.00109",
         "citationCount": 46,
         "completionStatus": "complete"
-    },
-    {
-        "id": "Waymo Open Motion",
-        "href": "https://waymo.com/open/data/motion/",
-        "size_hours": "574",
-        "size_storage": "-",
-        "frames": "20670800",
-        "numberOfScenes": "103354",
-        "samplingRate": "10",
-        "lengthOfScenes": "20",
-        "sensors": "camera, lidar",
-        "sensorDetail": "5x cameras, 5x lidar, ",
-        "benchmark": "motion prediction, interaction prediction",
-        "annotations": "3d bounding boxes, 3d hd map information",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "Waymo Open Perception",
-        "publishDate": "2021-03-01",
-        "lastUpdate": "2021-09-01",
-        "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
-        "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
-        "rawData": "No",
-        "citationCount": 45,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "A*3D",
@@ -1566,29 +1566,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Comma2k19",
-        "href": "https://github.com/commaai/comma2k19",
-        "size_storage": "100",
-        "size_hours": "33.65",
-        "frames": "-",
-        "numberOfScenes": "2019",
-        "samplingRate": "-",
-        "lengthOfScenes": "60",
-        "sensors": "camera, radar, gnss/imu ",
-        "sensorDetail": "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "MIT",
-        "relatedDatasets": "-",
-        "publishDate": "2018-12-01",
-        "lastUpdate": "-",
-        "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
-        "location": "California's 280 highway, USA",
-        "rawData": "Yes",
-        "citationCount": 31,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Street Hazards",
         "href": "https://github.com/hendrycks/anomaly-seg",
         "size_storage": "2.0",
@@ -1613,8 +1590,31 @@
         "location": "Carla",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1911.11132",
-        "citationCount": 31,
+        "citationCount": 32,
         "completionStatus": "complete"
+    },
+    {
+        "id": "Comma2k19",
+        "href": "https://github.com/commaai/comma2k19",
+        "size_storage": "100",
+        "size_hours": "33.65",
+        "frames": "-",
+        "numberOfScenes": "2019",
+        "samplingRate": "-",
+        "lengthOfScenes": "60",
+        "sensors": "camera, radar, gnss/imu ",
+        "sensorDetail": "two different car types, 1x road-facing camera Sony IMX2984 20Hz, 1x gnss u-blox M8 chip5 10Hz, gyro and accelerometer data LSM6DS3 100Hz, magnetometer data AK09911 10Hz",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "MIT",
+        "relatedDatasets": "-",
+        "publishDate": "2018-12-01",
+        "lastUpdate": "-",
+        "relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
+        "location": "California's 280 highway, USA",
+        "rawData": "Yes",
+        "citationCount": 31,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RUGD: Robot Unstructured Ground Driving",
@@ -1673,6 +1673,30 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Ford Autonomous Vehicle Dataset",
+        "href": "https://avdata.ford.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
+        "benchmark": "-",
+        "annotations": "3d point cloud maps, ground reflectivity map",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+        "location": "Michigan, USA",
+        "rawData": "True",
+        "DOI": "10.1177/0278364920961451",
+        "citationCount": 29,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "RELLIS-3D Dataset",
         "href": "https://unmannedlab.github.io/research/RELLIS-3D",
         "size_storage": "58.1",
@@ -1725,32 +1749,8 @@
         "location": "Sweden and United Kingdom",
         "rawData": "-",
         "DOI": "10.1109/TVT.2015.2487826",
-        "citationCount": 29,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Ford Autonomous Vehicle Dataset",
-        "href": "https://avdata.ford.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
-        "benchmark": "-",
-        "annotations": "3d point cloud maps, ground reflectivity map",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
-        "location": "Michigan, USA",
-        "rawData": "True",
-        "DOI": "10.1177/0278364920961451",
         "citationCount": 28,
-        "completionStatus": "partially Complete"
+        "completionStatus": "complete"
     },
     {
         "id": "RADIATE",
@@ -2248,7 +2248,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 15,
+        "citationCount": 16,
         "completionStatus": "partially Complete"
     },
     {

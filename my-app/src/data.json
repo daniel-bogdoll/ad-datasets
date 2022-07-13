@@ -2551,7 +2551,7 @@
 "dataType":"Real",
 "mapData": "Yes",
 "benchmark": "Lidar sensors",
-"annotations": "",
+"annotations": "-",
 "licensing": "-",
 "relatedDatasets": "-",
 "publishDate":"2020-10-19",

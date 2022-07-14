@@ -2787,6 +2787,11 @@
 "href": "https://www.ind-dataset.com/"
 },
 {
+"id":"TTI Core",
+"href": "https://www.toyota-ti.ac.jp/Lab/Denshi/COIN/Ontology/TTICore-0.03/",
+"relatedPaper":"http://ceur-ws.org/Vol-1486/paper_9.pdf"  
+},
+{
 "id":"rounD",
 "href": "https://www.round-dataset.com/"
 },

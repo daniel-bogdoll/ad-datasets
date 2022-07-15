@@ -1664,7 +1664,7 @@
 "relatedPaper": "https://arxiv.org/pdf/1712.06080",
 "location": "Beijing, China",
 "rawData": "-",
-"DOI": "10.48550/arXiv.1712.06080"
+"DOI": "10.1609/aaai.v32i1.12301"
 },
 {
 "id": "DDD20: DAVIS Driving Dataset 2020",
@@ -2000,12 +2000,14 @@
 {
 "id": "KITTI-360 PanopticBEV",
 "href": "http://panoptic-bev.cs.uni-freiburg.de/",
-"relatedPaper":"https://ieeexplore.ieee.org/document/9681287"
+"relatedPaper":"https://ieeexplore.ieee.org/document/9681287",
+"DOI": "10.1109/LRA.2022.3142418"
 },
 {
 "id": "nuScenes PanopticBEV",
 "href": "http://panoptic-bev.cs.uni-freiburg.de/",
-"relatedPaper":"https://ieeexplore.ieee.org/document/9681287"
+"relatedPaper":"https://ieeexplore.ieee.org/document/9681287",
+"DOI": "10.1109/LRA.2022.3142418"
 }, 
 {
 "id": "Mapillary Vistas",
@@ -2139,7 +2141,7 @@
 "relatedPaper": "https://www.sciencedirect.com/science/article/pii/S2352340921004170#bib0001",
 "location": "India, Japan and Czech Republic",
 "rawData": "-",
-"DOI": "10.17632/5ty2wb6gvg.2"
+"DOI": "j.dib.2021.107133"
 },
 {
 "id": "GTA5",
@@ -2222,7 +2224,8 @@
 {
 "id": "CarlaScenes",
 "href": "https://github.com/CarlaScenes/CarlaSence",
- "relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Kloukiniotis_CarlaScenes_A_Synthetic_Dataset_for_Odometry_in_Autonomous_Driving_CVPRW_2022_paper.pdf"
+"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Kloukiniotis_CarlaScenes_A_Synthetic_Dataset_for_Odometry_in_Autonomous_Driving_CVPRW_2022_paper.pdf",
+"DOI": "10.1109/OJITS.2022.3142612"
 },
 {
 "id": "K-Lane",
@@ -2565,7 +2568,8 @@
 {
 "id": "PREVENTION",
 "href": "https://prevention-dataset.uah.es/",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8917433"
+"relatedPaper": "https://ieeexplore.ieee.org/document/8917433",
+"DOI": "10.1109/ITSC.2019.8917433"
 },
 {
 "id": "Stanford Track Collection",
@@ -2969,7 +2973,8 @@
 {
   "id": "Synthetic Discrepancy Datasets",
   "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
-  "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf"
+  "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
+  "DOI": "10.1109/ICCV.2019.00224"
 },
 {
   "id": "SODA10M",
@@ -3018,7 +3023,8 @@
 {
   "id": "OpenMPD",
   "href": "http://openmpd.com/",
-  "relatedPaper": "https://ieeexplore.ieee.org/document/9682587"
+  "relatedPaper": "https://ieeexplore.ieee.org/document/9682587",
+  "DOI": "10.1109/TVT.2022.3143173"
 },
 {
   "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
@@ -3027,7 +3033,8 @@
 {
   "id": "The Autonomous Platform Inertial Dataset",
   "href": "https://github.com/ansfl/Navigation-Data-Project/",
-  "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368"
+  "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
+  "10.1109/ACCESS.2022.3144076"
 },
 {
   "id": "PIE",

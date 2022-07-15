@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4659,
+        "citationCount": 4665,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1596,
+        "citationCount": 1599,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1306,
+        "citationCount": 1310,
         "completionStatus": "complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1306,
+        "citationCount": 1310,
         "completionStatus": "partially Complete"
     },
     {
@@ -290,7 +290,7 @@
         "location": "Europe, North and South America, Asia, Africa and Oceania",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.534",
-        "citationCount": 633,
+        "citationCount": 636,
         "completionStatus": "complete"
     },
     {
@@ -315,7 +315,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 622,
+        "citationCount": 625,
         "completionStatus": "complete"
     },
     {
@@ -473,7 +473,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 456,
+        "citationCount": 457,
         "completionStatus": "complete"
     },
     {
@@ -498,7 +498,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 456,
+        "citationCount": 457,
         "completionStatus": "complete"
     },
     {
@@ -554,7 +554,7 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 317,
+        "citationCount": 318,
         "completionStatus": "complete"
     },
     {
@@ -610,7 +610,7 @@
         "location": "Seoul, South Korea",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.215",
-        "citationCount": 232,
+        "citationCount": 233,
         "completionStatus": "complete"
     },
     {
@@ -634,7 +634,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 227,
+        "citationCount": 228,
         "completionStatus": "complete"
     },
     {
@@ -662,7 +662,7 @@
         "location": "Málaga, Spain",
         "rawData": "-",
         "DOI": "10.1177/0278364913507326",
-        "citationCount": 195,
+        "citationCount": 196,
         "completionStatus": "complete"
     },
     {
@@ -1039,7 +1039,7 @@
         "location": "North America and Europe",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
-        "citationCount": 111,
+        "citationCount": 112,
         "completionStatus": "complete"
     },
     {
@@ -1142,7 +1142,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2013.45",
-        "citationCount": 94,
+        "citationCount": 95,
         "completionStatus": "complete"
     },
     {
@@ -1930,7 +1930,7 @@
         "dataType": "Real",
         "mapData": "Yes",
         "benchmark": "Lidar sensors",
-        "annotations": "",
+        "annotations": "-",
         "licensing": "-",
         "relatedDatasets": "-",
         "publishDate": "2020-10-19",
@@ -2691,6 +2691,13 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "A9",
+        "href": "https://innovation-mobility.com/en/a9-dataset/",
+        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
+        "citationCount": 4,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "KITTI-360-APS",
         "href": "http://amodal-panoptic.cs.uni-freiburg.de/",
         "relatedPaper": "https://arxiv.org/pdf/2202.11542.pdf",
@@ -2720,17 +2727,17 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "A9",
-        "href": "https://innovation-mobility.com/en/a9-dataset/",
-        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
-        "citationCount": 3,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Boreas",
         "href": "https://www.boreas.utias.utoronto.ca/#/",
         "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
         "citationCount": 3,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "DGL-MOTS",
+        "href": "https://goodproj13.github.io/DGL-MOTS/",
+        "relatedPaper": "https://arxiv.org/pdf/2110.07790.pdf",
+        "citationCount": 2,
         "completionStatus": "partially Complete"
     },
     {
@@ -2848,13 +2855,6 @@
         "id": "ScribbleKITTI",
         "href": "https://github.com/ouenal/scribblekitti",
         "relatedPaper": "https://arxiv.org/abs/2203.08537",
-        "citationCount": 1,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "DGL-MOTS",
-        "href": "https://goodproj13.github.io/DGL-MOTS/",
-        "relatedPaper": "https://arxiv.org/pdf/2110.07790.pdf",
         "citationCount": 1,
         "completionStatus": "partially Complete"
     },
@@ -3334,6 +3334,13 @@
         "href": "https://www.ind-dataset.com/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
+    },
+    {
+        "id": "TTI Core",
+        "href": "https://www.toyota-ti.ac.jp/Lab/Denshi/COIN/Ontology/TTICore-0.03/",
+        "relatedPaper": "http://ceur-ws.org/Vol-1486/paper_9.pdf",
+        "citationCount": 0,
+        "completionStatus": "incomplete"
     },
     {
         "id": "rounD",

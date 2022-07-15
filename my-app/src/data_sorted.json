@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4665,
+        "citationCount": 4681,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1599,
+        "citationCount": 1602,
         "completionStatus": "complete"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1354,
+        "citationCount": 1356,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1310,
+        "citationCount": 1316,
         "completionStatus": "complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1310,
+        "citationCount": 1316,
         "completionStatus": "partially Complete"
     },
     {
@@ -153,7 +153,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1129,
+        "citationCount": 1131,
         "completionStatus": "complete"
     },
     {
@@ -181,7 +181,7 @@
         "location": "United Kingdom",
         "rawData": "Yes",
         "DOI": "10.1016/j.patrec.2008.04.005",
-        "citationCount": 911,
+        "citationCount": 913,
         "completionStatus": "complete"
     },
     {
@@ -206,7 +206,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 836,
+        "citationCount": 839,
         "completionStatus": "complete"
     },
     {
@@ -262,7 +262,7 @@
         "location": "Pasadena, California, USA",
         "rawData": "-",
         "DOI": "10.1109/IVS.2008.4621152",
-        "citationCount": 677,
+        "citationCount": 678,
         "completionStatus": "complete"
     },
     {
@@ -315,7 +315,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 625,
+        "citationCount": 626,
         "completionStatus": "complete"
     },
     {
@@ -368,7 +368,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 602,
+        "citationCount": 605,
         "completionStatus": "complete"
     },
     {
@@ -448,7 +448,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 483,
+        "citationCount": 484,
         "completionStatus": "complete"
     },
     {
@@ -473,7 +473,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 457,
+        "citationCount": 460,
         "completionStatus": "complete"
     },
     {
@@ -498,7 +498,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 457,
+        "citationCount": 460,
         "completionStatus": "complete"
     },
     {
@@ -526,7 +526,7 @@
         "location": "China",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.232",
-        "citationCount": 366,
+        "citationCount": 367,
         "completionStatus": "complete"
     },
     {
@@ -553,8 +553,8 @@
         "relatedPaper": "https://arxiv.org/pdf/1712.06080",
         "location": "Beijing, China",
         "rawData": "-",
-        "DOI": "10.48550/arXiv.1712.06080",
-        "citationCount": 318,
+        "DOI": "10.1609/aaai.v32i1.12301",
+        "citationCount": 319,
         "completionStatus": "complete"
     },
     {
@@ -753,7 +753,7 @@
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 170,
+        "citationCount": 171,
         "completionStatus": "partially Complete"
     },
     {
@@ -1086,7 +1086,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1903.01568.pdf",
         "location": "San Francisco Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 97,
+        "citationCount": 98,
         "completionStatus": "partially Complete"
     },
     {
@@ -1166,7 +1166,7 @@
         "location": "Seoul, Pangyo, Daejeon, Suwon and Dongtan, Korea",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364919843996",
-        "citationCount": 93,
+        "citationCount": 94,
         "completionStatus": "partially Complete"
     },
     {
@@ -1236,7 +1236,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "No",
-        "citationCount": 82,
+        "citationCount": 83,
         "completionStatus": "partially Complete"
     },
     {
@@ -1259,7 +1259,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
         "location": "Palo Alto, USA",
         "rawData": "Yes",
-        "citationCount": 82,
+        "citationCount": 83,
         "completionStatus": "partially Complete"
     },
     {
@@ -1287,7 +1287,7 @@
         "location": "Palo Alto, California, USA",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2006.14480",
-        "citationCount": 82,
+        "citationCount": 83,
         "completionStatus": "complete"
     },
     {
@@ -1310,7 +1310,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 78,
+        "citationCount": 79,
         "completionStatus": "partially Complete"
     },
     {
@@ -1398,6 +1398,29 @@
         "completionStatus": "complete"
     },
     {
+        "id": "LostAndFound",
+        "href": "http://www.6d-vision.com/lostandfounddataset",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "21040",
+        "numberOfScenes": "112",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "stereo camera setup baseline 21cm 2048x1024",
+        "benchmark": "anomaly detection",
+        "annotations": "semantic segmentation",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2016-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 69,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "HD1K",
         "href": "http://hci-benchmark.iwr.uni-heidelberg.de/",
         "size_storage": "-",
@@ -1424,29 +1447,6 @@
         "DOI": "10.1109/CVPRW.2016.10",
         "citationCount": 69,
         "completionStatus": "complete"
-    },
-    {
-        "id": "LostAndFound",
-        "href": "http://www.6d-vision.com/lostandfounddataset",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "21040",
-        "numberOfScenes": "112",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "stereo camera setup baseline 21cm 2048x1024",
-        "benchmark": "anomaly detection",
-        "annotations": "semantic segmentation",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2016-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 68,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "HCI Challenging Stereo",
@@ -1501,7 +1501,7 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.01170",
-        "citationCount": 62,
+        "citationCount": 63,
         "completionStatus": "complete"
     },
     {
@@ -1524,7 +1524,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 48,
+        "citationCount": 49,
         "completionStatus": "partially Complete"
     },
     {
@@ -1547,7 +1547,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
         "location": "-",
         "rawData": "No",
-        "citationCount": 47,
+        "citationCount": 49,
         "completionStatus": "partially Complete"
     },
     {
@@ -1575,8 +1575,16 @@
         "location": "Waterloo region in Ontorio, Canada",
         "rawData": "-",
         "DOI": "10.1177/0278364920979368",
-        "citationCount": 47,
+        "citationCount": 49,
         "completionStatus": "complete"
+    },
+    {
+        "id": "Synthetic Discrepancy Datasets",
+        "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
+        "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
+        "DOI": "10.1109/ICCV.2019.00224",
+        "citationCount": 47,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Toronto 3D",
@@ -2341,6 +2349,29 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "RoadAnomaly21",
+        "href": "https://segmentmeifyoucan.com/datasets",
+        "size_storage": "0.05",
+        "size_hours": "-",
+        "frames": "100",
+        "numberOfScenes": "100",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
+        "benchmark": "anomaly detection",
+        "annotations": "semantic segmentation",
+        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
+        "relatedDatasets": "RoadObstacle21",
+        "publishDate": "2021-04-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 17,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "MTSD",
         "href": "https://www.mapillary.com/dataset/trafficsign",
         "size_storage": "-",
@@ -2397,29 +2428,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "RoadAnomaly21",
-        "href": "https://segmentmeifyoucan.com/datasets",
-        "size_storage": "0.05",
-        "size_hours": "-",
-        "frames": "100",
-        "numberOfScenes": "100",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
-        "benchmark": "anomaly detection",
-        "annotations": "semantic segmentation",
-        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
-        "relatedDatasets": "RoadObstacle21",
-        "publishDate": "2021-04-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 16,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Cityscapes 3D",
         "href": "https://www.cityscapes-dataset.com/",
         "size_hours": "-",
@@ -2439,6 +2447,14 @@
         "relatedPaper": "https://arxiv.org/pdf/2006.07864.pdf",
         "location": "50 cities in Germany and neighboring countries",
         "rawData": "Yes",
+        "citationCount": 15,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "PREVENTION",
+        "href": "https://prevention-dataset.uah.es/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/8917433",
+        "DOI": "10.1109/ITSC.2019.8917433",
         "citationCount": 15,
         "completionStatus": "partially Complete"
     },
@@ -2533,6 +2549,22 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "KITTI-360 PanopticBEV",
+        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
+        "DOI": "10.1109/LRA.2022.3142418",
+        "citationCount": 10,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "nuScenes PanopticBEV",
+        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
+        "DOI": "10.1109/LRA.2022.3142418",
+        "citationCount": 10,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "Semantic KITTI",
         "href": "http://www.semantic-kitti.org/",
         "size_storage": "-",
@@ -2603,7 +2635,7 @@
         "location": "Boston, Pittsburgh, Las Vegas and Singapore",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11810",
-        "citationCount": 7,
+        "citationCount": 8,
         "completionStatus": "complete"
     },
     {
@@ -2708,6 +2740,14 @@
         "id": "BDD100K-APS",
         "href": "http://amodal-panoptic.cs.uni-freiburg.de/",
         "relatedPaper": "https://arxiv.org/pdf/2202.11542.pdf",
+        "citationCount": 4,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "The Autonomous Platform Inertial Dataset",
+        "href": "https://github.com/ansfl/Navigation-Data-Project/",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
+        "DOI": "10.1109/ACCESS.2022.3144076",
         "citationCount": 4,
         "completionStatus": "partially Complete"
     },
@@ -2855,6 +2895,14 @@
         "id": "ScribbleKITTI",
         "href": "https://github.com/ouenal/scribblekitti",
         "relatedPaper": "https://arxiv.org/abs/2203.08537",
+        "citationCount": 1,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "OpenMPD",
+        "href": "http://openmpd.com/",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/9682587",
+        "DOI": "10.1109/TVT.2022.3143173",
         "citationCount": 1,
         "completionStatus": "partially Complete"
     },
@@ -3110,20 +3158,6 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "KITTI-360 PanopticBEV",
-        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
-        "id": "nuScenes PanopticBEV",
-        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
         "id": "NEXET",
         "href": "https://blog.getnexar.com/https-medium-com-itayklein-intro-nexet-50e9b596d0e5",
         "citationCount": 0,
@@ -3153,7 +3187,7 @@
         "relatedPaper": "https://www.sciencedirect.com/science/article/pii/S2352340921004170#bib0001",
         "location": "India, Japan and Czech Republic",
         "rawData": "-",
-        "DOI": "10.17632/5ty2wb6gvg.2",
+        "DOI": "j.dib.2021.107133",
         "citationCount": 0,
         "completionStatus": "complete"
     },
@@ -3161,8 +3195,9 @@
         "id": "CarlaScenes",
         "href": "https://github.com/CarlaScenes/CarlaSence",
         "relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Kloukiniotis_CarlaScenes_A_Synthetic_Dataset_for_Odometry_in_Autonomous_Driving_CVPRW_2022_paper.pdf",
+        "DOI": "10.1109/OJITS.2022.3142612",
         "citationCount": 0,
-        "completionStatus": "incomplete"
+        "completionStatus": "partially Complete"
     },
     {
         "id": "K-Lane",
@@ -3194,13 +3229,6 @@
         "href": "http://www.cs.toronto.edu/~byang/papers/Tcity_iccv17.pdf",
         "citationCount": 0,
         "completionStatus": "partially Complete"
-    },
-    {
-        "id": "PREVENTION",
-        "href": "https://prevention-dataset.uah.es/",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/8917433",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
     },
     {
         "id": "Raincouver",
@@ -3480,13 +3508,6 @@
         "completionStatus": "incomplete"
     },
     {
-        "id": "Synthetic Discrepancy Datasets",
-        "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
-        "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
         "id": "Rope3D",
         "href": "https://thudair.baai.ac.cn/rope",
         "relatedPaper": "https://arxiv.org/pdf/2203.13608.pdf",
@@ -3500,22 +3521,8 @@
         "completionStatus": "incomplete"
     },
     {
-        "id": "OpenMPD",
-        "href": "http://openmpd.com/",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/9682587",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
         "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
         "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
-        "id": "The Autonomous Platform Inertial Dataset",
-        "href": "https://github.com/ansfl/Navigation-Data-Project/",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
         "citationCount": 0,
         "completionStatus": "incomplete"
     },

@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4699,
+        "citationCount": 4701,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1614,
+        "citationCount": 1615,
         "completionStatus": "complete"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1362,
+        "citationCount": 1363,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1324,
+        "citationCount": 1330,
         "completionStatus": "complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1324,
+        "citationCount": 1330,
         "completionStatus": "partially Complete"
     },
     {
@@ -234,7 +234,7 @@
         "location": "Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2011.6033395",
-        "citationCount": 693,
+        "citationCount": 694,
         "completionStatus": "complete"
     },
     {
@@ -262,7 +262,7 @@
         "location": "Pasadena, California, USA",
         "rawData": "-",
         "DOI": "10.1109/IVS.2008.4621152",
-        "citationCount": 680,
+        "citationCount": 681,
         "completionStatus": "complete"
     },
     {
@@ -290,7 +290,7 @@
         "location": "Europe, North and South America, Asia, Africa and Oceania",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.534",
-        "citationCount": 640,
+        "citationCount": 642,
         "completionStatus": "complete"
     },
     {
@@ -315,7 +315,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 632,
+        "citationCount": 634,
         "completionStatus": "complete"
     },
     {
@@ -448,7 +448,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 490,
+        "citationCount": 491,
         "completionStatus": "complete"
     },
     {
@@ -473,7 +473,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 462,
+        "citationCount": 465,
         "completionStatus": "complete"
     },
     {
@@ -498,7 +498,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 462,
+        "citationCount": 465,
         "completionStatus": "complete"
     },
     {
@@ -610,7 +610,7 @@
         "location": "Seoul, South Korea",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.215",
-        "citationCount": 233,
+        "citationCount": 234,
         "completionStatus": "complete"
     },
     {
@@ -662,7 +662,7 @@
         "location": "Málaga, Spain",
         "rawData": "-",
         "DOI": "10.1177/0278364913507326",
-        "citationCount": 197,
+        "citationCount": 198,
         "completionStatus": "complete"
     },
     {
@@ -690,7 +690,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 188,
+        "citationCount": 189,
         "completionStatus": "complete"
     },
     {
@@ -959,7 +959,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 134,
+        "citationCount": 135,
         "completionStatus": "partially Complete"
     },
     {
@@ -1067,7 +1067,7 @@
         "location": "North America and Europe",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
-        "citationCount": 112,
+        "citationCount": 113,
         "completionStatus": "complete"
     },
     {
@@ -1269,7 +1269,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 84,
+        "citationCount": 85,
         "completionStatus": "partially Complete"
     },
     {
@@ -1686,7 +1686,7 @@
         "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
         "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
         "DOI": "10.1109/ICCV.2019.00224",
-        "citationCount": 47,
+        "citationCount": 48,
         "completionStatus": "partially Complete"
     },
     {
@@ -1714,7 +1714,7 @@
         "location": "Toronto, Canada",
         "rawData": "-",
         "DOI": "10.1109/CVPRW50498.2020.00109",
-        "citationCount": 46,
+        "citationCount": 47,
         "completionStatus": "complete"
     },
     {
@@ -1847,6 +1847,34 @@
         "rawData": "Yes",
         "citationCount": 32,
         "completionStatus": "partially Complete"
+    },
+    {
+        "id": "RUGD: Robot Unstructured Ground Driving",
+        "href": "http://rugd.vision/",
+        "size_storage": "5.4",
+        "size_hours": "-",
+        "frames": "37000",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "1x Prosilica GT2750C camera 1376x1110, 1x Velodyne HDL-32 LiDAR, 1x Garmin GPS receiver, 1x Microstrain GX3-25 IMU",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "semantic segmentation",
+        "annotations": "",
+        "licensing": "Freely available for research purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2019-11-08",
+        "lastUpdate": "-",
+        "paperTitle": "A RUGD Dataset for Autonomous Navigation and Visual Perception in Unstructured Outdoor Environments",
+        "relatedPaper": "http://rugd.vision/pdfs/RUGD_IROS2019.pdf",
+        "location": "-",
+        "rawData": "-",
+        "DOI": "10.1109/IROS40897.2019.8968283",
+        "citationCount": 31,
+        "completionStatus": "complete"
     },
     {
         "id": "Ford Autonomous Vehicle Dataset",
@@ -2631,13 +2659,6 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "MOTSynth",
-        "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
-        "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
-        "citationCount": 13,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Boxy",
         "href": "https://boxy-dataset.com/boxy/",
         "size_storage": "-",
@@ -2662,8 +2683,15 @@
         "location": "San Francisco Bay Area, California, USA",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2019.00112",
-        "citationCount": 12,
+        "citationCount": 13,
         "completionStatus": "complete"
+    },
+    {
+        "id": "MOTSynth",
+        "href": "https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=42",
+        "relatedPaper": "https://arxiv.org/pdf/2108.09518.pdf",
+        "citationCount": 13,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "openDD",
@@ -2887,6 +2915,14 @@
         "id": "Boreas",
         "href": "https://www.boreas.utias.utoronto.ca/#/",
         "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
+        "citationCount": 4,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "The Autonomous Platform Inertial Dataset",
+        "href": "https://github.com/ansfl/Navigation-Data-Project/",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
+        "DOI": "10.1109/ACCESS.2022.3144076",
         "citationCount": 4,
         "completionStatus": "partially Complete"
     },
@@ -3623,45 +3659,9 @@
         "completionStatus": "incomplete"
     },
     {
-        "id": "The Autonomous Platform Inertial Dataset",
-        "href": "https://github.com/ansfl/Navigation-Data-Project/",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
-        "DOI": "10.1109/ACCESS.2022.3144076",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "PIE",
         "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
-    },
-    {
-        "id": "RUGD: Robot Unstructured Ground Driving",
-        "href": "http://rugd.vision/",
-        "size_storage": "5.4",
-        "size_hours": "-",
-        "frames": "37000",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "1x Prosilica GT2750C camera 1376x1110, 1x Velodyne HDL-32 LiDAR, 1x Garmin GPS receiver, 1x Microstrain GX3-25 IMU",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "semantic segmentation",
-        "annotations": "",
-        "licensing": "Freely available for research purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2019-11-08",
-        "lastUpdate": "-",
-        "paperTitle": "A RUGD Dataset for Autonomous Navigation and Visual Perception in Unstructured Outdoor Environments",
-        "relatedPaper": "http://rugd.vision/pdfs/RUGD_IROS2019.pdf",
-        "location": "-",
-        "rawData": "-",
-        "DOI": "10.1109/IROS40897.2019.8968283",
-        "citationCount": 0,
-        "completionStatus": "complete"
     }
 ]

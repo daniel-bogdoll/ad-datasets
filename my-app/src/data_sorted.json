@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4703,
+        "citationCount": 4712,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1616,
+        "citationCount": 1619,
         "completionStatus": "complete"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1365,
+        "citationCount": 1370,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1330,
+        "citationCount": 1331,
         "completionStatus": "complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1330,
+        "citationCount": 1331,
         "completionStatus": "partially Complete"
     },
     {
@@ -153,7 +153,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1133,
+        "citationCount": 1138,
         "completionStatus": "complete"
     },
     {
@@ -181,7 +181,7 @@
         "location": "United Kingdom",
         "rawData": "Yes",
         "DOI": "10.1016/j.patrec.2008.04.005",
-        "citationCount": 915,
+        "citationCount": 917,
         "completionStatus": "complete"
     },
     {
@@ -206,7 +206,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 843,
+        "citationCount": 844,
         "completionStatus": "complete"
     },
     {
@@ -290,7 +290,7 @@
         "location": "Europe, North and South America, Asia, Africa and Oceania",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.534",
-        "citationCount": 642,
+        "citationCount": 644,
         "completionStatus": "complete"
     },
     {
@@ -315,7 +315,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 634,
+        "citationCount": 639,
         "completionStatus": "complete"
     },
     {
@@ -368,7 +368,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 612,
+        "citationCount": 613,
         "completionStatus": "complete"
     },
     {
@@ -448,7 +448,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 492,
+        "citationCount": 493,
         "completionStatus": "complete"
     },
     {
@@ -554,7 +554,7 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.1609/aaai.v32i1.12301",
-        "citationCount": 321,
+        "citationCount": 324,
         "completionStatus": "complete"
     },
     {
@@ -610,7 +610,7 @@
         "location": "Seoul, South Korea",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.215",
-        "citationCount": 234,
+        "citationCount": 235,
         "completionStatus": "complete"
     },
     {
@@ -662,7 +662,7 @@
         "location": "Málaga, Spain",
         "rawData": "-",
         "DOI": "10.1177/0278364913507326",
-        "citationCount": 198,
+        "citationCount": 199,
         "completionStatus": "complete"
     },
     {
@@ -718,7 +718,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2009.5206638",
-        "citationCount": 182,
+        "citationCount": 185,
         "completionStatus": "complete"
     },
     {
@@ -781,7 +781,7 @@
         "id": "CARLA100",
         "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
         "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 174,
+        "citationCount": 175,
         "completionStatus": "partially Complete"
     },
     {
@@ -837,7 +837,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/ICRA.2011.5979636",
-        "citationCount": 158,
+        "citationCount": 159,
         "completionStatus": "complete"
     },
     {
@@ -963,7 +963,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 136,
+        "citationCount": 137,
         "completionStatus": "partially Complete"
     },
     {
@@ -987,31 +987,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 135,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "KITTI-360",
-        "href": "http://www.cvlibs.net/datasets/kitti-360/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "400000",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "2x 180° fisheye camera, 1x 90° perspective stereo camera, 1x Velodyne HDL-64E & SICK LMS 200 laser scanning unit in pushbroom configuration",
-        "benchmark": "-",
-        "annotations": "semantic instance segmentation",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-        "relatedDatasets": "KITTI",
-        "publishDate": "2015-11-01",
-        "lastUpdate": "2021-04-01",
-        "relatedPaper": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf",
-        "location": "Karlsruhe, Germany",
-        "rawData": "Yes",
-        "DOI": "10.1109/CVPR.2016.401",
-        "citationCount": 128,
+        "citationCount": 136,
         "completionStatus": "partially Complete"
     },
     {
@@ -1039,8 +1015,32 @@
         "location": "Northern Italy",
         "rawData": "-",
         "DOI": "10.1109/ITSC.2012.6338748",
-        "citationCount": 128,
+        "citationCount": 129,
         "completionStatus": "complete"
+    },
+    {
+        "id": "KITTI-360",
+        "href": "http://www.cvlibs.net/datasets/kitti-360/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "400000",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "2x 180° fisheye camera, 1x 90° perspective stereo camera, 1x Velodyne HDL-64E & SICK LMS 200 laser scanning unit in pushbroom configuration",
+        "benchmark": "-",
+        "annotations": "semantic instance segmentation",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        "relatedDatasets": "KITTI",
+        "publishDate": "2015-11-01",
+        "lastUpdate": "2021-04-01",
+        "relatedPaper": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf",
+        "location": "Karlsruhe, Germany",
+        "rawData": "Yes",
+        "DOI": "10.1109/CVPR.2016.401",
+        "citationCount": 128,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "DR(eye)VE",
@@ -1067,7 +1067,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/TPAMI.2018.2845370",
-        "citationCount": 120,
+        "citationCount": 121,
         "completionStatus": "complete"
     },
     {
@@ -1119,7 +1119,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 110,
+        "citationCount": 111,
         "completionStatus": "partially Complete"
     },
     {
@@ -1273,7 +1273,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
         "location": "-",
         "rawData": "-",
-        "citationCount": 86,
+        "citationCount": 87,
         "completionStatus": "partially Complete"
     },
     {
@@ -1297,7 +1297,7 @@
         "location": "All over the world",
         "rawData": "Yes",
         "DOI": "10.1007/978-3-030-01231-1_25",
-        "citationCount": 85,
+        "citationCount": 86,
         "completionStatus": "partially Complete"
     },
     {
@@ -1422,7 +1422,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/ITSC.2016.7795584",
-        "citationCount": 76,
+        "citationCount": 77,
         "completionStatus": "complete"
     },
     {
@@ -1585,7 +1585,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1117/1.OE.51.2.021107",
-        "citationCount": 66,
+        "citationCount": 67,
         "completionStatus": "complete"
     },
     {
@@ -1613,7 +1613,7 @@
         "location": "Germany, Sweden, Denmark and Finland",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.01170",
-        "citationCount": 65,
+        "citationCount": 66,
         "completionStatus": "complete"
     },
     {
@@ -1822,7 +1822,7 @@
         "location": "12 countries and 31 cities across Europe",
         "rawData": "-",
         "DOI": "10.1109/TPAMI.2019.2897684",
-        "citationCount": 36,
+        "citationCount": 37,
         "completionStatus": "complete"
     },
     {
@@ -1901,7 +1901,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/IROS40897.2019.8968283",
-        "citationCount": 31,
+        "citationCount": 32,
         "completionStatus": "complete"
     },
     {
@@ -1985,6 +1985,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "DIPLECS Autonomous Driving Datasets",
+        "href": "https://cvssp.org/data/diplecs/",
+        "size_storage": "-",
+        "size_hours": "4",
+        "frames": "207364",
+        "numberOfScenes": "4",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, steering angle meter, eye tracker",
+        "sensorDetail": "-",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Freely available for academic purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2015-10-07",
+        "lastUpdate": "-",
+        "paperTitle": "How Much of Driving Is Preattentive?",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7293673",
+        "location": "Sweden and United Kingdom",
+        "rawData": "-",
+        "DOI": "10.1109/TVT.2015.2487826",
+        "citationCount": 29,
+        "completionStatus": "complete"
+    },
+    {
         "id": "Street Learn",
         "href": "https://sites.google.com/view/streetlearn/dataset",
         "size_storage": "-",
@@ -2013,30 +2041,29 @@
         "completionStatus": "complete"
     },
     {
-        "id": "DIPLECS Autonomous Driving Datasets",
-        "href": "https://cvssp.org/data/diplecs/",
+        "id": "ONCE",
+        "href": "https://once-for-auto-driving.github.io/index.html",
         "size_storage": "-",
-        "size_hours": "4",
-        "frames": "207364",
-        "numberOfScenes": "4",
-        "samplingRate": "-",
+        "size_hours": "144",
+        "frames": "1000000",
+        "numberOfScenes": "581",
+        "samplingRate": "10",
         "lengthOfScenes": "-",
-        "sensors": "camera, steering angle meter, eye tracker",
-        "sensorDetail": "-",
+        "sensors": "camera, lidar",
+        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
         "recordingPerspective": "ego-perspective",
         "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "Freely available for academic purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2015-10-07",
-        "lastUpdate": "-",
-        "paperTitle": "How Much of Driving Is Preattentive?",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7293673",
-        "location": "Sweden and United Kingdom",
+        "benchmark": "3d object detection",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "ONCE-3DLanes",
+        "publishDate": "2021-05-18",
+        "lastUpdate": "2021-08-05",
+        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
+        "location": "China",
         "rawData": "-",
-        "DOI": "10.1109/TVT.2015.2487826",
+        "DOI": "10.48550/arXiv.2106.11037",
         "citationCount": 28,
         "completionStatus": "complete"
     },
@@ -2090,33 +2117,6 @@
         "rawData": "Yes",
         "citationCount": 27,
         "completionStatus": "partially Complete"
-    },
-    {
-        "id": "ONCE",
-        "href": "https://once-for-auto-driving.github.io/index.html",
-        "size_storage": "-",
-        "size_hours": "144",
-        "frames": "1000000",
-        "numberOfScenes": "581",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar",
-        "sensorDetail": "7x color cameras 1920x1020 10Hz, 1x 40-beam lidar 360° 10Hz",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "benchmark": "3d object detection",
-        "annotations": "2d/3d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "ONCE-3DLanes",
-        "publishDate": "2021-05-18",
-        "lastUpdate": "2021-08-05",
-        "paperTitle": "One Million Scenes for Autonomous Driving: ONCE Dataset",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11037.pdf",
-        "location": "China",
-        "rawData": "-",
-        "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 27,
-        "completionStatus": "complete"
     },
     {
         "id": "UTBM EU LTD",
@@ -2466,29 +2466,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "4Seasons",
-        "href": "https://www.4seasons-dataset.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "30",
-        "samplingRate": "30",
-        "lengthOfScenes": "-",
-        "sensors": "camera, imu/rtk-gnss",
-        "sensorDetail": "2x cameras stereo baseline 30cm 800x400 (after cropping)",
-        "benchmark": "globally consistent reference poses",
-        "annotations": "-",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
-        "relatedDatasets": "-",
-        "publishDate": "2020-10-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 19,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Unsupervised Llamas",
         "href": "https://unsupervised-llamas.com/llamas/",
         "size_storage": "-",
@@ -2513,8 +2490,31 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2019.00111",
-        "citationCount": 19,
+        "citationCount": 20,
         "completionStatus": "complete"
+    },
+    {
+        "id": "4Seasons",
+        "href": "https://www.4seasons-dataset.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "30",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera, imu/rtk-gnss",
+        "sensorDetail": "2x cameras stereo baseline 30cm 800x400 (after cropping)",
+        "benchmark": "globally consistent reference poses",
+        "annotations": "-",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2020-10-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2009.06364.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 19,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "RANUS",
@@ -2624,6 +2624,15 @@
         "completionStatus": "complete"
     },
     {
+        "id": "IDDA",
+        "href": "https://idda-dataset.github.io/home/",
+        "relatedPaper": "https://arxiv.org/pdf/2004.08298.pdf",
+        "benchmark": "semantic segmentation",
+        "rawData": "Yes",
+        "citationCount": 16,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "Cityscapes 3D",
         "href": "https://www.cityscapes-dataset.com/",
         "size_hours": "-",
@@ -2651,15 +2660,6 @@
         "href": "https://prevention-dataset.uah.es/",
         "relatedPaper": "https://ieeexplore.ieee.org/document/8917433",
         "DOI": "10.1109/ITSC.2019.8917433",
-        "citationCount": 15,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "IDDA",
-        "href": "https://idda-dataset.github.io/home/",
-        "relatedPaper": "https://arxiv.org/pdf/2004.08298.pdf",
-        "benchmark": "semantic segmentation",
-        "rawData": "Yes",
         "citationCount": 15,
         "completionStatus": "partially Complete"
     },

@@ -3396,7 +3396,7 @@
         "numberOfScenes": "-",
         "samplingRate": "-",
         "lengthOfScenes": "-",
-        "sensors": "cameras",
+        "sensors": "camera",
         "sensorDetail": "-",
         "recordingPerspective": "ego-perspective",
         "dataType": "Real",

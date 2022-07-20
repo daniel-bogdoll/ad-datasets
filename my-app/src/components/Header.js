@@ -83,10 +83,9 @@ export function Header(props) {
             minWidth: "770px"
         }),
     );
-    let visContribute = 'visible';
     let visGit = 'hidden';
     if (matches === false) {
-        visContribute  = 'hidden';
+        //visContribute  = 'hidden';
         //visGit = 'visible';
     }
 

@@ -42,7 +42,7 @@ export default function RenderExpandCellGrid() {
     const [page, setPage] = React.useState(0);
     const [rowsPerPage, setRowsPerPage] = React.useState(20);
     const [rows, setRows] = React.useState(Data);
-    const [dimension, setDimensions] = React.useState({
+    const [, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
     });

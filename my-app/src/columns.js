@@ -152,6 +152,104 @@ const GridCellExpand = React.memo(function GridCellExpand(props) {
     );
 });
 
+const GridCellExpandHREF = React.memo(function GridCellExpandHREF(props) {
+    const { width, value, name } = props;
+    const wrapper = React.useRef(null);
+    const cellDiv = React.useRef(null);
+    const cellValue = React.useRef(null);
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const classes = useStyles();
+    const [showFullCell, setShowFullCell] = React.useState(false);
+    const [showPopper, setShowPopper] = React.useState(false);
+
+    const handleMouseEnter = () => {
+        const isCurrentlyOverflown = isOverflown(cellValue.current);
+        setShowPopper(isCurrentlyOverflown);
+        setAnchorEl(cellDiv.current);
+        setShowFullCell(true);
+    };
+
+    const handleMouseLeave = () => {
+        setShowFullCell(false);
+    };
+
+    React.useEffect(() => {
+        if (!showFullCell) {
+            return undefined;
+        }
+
+        function handleKeyDown(nativeEvent) {
+            // IE11, Edge (prior to using Bink?) use 'Esc'
+            if (nativeEvent.key === 'Escape' || nativeEvent.key === 'Esc') {
+                setShowFullCell(false);
+            }
+        }
+
+        document.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            document.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [setShowFullCell, showFullCell]);
+
+    return (
+        <div
+            ref={wrapper}
+            className={classes.root}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
+            <div
+                ref={cellDiv}
+                style={{
+                    height: 1,
+                    width,
+                    display: 'block',
+                    position: 'absolute',
+                    top: 0,
+                }}
+            />
+            <div ref={cellValue} className="cellValue">
+                <Link
+                    variant="contained"
+                    color="primary"
+                    size="small"
+                    style={{marginLeft: 16}}
+                    href={name}
+                    target={'_blank'}
+                >
+                    {value}
+                </Link>
+            </div>
+            {showPopper && (
+                <Popper
+                    open={showFullCell && anchorEl !== null}
+                    anchorEl={anchorEl}
+                    style={{ width, marginLeft: -17, verticalAlign: "middle"}}
+                >
+                    <Paper
+                        elevation={1}
+                        style={{ minHeight: wrapper.current.offsetHeight - 3 }}
+                    >
+                        <Typography variant="body2" style={{ padding: 8 }}>
+                            <Link
+                                variant="contained"
+                                color="primary"
+                                size="small"
+                                style={{marginLeft: 16}}
+                                href={name}
+                                target={'_blank'}
+                            >
+                                {value}
+                            </Link>
+                        </Typography>
+                    </Paper>
+                </Popper>
+            )}
+        </div>
+    );
+});
+
 GridCellExpand.propTypes = {
     value: PropTypes.string.isRequired,
     width: PropTypes.number.isRequired,
@@ -167,6 +265,17 @@ function renderCellExpand(params) {
         );
     }
     return "";
+}
+
+function renderCellExpandHREF(params, value, name){
+    return (
+        <GridCellExpandHREF
+            value= {value}
+            name = {name}
+            with= {params.colDef.width}
+        />
+    )
+
 }
 
 renderCellExpand.propTypes = {
@@ -462,10 +571,11 @@ const columns = [
     {
         field: 'relatedPaper',
         headerName: 'Related Paper',
-        width: 150,
+        width: 240,
         hide: false,
         type: "string",
-        renderCell: (params) => (
+        renderCell: (params) => renderCellExpandHREF(params, params.getValue(params.id, 'paperTitle') || '', params.getValue(params.id, 'relatedPaper') || '')
+        /*renderCell: (params) => (
             <strong>
                 <Link
                     variant="contained"
@@ -478,7 +588,7 @@ const columns = [
                     {params.getValue(params.id, 'paperTitle') || ''}
                 </Link>
             </strong>
-        ),
+        )*/,
     },
 ];
 

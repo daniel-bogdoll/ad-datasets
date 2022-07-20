@@ -10,7 +10,7 @@ import {CustomFooter} from "./components/Footer";
 
 const useStyles = makeStyles((theme) => ({
     customDatagrid: {
-        height: window.innerHeight*0.5,
+        height: "100%",
         width: Window.innerWidth
     },
     legend: {
@@ -21,14 +21,12 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: "row",
         alignItems: "flex-start",
     },
-    trafficSigns: {
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "flex-start",
-        marginLeft: "2%"
-    },
     pagination: {
         alignItems: "center",
+    },
+    tool: {
+        width: "100",
+        height: window.innerHeight
     }
 }));
 
@@ -83,7 +81,7 @@ export default function RenderExpandCellGrid() {
     });
 
     return (
-        <div style={{width: dimension.width, height: '90vh'}}>
+        <div className={classes.tool}>
             <Header title={'ad-datasets'} subtitle={'Complete* and curated list of autonomous driving related datasets'}/>
 
 

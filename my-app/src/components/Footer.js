@@ -7,13 +7,21 @@ import {complete, incomplete, parComplete} from "../calculations";
 import TablePagination from '@material-ui/core/TablePagination';
 
 const useStyles = makeStyles((theme) => ({
+    footbar: {
+        position: 'sticky'
+    },
     legend: {
         left: "0",
-        position: "absolute",
-        fontSize: "10px",
+        fontSize: "small",
         display: "flex",
         flexDirection: "row",
         alignItems: "flex-start",
+        [theme.breakpoints.down('md')]: {
+            visibility: "collapse"
+        },
+        [theme.breakpoints.up('md')]: {
+            visibility: "visible"
+        }
     },
     trafficSigns: {
         display: "flex",
@@ -24,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
     },
     pagination: {
         alignItems: "center",
-        position: "absolute",
         right: "2%"
     }
 }));
@@ -33,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 export function CustomFooter (props) {
     const classes = useStyles();
     return (
-        <Toolbar position="static" variant={'dense'} name={"footer"}>
+        <Toolbar position="fixed" className={classes.footbar} variant={'dense'} name={"footer"}>
             <Typography className={classes.legend}>
                 <div className={classes.trafficSigns}>
                     <AnalyzedTag/>

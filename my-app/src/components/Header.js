@@ -9,6 +9,8 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 
 const useStyles = makeStyles((theme) => ({
+    header: {
+    },
     textField: {
         position: "absolute",
         right: "1%",
@@ -19,26 +21,34 @@ const useStyles = makeStyles((theme) => ({
     note: {
         position: "absolute",
         right: "0.5%",
-        top: window.innerHeight*0.01,
-        fontSize: 0.007*window.innerWidth,
+        height: "85%",
         border: "1px solid white",
         borderRadius: "5px",
         paddingLeft: "0.25%",
         paddingRight: "0.25%",
         color: "white",
-        textTransform: "none"
+        textTransform: "none",
+        [theme.breakpoints.down('sm')]: {
+            visibility: "hidden"
+        }
     },
     lastUpdate: {
         position: "absolute",
         left: "0.5%",
-        top: window.innerHeight*0.01,
-        fontSize: 0.007*window.innerWidth,
+        height: "80%",
         border: "1px solid white",
         borderRadius: "5px",
-        padding: "0.5%",
+        paddingLeft: "0.25%",
+        paddingRight: "0.25%",
         color: "#3f51b5",
         textTransform: "none",
         backgroundColor: "white",
+        [theme.breakpoints.down('sm')]: {
+            visibility: "hidden"
+        },
+        [theme.breakpoints.up('md')]: {
+            visibility: "visible"
+        }
     },
     title: {
         margin: 'auto',
@@ -69,21 +79,22 @@ export function Header(props) {
 
     const matches = useMediaQuery(
         json2mq({
-            minWidth: 0.535*window.screen.width
+            //minWidth: 0.535*window.screen.width
+            minWidth: "770px"
         }),
     );
     let visContribute = 'visible';
     let visGit = 'hidden';
     if (matches === false) {
         visContribute  = 'hidden';
-        visGit = 'visible';
+        //visGit = 'visible';
     }
 
 
 
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" className={classes.header}>
             <Toolbar>
                 <div className={classes.title}>
                     <Typography variant="h5">
@@ -94,15 +105,15 @@ export function Header(props) {
                     </Typography>
                 </div>
 
-                <Button className={classes.note} target={'_blank'} style={{visibility: visGit}}
+                <Button className={classes.note} target={'_blank'} style={{visibility: visGit}} variant={"caption"}
                         href={"https://github.com/daniel-bogdoll/ad-datasets"}>
                     *GitHub
                 </Button>
-                <Button className={classes.note} target={'_blank'} style={{visibility: visContribute}}
+                <Button className={classes.note} target={'_blank'} variant={"caption"}
                         href={"https://github.com/daniel-bogdoll/ad-datasets"}>
                     *Could not find your dataset? <br/> Simply create a pull request ;)
                 </Button>
-                <Typography className={classes.lastUpdate}>
+                <Typography className={classes.lastUpdate} variant={"caption"}>
                     Last Update: {process.env.REACT_APP_GIT_SHA}
                 </Typography>
             </Toolbar>

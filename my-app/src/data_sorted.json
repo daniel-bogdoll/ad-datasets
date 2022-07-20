@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4701,
+        "citationCount": 4703,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1615,
+        "citationCount": 1616,
         "completionStatus": "complete"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1363,
+        "citationCount": 1365,
         "completionStatus": "complete"
     },
     {
@@ -181,7 +181,7 @@
         "location": "United Kingdom",
         "rawData": "Yes",
         "DOI": "10.1016/j.patrec.2008.04.005",
-        "citationCount": 914,
+        "citationCount": 915,
         "completionStatus": "complete"
     },
     {
@@ -368,7 +368,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 609,
+        "citationCount": 612,
         "completionStatus": "complete"
     },
     {
@@ -448,7 +448,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 491,
+        "citationCount": 492,
         "completionStatus": "complete"
     },
     {
@@ -634,7 +634,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
         "location": "Beijing, Shanghai and Shenzhen, China",
         "rawData": "Yes",
-        "citationCount": 229,
+        "citationCount": 230,
         "completionStatus": "complete"
     },
     {
@@ -691,6 +691,34 @@
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
         "citationCount": 189,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "TUD Brussels",
+        "href": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/people-detection-pose-estimation-and-tracking/multi-cue-onboard-pedestrian-detection/",
+        "size_storage": "3.0",
+        "size_hours": "-",
+        "frames": "1016",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "hand held camera 720x576",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes for pedestrians",
+        "licensing": "-",
+        "relatedDatasets": "TUD-MotionPairs",
+        "publishDate": "2009-06-20",
+        "lastUpdate": "2010-04-13",
+        "paperTitle": "Multi-cue onboard pedestrian detection",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/5206638",
+        "location": "-",
+        "rawData": "-",
+        "DOI": "10.1109/CVPR.2009.5206638",
+        "citationCount": 182,
         "completionStatus": "complete"
     },
     {
@@ -2087,7 +2115,7 @@
         "location": "China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 26,
+        "citationCount": 27,
         "completionStatus": "complete"
     },
     {
@@ -2862,6 +2890,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Small Obstacle",
+        "href": "https://small-obstacle-dataset.github.io/",
+        "size_storage": "10.6",
+        "size_hours": "-",
+        "frames": "2927",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar",
+        "sensorDetail": "1x ZED Stereo camera, 1x Velodyne Puck (VLP-16) lidar",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real and Synthetic",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "pixel wise semantic segmentation",
+        "licensing": "-",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-12",
+        "lastUpdate": "-",
+        "paperTitle": "LiDAR guided Small obstacle Segmentation",
+        "relatedPaper": "https://arxiv.org/pdf/2003.05970.pdf",
+        "location": "India",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2003.05970",
+        "citationCount": 6,
+        "completionStatus": "complete"
+    },
+    {
         "id": "PepScenes",
         "href": "https://github.com/huawei-noah/PePScenes",
         "relatedPaper": "https://arxiv.org/pdf/2012.07773.pdf",
@@ -3447,12 +3503,6 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "TDU Brussels Pedestrian",
-        "href": "https://www.researchgate.net/figure/Results-on-the-TUD-Brussels-Pedestrian-Dataset_fig13_321232691",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "ETH Pedestrian",
         "href": "https://paperswithcode.com/dataset/eth",
         "citationCount": 0,
@@ -3468,12 +3518,6 @@
     {
         "id": "Daimler Pedestrian",
         "href": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html",
-        "citationCount": 0,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Small Obstacle",
-        "href": "https://small-obstacle-dataset.github.io/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

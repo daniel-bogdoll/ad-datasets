@@ -3890,5 +3890,53 @@
         "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/",
         "citationCount": 0,
         "completionStatus": "partially Complete"
+    },
+    {
+        "id": "HAD",
+        "href": "https://usa.honda-ri.com/had",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "HDBD",
+        "href": "https://usa.honda-ri.com/hdbd",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "HDD",
+        "href": "https://usa.honda-ri.com/hdd",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "HEV-I",
+        "href": "https://usa.honda-ri.com/hevi",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "HSD",
+        "href": "https://usa.honda-ri.com/hsd",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "LOKI",
+        "href": "https://usa.honda-ri.com/loki",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "TITAN",
+        "href": "https://usa.honda-ri.com/titan",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "EPOSH",
+        "href": "https://usa.honda-ri.com/eposh",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
     }
 ]

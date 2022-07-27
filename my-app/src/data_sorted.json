@@ -3352,6 +3352,13 @@
         "completionStatus": "complete"
     },
     {
+        "id": "WildDash 2",
+        "href": "https://wilddash.cc/",
+        "relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zendel_Unifying_Panoptic_Segmentation_for_Autonomous_Driving_CVPR_2022_paper.pdf",
+        "citationCount": 0,
+        "completionStatus": "incomplete"
+    },
+    {
         "id": "PandaSet",
         "href": "https://pandaset.org/",
         "size_hours": "0.23",

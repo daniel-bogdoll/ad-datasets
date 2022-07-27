@@ -3738,8 +3738,9 @@
     {
         "id": "TAF-BW",
         "href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset",
+        "relatedPaper": "https://link.springer.com/chapter/10.1007/978-3-030-01370-7_75",
         "citationCount": 0,
-        "completionStatus": "partially Complete"
+        "completionStatus": "incomplete"
     },
     {
         "id": "K-Radar",

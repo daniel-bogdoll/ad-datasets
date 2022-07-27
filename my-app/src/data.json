@@ -224,6 +224,11 @@
 "DOI": "10.1007/978-3-030-01231-1_25"
 },
 {
+"id": "WildDash 2", 
+"href": "https://wilddash.cc/",
+"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zendel_Unifying_Panoptic_Segmentation_for_Autonomous_Driving_CVPR_2022_paper.pdf",
+},
+{
 "id": "Lyft Level5 Prediction",
 "href": "https://level-5.global/data/prediction/",
 "size_hours": "1118",

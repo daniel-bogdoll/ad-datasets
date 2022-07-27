@@ -3399,6 +3399,38 @@
   "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/"
 },
 {
+  "id": "HAD",
+  "href": "https://usa.honda-ri.com/had"
+},
+{
+  "id": "HDBD",
+  "href": "https://usa.honda-ri.com/hdbd"
+},
+{
+  "id": "HDD",
+  "href": "https://usa.honda-ri.com/hdd"
+},
+{
+  "id": "HEV-I",
+  "href": "https://usa.honda-ri.com/hevi"
+},
+{
+  "id": "HSD",
+  "href": "https://usa.honda-ri.com/hsd"
+},
+{
+  "id": "LOKI",
+  "href": "https://usa.honda-ri.com/loki"
+},
+{
+  "id": "TITAN",
+  "href": "https://usa.honda-ri.com/titan"
+},
+{
+  "id": "EPOSH",
+  "href": "https://usa.honda-ri.com/eposh"
+},
+{
 "id": "SeeingThroughFog",
 "href": "https://github.com/princeton-computational-imaging/SeeingThroughFog",
 "size_storage": "-",

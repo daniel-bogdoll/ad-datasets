@@ -2968,7 +2968,7 @@
 "numberOfScenes": "108",
 "samplingRate": "-",
 "lengthOfScenes": "-",
-"sensors": "camera, lidar, gps/imu, odometer, LGPR",
+"sensors": "camera, lidar, gps/imu, odometer, radar",
 "sensorDetail": "1x Point Grey Grasshopper camera 1928x1448 6Hz, 1x Velodyne HDL-64 lidar 360° 10Hz, 1x OXTS RT3003 INS gps, 1x Localizing Ground Penetrating Radar (LGPR) Sensor components include a 12 element radar array, a switch matrix, an OXTS RTK-GPS unit 126Hz",
 "recordingPerspective": "ego-perspective",
 "dataType":"Real",

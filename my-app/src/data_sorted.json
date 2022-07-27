@@ -3183,6 +3183,13 @@
         "completionStatus": "complete"
     },
     {
+        "id": "SHIFT",
+        "href": "https://www.vis.xyz/shift/",
+        "relatedPaper": "https://arxiv.org/abs/2206.08367",
+        "citationCount": 2,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "DGL-MOTS",
         "href": "https://goodproj13.github.io/DGL-MOTS/",
         "relatedPaper": "https://arxiv.org/pdf/2110.07790.pdf",
@@ -3315,6 +3322,34 @@
         "DOI": "10.1109/TVT.2022.3143173",
         "citationCount": 1,
         "completionStatus": "partially Complete"
+    },
+    {
+        "id": "Gated2Gated",
+        "href": "https://github.com/princeton-computational-imaging/Gated2Gated#gated2gated--self-supervised-depth-estimation-from-gated-images",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "130000",
+        "numberOfScenes": "1835",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, lidar, imu, weather sensor",
+        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "SeeingThroughFog, PointCloudDeNoising, Gated2Depth",
+        "publishDate": "2021-12-04",
+        "lastUpdate": "-",
+        "paperTitle": "Gated2Gated: Self-Supervised Depth Estimation from Gated Images",
+        "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf",
+        "location": "Germany, Sweden, Denmark and Finland",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2112.02416",
+        "citationCount": 1,
+        "completionStatus": "complete"
     },
     {
         "id": "PandaSet",
@@ -3585,6 +3620,13 @@
         "id": "K-Lane",
         "href": "https://github.com/kaist-avelab/k-lane",
         "relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.pdf",
+        "citationCount": 0,
+        "completionStatus": "incomplete"
+    },
+    {
+        "id": "Ithaca365",
+        "href": "https://ithaca365.mae.cornell.edu/",
+        "relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Diaz-Ruiz_Ithaca365_Dataset_and_Driving_Perception_Under_Repeated_and_Challenging_Weather_CVPR_2022_paper.pdf",
         "citationCount": 0,
         "completionStatus": "incomplete"
     },
@@ -3939,33 +3981,5 @@
         "href": "https://usa.honda-ri.com/eposh",
         "citationCount": 0,
         "completionStatus": "partially Complete"
-    },
-    {
-        "id": "Gated2Gated",
-        "href": "https://github.com/princeton-computational-imaging/Gated2Gated#gated2gated--self-supervised-depth-estimation-from-gated-images",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "130000",
-        "numberOfScenes": "1835",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, radar, lidar, imu, weather sensor",
-        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
-        "recordingPerspective": "Ego-perspective",
-        "dataType": "real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "Freely available for research and teaching purposes",
-        "relatedDatasets": "SeeingThroughFog, PointCloudDeNoising, Gated2Depth",
-        "publishDate": "2021-12-04",
-        "lastUpdate": "-",
-        "paperTitle": "Gated2Gated: Self-Supervised Depth Estimation from Gated Images",
-        "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf",
-        "location": "Germany, Sweden, Denmark and Finland",
-        "rawData": "-",
-        "DOI": "10.48550/arXiv.2112.02416",
-        "citationCount": 0,
-        "completionStatus": "complete"
     }
 ]

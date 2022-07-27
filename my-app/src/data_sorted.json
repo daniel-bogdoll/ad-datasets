@@ -3742,6 +3742,13 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "K-Radar",
+        "href": "https://github.com/kaist-avelab/K-Radar",
+        "relatedPaper": "https://arxiv.org/abs/2206.08171",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "Road Scene Graph",
         "href": "https://github.com/TianYafu/road-status-graph-dataset",
         "citationCount": 0,

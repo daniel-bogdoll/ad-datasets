@@ -2482,6 +2482,11 @@
 "relatedPaper":"https://arxiv.org/abs/2112.04764"
 },
 {
+"id": "SHIFT",
+"href": "https://www.vis.xyz/shift/",
+"relatedPaper":"https://arxiv.org/abs/2206.08367"
+},
+{
 "id": "Synthia",
 "href": "https://synthia-dataset.net/",
 "size_storage": "-",

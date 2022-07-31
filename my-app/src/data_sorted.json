@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4737,
+        "citationCount": 4746,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1625,
+        "citationCount": 1632,
         "completionStatus": "complete"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1376,
+        "citationCount": 1383,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1357,
+        "citationCount": 1364,
         "completionStatus": "complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1357,
+        "citationCount": 1364,
         "completionStatus": "partially Complete"
     },
     {
@@ -153,7 +153,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1148,
+        "citationCount": 1155,
         "completionStatus": "complete"
     },
     {
@@ -181,7 +181,7 @@
         "location": "United Kingdom",
         "rawData": "Yes",
         "DOI": "10.1016/j.patrec.2008.04.005",
-        "citationCount": 918,
+        "citationCount": 919,
         "completionStatus": "complete"
     },
     {
@@ -206,7 +206,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 847,
+        "citationCount": 849,
         "completionStatus": "complete"
     },
     {
@@ -262,7 +262,32 @@
         "location": "Pasadena, California, USA",
         "rawData": "-",
         "DOI": "10.1109/IVS.2008.4621152",
-        "citationCount": 685,
+        "citationCount": 687,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Caltech Pedestrian",
+        "href": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
+        "size_storage": "-",
+        "size_hours": "10",
+        "frames": "1000000",
+        "numberOfScenes": "137",
+        "samplingRate": "30",
+        "lengthOfScenes": "60",
+        "sensors": "camera",
+        "sensorDetail": "1x camera 640x480 30Hz",
+        "benchmark": "pedestrian detection",
+        "annotations": "bounding boxes",
+        "licensing": "-",
+        "relatedDatasets": "-",
+        "publishDate": "2010-03-01",
+        "lastUpdate": "2019-01-01",
+        "paperTitle": "Pedestrian Detection: A Benchmark",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206631",
+        "location": "Loa Angeles, USA",
+        "rawData": "Yes",
+        "DOI": "10.1109/CVPR.2009.5206631",
+        "citationCount": 661,
         "completionStatus": "complete"
     },
     {
@@ -290,32 +315,7 @@
         "location": "Europe, North and South America, Asia, Africa and Oceania",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.534",
-        "citationCount": 651,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Caltech Pedestrian",
-        "href": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
-        "size_storage": "-",
-        "size_hours": "10",
-        "frames": "1000000",
-        "numberOfScenes": "137",
-        "samplingRate": "30",
-        "lengthOfScenes": "60",
-        "sensors": "camera",
-        "sensorDetail": "1x camera 640x480 30Hz",
-        "benchmark": "pedestrian detection",
-        "annotations": "bounding boxes",
-        "licensing": "-",
-        "relatedDatasets": "-",
-        "publishDate": "2010-03-01",
-        "lastUpdate": "2019-01-01",
-        "paperTitle": "Pedestrian Detection: A Benchmark",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5206631",
-        "location": "Loa Angeles, USA",
-        "rawData": "Yes",
-        "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 643,
+        "citationCount": 653,
         "completionStatus": "complete"
     },
     {
@@ -340,7 +340,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 628,
+        "citationCount": 632,
         "completionStatus": "complete"
     },
     {
@@ -368,7 +368,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 622,
+        "citationCount": 623,
         "completionStatus": "complete"
     },
     {
@@ -396,7 +396,7 @@
         "location": "Bochum, Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2013.6706807",
-        "citationCount": 525,
+        "citationCount": 526,
         "completionStatus": "complete"
     },
     {
@@ -448,7 +448,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 500,
+        "citationCount": 508,
         "completionStatus": "complete"
     },
     {
@@ -473,7 +473,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 476,
+        "citationCount": 477,
         "completionStatus": "complete"
     },
     {
@@ -498,7 +498,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 476,
+        "citationCount": 477,
         "completionStatus": "complete"
     },
     {
@@ -526,7 +526,7 @@
         "location": "Stanford campus, USA",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46484-8_33",
-        "citationCount": 464,
+        "citationCount": 465,
         "completionStatus": "complete"
     },
     {
@@ -554,7 +554,7 @@
         "location": "China",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.232",
-        "citationCount": 377,
+        "citationCount": 379,
         "completionStatus": "complete"
     },
     {
@@ -582,7 +582,7 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.1609/aaai.v32i1.12301",
-        "citationCount": 329,
+        "citationCount": 330,
         "completionStatus": "complete"
     },
     {
@@ -610,7 +610,35 @@
         "location": "Cologne, Germany",
         "rawData": "-",
         "DOI": "10.1109/ITSC.2018.8569552",
-        "citationCount": 307,
+        "citationCount": 308,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Ford CAMPUS",
+        "href": "http://robots.engin.umich.edu/SoftwareData/Ford",
+        "size_storage": "197",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "1x Point Grey Ladybug3 omnidirectional camera 1600x600 8Hz, 1x Velodyne HDL-64E lidar 360° 10Hz, 2x Riegl LMS-Q120 lidars 80°, 1x Applanix POS-LV 420 INS with Trimble GPS 100Hz, 1x Xsens MTi-G IMU 100Hz",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "SLAM, iterative closest point (ICP), and 3D object detection and recognition",
+        "annotations": "-",
+        "licensing": "Freely available for non-commercial use",
+        "relatedDatasets": "NCLT",
+        "publishDate": "2011-11-01",
+        "lastUpdate": "-",
+        "paperTitle": "Ford Campus vision and lidar data set",
+        "relatedPaper": "https://journals.sagepub.com/doi/pdf/10.1177/0278364911400640",
+        "location": "Dearborn Michigan, USA",
+        "rawData": "-",
+        "DOI": "10.1177/0278364911400640",
+        "citationCount": 270,
         "completionStatus": "complete"
     },
     {
@@ -638,7 +666,31 @@
         "location": "Japan",
         "rawData": "-",
         "DOI": "10.1111/mice.12387",
-        "citationCount": 240,
+        "citationCount": 242,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "ApolloScape",
+        "href": "http://apolloscape.auto/",
+        "size_hours": "100",
+        "size_storage": "-",
+        "frames": "143906",
+        "numberOfScenes": "-",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, imu/gnss",
+        "sensorDetail": "2x VUX-1HA laser scanners 360°, 1x VMX-CS6 camera system, 1x measuring head with gnss/imu, 2x high frontal cameras 3384 ×2710",
+        "benchmark": "2d image parsing, 3d car instance understanding, landmark segmentation, self-localization, trajectory prediction, 3d detection, 3d tracking, stereo",
+        "annotations": "high density 3d point cloud map, per-pixel, per-frame semantic image label, lane mark label semantic instance segmentation, geo-tagged",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2018-03-01",
+        "lastUpdate": "2020-09-01",
+        "paperTitle": "The ApolloScape Open Dataset for Autonomous Driving and its Application",
+        "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
+        "location": "Beijing, Shanghai and Shenzhen, China",
+        "rawData": "Yes",
+        "citationCount": 237,
         "completionStatus": "complete"
     },
     {
@@ -667,30 +719,6 @@
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.215",
         "citationCount": 237,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "ApolloScape",
-        "href": "http://apolloscape.auto/",
-        "size_hours": "100",
-        "size_storage": "-",
-        "frames": "143906",
-        "numberOfScenes": "-",
-        "samplingRate": "30",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, imu/gnss",
-        "sensorDetail": "2x VUX-1HA laser scanners 360°, 1x VMX-CS6 camera system, 1x measuring head with gnss/imu, 2x high frontal cameras 3384 ×2710",
-        "benchmark": "2d image parsing, 3d car instance understanding, landmark segmentation, self-localization, trajectory prediction, 3d detection, 3d tracking, stereo",
-        "annotations": "high density 3d point cloud map, per-pixel, per-frame semantic image label, lane mark label semantic instance segmentation, geo-tagged",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2018-03-01",
-        "lastUpdate": "2020-09-01",
-        "paperTitle": "The ApolloScape Open Dataset for Autonomous Driving and its Application",
-        "relatedPaper": "https://arxiv.org/pdf/1803.06184.pdf",
-        "location": "Beijing, Shanghai and Shenzhen, China",
-        "rawData": "Yes",
-        "citationCount": 233,
         "completionStatus": "complete"
     },
     {
@@ -746,7 +774,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 195,
+        "citationCount": 196,
         "completionStatus": "complete"
     },
     {
@@ -774,7 +802,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2009.5206638",
-        "citationCount": 188,
+        "citationCount": 192,
         "completionStatus": "complete"
     },
     {
@@ -806,6 +834,13 @@
         "completionStatus": "complete"
     },
     {
+        "id": "CARLA100",
+        "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
+        "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
+        "citationCount": 179,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "comma.ai",
         "href": "http://research.comma.ai/",
         "size_storage": "80",
@@ -834,13 +869,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "CARLA100",
-        "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
-        "relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
-        "citationCount": 177,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Multi Vehicle Stereo Event Camera",
         "href": "https://daniilidis-group.github.io/mvsec/",
         "size_storage": "187",
@@ -865,7 +893,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/LRA.2018.2800793",
-        "citationCount": 167,
+        "citationCount": 168,
         "completionStatus": "complete"
     },
     {
@@ -893,7 +921,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/ICRA.2011.5979636",
-        "citationCount": 159,
+        "citationCount": 160,
         "completionStatus": "complete"
     },
     {
@@ -921,7 +949,7 @@
         "location": "San Diego, California, USA",
         "rawData": "-",
         "DOI": "10.1109/TITS.2015.2509509",
-        "citationCount": 148,
+        "citationCount": 150,
         "completionStatus": "complete"
     },
     {
@@ -944,7 +972,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
         "location": "USA, China, Germany and Bulgaria",
         "rawData": "Yes",
-        "citationCount": 141,
+        "citationCount": 144,
         "completionStatus": "partially Complete"
     },
     {
@@ -1019,7 +1047,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1909.01300.pdf",
         "location": "Oxford",
         "rawData": "Yes",
-        "citationCount": 137,
+        "citationCount": 138,
         "completionStatus": "partially Complete"
     },
     {
@@ -1043,7 +1071,7 @@
         "location": "Bangalore and Hyderabad, India",
         "rawData": "Yes",
         "DOI": "10.1109/WACV.2019.00190",
-        "citationCount": 137,
+        "citationCount": 138,
         "completionStatus": "partially Complete"
     },
     {
@@ -1071,7 +1099,7 @@
         "location": "Northern Italy",
         "rawData": "-",
         "DOI": "10.1109/ITSC.2012.6338748",
-        "citationCount": 129,
+        "citationCount": 130,
         "completionStatus": "complete"
     },
     {
@@ -1151,7 +1179,7 @@
         "location": "North America and Europe",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
-        "citationCount": 114,
+        "citationCount": 115,
         "completionStatus": "complete"
     },
     {
@@ -1175,7 +1203,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/TITS.2018.2791533",
-        "citationCount": 112,
+        "citationCount": 113,
         "completionStatus": "partially Complete"
     },
     {
@@ -1203,7 +1231,7 @@
         "location": "USA, Europe, and China",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2019.00940",
-        "citationCount": 103,
+        "citationCount": 104,
         "completionStatus": "complete"
     },
     {
@@ -1483,7 +1511,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2004.06320.pdf",
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
-        "citationCount": 82,
+        "citationCount": 83,
         "completionStatus": "partially Complete"
     },
     {
@@ -1646,7 +1674,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1609.04653.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 70,
+        "citationCount": 72,
         "completionStatus": "partially Complete"
     },
     {
@@ -1674,7 +1702,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPRW.2016.10",
-        "citationCount": 70,
+        "citationCount": 71,
         "completionStatus": "complete"
     },
     {
@@ -1706,34 +1734,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "SeeingThroughFog",
-        "href": "https://github.com/princeton-computational-imaging/SeeingThroughFog",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "1400000",
-        "numberOfScenes": "-",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, radar, lidar, imu, weather sensor",
-        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
-        "recordingPerspective": "Ego-perspective",
-        "dataType": "real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "weather of scenes in frames",
-        "licensing": "Freely available for research and teaching purposes",
-        "relatedDatasets": "Gated2Gated, Gated2Depth, PointCloudDeNoising",
-        "publishDate": "2019-02-24",
-        "lastUpdate": "-",
-        "paperTitle": "Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather",
-        "relatedPaper": "https://www.cs.princeton.edu/~fheide/AdverseWeatherFusion/figures/AdverseWeatherFusion.pdf",
-        "location": "Germany, Sweden, Denmark and Finland",
-        "rawData": "-",
-        "DOI": "10.1109/CVPR42600.2020.01170",
-        "citationCount": 67,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Waymo Open Motion",
         "href": "https://waymo.com/open/data/motion/",
         "size_hours": "574",
@@ -1753,7 +1753,30 @@
         "relatedPaper": "https://arxiv.org/pdf/2104.10133.pdf",
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
-        "citationCount": 54,
+        "citationCount": 55,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "Fishyscapes",
+        "href": "https://fishyscapes.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
+        "benchmark": "anomaly detection, semantic segmentation",
+        "annotations": "semantic segmentation",
+        "licensing": "-",
+        "relatedDatasets": "Cityscapes, LostAndFound",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
+        "location": "-",
+        "rawData": "No",
+        "citationCount": 51,
         "completionStatus": "partially Complete"
     },
     {
@@ -1785,27 +1808,32 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Fishyscapes",
-        "href": "https://fishyscapes.com/",
+        "id": "Toronto 3D",
+        "href": "https://github.com/WeikaiTan/Toronto-3D",
         "size_storage": "-",
         "size_hours": "-",
         "frames": "-",
         "numberOfScenes": "-",
         "samplingRate": "-",
         "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "based on the validation set of Cityscapes overlayed with anomalous objects and the original LostAndFound with extended pixel-wise annotations",
-        "benchmark": "anomaly detection, semantic segmentation",
-        "annotations": "semantic segmentation",
-        "licensing": "-",
-        "relatedDatasets": "Cityscapes, LostAndFound",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1904.03215.pdf",
-        "location": "-",
-        "rawData": "No",
-        "citationCount": 50,
-        "completionStatus": "partially Complete"
+        "sensors": "camera, lidar, gps",
+        "sensorDetail": "1x Teledyne Optech Maverick consists of a 32-line LiDAR sensor, a Ladybug 5 panoramic camera, a GNSS system, and a SLAM system",
+        "recordingPerspective": "bird's eye view",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "object class labels",
+        "licensing": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-22",
+        "lastUpdate": "2020-04-23",
+        "paperTitle": "Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways",
+        "relatedPaper": "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.pdf",
+        "location": "Toronto, Canada",
+        "rawData": "-",
+        "DOI": "10.1109/CVPRW50498.2020.00109",
+        "citationCount": 49,
+        "completionStatus": "complete"
     },
     {
         "id": "SemKITTI-DVPS",
@@ -1859,34 +1887,6 @@
         "location": "Singapore",
         "rawData": "-",
         "DOI": "10.1109/ICRA40945.2020.9197385",
-        "citationCount": 47,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Toronto 3D",
-        "href": "https://github.com/WeikaiTan/Toronto-3D",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps",
-        "sensorDetail": "1x Teledyne Optech Maverick consists of a 32-line LiDAR sensor, a Ladybug 5 panoramic camera, a GNSS system, and a SLAM system",
-        "recordingPerspective": "bird's eye view",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "-",
-        "annotations": "object class labels",
-        "licensing": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-22",
-        "lastUpdate": "2020-04-23",
-        "paperTitle": "Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways",
-        "relatedPaper": "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.pdf",
-        "location": "Toronto, Canada",
-        "rawData": "-",
-        "DOI": "10.1109/CVPRW50498.2020.00109",
         "citationCount": 47,
         "completionStatus": "complete"
     },
@@ -1967,7 +1967,7 @@
         "location": "Carla",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1911.11132",
-        "citationCount": 36,
+        "citationCount": 37,
         "completionStatus": "complete"
     },
     {
@@ -1991,6 +1991,30 @@
         "location": "California's 280 highway, USA",
         "rawData": "Yes",
         "citationCount": 33,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "Ford Autonomous Vehicle Dataset",
+        "href": "https://avdata.ford.com/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
+        "benchmark": "-",
+        "annotations": "3d point cloud maps, ground reflectivity map",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+        "location": "Michigan, USA",
+        "rawData": "True",
+        "DOI": "10.1177/0278364920961451",
+        "citationCount": 32,
         "completionStatus": "partially Complete"
     },
     {
@@ -2050,30 +2074,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Ford Autonomous Vehicle Dataset",
-        "href": "https://avdata.ford.com/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "4x HDL-32E Lidars, 4x Flea3 GigE Point Grey Cameras in stereo pairs (front & back) 80° 15Hz,2x Flea3 GigE Point Grey Cameras (sides) 80° 15Hz, 1x Flea3 GigE Point Grey Camera 40° 7Hz, 1x Applanix POS LV gps/imu",
-        "benchmark": "-",
-        "annotations": "3d point cloud maps, ground reflectivity map",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
-        "location": "Michigan, USA",
-        "rawData": "True",
-        "DOI": "10.1177/0278364920961451",
-        "citationCount": 31,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "D^2 City",
         "href": "https://outreach.didichuxing.com/d2city",
         "size_storage": "-",
@@ -2125,7 +2125,7 @@
         "location": "China",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11037",
-        "citationCount": 29,
+        "citationCount": 30,
         "completionStatus": "complete"
     },
     {
@@ -2185,6 +2185,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "LIBRE",
+        "href": "https://sites.google.com/g.sp.m.is.nagoya-u.ac.jp/libre-dataset/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, odometry, gps/imu",
+        "sensorDetail": "10 different lidars compared (VLS-128, HDL-64S2, HDL-32E, VLP-32C, VLP-16, Pandar64, Pandar40P, OS1-64, OS1-16, RS-Lidar32)",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "Lidar sensors",
+        "annotations": "-",
+        "licensing": "-",
+        "relatedDatasets": "-",
+        "publishDate": "2020-10-19",
+        "lastUpdate": "-",
+        "paperTitle": "LIBRE: The Multiple 3D LiDAR Dataset",
+        "relatedPaper": "https://arxiv.org/pdf/2003.06129.pdf",
+        "location": "Nagoya, Japan",
+        "rawData": "-",
+        "DOI": "10.1109/IV47402.2020.9304681",
+        "citationCount": 29,
+        "completionStatus": "complete"
+    },
+    {
         "id": "Street Learn",
         "href": "https://sites.google.com/view/streetlearn/dataset",
         "size_storage": "-",
@@ -2213,34 +2241,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "LIBRE",
-        "href": "https://sites.google.com/g.sp.m.is.nagoya-u.ac.jp/libre-dataset/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, odometry, gps/imu",
-        "sensorDetail": "10 different lidars compared (VLS-128, HDL-64S2, HDL-32E, VLP-32C, VLP-16, Pandar64, Pandar40P, OS1-64, OS1-16, RS-Lidar32)",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "Lidar sensors",
-        "annotations": "-",
-        "licensing": "-",
-        "relatedDatasets": "-",
-        "publishDate": "2020-10-19",
-        "lastUpdate": "-",
-        "paperTitle": "LIBRE: The Multiple 3D LiDAR Dataset",
-        "relatedPaper": "https://arxiv.org/pdf/2003.06129.pdf",
-        "location": "Nagoya, Japan",
-        "rawData": "-",
-        "DOI": "10.1109/IV47402.2020.9304681",
-        "citationCount": 28,
-        "completionStatus": "complete"
-    },
-    {
         "id": "RADIATE",
         "href": "http://pro.hw.ac.uk/radiate/",
         "size_storage": "-",
@@ -2260,7 +2260,7 @@
         "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
         "location": "-",
         "rawData": "Yes",
-        "citationCount": 27,
+        "citationCount": 28,
         "completionStatus": "partially Complete"
     },
     {
@@ -2288,7 +2288,7 @@
         "location": "Videos sampled from YouTube",
         "rawData": "-",
         "DOI": "10.1109/AVSS.2018.8639160",
-        "citationCount": 26,
+        "citationCount": 27,
         "completionStatus": "complete"
     },
     {
@@ -2823,6 +2823,34 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "TAF-BW",
+        "href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset",
+        "size_storage": "-",
+        "size_hours": "0.1",
+        "frames": "-",
+        "numberOfScenes": "2",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "traffic camera",
+        "recordingPerspective": "Bird's Eye",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "tracking id and bounding box",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+        "relatedDatasets": "-",
+        "publishDate": "2018-12-31",
+        "lastUpdate": "-",
+        "paperTitle": "Towards Large Scale Urban Traffic Reference Data: Smart Infrastructure in the Test Area Autonomous Driving Baden-Wurttemberg",
+        "relatedPaper": "https://www.researchgate.net/profile/Tobias-Fleck/publication/327449884_Towards_Large_Scale_Urban_Traffic_Reference_Data_Smart_Infrastructure_in_the_Test_Area_Autonomous_Driving_Baden-Wurttemberg/links/5bbcbddd299bf1049b785126/Towards-Large-Scale-Urban-Traffic-Reference-Data-Smart-Infrastructure-in-the-Test-Area-Autonomous-Driving-Baden-Wuerttemberg.pdf",
+        "location": " Karlsruhe, Germany",
+        "rawData": "",
+        "DOI": "10.1007/978-3-030-01370-7_75",
+        "citationCount": 14,
+        "completionStatus": "complete"
+    },
+    {
         "id": "RadarScenes",
         "href": "https://radar-scenes.com/",
         "size_storage": "-",
@@ -2983,7 +3011,7 @@
         "location": "Boston, Pittsburgh, Las Vegas and Singapore",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11810",
-        "citationCount": 8,
+        "citationCount": 9,
         "completionStatus": "complete"
     },
     {
@@ -3077,6 +3105,14 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "The Autonomous Platform Inertial Dataset",
+        "href": "https://github.com/ansfl/Navigation-Data-Project/",
+        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
+        "DOI": "10.1109/ACCESS.2022.3144076",
+        "citationCount": 5,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "The USyd Campus Dataset",
         "href": "http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/",
         "size_storage": "-",
@@ -3105,16 +3141,16 @@
         "completionStatus": "complete"
     },
     {
-        "id": "A9",
-        "href": "https://innovation-mobility.com/en/a9-dataset/",
-        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
+        "id": "SODA10M",
+        "href": "https://soda-2d.github.io/",
+        "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
         "citationCount": 4,
         "completionStatus": "partially Complete"
     },
     {
-        "id": "KITTI-360-APS",
-        "href": "http://amodal-panoptic.cs.uni-freiburg.de/",
-        "relatedPaper": "https://arxiv.org/pdf/2202.11542.pdf",
+        "id": "A9",
+        "href": "https://innovation-mobility.com/en/a9-dataset/",
+        "relatedPaper": "https://arxiv.org/pdf/2204.06527.pdf",
         "citationCount": 4,
         "completionStatus": "partially Complete"
     },
@@ -3133,25 +3169,10 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "The Autonomous Platform Inertial Dataset",
-        "href": "https://github.com/ansfl/Navigation-Data-Project/",
-        "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
-        "DOI": "10.1109/ACCESS.2022.3144076",
-        "citationCount": 4,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "CODA",
         "href": "https://coda-dataset.github.io/",
         "relatedPaper": "https://arxiv.org/pdf/2203.07724.pdf",
         "benchmark": "anomaly detection",
-        "citationCount": 3,
-        "completionStatus": "partially Complete"
-    },
-    {
-        "id": "SODA10M",
-        "href": "https://soda-2d.github.io/",
-        "relatedPaper": "https://arxiv.org/pdf/2106.11118.pdf",
         "citationCount": 3,
         "completionStatus": "partially Complete"
     },
@@ -3312,6 +3333,34 @@
         "location": "Massachusetts, USA",
         "rawData": "-",
         "DOI": "10.15607/RSS.2021.XVII.080",
+        "citationCount": 1,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Automatum Dataset (Open Highway)",
+        "href": "https://automatum-data.com/#dataset",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "12",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "1x DJI Mavic Mini with 2K camera resolution",
+        "recordingPerspective": "top view",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "2d bounding box",
+        "licensing": "Creative Commons Attribution-NonDerivative License (CC BY-ND)",
+        "relatedDatasets": "Highways Ramps, Highway ALKS",
+        "publishDate": "2021-07-11",
+        "lastUpdate": "-",
+        "paperTitle": "AUTOMATUM DATA: Drone-based highway dataset for the development and validation of automated driving software for research and commercial applications",
+        "relatedPaper": "https://automatumdata.blob.core.windows.net/opendataset/IV21_Automatum.Data.eng.pdf",
+        "location": "Germany",
+        "rawData": "-",
+        "DOI": "10.1109/IV48863.2021.9575442",
         "citationCount": 1,
         "completionStatus": "complete"
     },
@@ -3771,13 +3820,6 @@
         "completionStatus": "incomplete"
     },
     {
-        "id": "TAF-BW",
-        "href": "https://github.com/fzi-forschungszentrum-informatik/test-area-autonomous-driving-dataset",
-        "relatedPaper": "https://link.springer.com/chapter/10.1007/978-3-030-01370-7_75",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
         "id": "K-Radar",
         "href": "https://github.com/kaist-avelab/K-Radar",
         "relatedPaper": "https://arxiv.org/abs/2206.08171",
@@ -3800,27 +3842,6 @@
     {
         "id": "EISATS",
         "href": "https://ccv.wordpress.fos.auckland.ac.nz/eisats/",
-        "size_storage": "",
-        "size_hours": "",
-        "frames": "",
-        "numberOfScenes": "",
-        "samplingRate": "",
-        "lengthOfScenes": "",
-        "sensors": "",
-        "sensorDetail": "",
-        "benchmark": "",
-        "annotations": "",
-        "licensing": "",
-        "relatedDatasets": "",
-        "publishDate": " ",
-        "lastUpdate": "",
-        "relatedPaper": "",
-        "citationCount": 0,
-        "completionStatus": "incomplete"
-    },
-    {
-        "id": "Ford CAMPUS",
-        "href": "https://www.researchgate.net/publication/220122924_Ford_Campus_vision_and_lidar_data_set",
         "size_storage": "",
         "size_hours": "",
         "frames": "",
@@ -3930,6 +3951,13 @@
         "completionStatus": "incomplete"
     },
     {
+        "id": "KITTI-360-APS",
+        "href": "http://amodal-panoptic.cs.uni-freiburg.de/",
+        "relatedPaper": "https://arxiv.org/pdf/2202.11542.pdf",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
         "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf",
         "citationCount": 0,
@@ -3988,5 +4016,33 @@
         "href": "https://usa.honda-ri.com/eposh",
         "citationCount": 0,
         "completionStatus": "partially Complete"
+    },
+    {
+        "id": "SeeingThroughFog",
+        "href": "https://github.com/princeton-computational-imaging/SeeingThroughFog",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "1400000",
+        "numberOfScenes": "-",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, lidar, imu, weather sensor",
+        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "weather of scenes in frames",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "Gated2Gated, Gated2Depth, PointCloudDeNoising",
+        "publishDate": "2019-02-24",
+        "lastUpdate": "-",
+        "paperTitle": "Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather",
+        "relatedPaper": "https://www.cs.princeton.edu/~fheide/AdverseWeatherFusion/figures/AdverseWeatherFusion.pdf",
+        "location": "Germany, Sweden, Denmark and Finland",
+        "rawData": "-",
+        "DOI": "10.1109/CVPR42600.2020.01170",
+        "citationCount": 0,
+        "completionStatus": "complete"
     }
 ]

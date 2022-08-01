@@ -1098,6 +1098,11 @@
 "href": "https://segmentmeifyoucan.com/datasets"
 },
 {
+"id":"BoxCars116k",
+"href":"https://github.com/JakubSochor/BoxCars",
+"relatedPaper":"https://ieeexplore.ieee.org/document/8307405",
+"DOI":"10.1109/TITS.2018.2799228"
+{
 "id": "Beyond PASCAL",
 "href": "https://yuxng.github.io/Xiang_WACV_03242014.pdf",
 "size_storage": "8.5",

@@ -419,6 +419,11 @@
 "rawData": "Yes"
 },
 {
+"id":"Comma2k19 LD",
+"href":"https://github.com/ASGuard-UCI/ld-metric",
+"relatedPaper":"https://openaccess.thecvf.com/content/CVPR2022/papers/Sato_Towards_Driving-Oriented_Metric_for_Lane_Detection_Models_CVPR_2022_paper.pdf"
+},
+{
 "id": "KITTI-360",
 "href": "http://www.cvlibs.net/datasets/kitti-360/",
 "size_storage": "-",

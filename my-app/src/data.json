@@ -2025,12 +2025,6 @@
 "DOI": "10.1109/LRA.2022.3142418"
 },
 {
-"id": "KITTI-360 PanopticBEV",
-"href": "http://panoptic-bev.cs.uni-freiburg.de/",
-"relatedPaper":"https://ieeexplore.ieee.org/document/9681287",
-"DOI": "10.1109/LRA.2022.3142418"
-},
-{
 "id": "Waymo Block-NeRF",
 "href": "https://waymo.com/research/block-nerf/",
 "relatedPaper":"https://arxiv.org/abs/2202.05263"

@@ -3121,14 +3121,6 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "KITTI-360 PanopticBEV",
-        "href": "http://panoptic-bev.cs.uni-freiburg.de/",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/9681287",
-        "DOI": "10.1109/LRA.2022.3142418",
-        "citationCount": 10,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Semantic KITTI",
         "href": "http://www.semantic-kitti.org/",
         "size_storage": "-",

@@ -537,7 +537,16 @@ const columns = [
     },
     {
         field: 'rawData',
-        headerName: 'Provide raw data',
+        headerName: 'Provides raw data',
+        width: 150,
+        hide: true,
+        type: "string",
+        sortable: false,
+        renderCell: renderCellExpand
+    },
+    {
+        field: 'mapData',
+        headerName: 'Provides map data',
         width: 150,
         hide: true,
         type: "string",

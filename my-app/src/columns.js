@@ -518,6 +518,15 @@ const columns = [
         renderCell: renderCellExpand
     },
     {
+        field: 'recordingPerspective',
+        headerName: 'Recording Perspective',
+        width: 180,
+        type: "String",
+        sortable: false,
+        hide: true,
+        renderCell: renderCellExpand
+    },
+    {
         field: 'location',
         headerName: 'Location',
         width: 380,

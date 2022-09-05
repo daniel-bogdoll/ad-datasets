@@ -22,11 +22,12 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "flex-start",
     },
     pagination: {
-        alignItems: "center",
+        alignItems: "right",
     },
-    tool: {
-        width: "100",
-        height: window.innerHeight
+    adDatasets: {
+        height: "100vh",
+        display:"flex",
+        flexDirection:"column"
     }
 }));
 
@@ -46,6 +47,9 @@ export default function RenderExpandCellGrid() {
         height: window.innerHeight,
         width: window.innerWidth
     });
+
+    const kopf = React.createRef();
+
 
     const onChangePage = (event, newPage) => {
         setPage(newPage);
@@ -79,14 +83,13 @@ export default function RenderExpandCellGrid() {
             window.removeEventListener('resize', handleResize)
         }
     });
-
     return (
-        <div className={classes.tool}>
-            <Header title={'ad-datasets'} subtitle={'Complete* and curated list of autonomous driving related datasets'}/>
+        <div className={classes.adDatasets} >
+            <Header ref={kopf} title={'ad-datasets'} subtitle={'Complete* and curated list of autonomous driving related datasets'}/>
 
 
             <DataGrid rows={rows} columns={columns} disableColumnMenu={true} className={classes.customDatagrid}
-                      sortingOrder={['desc', 'asc']} page={page}
+                      sortingOrder={['desc', 'asc']} page={page} HorizontalAlignment={'Stretch'} VerticalScrollBarVisibility={'Auto'}
                       components={{ Toolbar: QuickSearchToolbar, Footer: CustomFooter}}
                       onPageSizeChange={(newPageSize) => setPage(newPageSize)}
                       pageSize={rowsPerPage}
@@ -107,6 +110,7 @@ export default function RenderExpandCellGrid() {
             />
         </div>
     );
+
 }
 
 

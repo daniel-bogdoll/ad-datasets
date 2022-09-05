@@ -33,13 +33,15 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     lastUpdate: {
+        display: "flex",
+        alignItems: "center",
         position: "absolute",
         left: "0.5%",
-        height: "80%",
+        height: "50%",
         border: "1px solid white",
         borderRadius: "5px",
-        paddingLeft: "0.25%",
-        paddingRight: "0.25%",
+        paddingLeft: "0.5%",
+        paddingRight: "0.5%",
         color: "#3f51b5",
         textTransform: "none",
         backgroundColor: "white",
@@ -92,31 +94,32 @@ export function Header(props) {
 
 
 
-    return (
-        <AppBar position="static" className={classes.header}>
-            <Toolbar>
-                <div className={classes.title}>
-                    <Typography variant="h5">
-                    {props.title}
-                    </Typography>
-                    <Typography variant="body1">
-                        {props.subtitle}
-                    </Typography>
-                </div>
+    return <header>
+                <AppBar position="static" className={classes.header}>
+                    <Toolbar variant={'dense'}>
+                        <div className={classes.title}>
+                            <Typography variant="h5">
+                            {props.title}
+                            </Typography>
+                            <Typography variant="body1">
+                                {props.subtitle}
+                            </Typography>
+                        </div>
 
-                <Button className={classes.note} target={'_blank'} style={{visibility: visGit}} variant={"caption"}
-                        href={"https://github.com/daniel-bogdoll/ad-datasets"}>
-                    *GitHub
-                </Button>
-                <Button className={classes.note} target={'_blank'} variant={"caption"}
-                        href={"https://github.com/daniel-bogdoll/ad-datasets"}>
-                    *Could not find your dataset? <br/> Simply create a pull request ;)
-                </Button>
-                <Typography className={classes.lastUpdate} variant={"caption"}>
-                    Last Update: {process.env.REACT_APP_GIT_SHA}
-                </Typography>
-            </Toolbar>
-        </AppBar>
-    )
+                        <Button className={classes.note} target={'_blank'} style={{visibility: visGit}} variant={"caption"}
+                                href={"https://github.com/daniel-bogdoll/ad-datasets"}>
+                            *GitHub
+                        </Button>
+                        <Button className={classes.note} target={'_blank'} variant={"caption"}
+                                href={"https://github.com/daniel-bogdoll/ad-datasets"}>
+                            *Could not find your dataset? <br/> Simply create a pull request ;)
+                        </Button>
+                        <Typography className={classes.lastUpdate} variant={"caption"} align={"left"}>
+                            Last Update: {process.env.REACT_APP_GIT_SHA}
+                        </Typography>
+                    </Toolbar>
+                </AppBar>
+            </header>;
+
 
 }

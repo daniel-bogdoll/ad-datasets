@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364913491297",
-        "citationCount": 4844,
+        "citationCount": 4850,
         "completionStatus": "complete"
     },
     {
@@ -49,7 +49,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 1676,
+        "citationCount": 1679,
         "completionStatus": "complete"
     },
     {
@@ -74,7 +74,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1430,
+        "citationCount": 1432,
         "completionStatus": "complete"
     },
     {
@@ -97,7 +97,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 1430,
+        "citationCount": 1432,
         "completionStatus": "partially Complete"
     },
     {
@@ -125,7 +125,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1414,
+        "citationCount": 1416,
         "completionStatus": "complete"
     },
     {
@@ -153,7 +153,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1186,
+        "citationCount": 1188,
         "completionStatus": "complete"
     },
     {
@@ -206,7 +206,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 866,
+        "citationCount": 910,
         "completionStatus": "complete"
     },
     {
@@ -231,7 +231,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177%2F0278364916679498",
-        "citationCount": 863,
+        "citationCount": 864,
         "completionStatus": "complete"
     },
     {
@@ -312,7 +312,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 674,
+        "citationCount": 676,
         "completionStatus": "complete"
     },
     {
@@ -368,7 +368,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/WACV.2014.6836101",
-        "citationCount": 626,
+        "citationCount": 628,
         "completionStatus": "complete"
     },
     {
@@ -396,7 +396,7 @@
         "location": "Bochum, Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2013.6706807",
-        "citationCount": 541,
+        "citationCount": 542,
         "completionStatus": "complete"
     },
     {
@@ -420,7 +420,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 537,
+        "citationCount": 539,
         "completionStatus": "complete"
     },
     {
@@ -448,7 +448,7 @@
         "location": "USA",
         "rawData": "-",
         "DOI": "10.1109/TITS.2012.2209421",
-        "citationCount": 519,
+        "citationCount": 520,
         "completionStatus": "complete"
     },
     {
@@ -473,7 +473,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 492,
+        "citationCount": 493,
         "completionStatus": "complete"
     },
     {
@@ -498,7 +498,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 492,
+        "citationCount": 493,
         "completionStatus": "complete"
     },
     {
@@ -526,7 +526,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 492,
+        "citationCount": 493,
         "completionStatus": "complete"
     },
     {
@@ -554,7 +554,7 @@
         "location": "Stanford campus, USA",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46484-8_33",
-        "citationCount": 474,
+        "citationCount": 475,
         "completionStatus": "complete"
     },
     {
@@ -582,7 +582,7 @@
         "location": "China",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.232",
-        "citationCount": 386,
+        "citationCount": 389,
         "completionStatus": "complete"
     },
     {
@@ -610,7 +610,7 @@
         "location": "Beijing, China",
         "rawData": "-",
         "DOI": "10.1609/aaai.v32i1.12301",
-        "citationCount": 349,
+        "citationCount": 350,
         "completionStatus": "complete"
     },
     {
@@ -638,7 +638,7 @@
         "location": "Cologne, Germany",
         "rawData": "-",
         "DOI": "10.1109/ITSC.2018.8569552",
-        "citationCount": 320,
+        "citationCount": 321,
         "completionStatus": "complete"
     },
     {
@@ -666,7 +666,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2009.5206638",
-        "citationCount": 293,
+        "citationCount": 309,
         "completionStatus": "complete"
     },
     {
@@ -694,7 +694,7 @@
         "location": "Dearborn Michigan, USA",
         "rawData": "-",
         "DOI": "10.1177/0278364911400640",
-        "citationCount": 275,
+        "citationCount": 276,
         "completionStatus": "complete"
     },
     {
@@ -722,7 +722,7 @@
         "location": "Japan",
         "rawData": "-",
         "DOI": "10.1111/mice.12387",
-        "citationCount": 252,
+        "citationCount": 251,
         "completionStatus": "complete"
     },
     {
@@ -830,7 +830,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 207,
+        "citationCount": 208,
         "completionStatus": "complete"
     },
     {
@@ -949,7 +949,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/LRA.2018.2800793",
-        "citationCount": 171,
+        "citationCount": 172,
         "completionStatus": "complete"
     },
     {
@@ -977,31 +977,8 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/ICRA.2011.5979636",
-        "citationCount": 162,
+        "citationCount": 165,
         "completionStatus": "complete"
-    },
-    {
-        "id": "INTERACTION dataset",
-        "href": "https://interaction-dataset.com/",
-        "size_storage": "-",
-        "size_hours": "16.5",
-        "frames": "594588",
-        "numberOfScenes": "-",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
-        "benchmark": "motion prediction",
-        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
-        "licensing": "freely available for non-commercial purposes",
-        "relatedDatasets": "-",
-        "publishDate": "2019-09-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
-        "location": "USA, China, Germany and Bulgaria",
-        "rawData": "Yes",
-        "citationCount": 153,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "LISA Traffic Light Dataset",
@@ -1028,8 +1005,31 @@
         "location": "San Diego, California, USA",
         "rawData": "-",
         "DOI": "10.1109/TITS.2015.2509509",
-        "citationCount": 153,
+        "citationCount": 154,
         "completionStatus": "complete"
+    },
+    {
+        "id": "INTERACTION dataset",
+        "href": "https://interaction-dataset.com/",
+        "size_storage": "-",
+        "size_hours": "16.5",
+        "frames": "594588",
+        "numberOfScenes": "-",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "drones & traffic cameras 3840x2160 30Hz downscaled to 10Hz",
+        "benchmark": "motion prediction",
+        "annotations": "2d bounding boxes, semantic map, motion/trajectories",
+        "licensing": "freely available for non-commercial purposes",
+        "relatedDatasets": "-",
+        "publishDate": "2019-09-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/1910.03088.pdf",
+        "location": "USA, China, Germany and Bulgaria",
+        "rawData": "Yes",
+        "citationCount": 153,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "Oxford Radar Robot Car",
@@ -1155,8 +1155,32 @@
         "location": "San Francisco Bay Area, USA",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2018.00803",
-        "citationCount": 133,
+        "citationCount": 134,
         "completionStatus": "complete"
+    },
+    {
+        "id": "KITTI-360",
+        "href": "http://www.cvlibs.net/datasets/kitti-360/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "400000",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps/imu",
+        "sensorDetail": "2x 180° fisheye camera, 1x 90° perspective stereo camera, 1x Velodyne HDL-64E & SICK LMS 200 laser scanning unit in pushbroom configuration",
+        "benchmark": "-",
+        "annotations": "semantic instance segmentation",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        "relatedDatasets": "KITTI",
+        "publishDate": "2015-11-01",
+        "lastUpdate": "2021-04-01",
+        "relatedPaper": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf",
+        "location": "Karlsruhe, Germany",
+        "rawData": "Yes",
+        "DOI": "10.1109/CVPR.2016.401",
+        "citationCount": 130,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "TME Motorway",
@@ -1185,30 +1209,6 @@
         "DOI": "10.1109/ITSC.2012.6338748",
         "citationCount": 130,
         "completionStatus": "complete"
-    },
-    {
-        "id": "KITTI-360",
-        "href": "http://www.cvlibs.net/datasets/kitti-360/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "400000",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps/imu",
-        "sensorDetail": "2x 180° fisheye camera, 1x 90° perspective stereo camera, 1x Velodyne HDL-64E & SICK LMS 200 laser scanning unit in pushbroom configuration",
-        "benchmark": "-",
-        "annotations": "semantic instance segmentation",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-        "relatedDatasets": "KITTI",
-        "publishDate": "2015-11-01",
-        "lastUpdate": "2021-04-01",
-        "relatedPaper": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf",
-        "location": "Karlsruhe, Germany",
-        "rawData": "Yes",
-        "DOI": "10.1109/CVPR.2016.401",
-        "citationCount": 129,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "DR(eye)VE",
@@ -1263,7 +1263,7 @@
         "location": "North America and Europe",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2017.33",
-        "citationCount": 117,
+        "citationCount": 118,
         "completionStatus": "complete"
     },
     {
@@ -1715,7 +1715,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2018.00615",
-        "citationCount": 75,
+        "citationCount": 76,
         "completionStatus": "complete"
     },
     {
@@ -1743,7 +1743,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2018.00615",
-        "citationCount": 75,
+        "citationCount": 76,
         "completionStatus": "complete"
     },
     {
@@ -1985,7 +1985,7 @@
         "location": "Waterloo region in Ontorio, Canada",
         "rawData": "-",
         "DOI": "10.1177/0278364920979368",
-        "citationCount": 55,
+        "citationCount": 57,
         "completionStatus": "complete"
     },
     {
@@ -2072,7 +2072,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR46437.2021.00399",
-        "citationCount": 49,
+        "citationCount": 50,
         "completionStatus": "complete"
     },
     {
@@ -2100,7 +2100,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR46437.2021.00399",
-        "citationCount": 49,
+        "citationCount": 50,
         "completionStatus": "complete"
     },
     {
@@ -2371,6 +2371,13 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Waymo Block-NeRF",
+        "href": "https://waymo.com/research/block-nerf/",
+        "relatedPaper": "https://arxiv.org/abs/2202.05263",
+        "citationCount": 33,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "ONCE",
         "href": "https://once-for-auto-driving.github.io/index.html",
         "size_storage": "-",
@@ -2452,13 +2459,6 @@
         "DOI": "10.1109/ICRA48506.2021.9561251",
         "citationCount": 32,
         "completionStatus": "complete"
-    },
-    {
-        "id": "Waymo Block-NeRF",
-        "href": "https://waymo.com/research/block-nerf/",
-        "relatedPaper": "https://arxiv.org/abs/2202.05263",
-        "citationCount": 32,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "LIBRE",
@@ -2564,7 +2564,7 @@
         "location": "CEREMA's climatic chamber",
         "rawData": "-",
         "DOI": "10.1109/LRA.2020.2972865",
-        "citationCount": 29,
+        "citationCount": 30,
         "completionStatus": "complete"
     },
     {
@@ -3057,6 +3057,29 @@
         "completionStatus": "partially Complete"
     },
     {
+        "id": "RoadAnomaly21",
+        "href": "https://segmentmeifyoucan.com/datasets",
+        "size_storage": "0.05",
+        "size_hours": "-",
+        "frames": "100",
+        "numberOfScenes": "100",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
+        "benchmark": "anomaly detection",
+        "annotations": "semantic segmentation",
+        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
+        "relatedDatasets": "RoadObstacle21",
+        "publishDate": "2021-04-01",
+        "lastUpdate": "-",
+        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "citationCount": 19,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "MTSD",
         "href": "https://www.mapillary.com/dataset/trafficsign",
         "size_storage": "-",
@@ -3111,29 +3134,6 @@
         "DOI": "10.1109/ICCV48922.2021.01067",
         "citationCount": 19,
         "completionStatus": "complete"
-    },
-    {
-        "id": "RoadAnomaly21",
-        "href": "https://segmentmeifyoucan.com/datasets",
-        "size_storage": "0.05",
-        "size_hours": "-",
-        "frames": "100",
-        "numberOfScenes": "100",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "images from web resources 2048x1024 & 1280x720",
-        "benchmark": "anomaly detection",
-        "annotations": "semantic segmentation",
-        "licensing": "various, see \"https://github.com/SegmentMeIfYouCan/road-anomaly-\"benchmark\"/blob/master/doc/RoadAnomaly/credits.txt\" for detail",
-        "relatedDatasets": "RoadObstacle21",
-        "publishDate": "2021-04-01",
-        "lastUpdate": "-",
-        "relatedPaper": "https://arxiv.org/pdf/2104.14812.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "citationCount": 18,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "PREVENTION",

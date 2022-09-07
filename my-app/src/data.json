@@ -150,15 +150,20 @@
 "lengthOfScenes": "-",
 "sensors": "lidar",
 "sensorDetail": "Velodyne HDL-64E from sequences of the odometry 'benchmark' of the KITTI Vision Benchmark with 360° view",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData": "No",
 "benchmark": "semantic segmentation, panoptic segmentation, 4D panoptic segmentation, moving object segmentation, semantic scene completion",
 "annotations": "semantic segmentation",
 "licensing": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) ",
 "relatedDatasets": "KITTI",
 "publishDate": "2019-07-01",
 "lastUpdate": "2021-02-01",
+"paperTitle": "SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences",
 "relatedPaper": "https://arxiv.org/abs/1904.01416.pdf",
 "location": "Karlsruhe, Germany",
-"rawData": "No"
+"rawData": "No",
+"DOI": "10.1109/ICCV.2019.00939"
 },
 {
 "id": "ApolloScape", 
@@ -402,17 +407,21 @@
 "lengthOfScenes": "-",
 "sensors": "camera",
 "sensorDetail": "DJI Phantom 4 3840×2160 camera drone",
+"recordingPerspective": "Bird's Eye",
+"dataType":"Real",
+"mapData": "Yes",
 "benchmark": "trajectory predictions",
 "annotations": "2d bounding boxes, trajectories",
 "licensing": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ",
 "relatedDatasets": "-",
-"publishData": "2020-09-01",
+"publishDate": "2020-09-01",
 "lastUpdate": "-",
+"paperTitle": "openDD: A Large-Scale Roundabout Drone Dataset",
 "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
 "location": "Wolfsburg and Ingolstadt, Germany",
-"rawData": "Yes"
+"rawData": "Yes",
+"DOI": "10.1109/ITSC45102.2020.9294301"
 },
-
 {
 "id": "RoadAnomaly21",
 "href": "https://segmentmeifyoucan.com/datasets",

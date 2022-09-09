@@ -1449,9 +1449,30 @@
 "DOI": "10.1109/AVSS.2018.8639160"
 },
 {
-"id": "CARLA100",
+"id": "NoCrash",
 "href": "https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md",
-"relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf"
+"size_storage": "-",
+"size_hours": "100",
+"frames": "-",
+"numberOfScenes": "-",
+"samplingRate": "-",
+"lengthOfScenes": "-",
+"sensors": "camera",
+"sensorDetail": "-",
+"recordingPerspective": "ego-perspective",
+"dataType":"Synthetic",
+"mapData": "No",
+"benchmark": "autonomous driving and crashes",
+"annotations": "-",
+"licensing": "Free to use",
+"relatedDatasets": "NoCrash",
+"publishDate":"2019-10-27",
+"lastUpdate": "-",
+"paperTitle": "Exploring the Limitations of Behavior Cloning for Autonomous Driving",
+"relatedPaper": "https://arxiv.org/pdf/1904.08980.pdf",
+"location": "CARLA environment",
+"rawData": "-",
+"DOI": "10.1109/ICCV.2019.00942"
 },
 {
 "id": "VITRO",

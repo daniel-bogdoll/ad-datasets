@@ -10,6 +10,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const useStyles = makeStyles((theme) => ({
     header: {
+        backgroundColor: "rgb(0, 151, 230)"
     },
     textField: {
         position: "absolute",
@@ -42,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: "5px",
         paddingLeft: "0.5%",
         paddingRight: "0.5%",
-        color: "#3f51b5",
+        color: "rgb(0, 151, 230)",
         textTransform: "none",
         backgroundColor: "white",
         [theme.breakpoints.down('sm')]: {
@@ -99,7 +100,7 @@ export function Header(props) {
                     <Toolbar variant={'dense'}>
                         <div className={classes.title}>
                             <Typography variant="h5">
-                            {props.title}
+                                {props.title}
                             </Typography>
                             <Typography variant="body1">
                                 {props.subtitle}

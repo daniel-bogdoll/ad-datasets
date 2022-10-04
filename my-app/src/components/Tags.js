@@ -5,10 +5,9 @@ import TimelineDot from '@mui/lab/TimelineDot';
 export class CameraTag extends React.Component {
     render() {
         return <Chip label="camera"
-                     color="primary"
                      size="small"
                      variant="outlined"
-                     style={{display:this.props.visibility}}/>
+                     style={{display:this.props.visibility,  color:"rgb(26, 188, 156)", backgroundColor: 'rgba(233, 247, 239, 0.7)', borderColor:"rgb(26, 188, 156)"}}/>
     }
 }
 
@@ -17,7 +16,7 @@ export class LidarTag extends React.Component {
         return <Chip label="lidar"
                      size="small"
                      variant="outlined"
-                     style={{color: 'mediumseagreen', border: '1px solid mediumseagreen', display: this.props.visibility}}/>
+                     style={{color: 'rgb(203, 67, 53)', backgroundColor:'rgba(245, 238, 248, 0.7)', border: '1px solid rgb(203, 67, 53)', display: this.props.visibility}}/>
     }
 }
 
@@ -26,7 +25,7 @@ export class RadarTag extends React.Component {
         return <Chip label="radar"
                      size="small"
                      variant={"outlined"}
-                     style={{color: 'maroon', border: '1px solid maroon', display:this.props.visibility}}/>
+                     style={{color: 'rgb(52, 152, 219 )', backgroundColor:'rgba(235, 245, 251, 0.7)', border: '1px solid rgb(52, 152, 219 )', display:this.props.visibility}}/>
     }
 }
 
@@ -35,7 +34,7 @@ export class RandomTag extends React.Component {
         return <Chip label={this.props.name}
                      size={"small"}
                      variant={"outlined"}
-                     style={{color: 'peru', border: '1px solid peru', display: this.props.visibility}}/>
+                     style={{color: 'peru', border: '1px solid peru', backgroundColor: 'rgba(255, 173, 71, 0.2)', display: this.props.visibility}}/>
     }
 }
 export class AnalyzedTag extends React.Component {

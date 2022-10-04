@@ -309,7 +309,7 @@ const columns = [
                         <Link
                             variant="contained"
                             size="small"
-                            style={{marginLeft: 6, color: 'rgb(120, 120, 120)'}}
+                            style={{marginLeft: 6, color: '#444444'}}
                             href={params.getValue(params.id, 'href') || ''}
                             target={'_blank'}
                         >

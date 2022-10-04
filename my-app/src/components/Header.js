@@ -10,7 +10,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const useStyles = makeStyles((theme) => ({
     header: {
-        backgroundColor: "rgb(0, 151, 230)"
+        backgroundColor: "white"//"rgb(120,120,120, 0.1)",//"rgb(0, 151, 230)",
     },
     textField: {
         position: "absolute",
@@ -23,11 +23,12 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         right: "0.5%",
         height: "85%",
-        border: "1px solid white",
+        border: "2px solid rgb(0, 151, 230)",
         borderRadius: "5px",
         paddingLeft: "0.25%",
         paddingRight: "0.25%",
-        color: "white",
+        color: "#444444",
+        backgroundColor: "white",
         textTransform: "none",
         [theme.breakpoints.down('sm')]: {
             visibility: "hidden"
@@ -39,11 +40,11 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         left: "0.5%",
         height: "50%",
-        border: "1px solid white",
+        border: "2px solid rgb(0, 151, 230)",
         borderRadius: "5px",
         paddingLeft: "0.5%",
         paddingRight: "0.5%",
-        color: "rgb(0, 151, 230)",
+        color: "#444444",
         textTransform: "none",
         backgroundColor: "white",
         [theme.breakpoints.down('sm')]: {
@@ -55,7 +56,8 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         margin: 'auto',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: "#444444"
     },
 }));
 

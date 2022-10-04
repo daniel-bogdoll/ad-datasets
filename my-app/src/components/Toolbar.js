@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
         paddingLeft: 5,
         paddingRight: 5,
         display: 'flex',
+        color: 'rgb(0, 151, 230)'
     },
     textField: {
         paddingLeft: 5,
@@ -29,9 +30,9 @@ export function QuickSearchToolbar(props) {
     return (
         <div className={classes.root}>
             <div>
-                <GridToolbarFilterButton />
-                <GridToolbarColumnsButton />
-                <GridToolbarExport />
+                <GridToolbarFilterButton style={{color: "rgb(0, 151, 230)"}}/>
+                <GridToolbarColumnsButton style={{color: "rgb(0, 151, 230)"}}/>
+                <GridToolbarExport style={{color: "rgb(0, 151, 230)"}}/>
             </div>
             <TextField hiddenLabel size={"small"}
                 color={"info"}
@@ -40,17 +41,16 @@ export function QuickSearchToolbar(props) {
                 placeholder="search…"
                 className={classes.textField}
                 InputProps={{
-                    startAdornment: <SearchIcon fontSize="small" color={"primary"} />,
+                    startAdornment: <SearchIcon fontSize="small" style={{color: "rgb(0, 151, 230)"}} />,
                     endAdornment: (
                         <IconButton
                             title="Clear"
                             aria-label="Clear"
                             size="small"
-                            style={{ visibility: props.value ? 'visible' : 'hidden' }}
+                            style={{ visibility: props.value ? 'visible' : 'hidden'}}
                             onClick={props.clearSearch}
-                            color={"primary"}
                         >
-                            <ClearIcon fontSize="small" color={"primary"} />
+                            <ClearIcon fontSize="small" style={{color: "rgb(0, 151, 230)"}} />
                         </IconButton>
                     ),
                 }}

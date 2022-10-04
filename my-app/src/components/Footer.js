@@ -61,7 +61,7 @@ export function CustomFooter (props) {
                                 page = {props.page}
                                 onPageChange = {props.onPageChange}
                                 rowsPerPage =  {props.rows}
-                                rowsPerPageOptions =  {[10, 20, 40, 100]}
+                                rowsPerPageOptions =  {[10, 20, 40]}
                                 onRowsPerPageChange = {props.onRowsPerPageChange}
                             />
                         </Grid>

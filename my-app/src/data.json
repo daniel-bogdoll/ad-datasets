@@ -4506,11 +4506,26 @@
 "DOI": "10.1109/icra46639.2022.9811699"
 },
 {
-  "id": "On Salience-Sensitive Sign Classification in Autonomous Vehicle Path Planning",
+  "id": "LISA Amazon-MLSL Vehicle Attributes (LAVA)",
   "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf"
 },
 {
-  "id": "The Autonomous Platform Inertial Dataset",
+  "id": "Street Obstacle Sequences (SOS)",
+  "relatedPaper": "https://arxiv.org/pdf/2210.02074.pdf",
+  "href":"https://zenodo.org/communities/buw-ood-tracking/?page=1&size=20"
+},
+{
+  "id": "Wuppertal Obstacle Sequences (WOS)",
+  "relatedPaper": "https://arxiv.org/pdf/2210.02074.pdf",
+  "href":"https://zenodo.org/communities/buw-ood-tracking/?page=1&size=20"
+},
+{
+  "id": "CARLA-WildLife (CWL)",
+  "relatedPaper": "https://arxiv.org/pdf/2210.02074.pdf",
+  "href":"https://zenodo.org/communities/buw-ood-tracking/?page=1&size=20"
+}, 
+{
+  "id": "Autonomous Platform Inertial",
   "href": "https://github.com/ansfl/Navigation-Data-Project/",
   "relatedPaper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684368",
   "DOI": "10.1109/ACCESS.2022.3144076"

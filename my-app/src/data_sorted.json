@@ -25,7 +25,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Cars Dataset",
+        "id": "Cars",
         "href": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
         "size_storage": "-",
         "size_hours": "-",
@@ -460,7 +460,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "LISA Traffic Sign Dataset",
+        "id": "LISA Traffic Sign",
         "href": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
         "size_storage": "-",
         "size_hours": "-",
@@ -566,7 +566,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Stanford Drone Dataset",
+        "id": "Stanford Drone",
         "href": "https://cvgl.stanford.edu/projects/uav_data/",
         "size_storage": "69",
         "size_hours": "-",
@@ -650,7 +650,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "CULane Dataset",
+        "id": "CULane",
         "href": "https://xingangpan.github.io/projects/CULane.html",
         "size_storage": "42.5",
         "size_hours": "-",
@@ -1038,7 +1038,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "INTERACTION dataset",
+        "id": "INTERACTION",
         "href": "https://interaction-dataset.com/",
         "size_storage": "-",
         "size_hours": "16.5",
@@ -1066,7 +1066,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "LISA Traffic Light Dataset",
+        "id": "LISA Traffic Light",
         "href": "http://cvrr.ucsd.edu/LISA/datasets.html",
         "size_storage": "5",
         "size_hours": "0.75",
@@ -1122,7 +1122,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "India Driving Dataset",
+        "id": "India Driving",
         "href": "https://idd.insaan.iiit.ac.in/",
         "size_storage": "-",
         "size_hours": "-",
@@ -1486,7 +1486,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Complex Urban Dataset",
+        "id": "Complex Urban",
         "href": "https://sites.google.com/view/complex-urban-dataset",
         "size_storage": "-",
         "size_hours": "-",
@@ -1514,7 +1514,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Complex Urban Dataset",
+        "id": "Complex Urban",
         "href": "https://sites.google.com/view/complex-urban-dataset",
         "size_storage": "-",
         "size_hours": "-",
@@ -1794,7 +1794,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Five Roundabouts Dataset",
+        "id": "Five Roundabouts",
         "href": "http://its.acfr.usyd.edu.au/datasets-2/five-roundabouts-dataset/",
         "size_storage": "0.5",
         "size_hours": "-",
@@ -1906,7 +1906,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "LiDAR-Video Driving Dataset",
+        "id": "LiDAR-Video Driving",
         "href": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_LiDAR-Video_Driving_Dataset_CVPR_2018_paper.pdf",
         "size_storage": "1000",
         "size_hours": "-",
@@ -2214,7 +2214,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Synthetic Discrepancy Datasets",
+        "id": "Synthetic Discrepancy",
         "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
         "size_storage": "0.2",
         "size_hours": "-",
@@ -2354,7 +2354,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "The EuroCity Persons Dataset",
+        "id": "EuroCity Persons",
         "href": "https://arxiv.org/abs/1805.07193",
         "size_storage": "-",
         "size_hours": "-",
@@ -2501,7 +2501,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "RELLIS-3D Dataset",
+        "id": "RELLIS-3D",
         "href": "https://unmannedlab.github.io/research/RELLIS-3D",
         "size_storage": "58.1",
         "size_hours": "-",
@@ -2529,7 +2529,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Ford Autonomous Vehicle Dataset",
+        "id": "Ford Autonomous Vehicle",
         "href": "https://avdata.ford.com/",
         "size_storage": "-",
         "size_hours": "-",
@@ -2836,7 +2836,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "DIPLECS Autonomous Driving Datasets",
+        "id": "DIPLECS Autonomous Driving",
         "href": "https://cvssp.org/data/diplecs/",
         "size_storage": "-",
         "size_hours": "4",
@@ -2864,7 +2864,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "CARRADA Dataset",
+        "id": "CARRADA",
         "href": "https://github.com/valeoai/carrada_dataset",
         "size_storage": "288",
         "size_hours": "-",
@@ -3004,7 +3004,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "DDD20: DAVIS Driving Dataset 2020",
+        "id": "DDD20: DAVIS Driving 2020",
         "href": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub",
         "size_storage": "1300",
         "size_hours": "51",
@@ -3088,7 +3088,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Seasonal Variation Dataset",
+        "id": "Seasonal Variation",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
         "size_storage": "-",
         "size_hours": "-",
@@ -3116,7 +3116,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Bay Area Dataset",
+        "id": "Bay Area",
         "href": "http://www.cs.cmu.edu/~aayushb/localization/",
         "size_storage": "-",
         "size_hours": "-",
@@ -3172,7 +3172,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "DriveU Traffic Light Dataset",
+        "id": "DriveU Traffic Light",
         "href": "https://www.uni-ulm.de/en/in/driveu/projects/driveu-traffic-light-dataset/",
         "size_storage": "-",
         "size_hours": "-",
@@ -3676,6 +3676,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "HSD",
+        "href": "https://usa.honda-ri.com/hsd",
+        "size_storage": "60",
+        "size_hours": "80",
+        "frames": "-",
+        "numberOfScenes": "20000",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "2x Pointgrey Grasshopper (80FOV), 1x Grasshopper (100FOV)",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "road places, road types, weather, and road surface conditions",
+        "licensing": "Available for research for people affiliated with a university upon registration",
+        "relatedDatasets": "HDBD, HAD, HDD, HEV-I, LOKI, TITAN and EPOSH",
+        "publishDate": "2019-05-01",
+        "lastUpdate": "-",
+        "paperTitle": "Dynamic Traffic Scene Classification with Space-Time Coherence",
+        "relatedPaper": "https://arxiv.org/pdf/1905.12708.pdf",
+        "location": "San Francisco Bay area, USA",
+        "rawData": "Yes",
+        "DOI": "10.1109/ICRA.2019.8794137",
+        "citationCount": 12,
+        "completionStatus": "complete"
+    },
+    {
         "id": "MCity Data Collection",
         "href": "https://arxiv.org/pdf/1912.06258.pdf",
         "size_storage": "11000",
@@ -3871,7 +3899,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "The USyd Campus Dataset",
+        "id": "USyd Campus",
         "href": "http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/",
         "size_storage": "-",
         "size_hours": "40",
@@ -3977,7 +4005,7 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "Cooperative Driving Dataset (CODD)",
+        "id": "Cooperative Driving (CODD)",
         "href": "https://github.com/eduardohenriquearnold/CODD",
         "size_hours": "-",
         "size_storage": "16.7",
@@ -4236,7 +4264,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "MIT-AVT Clustered Driving Scene Dataset",
+        "id": "MIT-AVT Clustered Driving Scene",
         "href": "https://ieeexplore.ieee.org/abstract/document/9304677/",
         "size_storage": "4000",
         "size_hours": "3212",
@@ -4404,7 +4432,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Automatum Dataset (Open Highway)",
+        "id": "Automatum (Open Highway)",
         "href": "https://automatum-data.com/#dataset",
         "size_storage": "-",
         "size_hours": "-",
@@ -4456,6 +4484,34 @@
         "location": "Beijing, China",
         "rawData": "Yes",
         "DOI": "10.1109/TVT.2022.3143173",
+        "citationCount": 1,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "Gated2Gated",
+        "href": "https://github.com/princeton-computational-imaging/Gated2Gated#gated2gated--self-supervised-depth-estimation-from-gated-images",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "130000",
+        "numberOfScenes": "1835",
+        "samplingRate": "10",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, lidar, imu, weather sensor",
+        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
+        "recordingPerspective": "Ego-perspective",
+        "dataType": "real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "-",
+        "licensing": "Freely available for research and teaching purposes",
+        "relatedDatasets": "SeeingThroughFog, PointCloudDeNoising, Gated2Depth",
+        "publishDate": "2021-12-04",
+        "lastUpdate": "-",
+        "paperTitle": "Gated2Gated: Self-Supervised Depth Estimation from Gated Images",
+        "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf",
+        "location": "Germany, Sweden, Denmark and Finland",
+        "rawData": "-",
+        "DOI": "10.48550/arXiv.2112.02416",
         "citationCount": 1,
         "completionStatus": "complete"
     },
@@ -4524,7 +4580,7 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "WZ-traffic dataset",
+        "id": "WZ-traffic",
         "href": "https://github.com/Fangyu0505/traffic-scene-recognition",
         "citationCount": 0,
         "completionStatus": "partially Complete"
@@ -4557,7 +4613,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Astyx Dataset",
+        "id": "Astyx",
         "href": "https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/astyx_dataset.html",
         "citationCount": 0,
         "completionStatus": "partially Complete"
@@ -4575,13 +4631,13 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "UDrive Dataset",
+        "id": "UDrive",
         "href": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqnfKIoK3uAhUOuaQKHZwcDEgQFjASegQIFBAC&url=https%3A%2F%2Ferticonetwork.com%2Fwp-content%2Fuploads%2F2017%2F12%2FUDRIVE-D41.1-UDrive-dataset-and-key-analysis-results-with-annotation-codebook.pdf&usg=AOvVaw17NgwnPrIal53hUYco9klG",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },
     {
-        "id": "PolySync Dataset",
+        "id": "PolySync",
         "href": "http://selfracingcars.com/blog/2016/7/26/polysync",
         "citationCount": 0,
         "completionStatus": "partially Complete"
@@ -4643,7 +4699,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "KUL Belgium Traffic Sign dataset",
+        "id": "KUL Belgium Traffic Sign",
         "href": "https://people.ee.ethz.ch/~timofter/traffic_signs/",
         "size_storage": "50",
         "size_hours": "-",
@@ -4815,13 +4871,13 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "Cheddar Gorge Dataset",
+        "id": "Cheddar Gorge",
         "href": "https://www.researchgate.net/publication/228428941_The_Cheddar_Gorge_Data_Set",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },
     {
-        "id": "The Annotated Laser Dataset",
+        "id": "Annotated Laser",
         "href": "https://journals.sagepub.com/doi/pdf/10.1177/0278364910389840",
         "citationCount": 0,
         "completionStatus": "partially Complete"
@@ -4833,7 +4889,7 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "FLIR Thermal Dataset",
+        "id": "FLIR Thermal",
         "href": "https://www.flir.com/oem/adas/adas-dataset-form/",
         "size_storage": "16.74",
         "size_hours": "-",
@@ -4927,7 +4983,7 @@
         "completionStatus": "partially Complete"
     },
     {
-        "id": "R3 Driving Dataset",
+        "id": "R3 Driving",
         "href": "https://github.com/rllab-snu/R3-Driving-Dataset",
         "size_storage": "-",
         "size_hours": "-",
@@ -4997,7 +5053,7 @@
         "completionStatus": "incomplete"
     },
     {
-        "id": "Argoverse 2 Sensor Dataset",
+        "id": "Argoverse 2 Sensor",
         "href": "https://www.argoverse.org/av2.html",
         "size_storage": "1000",
         "size_hours": "-",
@@ -5025,7 +5081,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Argoverse 2 Motion Forecasting Dataset",
+        "id": "Argoverse 2 Motion Forecasting",
         "href": "https://www.argoverse.org/av2.html",
         "size_storage": "58",
         "size_hours": "763",
@@ -5053,7 +5109,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Argoverse 2 Lidar Dataset",
+        "id": "Argoverse 2 Lidar",
         "href": "https://www.argoverse.org/av2.html",
         "size_storage": "5000",
         "size_hours": "-",
@@ -5081,7 +5137,7 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Argoverse 2 Map Change Dataset",
+        "id": "Argoverse 2 Map Change",
         "href": "https://www.argoverse.org/av2.html",
         "size_storage": "1000",
         "size_hours": "-",
@@ -5226,34 +5282,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "HSD",
-        "href": "https://usa.honda-ri.com/hsd",
-        "size_storage": "60",
-        "size_hours": "80",
-        "frames": "-",
-        "numberOfScenes": "20000",
-        "samplingRate": "30",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "2x Pointgrey Grasshopper (80FOV), 1x Grasshopper (100FOV)",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "road places, road types, weather, and road surface conditions",
-        "licensing": "Available for research for people affiliated with a university upon registration",
-        "relatedDatasets": "HDBD, HAD, HDD, HEV-I, LOKI, TITAN and EPOSH",
-        "publishDate": "2019-05-01",
-        "lastUpdate": "-",
-        "paperTitle": "Dynamic Traffic Scene Classification with Space-Time Coherence",
-        "relatedPaper": "https://arxiv.org/pdf/1905.12708.pdf",
-        "location": "San Francisco Bay area, USA",
-        "rawData": "Yes",
-        "DOI": "10.1109/ICRA.2019.8794137",
-        "citationCount": 0,
-        "completionStatus": "complete"
-    },
-    {
         "id": "EPOSH",
         "href": "https://usa.honda-ri.com/eposh",
         "size_storage": "",
@@ -5278,34 +5306,6 @@
         "location": "San Francisco Bay Area, USA",
         "rawData": "",
         "DOI": "",
-        "citationCount": 0,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "Gated2Gated",
-        "href": "https://github.com/princeton-computational-imaging/Gated2Gated#gated2gated--self-supervised-depth-estimation-from-gated-images",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "130000",
-        "numberOfScenes": "1835",
-        "samplingRate": "10",
-        "lengthOfScenes": "-",
-        "sensors": "camera, radar, lidar, imu, weather sensor",
-        "sensorDetail": "2x stereo cameras 1920x1024 30Hz, 1 gated camera 1280x720 120Hz, 1 FMCW radar 15Hz, 2x Velodyne lidars 10Hz, 1 FIR camera 640x480 30Hz, 1 Airmar WX150 weather sensor (temperature, wind speed and humidity)",
-        "recordingPerspective": "Ego-perspective",
-        "dataType": "real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "-",
-        "licensing": "Freely available for research and teaching purposes",
-        "relatedDatasets": "SeeingThroughFog, PointCloudDeNoising, Gated2Depth",
-        "publishDate": "2021-12-04",
-        "lastUpdate": "-",
-        "paperTitle": "Gated2Gated: Self-Supervised Depth Estimation from Gated Images",
-        "relatedPaper": "https://arxiv.org/pdf/2112.02416.pdf",
-        "location": "Germany, Sweden, Denmark and Finland",
-        "rawData": "-",
-        "DOI": "10.48550/arXiv.2112.02416",
         "citationCount": 0,
         "completionStatus": "complete"
     }

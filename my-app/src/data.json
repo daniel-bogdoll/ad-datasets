@@ -4524,6 +4524,11 @@
   "relatedPaper": "https://arxiv.org/pdf/2210.02074.pdf",
   "href":"https://zenodo.org/communities/buw-ood-tracking/?page=1&size=20"
 }, 
+ {
+  "id": "R-U-MAAD",
+  "relatedPaper": "https://arxiv.org/pdf/2209.01838.pdf",
+  "href":"https://github.com/againerju/r_u_maad"
+}, 
 {
   "id": "Autonomous Platform Inertial",
   "href": "https://github.com/ansfl/Navigation-Data-Project/",

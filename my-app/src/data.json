@@ -3225,6 +3225,11 @@
 "href": "https://www.researchgate.net/publication/277476726_Towards_Ubiquitous_Autonomous_Driving_The_CCSAD_Dataset"
 },
 {
+"id": "Provident Vehicle Detection at Night (PVDN)",
+"href": "https://www.kaggle.com/datasets/saralajew/provident-vehicle-detection-at-night-pvdn",
+"relatedPaper": "https://arxiv.org/pdf/2105.13236.pdf"
+},
+{
 "id": "Street Learn",
 "href": "https://sites.google.com/view/streetlearn/dataset",
 "size_storage": "-",

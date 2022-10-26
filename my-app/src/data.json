@@ -3891,7 +3891,28 @@
 {
 "id":"K-Radar",
 "href": "https://github.com/kaist-avelab/K-Radar",
-"relatedPaper":"https://arxiv.org/abs/2206.08171"
+"size_storage": "11748",
+"size_hours": "-",
+"frames": "35000",
+"numberOfScenes": "58",
+"samplingRate": "-",
+"lengthOfScenes": "-",
+"sensors": "camera, lidar, radar, gps/imu",
+"sensorDetail": "4x ZED2i stereo cameras 1280x720 110° 30Hz, 1x os2-64 long range Lidar 360° 10Hz, 1x os1-128 high res. Lidar 360° 10Hz, 1x RETINA-4ST 4D Radar 107° 10Hz, 1x GPS500 C94-M8P3 RTK-GPS 1Hz, 2x IMUs (built in LiDaR) 100Hz",
+"recordingPerspective": "ego-perspective",
+"dataType":"Real",
+"mapData": "No",
+"benchmark": "-",
+"annotations": "Annotated 3d bounding boxes with doppler, range, azimuth, and elevation dimensions",
+"licensing": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)",
+"relatedDatasets": "K-Lane",
+"publishDate":"2022-06-16",
+"lastUpdate": "-",
+"paperTitle": "K-Radar: 4D Radar Object Detection for Autonomous Driving in Various Weather Conditions",
+"relatedPaper":"https://arxiv.org/abs/2206.08171",
+"location": " Dae-jeon city and Gang-won province, South Korea",
+"rawData": "-",
+"DOI": "10.48550/arXiv.2206.08171"
 },
 {
 "id":"Road Scene Graph",
@@ -5099,7 +5120,7 @@
 "lastUpdate": "-",
 "paperTitle": "Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics",
 "relatedPaper": "https://ieeexplore.ieee.org/document/8793235",
-"location": "Belgium and Unreal Engine 4",
+"location": "Belgium",
 "rawData": "-",
 "DOI": "10.1109/TITS.2019.2931429"
 }

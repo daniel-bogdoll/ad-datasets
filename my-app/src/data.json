@@ -4807,10 +4807,31 @@
 "rawData": "-",
 "DOI": "10.48550/arXiv.2210.02074"
 },  
- {
-  "id": "R-U-MAAD",
-  "relatedPaper": "https://arxiv.org/pdf/2209.01838.pdf",
-  "href":"https://github.com/againerju/r_u_maad"
+{
+"id": "R-U-MAAD",
+"href":"https://github.com/againerju/r_u_maad",
+"size_storage": "",
+"size_hours": "",
+"frames": "",
+"numberOfScenes": "160",
+"samplingRate": "10",
+"lengthOfScenes": "",
+"sensors": "",
+"sensorDetail": "Data taken from Argoverse dataset and anomalies introduced",
+"recordingPerspective": "Bird's Eye View",
+"dataType":"",
+"mapData": "",
+"benchmark": "Unsupervised Anomaly Detection in Multi-Agent Trajectories",
+"annotations": "",
+"licensing": "",
+"relatedDatasets": "",
+"publishDate":"2022-09-05",
+"lastUpdate": "-",
+"paperTitle": "A Benchmark for Unsupervised Anomaly Detection in Multi-Agent Trajectories",
+"relatedPaper": "https://arxiv.org/pdf/2209.01838.pdf",
+"location": "",
+"rawData": "",
+"DOI": "10.48550/arXiv.2209.01838"
 }, 
 {
   "id": "Autonomous Platform Inertial",

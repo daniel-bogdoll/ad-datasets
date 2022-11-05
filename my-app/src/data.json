@@ -4751,6 +4751,11 @@
   "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf"
 },
 {
+  "id": "MONA: The Munich Motion Dataset of Natural Driving",
+  "relatedPaper": "https://ieeexplore.ieee.org/document/9922263",
+  "href":"https://commonroad.in.tum.de/"
+},
+{
 "id": "Street Obstacle Sequences (SOS)",
 "href": "https://zenodo.org/record/7144906#.Y074l3ZBxD8",
 "size_storage": "3.3",

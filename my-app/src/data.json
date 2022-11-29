@@ -28,6 +28,18 @@
   "relatedPaper": "https://arxiv.org/pdf/2211.09445.pdf"
 },
 {
+  "id": "ROAD-R",
+  "href": "https://github.com/gurkirt/road-dataset",
+  "paperTitle": "ROAD-R: The Autonomous Driving Dataset with Logical Requirements",
+  "relatedPaper": "https://arxiv.org/abs/2210.01597"
+},
+{
+  "id": "I see you",
+  "href": "https://github.com/hvzzzz/Vehicle_Trajectory_Dataset",
+  "paperTitle": "I see you: A Vehicle-Pedestrian Interaction Dataset from Traffic Surveillance Cameras",
+  "relatedPaper": "https://arxiv.org/abs/2211.09342"
+},
+{
 "id": "nuScenes",
 "href": "https://www.nuscenes.org/",
 "size_hours": "15",

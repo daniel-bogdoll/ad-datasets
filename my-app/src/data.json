@@ -28,10 +28,16 @@
   "relatedPaper": "https://arxiv.org/pdf/2211.09445.pdf"
 },
 {
-  "id": "ROAD-R",
-  "href": "https://github.com/gurkirt/road-dataset",
-  "paperTitle": "ROAD-R: The Autonomous Driving Dataset with Logical Requirements",
-  "relatedPaper": "https://arxiv.org/abs/2210.01597"
+  "id": "DANGER-vKITTI2",
+  "href": "https://github.com/jayhsu0627/DANGER",
+  "paperTitle": "A Framework for Generating Dangerous Scenes for Testing Robustness",
+  "relatedPaper": "https://openreview.net/pdf?id=ZjN2AuXgu1"
+},
+{
+  "id": "DANGER-vKITTI",
+  "href": "https://github.com/jayhsu0627/DANGER",
+  "paperTitle": "A Framework for Generating Dangerous Scenes for Testing Robustness",
+  "relatedPaper": "https://openreview.net/pdf?id=ZjN2AuXgu1"
 },
 {
   "id": "I see you",

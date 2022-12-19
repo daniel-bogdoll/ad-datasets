@@ -218,7 +218,7 @@
 "sensorDetail": "crowd-sourced therefore no fixed setup, camera (720p) and gps/imu",
 "benchmark": "object detection, instance segmentation, multiple object tracking, segmentation tracking, semantic segmentation, lane marking, drivable area, image tagging, imitation learning, domain adaption",
 "annotations": "bounding boxes, instance segmentation, semantic segmentation, box tracking, semantic tracking, drivable area",
-"licensing": "BSD 3-Clause",
+"licensing": "Individual License (https://doc.bdd100k.com/license.html)",
 "relatedDatasets": "-",
 "publishDate": "2020-04-01",
 "lastUpdate": "-",

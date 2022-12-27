@@ -4919,9 +4919,30 @@
   "relatedPaper": "https://arxiv.org/pdf/2112.00942.pdf"
 },
 {
-  "id": "MONA: The Munich Motion Dataset of Natural Driving",
-  "relatedPaper": "https://ieeexplore.ieee.org/document/9922263",
-  "href":"https://commonroad.in.tum.de/"
+"id": "MONA: The Munich Motion Dataset of Natural Driving",
+"href":"https://commonroad.in.tum.de/",
+"size_storage": "4300",
+"size_hours": "130",
+"frames": "-",
+"numberOfScenes": "260",
+"samplingRate": "25",
+"lengthOfScenes": "1800",
+"sensors": "camera",
+"sensorDetail": "3x Sony FDR-AX43 3840x2160 25Hz",
+"recordingPerspective": "Bird's Eye View",
+"dataType":"Real",
+"mapData": "Yes",
+"benchmark": "-",
+"annotations": "trajectory information",
+"licensing": "Available for non-commercial and commercial use.",
+"relatedDatasets": "-",
+"publishDate":"2022-10-08",
+"lastUpdate": "-",
+"paperTitle": "MONA: The Munich Motion Dataset of Natural Driving",
+"relatedPaper": "https://ieeexplore.ieee.org/document/9922263",
+"location": "Munich, Germany",
+"rawData": "Yes",
+"DOI": "10.1109/ITSC55140.2022.9922263"
 },
 {
 "id": "Street Obstacle Sequences (SOS)",

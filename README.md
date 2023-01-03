@@ -138,6 +138,6 @@ If you find our work useful for your research, please cite our [paper](https://a
     author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
     title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
     journal   = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
-    year      = {2023}
+    year      = {2022}
 }
 ```

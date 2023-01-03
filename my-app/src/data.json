@@ -19,7 +19,7 @@
   "relatedPaper": "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
   "location": "Karlsruhe, Germany",
   "rawData": "Yes",
-  "DOI": "10.1177%2F0278364913491297"
+  "DOI": "10.1177/0278364913491297"
 },
 {
 "id": "aiMotive",
@@ -106,10 +106,10 @@
 "publishDate": "2016-11-01",
 "lastUpdate": "2020-02-01",
 "paperTitle": "1 Year, 1000km: The Oxford RobotCar Dataset",
-"relatedPaper": "https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf",
+"relatedPaper": "https://journals.sagepub.com/doi/10.1177/0278364916679498",
 "location": "Oxford, UK",
 "rawData": "Yes",
-"DOI": "10.1177%2F0278364916679498"
+"DOI": "10.1177/0278364916679498"
 },
 {
 "id": "Waymo Open Perception", 
@@ -326,7 +326,7 @@
 "publishDate": "2020-06-01",
 "lastUpdate": "-",
 "paperTitle": "One Thousand and One Hours: Self-driving Motion Prediction Dataset",
-"relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
+"relatedPaper": "https://arxiv.org/abs/2006.14480",
 "location": "Palo Alto, USA",
 "rawData": "No",
 "DOI": "10.48550/arXiv.2006.14480"
@@ -378,7 +378,7 @@
 "publishDate": "2019-07-01",
 "lastUpdate": "-",
 "paperTitle": "One Thousand and One Hours: Self-driving Motion Prediction Dataset",
-"relatedPaper": "https://arxiv.org/pdf/2006.14480v1.pdf",
+"relatedPaper": "https://arxiv.org/abs/2006.14480",
 "location": "Palo Alto, USA",
 "rawData": "Yes",
 "DOI": "10.48550/arXiv.2006.14480"
@@ -429,8 +429,8 @@
 "relatedDatasets": "-",
 "publishDate": "2020-04-01",
 "lastUpdate": "-",
-"paperTitle": "-",
-"relatedPaper": "-",
+"paperTitle": "PandaSet: Advanced Sensor Suite Dataset for Autonomous Driving",
+"relatedPaper": "https://arxiv.org/abs/2112.12610",
 "location": "San Francisco and El Camina Real, USA",
 "rawData": "Yes",
 "DOI": "-"
@@ -534,7 +534,7 @@
 "publishDate": "2018-12-01",
 "lastUpdate": "-",
 "paperTitle": "A Commute in Data: The comma2k19 Dataset",
-"relatedPaper": "http://export.arxiv.org/pdf/1812.05752",
+"relatedPaper": "https://arxiv.org/abs/1812.05752",
 "location": "California's 280 highway, USA",
 "rawData": "Yes",
 "DOI": "10.48550/arXiv.1812.05752"
@@ -542,7 +542,7 @@
 {
 "id":"Comma2k19 LD",
 "href":"https://github.com/ASGuard-UCI/ld-metric",
-"relatedPaper":"https://openaccess.thecvf.com/content/CVPR2022/papers/Sato_Towards_Driving-Oriented_Metric_for_Lane_Detection_Models_CVPR_2022_paper.pdf"
+"relatedPaper":"https://arxiv.org/abs/2203.16851"
 },
 {
 "id": "KITTI-360",
@@ -565,7 +565,7 @@
 "publishDate": "2015-11-01",
 "lastUpdate": "2021-04-01",
 "paperTitle": "Semantic Instance Annotation of Street Scenes by 3D to 2D Label Transfer",
-"relatedPaper": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xie_Semantic_Instance_Annotation_CVPR_2016_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/1511.03240",
 "location": "Karlsruhe, Germany",
 "rawData": "Yes",
 "DOI": "10.1109/CVPR.2016.401"
@@ -718,7 +718,7 @@
 "publishDate":"2017-09-13",
 "lastUpdate": "2019-06-17",
 "paperTitle": "Complex urban dataset with multi-level sensors from highly diverse urban environments",
-"relatedPaper": "https://journals.sagepub.com/doi/pdf/10.1177/0278364919843996",
+"relatedPaper": "https://journals.sagepub.com/doi/10.1177/0278364919843996",
 "location": "South Korea",
 "rawData": "Yes",
 "DOI": "10.1177/0278364919843996"
@@ -770,7 +770,7 @@
 "publishDate": "2020-03-01",
 "lastUpdate": "-",
 "paperTitle": "",
-"relatedPaper": "https://s23.q4cdn.com/258866874/files/doc_downloads/2020/03/2003.07969.pdf",
+"relatedPaper": "https://arxiv.org/abs/2003.07969",
 "location": "Michigan, USA",
 "rawData": "True",
 "DOI": "10.1177/0278364920961451"
@@ -978,7 +978,7 @@
 "publishDate": "2018-11-01",
 "lastUpdate": "-",
 "paperTitle": "IDD: A Dataset for Exploring Problems of Autonomous Navigation in Unconstrained Environments",
-"relatedPaper": "https://idd.insaan.iiit.ac.in/media/publications/idd-650.pdf",
+"relatedPaper": "https://arxiv.org/abs/1811.10200",
 "location": "Bangalore and Hyderabad, India",
 "rawData": "Yes",
 "DOI": "10.1109/WACV.2019.00190"
@@ -1004,7 +1004,7 @@
 "publishDate": "2018-10-01",
 "lastUpdate": "-",
 "paperTitle": "Synscapes: A Photorealistic Synthetic Dataset for Street Scene Parsing",
-"relatedPaper": "https://arxiv.org/pdf/1810.08705v1.pdf",
+"relatedPaper": "https://arxiv.org/abs/1810.08705",
 "location": "-",
 "rawData": "-",
 "DOI": "10.48550/arXiv.1810.08705"
@@ -1134,7 +1134,7 @@
 "publishDate":"2018-11-04",
 "lastUpdate": "-",
 "paperTitle": "Dark Model Adaptation: Semantic Image Segmentation from Daytime to Nighttime",
-"relatedPaper": "http://people.ee.ethz.ch/~daid/publications/DarkModelAdaptation.pdf",
+"relatedPaper": "https://arxiv.org/abs/1810.02575",
 "location": "Switzerland",
 "rawData": "-",
 "DOI": "10.1109/ITSC.2018.8569387"
@@ -1209,7 +1209,7 @@
 "publishDate": "-",
 "lastUpdate": "-",
 "paperTitle": "ROAD: The ROad event Awareness Dataset for Autonomous Driving",
-"relatedPaper": "https://www.computer.org/csdl/api/v1/periodical/trans/tp/5555/01/09712346/1AZL0P4dL1e/download-article/pdf",
+"relatedPaper": "https://arxiv.org/abs/2102.11585",
 "location": "Oxford, UK",
 "rawData": "-",
 "DOI": "10.1109/TPAMI.2022.3150906"
@@ -1260,7 +1260,7 @@
 "publishDate":"2018-11-27",
 "lastUpdate": "2021-04",
 "paperTitle": "The DriveU Traffic Light Dataset: Introduction and Comparison with Existing Datasets",
-"relatedPaper": "https://www.researchgate.net/profile/Julian-Mueller-14/publication/327808220_The_DriveU_Traffic_Light_Dataset_Introduction_and_Comparison_with_Existing_Datasets/links/5c1910e4a6fdccfc7056b787/The-DriveU-Traffic-Light-Dataset-Introduction-and-Comparison-with-Existing-Datasets.pdf ",
+"relatedPaper": "https://ieeexplore.ieee.org/document/8460737",
 "location": "10 cities across Germany",
 "rawData": "-",
 "DOI": "10.1109/ICRA.2018.8460737"
@@ -1337,7 +1337,7 @@
 "relatedDatasets": "PIE Dataset",
 "publishDate":"2016-09-15",
 "lastUpdate": "-",
-"paperTitle": "Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian Crosswalk Behavior",
+"paperTitle": "https://ieeexplore.ieee.org/document/8265243",
 "relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf",
 "location": "North America and Europe",
 "rawData": "-",
@@ -1390,7 +1390,7 @@
 "publishDate":"2018-03-07",
 "lastUpdate": "-",
 "paperTitle": "BoxCars: Improving Fine-Grained Recognition of Vehicles Using 3-D Bounding Boxes in Traffic Surveillance",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8307405",
+"relatedPaper": "https://arxiv.org/abs/1703.00686",
 "location": "Brno, Czech Republic",
 "rawData": "-",
 "DOI": "10.1109/TITS.2018.2799228"
@@ -1416,7 +1416,7 @@
 "publishDate":"2014-03-26",
 "lastUpdate": "-",
 "paperTitle": "Beyond PASCAL: A Benchmark for 3D Object Detection in the Wild",
-"relatedPaper": "https://cvgl.stanford.edu/papers/xiang_wacv14.pdf",
+"relatedPaper": "https://ieeexplore.ieee.org/document/6836101",
 "location": "-",
 "rawData": "-",
 "DOI": "10.1109/WACV.2014.6836101"
@@ -1525,6 +1525,12 @@
 "rawData": "-",
 "DOI": "-"
 },
+ {
+   "id": "TJ4DRadSet",
+   "href": "https://github.com/TJRadarLab/TJ4DRadSet",
+   "relatedPaper":"https://arxiv.org/abs/2204.13483",
+   "paperTitle":"TJ4DRadSet: A 4D Radar Dataset for Autonomous Driving"
+ }
 {
 "id": "PointCloudDeNoising",
 "href": "https://github.com/rheinzler/PointCloudDeNoising",
@@ -1546,7 +1552,7 @@
 "publishDate":"2019-12-09",
 "lastUpdate": "-",
 "paperTitle": "CNN-based Lidar Point Cloud De-Noising in Adverse Weather",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8990038",
+"relatedPaper": "https://arxiv.org/abs/1912.03874",
 "location": "CEREMA's climatic chamber",
 "rawData": "-",
 "DOI": "10.1109/LRA.2020.2972865"
@@ -1650,7 +1656,7 @@
 "publishDate":"2013",
 "lastUpdate": "-",
 "paperTitle": "3D Object Representations for Fine-Grained Categorization",
-"relatedPaper": "https://ai.stanford.edu/~jkrause/papers/3drr13.pdf",
+"relatedPaper": "https://ieeexplore.ieee.org/document/6755945",
 "location": "Sourced from internet",
 "rawData": "-",
 "DOI": "10.1109/ICCVW.2013.77"
@@ -1676,7 +1682,7 @@
 "publishDate":"2018-10-04",
 "lastUpdate": "-",
 "paperTitle": "CADP: A Novel Dataset for CCTV Traffic Camera based Accident Analysis",
-"relatedPaper": "https://ppms.cit.cmu.edu/media/project_files/CADP_IEEE_Camera_Ready_Final.pdf",
+"relatedPaper": "https://arxiv.org/abs/1809.05782",
 "location": "Videos sampled from YouTube",
 "rawData": "-",
 "DOI": "10.1109/AVSS.2018.8639160"
@@ -1736,7 +1742,7 @@
 "publishDate":"2019-04-03",
 "lastUpdate": "-",
 "paperTitle": "D^2-City: A Large-Scale Dashcam Video Dataset of Diverse Traffic Scenarios",
-"relatedPaper": "https://arxiv.org/pdf/1904.01975v1.pdf",
+"relatedPaper": "https://arxiv.org/abs/1904.01975",
 "location": "5 Chinese cities",
 "rawData": "-",
 "DOI": "10.48550/arXiv.1904.01975"
@@ -1766,6 +1772,11 @@
 "location": "Many states across the USA",
 "rawData": "Yes",
 "DOI": "10.1109/IV47402.2020.9304677"
+},
+{
+  "id":"SceNDD",
+  "relatedPaper":"https://arxiv.org/abs/2212.12436",
+  "paperTitle":"SceNDD: A Scenario-based Naturalistic Driving Dataset"
 },
 {
 "id": "DDAD",
@@ -1843,8 +1854,8 @@
 "relatedDatasets": "DriveSeg (Semi-auto)",
 "publishDate":"2020-04-06",
 "lastUpdate": "-",
-"paperTitle": "MIT DriveSeg (Manual) Dataset for Dynamic Driving Scene Segmentation",
-"relatedPaper": "https://ieee-dataport.s3.amazonaws.com/docs/25911/MIT_DriveSeg_Semiauto.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJOHYI4KJCE6Q7MIQ%2F20220522%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220522T125535Z&X-Amz-SignedHeaders=Host&X-Amz-Expires=86400&X-Amz-Signature=7e2583baac0a4ad83560a6945835066bead73730d912e573c360d500a5802022",
+"paperTitle": "Value of Temporal Dynamics Information in Driving Scene Segmentation",
+"relatedPaper": "https://arxiv.org/abs/1904.00758",
 "location": "-",
 "rawData": "-",
 "DOI": "10.21227/mmke-dv03"
@@ -1869,8 +1880,8 @@
 "relatedDatasets": "DriveSeg (MANUAL), MIT-AVT Clustered Driving Scene Dataset",
 "publishDate":"2020-04-06",
 "lastUpdate": "-",
-"paperTitle": "MIT DriveSeg (Semi-auto) Dataset: Large-scale Semi-automated Annotation of Semantic Driving Scenes",
-"relatedPaper": "https://ieee-dataport.s3.amazonaws.com/docs/25911/MIT_DriveSeg_Semiauto.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJOHYI4KJCE6Q7MIQ%2F20220522%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220522T125535Z&X-Amz-SignedHeaders=Host&X-Amz-Expires=86400&X-Amz-Signature=7e2583baac0a4ad83560a6945835066bead73730d912e573c360d500a5802022",
+"paperTitle": "Value of Temporal Dynamics Information in Driving Scene Segmentation",
+"relatedPaper": "https://arxiv.org/abs/1904.00758",
 "location": "-",
 "rawData": "-",
 "DOI": "10.21227/nb3n-kk46"
@@ -1896,11 +1907,18 @@
 "publishDate":"2009-12-07",
 "lastUpdate": "-",
 "paperTitle": "Multi-view traffic sign detection, recognition, and 3D localisation",
-"relatedPaper": "https://people.ee.ethz.ch/~timofter/publications/Timofte-MVA-2011-preprint.pdf",
+"relatedPaper": "https://ieeexplore.ieee.org/document/5403121",
 "location": "Belgium",
 "rawData": "Yes",
 "DOI": "10.1109/WACV.2009.5403121"
 },
+{
+ "id": "GLARE",
+  "href":"https://github.com/NicholasCG/GLARE_Dataset",
+  "relatedPaper":"https://arxiv.org/pdf/2209.08716.pdf",
+  "paperTitle":"GLARE: A Dataset for Traffic Sign Detection in Sun Glare
+"
+}
 {
 "id": "Brain4Cars",
 "href": "http://brain4cars.com/",
@@ -1922,7 +1940,7 @@
 "publishDate":"2015-12-13",
 "lastUpdate": "-",
 "paperTitle": "Car that Knows Before You Do: Anticipating Maneuvers via Learning Temporal Driving Models",
-"relatedPaper": "http://brain4cars.com/pdfs/iccv2015.pdf",
+"relatedPaper": "https://arxiv.org/abs/1504.02789",
 "location": "USA",
 "rawData": "-",
 "DOI": "10.1109/ICCV.2015.364"
@@ -1948,7 +1966,7 @@
 "publishDate":"2014-06-11",
 "lastUpdate": "-",
 "paperTitle": "Understanding How Camera Configuration and Environmental Conditions Affect Appearance-based Localization",
-"relatedPaper": "http://www.cs.cmu.edu/~aayushb/pubs/LocalizationPaperIV2014.pdf",
+"relatedPaper": "https://ieeexplore.ieee.org/document/6856605",
 "location": "California bay area and Pittsburgh, USA",
 "rawData": "Yes",
 "DOI": "10.1109/IVS.2014.6856605"
@@ -1974,7 +1992,7 @@
 "publishDate":"2014-06-11",
 "lastUpdate": "-",
 "paperTitle": "Understanding How Camera Configuration and Environmental Conditions Affect Appearance-based Localization",
-"relatedPaper": "http://www.cs.cmu.edu/~aayushb/pubs/LocalizationPaperIV2014.pdf",
+"relatedPaper": "https://ieeexplore.ieee.org/document/6856605",
 "location": "California bay area and Pittsburgh, USA",
 "rawData": "Yes",
 "DOI": "10.1109/IVS.2014.6856605"
@@ -2000,7 +2018,7 @@
 "publishDate":"2014-06-11",
 "lastUpdate": "-",
 "paperTitle": "Understanding How Camera Configuration and Environmental Conditions Affect Appearance-based Localization",
-"relatedPaper": "http://www.cs.cmu.edu/~aayushb/pubs/LocalizationPaperIV2014.pdf",
+"relatedPaper": "https://ieeexplore.ieee.org/document/6856605",
 "location": "California bay area and Pittsburgh, USA",
 "rawData": "Yes",
 "DOI": "10.1109/IVS.2014.6856605"
@@ -2078,7 +2096,7 @@
 "publishDate":"2018-04-27",
 "lastUpdate": "-",
 "paperTitle": "Spatial as Deep: Spatial CNN for Traffic Scene Understanding",
-"relatedPaper": "https://arxiv.org/pdf/1712.06080",
+"relatedPaper": "https://arxiv.org/abs/1712.06080",
 "location": "Beijing, China",
 "rawData": "-",
 "DOI": "10.1609/aaai.v32i1.12301"

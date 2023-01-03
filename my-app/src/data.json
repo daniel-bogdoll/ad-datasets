@@ -4834,7 +4834,8 @@
 {
   "id": "Boreas",
   "href": "https://www.boreas.utias.utoronto.ca/#/",
-  "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf"
+  "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
+  "paperTitle": "Boreas: A Multi-Season Autonomous Driving Dataset"
 },
 {
 "id": "DGL-MOTS",

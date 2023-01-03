@@ -2502,7 +2502,7 @@
 "publishDate":"2022-01-13",
 "lastUpdate": "-",
 "paperTitle": "Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images",
-"relatedPaper":"https://ieeexplore.ieee.org/document/9681287",
+"relatedPaper":"https://arxiv.org/abs/2108.03227",
 "location": "Karlsruhe, Germany",
 "rawData": "-",
 "DOI": "10.1109/LRA.2022.3142418"
@@ -2528,7 +2528,7 @@
 "publishDate":"2022-01-13",
 "lastUpdate": "-",
 "paperTitle": "Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images",
-"relatedPaper":"https://ieeexplore.ieee.org/document/9681287",
+"relatedPaper":"https://arxiv.org/abs/2108.03227",
 "location": "Boston, USA and Singapore",
 "rawData": "-",
 "DOI": "10.1109/LRA.2022.3142418"
@@ -2585,7 +2585,7 @@
 "publishDate":"2020-11-03",
 "lastUpdate": "-",
 "paperTitle": "The Mapillary Traffic Sign Dataset for Detection and Classification on a Global Scale",
-"relatedPaper": "https://link.springer.com/chapter/10.1007/978-3-030-58592-1_5",
+"relatedPaper": "https://arxiv.org/abs/1909.04422",
 "location": "Europe, North and South America, Asia, Africa and Oceania",
 "rawData": "-",
 "DOI": "10.1007/978-3-030-58592-1_5"
@@ -2819,7 +2819,7 @@
 "publishDate":"2022-04-18",
 "lastUpdate": "-",
 "paperTitle": "K-Lane: Lidar Lane Dataset and Benchmark for Urban Roads and Highways",
-"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.pdf" ,
+"relatedPaper": "https://arxiv.org/abs/2110.11048" ,
 "location": "-",
 "rawData": "Yes",
 "DOI": "10.1109/CVPRW56347.2022.00491"
@@ -2845,7 +2845,7 @@
 "publishDate":"2022-08-01",
 "lastUpdate": "-",
 "paperTitle": "Ithaca365: Dataset and Driving Perception under Repeated and Challenging Weather Conditions",
-"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Diaz-Ruiz_Ithaca365_Dataset_and_Driving_Perception_Under_Repeated_and_Challenging_Weather_CVPR_2022_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/2208.01166",
 "location": "-",
 "rawData": "Yes",
 "DOI": "10.48550/arXiv.2208.01166"
@@ -3065,7 +3065,7 @@
 "publishDate":"2017-10-22",
 "lastUpdate": "-",
 "paperTitle": "VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition",
-"relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_VPGNet_Vanishing_Point_ICCV_2017_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/1710.06288",
 "location": "Seoul, South Korea",
 "rawData": "-",
 "DOI": "10.1109/ICCV.2017.215"
@@ -3091,7 +3091,7 @@
 "publishDate":"2020-03-22",
 "lastUpdate": "2020-04-23",
 "paperTitle": "Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways",
-"relatedPaper": "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/2003.08284",
 "location": "Toronto, Canada",
 "rawData": "-",
 "DOI": "10.1109/CVPRW50498.2020.00109"
@@ -3117,7 +3117,7 @@
 "publishDate":"2017-10-22",
 "lastUpdate": "-",
 "paperTitle": "TorontoCity: Seeing the World with a Million Eyes",
-"relatedPaper": "http://www.cs.toronto.edu/~byang/papers/Tcity_iccv17.pdf",
+"relatedPaper": "https://arxiv.org/abs/1612.00423",
 "location": "Toronto, Canada",
 "rawData": "-",
 "DOI": "10.1109/ICCV.2017.327"
@@ -3455,7 +3455,7 @@
 "publishDate":"2008-06-04",
 "lastUpdate": "-",
 "paperTitle": "Real time Detection of Lane Markers in Urban Streets",
-"relatedPaper": "https://ieeexplore.ieee.org/abstract/document/4621152?casa_token=V3xXln8DOeUAAAAA:h4ALqmxoJhgv3D2Szr9llQIc0UwNNkGNXzHR2486xb478J9dm_Pthf2ay4Zdl3-uPtl-BMi762BM",
+"relatedPaper": "https://arxiv.org/abs/1411.7113",
 "location": "Pasadena, California, USA",
 "rawData": "-",
 "DOI": "10.1109/IVS.2008.4621152"
@@ -3585,7 +3585,7 @@
 "publishDate":"2017-12-10",
 "lastUpdate": "2018-09-26",
 "paperTitle": "The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8288670",
+"relatedPaper": "https://arxiv.org/abs/1801.10202",
 "location": "-",
 "rawData": "-",
 "DOI": "10.1109/LRA.2018.2800793"
@@ -3649,7 +3649,7 @@
 "publishDate":"2019-05-20",
 "lastUpdate": "-",
 "paperTitle": "BLVD: Building A Large-scale 5D Semantics Benchmark for Autonomous Driving",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8793523",
+"relatedPaper": "https://arxiv.org/abs/1903.06405",
 "location": "Changshu, Jiangsu Province, China",
 "rawData": "-",
 "DOI": "10.1109/ICRA.2019.8793523"
@@ -4104,7 +4104,7 @@
 "publishDate":"2019-05-13",
 "lastUpdate": "-",
 "paperTitle": "Naturalistic Driver Intention and Path Prediction Using Recurrent Neural Networks",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8713418",
+"relatedPaper": "https://arxiv.org/abs/1807.09995",
 "location": "Sydney, Australia",
 "rawData": "-",
 "DOI": "10.1109/TITS.2019.2913166"
@@ -4510,7 +4510,7 @@
 "publishDate":"2021-08-21",
 "lastUpdate": "-",
 "paperTitle": "Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting",
-"relatedPaper": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/4734ba6f3de83d861c3176a6273cac6d-Paper-round2.pdf",
+"relatedPaper": "https://arxiv.org/abs/2301.00493",
 "location": "Austin, Detroit, Miami, Palo Alto, Pittsburgh, and Washington D.C, USA",
 "rawData": "Yes",
 "DOI": "-"
@@ -4536,7 +4536,7 @@
 "publishDate":"2021-08-21",
 "lastUpdate": "-",
 "paperTitle": "Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting",
-"relatedPaper": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/4734ba6f3de83d861c3176a6273cac6d-Paper-round2.pdf",
+"relatedPaper": "https://arxiv.org/abs/2301.00493",
 "location": "Pittsburgh and Miami, USA",
 "rawData": "Yes",
 "DOI": "-"
@@ -4562,7 +4562,7 @@
 "publishDate":"2021-08-21",
 "lastUpdate": "-",
 "paperTitle": "Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting",
-"relatedPaper": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/4734ba6f3de83d861c3176a6273cac6d-Paper-round2.pdf",
+"relatedPaper": "https://arxiv.org/abs/2301.00493",
 "location": "Austin, Detroit, Miami, Palo Alto, Pittsburgh, and Washington D.C, USA",
 "rawData": "Yes",
 "DOI": "-"
@@ -4588,7 +4588,7 @@
 "publishDate":"2021-08-21",
 "lastUpdate": "-",
 "paperTitle": "Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting",
-"relatedPaper": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/4734ba6f3de83d861c3176a6273cac6d-Paper-round2.pdf",
+"relatedPaper": "https://arxiv.org/abs/2301.00493",
 "location": "Austin, Detroit, Miami, Palo Alto, Pittsburgh and Washington, D.C, USA",
 "rawData": "Yes",
 "DOI": "-"
@@ -4640,7 +4640,7 @@
 "publishDate":"2020-10-27",
 "lastUpdate": "-",
 "paperTitle": "Detecting the Unexpected via Image Resynthesis",
-"relatedPaper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Lis_Detecting_the_Unexpected_via_Image_Resynthesis_ICCV_2019_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/1904.07595",
 "location": "-",
 "rawData": "-",
 "DOI": "10.1109/ICCV.2019.00224"
@@ -4800,7 +4800,7 @@
 "publishDate":"2022-02-23",
 "lastUpdate": "-",
 "paperTitle": "Amodal Panoptic Segmentation",
-"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mohan_Amodal_Panoptic_Segmentation_CVPR_2022_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/2202.11542",
 "location": "Karlsruhe, Germany",
 "rawData": "",
 "DOI": "10.48550/arXiv.2202.11542"
@@ -4826,7 +4826,7 @@
 "publishDate":"2022-02-23",
 "lastUpdate": "-",
 "paperTitle": "Amodal Panoptic Segmentation",
-"relatedPaper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mohan_Amodal_Panoptic_Segmentation_CVPR_2022_paper.pdf",
+"relatedPaper": "https://arxiv.org/abs/2202.11542",
 "location": "New York, Berkeley, San Francisco and Bay Area, USA",
 "rawData": "-",
 "DOI": "10.48550/arXiv.2202.11542"
@@ -4910,7 +4910,7 @@
 "publishDate":"2021-06-05",
 "lastUpdate": "-",
 "paperTitle": "IPS300+: a Challenging multi-modal data sets for Intersection Perception System",
-"relatedPaper": "https://ieeexplore.ieee.org/document/9682587",
+"relatedPaper": "https://arxiv.org/abs/2106.02781",
 "location": "China",
 "rawData": "Yes",
 "DOI": "10.1109/icra46639.2022.9811699"
@@ -5102,7 +5102,7 @@
 "publishDate":"2019-06-15",
 "lastUpdate": "-",
 "paperTitle": "Grounding Human-To-Vehicle Advice for Self-Driving Vehicles",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8953562",
+"relatedPaper": "https://arxiv.org/abs/1911.06978",
 "location": "San Francisco Bay Area, USA",
 "rawData": "-",
 "DOI": "10.1109/CVPR.2019.01084"
@@ -5154,7 +5154,7 @@
 "publishDate":"2018-06-18",
 "lastUpdate": "-",
 "paperTitle": "Toward Driving Scene Understanding: A Dataset for Learning Driver Behavior and Causal Reasoning",
-"relatedPaper": "https://usa.honda-ri.com/documents/248678/249773/CVPR_18_HDD_Yi_Ting-v2.pdf/bb391444-9687-7b3b-0b34-c3534f15904f",
+"relatedPaper": "https://arxiv.org/abs/1811.02307",
 "location": "San Francisco Bay Area, USA",
 "rawData": "-",
 "DOI": "10.1109/CVPR.2018.00803"
@@ -5310,7 +5310,7 @@
 "publishDate":"2019-02-24",
 "lastUpdate": "-",
 "paperTitle": "Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather",
-"relatedPaper": "https://www.cs.princeton.edu/~fheide/AdverseWeatherFusion/figures/AdverseWeatherFusion.pdf",
+"relatedPaper": "https://arxiv.org/abs/1902.08913",
 "location": "Germany, Sweden, Denmark and Finland",
 "rawData": "-",
 "DOI": "10.1109/CVPR42600.2020.01170"
@@ -5440,7 +5440,7 @@
 "publishDate":"2019-08-09",
 "lastUpdate": "-",
 "paperTitle": "Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics",
-"relatedPaper": "https://ieeexplore.ieee.org/document/8793235",
+"relatedPaper": "https://arxiv.org/abs/1908.11262",
 "location": "Belgium",
 "rawData": "-",
 "DOI": "10.1109/TITS.2019.2931429"

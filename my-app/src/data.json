@@ -1530,7 +1530,7 @@
    "href": "https://github.com/TJRadarLab/TJ4DRadSet",
    "relatedPaper":"https://arxiv.org/abs/2204.13483",
    "paperTitle":"TJ4DRadSet: A 4D Radar Dataset for Autonomous Driving"
- }
+ },
 {
 "id": "PointCloudDeNoising",
 "href": "https://github.com/rheinzler/PointCloudDeNoising",

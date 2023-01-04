@@ -20,26 +20,27 @@ This is how the KITTI dataset is integrated into the website:
 ```
 [...]
 {
-    id: "KITTI",
-    href: "http://www.cvlibs.net/datasets/kitti/",
-    size_hours: "6",
-    size_storage: "180",
-    frames: "",
-    numberOfScenes: '50',
-    samplingRate: "10",
-    lengthOfScenes: "",
-    sensors: "camera, lidar, gps/imu",
-    sensorDetail: "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and " +
-        "GPS navigation system",
-    benchmark: " stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
-    annotations: "3d bounding boxes",
-    licensing: "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-    relatedDatasets: 'Semantic KITTI, KITTI-360',
-    publishDate: new Date("2012-3").toISOString().split('T')[0],
-    lastUpdate: new Date("2021-2").toISOString().split('T')[0],
-    relatedPaper: "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
-    location: "Karlsruhe, Germany",
-    rawData: "Yes"
+  "id": "KITTI",
+  "href": "http://www.cvlibs.net/datasets/kitti/",
+  "size_hours": "6",
+  "size_storage": "180",
+  "frames": "-",
+  "numberOfScenes": "50",
+  "samplingRate": "10",
+  "lengthOfScenes": "-",
+  "sensors": "camera, lidar, gps/imu",
+  "sensorDetail": "2 greyscale cameras 1.4 MP, 2 color cameras 1.4 MP, 1 lidar 64 beams 360° 10Hz, 1 inertial and GPS navigation system",
+  "benchmark": "stereo, optical flow, visual odometry, slam, 3d object detection, 3d object tracking",
+  "annotations": "3d bounding boxes",
+  "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "relatedDatasets": "Semantic KITTI, KITTI-360",
+  "publishDate": "2012-03-01",
+  "lastUpdate": "2021-02-01",
+  "paperTitle": "Vision meets Robotics: The KITTI Dataset",
+  "relatedPaper": "http://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
+  "location": "Karlsruhe, Germany",
+  "rawData": "Yes",
+  "DOI": "10.1177/0278364913491297"
 },
 [...]
 ```
@@ -95,7 +96,7 @@ data sets are, for example, those published by the
 same authors and building on one another.
 ###### Related Paper
 This property solely consists of a
-link to the paper related to the data set.
+link to the paper related to the data set. Please use an arXiv URL, whenever available.
 ###### Sampling Rate [Hz] 
 The Sampling Rate [Hz] property specifies the sampling rate in Hertz at which
 the sensors in the data set work. However, this
@@ -130,6 +131,8 @@ Size [GB] described above, but provides information
 on the size of the data set in hours.
 ###### rawData
 Denotes if the dataset provides raw or processed data
+###### DOI
+DOI of the paper
 
 ## Citation
 If you find our work useful for your research, please cite our [paper](https://arxiv.org/abs/2202.01909):

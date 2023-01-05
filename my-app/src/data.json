@@ -2554,7 +2554,8 @@
 {
 "id": "Waymo Block-NeRF",
 "href": "https://waymo.com/research/block-nerf/",
-"relatedPaper":"https://arxiv.org/abs/2202.05263"
+"relatedPaper":"https://arxiv.org/abs/2202.05263",
+"paperTitle": "Block-NeRF: Scalable Large Scene Neural View Synthesis"
 }, 
 {
 "id": "Mapillary Vistas",

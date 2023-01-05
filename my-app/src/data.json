@@ -542,7 +542,8 @@
 {
 "id":"Comma2k19 LD",
 "href":"https://github.com/ASGuard-UCI/ld-metric",
-"relatedPaper":"https://arxiv.org/abs/2203.16851"
+"relatedPaper":"https://arxiv.org/abs/2203.16851",
+"paperTitle":"Towards Driving-Oriented Metric for Lane Detection Models"
 },
 {
 "id": "KITTI-360",

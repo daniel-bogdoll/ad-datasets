@@ -4771,7 +4771,8 @@
 },
 {
   "id": "AugKITTI",
-  "relatedPaper": "https://arxiv.org/pdf/2203.00214.pdf"
+  "relatedPaper": "https://arxiv.org/pdf/2203.00214.pdf",
+  "paperTitle":"Understanding the Challenges When 3D Semantic Segmentation Faces Class Imbalanced and OOD Data"
 },
 {
 "id": "MAVD Multimodal Audio-Visual Detection",

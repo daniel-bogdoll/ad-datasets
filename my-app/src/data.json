@@ -21,6 +21,12 @@
   "rawData": "Yes",
   "DOI": "10.1177/0278364913491297"
 },
+ {
+   "id":"PP4AV",
+   "href":"https://github.com/khaclinh/pp4av",
+   "relatedPaper":"https://openaccess.thecvf.com/content/WACV2023/papers/Trinh_PP4AV_A_Benchmarking_Dataset_for_Privacy-Preserving_Autonomous_Driving_WACV_2023_paper.pdf",
+   "paperTitle":"PP4AV: A benchmarking Dataset for Privacy-preserving Autonomous Driving"
+ },
 {
 "id": "aiMotive",
 "href": "https://github.com/aimotive/aimotive_dataset",

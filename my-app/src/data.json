@@ -22,6 +22,12 @@
   "DOI": "10.1177/0278364913491297"
 },
 {
+  "id":"Multiple Uncertainties for Autonomous Driving (MUAD)",
+  "href":"https://muad-dataset.github.io/",
+  "relatedPaper":"https://arxiv.org/abs/2203.01437",
+  "paperTitle":"MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks"
+},
+{
   "id":"Pascal-WD",
   "href":"https://github.com/pb-brainiac/semseg_od",
   "relatedPaper":"https://arxiv.org/abs/1908.01098",

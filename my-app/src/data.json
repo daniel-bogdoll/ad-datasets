@@ -22,10 +22,16 @@
   "DOI": "10.1177/0278364913491297"
 },
 {
-  "id":"Fallen Person detection with Driving scenes datasets (FPD-set)",
+  "id":"Fallen Person detection with Driving scenes (FPD-set)",
   "href":"https://github.com/suhyeonlee/FPD",
   "relatedPaper":"https://www.sciencedirect.com/science/article/abs/pii/S0957417422022606",
   "paperTitle":"Fallen person detection for autonomous driving"
+},
+{
+  "id":"Car Crash (CCD)",
+  "href":"https://github.com/Cogito2012/CarCrashDataset",
+  "relatedPaper":"https://arxiv.org/abs/2209.02438",
+  "paperTitle":"Threat Detection In Self-Driving Vehicles Using Computer Vision"
 },
 {
   "id":"Multiple Uncertainties for Autonomous Driving (MUAD)",

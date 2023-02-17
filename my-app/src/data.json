@@ -28,6 +28,18 @@
   "paperTitle":"LiDAR-CS Dataset: LiDAR Point Cloud Dataset with Cross-Sensors for 3D Object Detection"
 },
 {
+  "id":"Apollo-SouthBay",
+  "href":"https://developer.apollo.auto/southbay.html",
+  "relatedPaper":"https://ieeexplore.ieee.org/abstract/document/8954371/",
+  "paperTitle":"L3-net: Towards learning based lidar localization for autonomous driving"
+},
+{
+  "id":"Apollo-DaoxiangLake",
+  "href":"https://developer.apollo.auto/daoxianglake.html",
+  "relatedPaper":"https://arxiv.org/abs/2003.03026",
+  "paperTitle":"DA4AD: End-to-end Deep Attention-based Visual Localization for Autonomous Driving"
+},
+{
   "id":"Fallen Person detection with Driving scenes (FPD-set)",
   "href":"https://github.com/suhyeonlee/FPD",
   "relatedPaper":"https://www.sciencedirect.com/science/article/abs/pii/S0957417422022606",

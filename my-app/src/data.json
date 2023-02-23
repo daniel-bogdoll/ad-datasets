@@ -28,6 +28,12 @@
   "paperTitle":"LiDAR-CS Dataset: LiDAR Point Cloud Dataset with Cross-Sensors for 3D Object Detection"
 },
 {
+  "id":"UofTPed50",
+  "href":"https://www.autodrive.utoronto.ca/uoftped50",
+  "relatedPaper":"https://arxiv.org/abs/1905.08758",
+  "paperTitle":"aUToTrack: A Lightweight Object Detection and Tracking System for the SAE AutoDrive Challenge"
+}, 
+{
   "id":"Apollo-SouthBay",
   "href":"https://developer.apollo.auto/southbay.html",
   "relatedPaper":"https://ieeexplore.ieee.org/abstract/document/8954371/",

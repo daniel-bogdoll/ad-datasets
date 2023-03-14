@@ -22,6 +22,12 @@
   "DOI": "10.1177/0278364913491297"
 },
 {
+  "id":"3DHD CityScenes",
+  "href":"https://www.hi-drive.eu/downloads/#data",
+  "relatedPaper":"https://ieeexplore.ieee.org/document/9921866",
+  "paperTitle":"3DHD CityScenes: High-Definition Maps in High-Density Point Clouds"
+},
+{
   "id":"LiDAR-CS",
   "href":"https://github.com/LiDAR-Perception/LiDAR-CS",
   "relatedPaper":"https://arxiv.org/abs/2301.12515",

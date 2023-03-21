@@ -32,6 +32,10 @@
   "paperTitle":"V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception"
 },
 {
+  "id":"Surat Trajectory Data",
+  "href":"https://www.researchgate.net/publication/351108614_Extended_trajectory_data_from_Indian_Traffic_at_three_flow_conditions"
+},
+{
   "id":"3DHD CityScenes",
   "href":"https://www.hi-drive.eu/downloads/#data",
   "relatedPaper":"https://ieeexplore.ieee.org/document/9921866",

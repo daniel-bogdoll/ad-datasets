@@ -28,6 +28,12 @@
   "paperTitle":"Learning and Aggregating Lane Graphs for Urban Automated Driving"
 },
 {
+  "id":"Zenseact Open",
+  "href":"https://github.com/zenseact/zod",
+  "relatedPaper":"https://arxiv.org/abs/2305.02008",
+  "paperTitle":"Zenseact Open Dataset: A large-scale and diverse multimodal dataset for autonomous driving"
+},
+{
   "id":"UPCT",
   "href":"https://figshare.com/s/4b9a25a958c3ec578362",
   "relatedPaper":"https://www.mdpi.com/1424-8220/23/4/2009",

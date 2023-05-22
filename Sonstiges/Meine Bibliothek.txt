@@ -1,0 +1,449 @@
+%0 Generic
+%T @inproceedings{Cordts2016Cityscapes, title={The Cityscapes Dataset for Semantic Urban Scene Understanding}, author={Cordts, Marius and Omran, Mohamed and Ramos, Sebastian and Rehfeld, Timo and Enzweiler, Markus and Benenson, Rodrigo and Franke, Uwe and Roth, Stefan and Schiele, Bernt}, booktitle={Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, year={2016} }
+
+%0 Journal Article
+%T The apolloscape open dataset for autonomous driving and its application
+%J IEEE transactions on pattern analysis and machine intelligence
+%A Wang, Peng
+%A Huang, Xinyu
+%A Cheng, Xinjing
+%A Zhou, Dingfu
+%A Geng, Qichuan
+%A Yang, Ruigang
+%D 2019
+
+%0 Journal Article
+%T One Thousand and One Hours: Self-driving Motion Prediction Dataset
+%V abs/2006.14480
+%U https://arxiv.org/abs/2006.14480
+%J CoRR
+%A Houston, John
+%A Zuidhof, Guido
+%A Bergamini, Luca
+%A Ye, Yawei
+%A Jain, Ashesh
+%A Omari, Sammy
+%A Iglovikov, Vladimir
+%A Ondruska, Peter
+%D 2020
+
+%0 Journal Article
+%T 1 Year, 1000km: The Oxford RobotCar Dataset
+%V 36
+%N 1
+%P 3-15
+%U http://dx.doi.org/10.1177/0278364916679498
+%J The International Journal of Robotics Research (IJRR)
+%A Maddern, Will
+%A Pascoe, Geoff
+%A Linegar, Chris
+%A Newman, Paul
+%D 2017
+
+%0 Journal Article
+%T nuScenes: A multimodal dataset for autonomous driving
+%J arXiv preprint arXiv:1903.11027
+%A Caesar, Holger
+%A Bankiti, Varun
+%A Lang, Alex H.
+%A Vora, Sourabh
+%A Liong, Venice Erin
+%A Xu, Qiang
+%A Krishnan, Anush
+%A Pan, Yu
+%A Baldan, Giancarlo
+%A Beijbom, Oscar
+%D 2019
+
+%0 Conference Paper
+%T LiDAR-based Recurrent 3D Semantic Segmentation with Temporal Memory Alignment
+%I IEEE
+%P 781–790
+%B 2020 International Conference on 3D Vision (3DV)
+%A Duerr, Fabian
+%A Pfaller, Mario
+%A Weigel, Hendrik
+%A Beyerer, Jürgen
+%D 2020
+%K Sekundär für Pandaset
+
+%0 Journal Article
+%T Large Scale Interactive Motion Forecasting for Autonomous Driving : The Waymo Open Motion Dataset
+%V abs/2104.10133
+%U https://arxiv.org/abs/2104.10133
+%J CoRR
+%A Ettinger, Scott
+%A Cheng, Shuyang
+%A Caine, Benjamin
+%A Liu, Chenxi
+%A Zhao, Hang
+%A Pradhan, Sabeek
+%A Chai, Yuning
+%A Sapp, Benjamin
+%A Qi, Charles
+%A Zhou, Yin
+%A Yang, Zoey
+%A Chouard, Aurelien
+%A Sun, Pei
+%A Ngiam, Jiquan
+%A Vasudevan, Vijay
+%A McCauley, Alexander
+%A Shlens, Jonathon
+%A Anguelov, Dragomir
+%D 2021
+
+%0 Journal Article
+%T Scalability in Perception for Autonomous Driving: Waymo Open Dataset
+%V abs/1912.04838
+%U http://arxiv.org/abs/1912.04838
+%J CoRR
+%A Sun, Pei
+%A Kretzschmar, Henrik
+%A Dotiwalla, Xerxes
+%A Chouard, Aurelien
+%A Patnaik, Vijaysai
+%A Tsui, Paul
+%A Guo, James
+%A Zhou, Yin
+%A Chai, Yuning
+%A Caine, Benjamin
+%A Vasudevan, Vijay
+%A Han, Wei
+%A Ngiam, Jiquan
+%A Zhao, Hang
+%A Timofeev, Aleksei
+%A Ettinger, Scott
+%A Krivokon, Maxim
+%A Gao, Amy
+%A Joshi, Aditya
+%A Zhang, Yu
+%A Shlens, Jonathon
+%A Chen, Zhifeng
+%A Anguelov, Dragomir
+%D 2019
+
+%0 Journal Article
+%T Vision meets Robotics: The KITTI Dataset
+%J International Journal of Robotics Research (IJRR)
+%A Geiger, Andreas
+%A Lenz, Philip
+%A Stiller, Christoph
+%A Urtasun, Raquel
+%D 2013
+
+%0 Journal Article
+%T BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling
+%V abs/1805.04687
+%U http://arxiv.org/abs/1805.04687
+%J CoRR
+%A Yu, Fisher
+%A Xian, Wenqi
+%A Chen, Yingying
+%A Liu, Fangchen
+%A Liao, Mike
+%A Madhavan, Vashisht
+%A Darrell, Trevor
+%D 2018
+
+%0 Conference Paper
+%T OpenDD: A Large-Scale Roundabout Drone Dataset
+%B Proceedings of International Conference on Intelligent Transportation Systems
+%A Breuer, , Antonia, Termöhlen, Jan-Aike, Homoceanu, Silviu
+%A Fingscheidt, Tim
+%D 2020-09
+
+%0 Conference Paper
+%T WildDash - Creating Hazard-Aware Benchmarks
+%B Proceedings of the European Conference on Computer Vision (ECCV)
+%A Zendel, Oliver
+%A Honauer, Katrin
+%A Murschitz, Markus
+%A Steininger, Daniel
+%A Dominguez, Gustavo Fernandez
+%D 2018-09
+
+%0 Journal Article
+%T SegmentMeIfYouCan: A Benchmark for Anomaly Segmentation
+%V abs/2104.14812
+%U https://arxiv.org/abs/2104.14812
+%J CoRR
+%A Chan, Robin
+%A Lis, Krzysztof
+%A Uhlemeyer, Svenja
+%A Blum, Hermann
+%A Honari, Sina
+%A Siegwart, Roland
+%A Salzmann, Mathieu
+%A Fua, Pascal
+%A Rottmann, Matthias
+%D 2021
+
+%0 Generic
+%T A Commute in Data: The comma2k19 Dataset
+%A Schafer, Harald
+%A Santana, Eder
+%A Haden, Andrew
+%A Biasini, Riccardo
+%D 2018
+
+%0 Journal Article
+%T Lost and Found: Detecting Small Road Hazards for Self-Driving Vehicles
+%V abs/1609.04653
+%U http://arxiv.org/abs/1609.04653
+%J CoRR
+%A Pinggera, Peter
+%A Ramos, Sebastian
+%A Gehrig, Stefan
+%A Franke, Uwe
+%A Rother, Carsten
+%A Mester, Rudolf
+%D 2016
+
+%0 Conference Paper
+%T SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences
+%B Proc. of the IEEE/CVF International Conf. on Computer Vision (ICCV)
+%A Behley, J.
+%A Garbade, M.
+%A Milioto, A.
+%A Quenzel, J.
+%A Behnke, S.
+%A Stachniss, C.
+%A Gall, J.
+%D 2019
+
+%0 Journal Article
+%T KAIST Multi-spectral Day/Night Dataset for Autonomous and Assisted Driving
+%J IEEE TRANSACTIONS ON IN℡LIGENT TRANSPORTATION SYSTEMS (TITS)
+%A Yukyung Choi, In So Kweon, Namil Kim, Soonmin Hwang, Kibaek Park, Jae Shin Yoon, Kyounghwan An
+
+%0 Journal Article
+%T A2D2: Audi Autonomous Driving Dataset
+%U https://www.a2d2.audi
+%A Geyer, Jakob
+%A Kassahun, Yohannes
+%A Mahmudi, Mentar
+%A Ricou, Xavier
+%A Durgesh, Rupesh
+%A Chung, Andrew S.
+%A Hauswald, Lorenz
+%A Pham, Viet Hoang
+%A Mühlegg, Maximilian
+%A Dorn, Sebastian
+%A Fernandez, Tiffany
+%A Jänicke, Martin
+%A Mirashi, Sudesh
+%A Savani, Chiragkumar
+%A Sturm, Martin
+%A Vorobiov, Oleksandr
+%A Oelker, Martin
+%A Garreis, Sebastian
+%A Schuberth, Peter
+%D 2020
+
+%0 Conference Paper
+%T A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification
+%I IEEE
+%B Robotics and Automation (ICRA), 2017 IEEE International Conference on
+%A Behrendt, Karsten
+%A Novak, Libor
+
+%0 Journal Article
+%T RADIATE: A Radar Dataset for Automotive Perception
+%J arXiv preprint arXiv:2010.09076
+%A Sheeny, Marcel
+%A De Pellegrin, Emanuele
+%A Mukherjee, Saptarshi
+%A Ahrabian, Alireza
+%A Wang, Sen
+%A Wallace, Andrew
+%D 2020
+
+%0 Journal Article
+%T Synscapes: A Photorealistic Synthetic Dataset for Street Scene Parsing
+%V abs/1810.08705
+%U http://arxiv.org/abs/1810.08705
+%J CoRR
+%A Wrenninge, Magnus
+%A Unger, Jonas
+%D 2018
+
+%0 Journal Article
+%T RadarScenes: A Real-World Radar Point Cloud Data Set for Automotive Applications
+%V abs/2104.02493
+%U https://arxiv.org/abs/2104.02493
+%J CoRR
+%A Schumann, Ole
+%A Hahn, Markus
+%A Scheiner, Nicolas
+%A Weishaupt, Fabio
+%A Tilly, Julius F.
+%A Dickmann, Jürgen
+%A Wöhler, Christian
+%D 2021
+
+%0 Journal Article
+%T 4Seasons: A Cross-Season Dataset for Multi-Weather SLAM in Autonomous Driving
+%V abs/2009.06364
+%U https://arxiv.org/abs/2009.06364
+%J CoRR
+%A Wenzel, Patrick
+%A Wang, Rui
+%A Yang, Nan
+%A Cheng, Qing
+%A Khan, Qadeer
+%A Stumberg, Lukas von
+%A Zeller, Niclas
+%A Cremers, Daniel
+%D 2020
+
+%0 Journal Article
+%T The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes
+%V abs/1903.01568
+%U http://arxiv.org/abs/1903.01568
+%J CoRR
+%A Patil, Abhishek
+%A Malla, Srikanth
+%A Gang, Haiming
+%A Chen, Yi-Ting
+%D 2019
+
+%0 Conference Paper
+%T NightOwls: A pedestrians at night dataset
+%I Springer
+%P 691–705
+%B Asian Conference on Computer Vision
+%A Neumann, Lukáš
+%A Karg, Michelle
+%A Zhang, Shanshan
+%A Scharfenberger, Christian
+%A Piegert, Eric
+%A Mistr, Sarah
+%A Prokofyeva, Olga
+%A Thiel, Robert
+%A Vedaldi, Andrea
+%A Zisserman, Andrew
+%A Schiele, Bernt
+%D 2018
+
+%0 Conference Paper
+%T The Oxford Radar RobotCar Dataset: A Radar Extension to the Oxford RobotCar Dataset
+%C Paris
+%U https://arxiv.org/abs/1909.01300
+%B Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)
+%A Barnes, Dan
+%A Gadd, Matthew
+%A Murcutt, Paul
+%A Newman, Paul
+%A Posner, Ingmar
+%D 2020
+
+%0 Journal Article
+%T INTERACTION Dataset: An INTERnational, Adversarial and Cooperative moTION Dataset in Interactive Driving Scenarios with Semantic Maps
+%V abs/1910.03088
+%U http://arxiv.org/abs/1910.03088
+%J CoRR
+%A Zhan, Wei
+%A Sun, Liting
+%A Wang, Di
+%A Shi, Haojie
+%A Clausse, Aubrey
+%A Naumann, Maximilian
+%A Kümmerle, Julius
+%A Königshof, Hendrik
+%A Stiller, Christoph
+%A Fortelle, Arnaud de La
+%A Tomizuka, Masayoshi
+%D 2019
+
+%0 Journal Article
+%T Cityscapes 3D: Dataset and Benchmark for 9 DoF Vehicle Detection
+%V abs/2006.07864
+%U https://arxiv.org/abs/2006.07864
+%J CoRR
+%A Gählert, Nils
+%A Jourdan, Nicolas
+%A Cordts, Marius
+%A Franke, Uwe
+%A Denzler, Joachim
+%D 2020
+
+%0 Journal Article
+%T The Cityscapes Dataset for Semantic Urban Scene Understanding
+%V abs/1604.01685
+%U http://arxiv.org/abs/1604.01685
+%J CoRR
+%A Cordts, Marius
+%A Omran, Mohamed
+%A Ramos, Sebastian
+%A Rehfeld, Timo
+%A Enzweiler, Markus
+%A Benenson, Rodrigo
+%A Franke, Uwe
+%A Roth, Stefan
+%A Schiele, Bernt
+%D 2016
+
+%0 Conference Paper
+%T Semantic Instance Annotation of Street Scenes by 3D to 2D Label Transfer
+%B Conference on Computer Vision and Pattern Recognition (CVPR)
+%A Xie, Jun
+%A Kiefel, Martin
+%A Sun, Ming-Ting
+%A Geiger, Andreas
+%D 2016
+
+%0 Journal Article
+%T Argoverse: 3D Tracking and Forecasting with Rich Maps
+%V abs/1911.02620
+%U http://arxiv.org/abs/1911.02620
+%J CoRR
+%A Chang, Ming-Fang
+%A Lambert, John
+%A Sangkloy, Patsorn
+%A Singh, Jagjeet
+%A Bak, Slawomir
+%A Hartnett, Andrew
+%A Wang, De
+%A Carr, Peter
+%A Lucey, Simon
+%A Ramanan, Deva
+%A Hays, James
+%D 2019
+
+%0 Generic
+%T Ford Multi-AV Seasonal Dataset
+%A Agarwal, Siddharth
+%A Vora, Ankit
+%A Pandey, Gaurav
+%A Williams, Wayne
+%A Kourous, Helen
+%A McBride, James
+%D 2020
+
+%0 Journal Article
+%T Mcity Data Collection for Automated Vehicles Study
+%V abs/1912.06258
+%U http://arxiv.org/abs/1912.06258
+%J CoRR
+%A Dong, Yiqun
+%A Zhong, Yuanxin
+%A Yu, Wenbo
+%A Zhu, Minghan
+%A Lu, Pingping
+%A Fang, Yeyang
+%A Hong, Jiajun
+%A Peng, Huei
+%D 2019
+
+%0 Journal Article
+%T DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction
+%V abs/2005.08605
+%U https://arxiv.org/abs/2005.08605
+%J CoRR
+%A Hu, Yuhuang
+%A Binas, Jonathan
+%A Neil, Daniel
+%A Liu, Shih-Chii
+%A Delbrück, Tobi
+%D 2020
+

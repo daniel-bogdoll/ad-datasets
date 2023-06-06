@@ -28,6 +28,10 @@
   "paperTitle":"Learning and Aggregating Lane Graphs for Urban Automated Driving"
 },
 {
+  "id":"LUCOOP",
+  "href":"https://data.uni-hannover.de/dataset/lucoop-leibniz-university-cooperative-perception-and-urban-navigation-dataset"
+},
+{
   "id":"DSIOD",
   "href":"https://github.com/wnklmx/DSIOD",
   "relatedPaper":"https://arxiv.org/abs/2110.02892",

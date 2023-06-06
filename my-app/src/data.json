@@ -28,8 +28,19 @@
   "paperTitle":"Learning and Aggregating Lane Graphs for Urban Automated Driving"
 },
 {
+  "id":"PeSOTIF",
+  "href":"https://github.com/SOTIF-AVLab/PeSOTIF",
+  "relatedPaper":"https://arxiv.org/abs/2211.03402",
+  "paperTitle":"PeSOTIF: a Challenging Visual Dataset for Perception SOTIF Problems in Long-tail Traffic Scenarios"
+},
+{
+  "id":"IMPTC",
+  "paperTitle":"The IMPTC Dataset: An Infrastructural Multi-Person Trajectory and Context Dataset"
+},
+{
   "id":"LUCOOP",
-  "href":"https://data.uni-hannover.de/dataset/lucoop-leibniz-university-cooperative-perception-and-urban-navigation-dataset"
+  "href":"https://data.uni-hannover.de/dataset/lucoop-leibniz-university-cooperative-perception-and-urban-navigation-dataset",
+  "paperTitle":"LUCOOP: Leibniz University Cooperative Perception and Urban Navigation Dataset"
 },
 {
   "id":"DSIOD",

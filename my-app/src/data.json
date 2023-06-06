@@ -28,6 +28,12 @@
   "paperTitle":"Learning and Aggregating Lane Graphs for Urban Automated Driving"
 },
 {
+  "id":"DSIOD",
+  "href":"https://github.com/wnklmx/DSIOD",
+  "relatedPaper":"https://arxiv.org/abs/2110.02892",
+  "paperTitle":"Probabilistic Metamodels for an Efficient Characterization of Complex Driving Scenarios"
+},
+{
   "id":"Zenseact Open",
   "href":"https://github.com/zenseact/zod",
   "relatedPaper":"https://arxiv.org/abs/2305.02008",

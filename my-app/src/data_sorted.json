@@ -5553,6 +5553,12 @@
         "completionStatus": "incomplete"
     },
     {
+        "id": "LUCOOP",
+        "href": "https://data.uni-hannover.de/dataset/lucoop-leibniz-university-cooperative-perception-and-urban-navigation-dataset",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "Zenseact Open",
         "href": "https://github.com/zenseact/zod",
         "relatedPaper": "https://arxiv.org/abs/2305.02008",

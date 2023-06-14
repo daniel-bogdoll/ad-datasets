@@ -17,7 +17,6 @@ def fetch_paper_info(url):
 
 
 def generate_bibtex_entry(dataset):
-    bibtex_entry = f"@misc{{{dataset['id'].replace(' ', '').replace('^', '')},\n"
     if "relatedPaper" in dataset:
         related_paper = dataset["relatedPaper"]
         if related_paper.endswith(".pdf"):
@@ -35,11 +34,11 @@ def generate_bibtex_entry(dataset):
     authors = " and ".join(
         [f"{author['name'].split(' ')[-1]}, {author['name'].split(' ')[0]}" for author in paper_info.get("authors", [])]
     )
-    bibtex_entry += f"  author = {{{authors}}},\n"
 
     # Extract title
     title = paper_info.get("title", "")
-    bibtex_entry += f"  title = {{{{{title}}}}},\n"
+
+    entry_type = "inProceedings"
 
     # Extract publication information
     venue = paper_info.get("venue", "")
@@ -49,22 +48,26 @@ def generate_bibtex_entry(dataset):
         journal_name = journal.get("name")
         if journal_name == None:
             journal_name = ""
+        else:
+            entry_type = "article"
+
+    # arXiv as journal
     if (venue == "" or venue == "arXiv.org") and (journal_name == "" or journal_name.lower() == "arxiv"):
         if "arxiv.org" in dataset["relatedPaper"]:
             arxiv_id = dataset["relatedPaper"].split("/")[-1]
-            venue = f"arXiv:{arxiv_id}"
+            journal_name = f"arXiv:{arxiv_id}"
+            entry_type = "article"
+
+    # Generate BibTeX entry
+    bibtex_entry = f"@{entry_type}{{{dataset['id'].replace(' ', '').replace('^', '')},\n"
+    bibtex_entry += f"  author = {{{authors}}},\n"
+    bibtex_entry += f"  title = {{{{{title}}}}},\n"
 
     if journal_name != "" and journal_name.lower() != "arxiv":
-
         if isinstance(journal_name, str):
             bibtex_entry += f"  journal = {{{journal_name}}},\n"
     else:
         bibtex_entry += f"  booktitle = {{{venue}}},\n"
-
-    if venue == "" and journal == "":
-        if "arxiv.org" in dataset["relatedPaper"]:
-            arxiv_id = dataset["relatedPaper"].split("/")[-1]
-            venue = f"arXiv:{arxiv_id}"
 
     year = paper_info.get("year", "")
     bibtex_entry += f"  year = {{{year}}},\n"

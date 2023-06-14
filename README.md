@@ -1,6 +1,6 @@
 ## [ad-datasets](https://ad-datasets.com)
 
-Complete* and curated list of datasets in the field of autonomous driving. More details can be found in [ad-datasets: a meta-collection of data sets for autonomous driving](https://arxiv.org/abs/2202.01909).
+Complete* and curated list of datasets in the field of autonomous driving. More details can be found in [ad-datasets: a meta-collection of data sets for autonomous driving](https://arxiv.org/abs/2202.01909). There is also a [PDF list](https://github.com/daniel-bogdoll/ad-datasets/blob/main/ad_datasets__Included_datasets.pdf) of the datasets including citations (where possible).
 
 ## Contributing
 
@@ -140,7 +140,7 @@ If you find our work useful for your research, please cite our [paper](https://a
 @inProceedings{Bogdoll_Addatasets_2022_VEHITS,
     author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
     title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
-    journal   = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
+    journal   = {International Conference on Vehicle Technology and Intelligent Transport Systems},
     year      = {2022}
 }
 ```

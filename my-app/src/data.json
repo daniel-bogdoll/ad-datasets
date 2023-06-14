@@ -22,6 +22,12 @@
   "DOI": "10.1177/0278364913491297"
 },
 {
+  "id":"OpenLane-V2",
+  "href":"https://github.com/OpenDriveLab/OpenLane-V2",
+  "relatedPaper":"https://arxiv.org/abs/2304.10440",
+  "paperTitle":"OpenLane-V2: A Topology Reasoning Benchmark for Scene Understanding in Autonomous Driving"
+},
+{
   "id":"UrbanLaneGraph",
   "href":"http://urbanlanegraph.cs.uni-freiburg.de/",
   "relatedPaper":"https://arxiv.org/abs/2302.06175",

@@ -28,6 +28,12 @@
   "paperTitle":"OpenLane-V2: A Topology Reasoning Benchmark for Scene Understanding in Autonomous Driving"
 },
 {
+  "id":"Paris-CARLA-3D",
+  "href":"https://npm3d.fr/paris-carla-3d",
+  "relatedPaper":"https://arxiv.org/abs/2111.11348",
+  "paperTitle":"Paris-CARLA-3D: A Real and Synthetic Outdoor Point Cloud Dataset for Challenging Tasks in 3D Mapping"
+},
+{
   "id":"UrbanLaneGraph",
   "href":"http://urbanlanegraph.cs.uni-freiburg.de/",
   "relatedPaper":"https://arxiv.org/abs/2302.06175",

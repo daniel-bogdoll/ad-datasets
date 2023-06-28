@@ -24,8 +24,8 @@
 {
   "id":"V2X-Seq",
   "href":"https://github.com/AIR-THU/DAIR-V2X-Seq",
-  "relatedPaper":"https://arxiv.org/abs/2303.07601",
-  "paperTitle":"V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception"
+  "relatedPaper":"https://arxiv.org/abs/2305.05938",
+  "paperTitle":"V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting"
 },
 {
   "id":"OpenLane-V2",

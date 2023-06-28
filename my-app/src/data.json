@@ -28,6 +28,12 @@
   "paperTitle":"V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting"
 },
 {
+  "id":"MAVAD",
+  "href":"https://gitlab.au.dk/maleci/audiovisualanomalydetection",
+  "relatedPaper":"https://arxiv.org/abs/2305.15084",
+  "paperTitle":"Audio-Visual Dataset and Method for Anomaly Detection in Traffic Videos"
+},
+{
   "id":"OpenLane-V2",
   "href":"https://github.com/OpenDriveLab/OpenLane-V2",
   "relatedPaper":"https://arxiv.org/abs/2304.10440",

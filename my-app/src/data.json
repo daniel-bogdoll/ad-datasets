@@ -28,6 +28,10 @@
   "paperTitle":"V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting"
 },
 {
+  "id":"commavq",
+  "href":"https://github.com/commaai/commavq"
+},
+{
   "id":"MAVAD",
   "href":"https://gitlab.au.dk/maleci/audiovisualanomalydetection",
   "relatedPaper":"https://arxiv.org/abs/2305.15084",

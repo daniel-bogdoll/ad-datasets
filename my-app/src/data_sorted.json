@@ -21,7 +21,7 @@
         "location": "Karlsruhe, Germany",
         "rawData": "Yes",
         "DOI": "10.1177/0278364913491297",
-        "citationCount": 5927,
+        "citationCount": 5937,
         "completionStatus": "complete"
     },
     {
@@ -46,7 +46,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 2390,
+        "citationCount": 2395,
         "completionStatus": "complete"
     },
     {
@@ -74,7 +74,7 @@
         "location": "Boston, USA and Singapore",
         "rawData": "Yes",
         "DOI": "10.1109/cvpr42600.2020.01164",
-        "citationCount": 2390,
+        "citationCount": 2395,
         "completionStatus": "complete"
     },
     {
@@ -102,7 +102,7 @@
         "location": "Sourced from internet",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2013.77",
-        "citationCount": 2272,
+        "citationCount": 2278,
         "completionStatus": "complete"
     },
     {
@@ -130,7 +130,7 @@
         "location": "Unity development platform",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2016.352",
-        "citationCount": 1681,
+        "citationCount": 1684,
         "completionStatus": "complete"
     },
     {
@@ -158,7 +158,7 @@
         "location": "Game: Grand Theft Auto 5",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46475-6_7",
-        "citationCount": 1454,
+        "citationCount": 1455,
         "completionStatus": "complete"
     },
     {
@@ -183,7 +183,7 @@
         "location": "Loa Angeles, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2009.5206631",
-        "citationCount": 1313,
+        "citationCount": 1314,
         "completionStatus": "complete"
     },
     {
@@ -211,7 +211,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR42600.2020.00252",
-        "citationCount": 1225,
+        "citationCount": 1227,
         "completionStatus": "complete"
     },
     {
@@ -239,7 +239,7 @@
         "location": "United Kingdom",
         "rawData": "Yes",
         "DOI": "10.1016/j.patrec.2008.04.005",
-        "citationCount": 1094,
+        "citationCount": 1095,
         "completionStatus": "complete"
     },
     {
@@ -264,7 +264,7 @@
         "location": "Oxford, UK",
         "rawData": "Yes",
         "DOI": "10.1177/0278364916679498",
-        "citationCount": 1065,
+        "citationCount": 1068,
         "completionStatus": "complete"
     },
     {
@@ -288,7 +288,7 @@
         "relatedPaper": "https://arxiv.org/pdf/1805.04687.pdf",
         "location": "New York, Berkeley, San Francisco and Bay Area, USA",
         "rawData": "Yes",
-        "citationCount": 918,
+        "citationCount": 924,
         "completionStatus": "complete"
     },
     {
@@ -316,7 +316,7 @@
         "location": "Europe, North and South America, Asia, Africa and Oceania",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.534",
-        "citationCount": 875,
+        "citationCount": 879,
         "completionStatus": "complete"
     },
     {
@@ -344,7 +344,7 @@
         "location": "Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2011.6033395",
-        "citationCount": 844,
+        "citationCount": 845,
         "completionStatus": "complete"
     },
     {
@@ -397,7 +397,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "No",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 722,
+        "citationCount": 724,
         "completionStatus": "complete"
     },
     {
@@ -422,7 +422,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 722,
+        "citationCount": 724,
         "completionStatus": "complete"
     },
     {
@@ -450,7 +450,7 @@
         "location": "Miami and Pittsburgh, USA",
         "rawData": "-",
         "DOI": "10.1109/CVPR.2019.00895",
-        "citationCount": 722,
+        "citationCount": 724,
         "completionStatus": "complete"
     },
     {
@@ -506,7 +506,7 @@
         "location": "-",
         "rawData": "Yes",
         "DOI": "10.1109/CVPR.2008.4587581",
-        "citationCount": 703,
+        "citationCount": 704,
         "completionStatus": "complete"
     },
     {
@@ -534,7 +534,7 @@
         "location": "Bochum, Germany",
         "rawData": "-",
         "DOI": "10.1109/IJCNN.2013.6706807",
-        "citationCount": 666,
+        "citationCount": 667,
         "completionStatus": "complete"
     },
     {
@@ -590,7 +590,7 @@
         "location": "Stanford campus, USA",
         "rawData": "-",
         "DOI": "10.1007/978-3-319-46484-8_33",
-        "citationCount": 558,
+        "citationCount": 559,
         "completionStatus": "complete"
     },
     {
@@ -754,7 +754,7 @@
         "location": "USA (Ann Arbor, San Francisco Bay Area, Detroit, Cambridge and Massachusetts), Japan (Tokyo and Odaiba)",
         "rawData": "-",
         "DOI": "10.1109/CVPR42600.2020.00256",
-        "citationCount": 339,
+        "citationCount": 340,
         "completionStatus": "complete"
     },
     {
@@ -810,7 +810,7 @@
         "location": "Dearborn Michigan, USA",
         "rawData": "-",
         "DOI": "10.1177/0278364911400640",
-        "citationCount": 311,
+        "citationCount": 312,
         "completionStatus": "complete"
     },
     {
@@ -838,7 +838,7 @@
         "location": "Seoul, South Korea",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.215",
-        "citationCount": 310,
+        "citationCount": 311,
         "completionStatus": "complete"
     },
     {
@@ -866,7 +866,7 @@
         "location": "University of Michigan North Campus, USA",
         "rawData": "Yes",
         "DOI": "10.1177/0278364915614638",
-        "citationCount": 290,
+        "citationCount": 291,
         "completionStatus": "complete"
     },
     {
@@ -894,7 +894,7 @@
         "location": "CARLA environment",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2019.00942",
-        "citationCount": 288,
+        "citationCount": 290,
         "completionStatus": "complete"
     },
     {
@@ -922,7 +922,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/LRA.2018.2800793",
-        "citationCount": 261,
+        "citationCount": 262,
         "completionStatus": "complete"
     },
     {
@@ -978,7 +978,7 @@
         "location": "Málaga, Spain",
         "rawData": "-",
         "DOI": "10.1177/0278364913507326",
-        "citationCount": 228,
+        "citationCount": 230,
         "completionStatus": "complete"
     },
     {
@@ -1006,7 +1006,7 @@
         "location": "Oxford",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA40945.2020.9196884",
-        "citationCount": 211,
+        "citationCount": 213,
         "completionStatus": "complete"
     },
     {
@@ -1098,7 +1098,7 @@
         "href": "https://waymo.com/research/block-nerf/",
         "relatedPaper": "https://arxiv.org/abs/2202.05263",
         "paperTitle": "Block-NeRF: Scalable Large Scene Neural View Synthesis",
-        "citationCount": 192,
+        "citationCount": 195,
         "completionStatus": "partially Complete"
     },
     {
@@ -1266,7 +1266,7 @@
         "location": "San Francisco, Mountain View, Los Angeles, Detroit, Seattle and Phoenix, USA",
         "rawData": "No",
         "DOI": "10.1109/ICCV48922.2021.00957",
-        "citationCount": 170,
+        "citationCount": 172,
         "completionStatus": "complete"
     },
     {
@@ -1518,7 +1518,7 @@
         "location": "Toronto, Canada",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2017.327",
-        "citationCount": 158,
+        "citationCount": 159,
         "completionStatus": "complete"
     },
     {
@@ -1546,7 +1546,7 @@
         "location": "USA, Europe, and China",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2019.00940",
-        "citationCount": 153,
+        "citationCount": 154,
         "completionStatus": "complete"
     },
     {
@@ -1602,7 +1602,7 @@
         "location": "Three cities in the south of Germany",
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.2004.06320",
-        "citationCount": 146,
+        "citationCount": 147,
         "completionStatus": "complete"
     },
     {
@@ -1714,7 +1714,7 @@
         "location": "Carla",
         "rawData": "-",
         "DOI": "10.48550/arXiv.1911.11132",
-        "citationCount": 126,
+        "citationCount": 128,
         "completionStatus": "complete"
     },
     {
@@ -1774,6 +1774,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Five Roundabouts",
+        "href": "http://its.acfr.usyd.edu.au/datasets-2/five-roundabouts-dataset/",
+        "size_storage": "0.5",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "25",
+        "lengthOfScenes": "-",
+        "sensors": "lidar",
+        "sensorDetail": "6x 4 beam ibeo LUX lidars 110° 25Hz",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "trajectory tracking information",
+        "licensing": "Creative Commons Attribution 4.0",
+        "relatedDatasets": "naturalistic-intersection-driving-dataset",
+        "publishDate": "2019-05-13",
+        "lastUpdate": "-",
+        "paperTitle": "Naturalistic Driver Intention and Path Prediction Using Recurrent Neural Networks",
+        "relatedPaper": "https://arxiv.org/abs/1807.09995",
+        "location": "Sydney, Australia",
+        "rawData": "-",
+        "DOI": "10.1109/TITS.2019.2913166",
+        "citationCount": 118,
+        "completionStatus": "complete"
+    },
+    {
         "id": "PIE",
         "href": "https://data.nvision2.eecs.yorku.ca/PIE_dataset/",
         "size_storage": "-",
@@ -1802,34 +1830,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Five Roundabouts",
-        "href": "http://its.acfr.usyd.edu.au/datasets-2/five-roundabouts-dataset/",
-        "size_storage": "0.5",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "25",
-        "lengthOfScenes": "-",
-        "sensors": "lidar",
-        "sensorDetail": "6x 4 beam ibeo LUX lidars 110° 25Hz",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "-",
-        "annotations": "trajectory tracking information",
-        "licensing": "Creative Commons Attribution 4.0",
-        "relatedDatasets": "naturalistic-intersection-driving-dataset",
-        "publishDate": "2019-05-13",
-        "lastUpdate": "-",
-        "paperTitle": "Naturalistic Driver Intention and Path Prediction Using Recurrent Neural Networks",
-        "relatedPaper": "https://arxiv.org/abs/1807.09995",
-        "location": "Sydney, Australia",
-        "rawData": "-",
-        "DOI": "10.1109/TITS.2019.2913166",
-        "citationCount": 117,
-        "completionStatus": "complete"
-    },
-    {
         "id": "MuIRan",
         "href": "https://sites.google.com/view/mulran-pr/dataset",
         "size_storage": "387",
@@ -1854,7 +1854,7 @@
         "location": "South Korea",
         "rawData": "Yes",
         "DOI": "10.1109/ICRA40945.2020.9197298",
-        "citationCount": 111,
+        "citationCount": 114,
         "completionStatus": "complete"
     },
     {
@@ -1886,34 +1886,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "BoxCars116k",
-        "href": "https://github.com/JakubSochor/BoxCars",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "116000",
-        "numberOfScenes": "116000",
-        "samplingRate": "12.5",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "images obtained from 137 different surveillance cameras",
-        "recordingPerspective": "Bird's Eye",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "2d/3d bounding boxes",
-        "licensing": "Freely available for research purposes",
-        "relatedDatasets": "BoxCars21k",
-        "publishDate": "2018-03-07",
-        "lastUpdate": "-",
-        "paperTitle": "BoxCars: Improving Fine-Grained Recognition of Vehicles Using 3-D Bounding Boxes in Traffic Surveillance",
-        "relatedPaper": "https://arxiv.org/abs/1703.00686",
-        "location": "Brno, Czech Republic",
-        "rawData": "-",
-        "DOI": "10.1109/TITS.2018.2799228",
-        "citationCount": 105,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Argoverse 2 Sensor",
         "href": "https://www.argoverse.org/av2.html",
         "size_storage": "1000",
@@ -1938,7 +1910,7 @@
         "location": "Austin, Detroit, Miami, Palo Alto, Pittsburgh, and Washington D.C, USA",
         "rawData": "Yes",
         "DOI": "-",
-        "citationCount": 105,
+        "citationCount": 107,
         "completionStatus": "complete"
     },
     {
@@ -1966,7 +1938,7 @@
         "location": "Pittsburgh and Miami, USA",
         "rawData": "Yes",
         "DOI": "-",
-        "citationCount": 105,
+        "citationCount": 107,
         "completionStatus": "complete"
     },
     {
@@ -1994,7 +1966,7 @@
         "location": "Austin, Detroit, Miami, Palo Alto, Pittsburgh, and Washington D.C, USA",
         "rawData": "Yes",
         "DOI": "-",
-        "citationCount": 105,
+        "citationCount": 107,
         "completionStatus": "complete"
     },
     {
@@ -2022,7 +1994,35 @@
         "location": "Austin, Detroit, Miami, Palo Alto, Pittsburgh and Washington, D.C, USA",
         "rawData": "Yes",
         "DOI": "-",
-        "citationCount": 105,
+        "citationCount": 107,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "BoxCars116k",
+        "href": "https://github.com/JakubSochor/BoxCars",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "116000",
+        "numberOfScenes": "116000",
+        "samplingRate": "12.5",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "images obtained from 137 different surveillance cameras",
+        "recordingPerspective": "Bird's Eye",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "2d/3d bounding boxes",
+        "licensing": "Freely available for research purposes",
+        "relatedDatasets": "BoxCars21k",
+        "publishDate": "2018-03-07",
+        "lastUpdate": "-",
+        "paperTitle": "BoxCars: Improving Fine-Grained Recognition of Vehicles Using 3-D Bounding Boxes in Traffic Surveillance",
+        "relatedPaper": "https://arxiv.org/abs/1703.00686",
+        "location": "Brno, Czech Republic",
+        "rawData": "-",
+        "DOI": "10.1109/TITS.2018.2799228",
+        "citationCount": 106,
         "completionStatus": "complete"
     },
     {
@@ -2194,6 +2194,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "Toronto 3D",
+        "href": "https://github.com/WeikaiTan/Toronto-3D",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, gps",
+        "sensorDetail": "1x Teledyne Optech Maverick consists of a 32-line LiDAR sensor, a Ladybug 5 panoramic camera, a GNSS system, and a SLAM system",
+        "recordingPerspective": "bird's eye view",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "-",
+        "annotations": "object class labels",
+        "licensing": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+        "relatedDatasets": "-",
+        "publishDate": "2020-03-22",
+        "lastUpdate": "2020-04-23",
+        "paperTitle": "Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways",
+        "relatedPaper": "https://arxiv.org/abs/2003.08284",
+        "location": "Toronto, Canada",
+        "rawData": "-",
+        "DOI": "10.1109/CVPRW50498.2020.00109",
+        "citationCount": 87,
+        "completionStatus": "complete"
+    },
+    {
         "id": "Tsinghua Daimler Cyclist Detection",
         "href": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Tsinghua-Daimler_Cyclist_Detec/tsinghua-daimler_cyclist_detec.html",
         "size_storage": "-",
@@ -2222,34 +2250,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Toronto 3D",
-        "href": "https://github.com/WeikaiTan/Toronto-3D",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, gps",
-        "sensorDetail": "1x Teledyne Optech Maverick consists of a 32-line LiDAR sensor, a Ladybug 5 panoramic camera, a GNSS system, and a SLAM system",
-        "recordingPerspective": "bird's eye view",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "-",
-        "annotations": "object class labels",
-        "licensing": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
-        "relatedDatasets": "-",
-        "publishDate": "2020-03-22",
-        "lastUpdate": "2020-04-23",
-        "paperTitle": "Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways",
-        "relatedPaper": "https://arxiv.org/abs/2003.08284",
-        "location": "Toronto, Canada",
-        "rawData": "-",
-        "DOI": "10.1109/CVPRW50498.2020.00109",
-        "citationCount": 86,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Synthetic Discrepancy",
         "href": "https://github.com/cvlab-epfl/detecting-the-unexpected",
         "size_storage": "0.2",
@@ -2274,7 +2274,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/ICCV.2019.00224",
-        "citationCount": 86,
+        "citationCount": 87,
         "completionStatus": "complete"
     },
     {
@@ -2525,7 +2525,7 @@
         "location": "Rellis Campus of Texas A&M University",
         "rawData": "-",
         "DOI": "10.1109/ICRA48506.2021.9561251",
-        "citationCount": 71,
+        "citationCount": 72,
         "completionStatus": "complete"
     },
     {
@@ -3065,7 +3065,7 @@
         "location": "Boston, Pittsburgh, Las Vegas and Singapore",
         "rawData": "-",
         "DOI": "10.48550/arXiv.2106.11810",
-        "citationCount": 42,
+        "citationCount": 43,
         "completionStatus": "complete"
     },
     {
@@ -3125,6 +3125,62 @@
         "completionStatus": "complete"
     },
     {
+        "id": "RadarScenes",
+        "href": "https://radar-scenes.com/",
+        "size_storage": "-",
+        "size_hours": "4",
+        "frames": "-",
+        "numberOfScenes": "158",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, radar, odometry",
+        "sensorDetail": "4x 77 GHz series production automotive 60° radar sensor, 1x documentary camera",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "No",
+        "benchmark": "-",
+        "annotations": "point-wise",
+        "licensing": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2021-03-01",
+        "lastUpdate": "-",
+        "paperTitle": "RadarScenes: A Real-World Radar Point Cloud Data Set for Automotive Applications",
+        "relatedPaper": "https://arxiv.org/pdf/2104.02493.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "DOI": "10.23919/FUSION49465.2021.9627037",
+        "citationCount": 40,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "RADIATE",
+        "href": "http://pro.hw.ac.uk/radiate/",
+        "size_storage": "-",
+        "size_hours": "5",
+        "frames": "-",
+        "numberOfScenes": "-",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, lidar, radar, gps/imu",
+        "sensorDetail": "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, 1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "",
+        "benchmark": "-",
+        "annotations": "2d bounding boxes",
+        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+        "relatedDatasets": "-",
+        "publishDate": "2020-10-01",
+        "lastUpdate": "-",
+        "paperTitle": "RADIATE: A Radar Dataset for Automotive Perception in Bad Weather",
+        "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
+        "location": "-",
+        "rawData": "Yes",
+        "DOI": "10.1109/ICRA48506.2021.9562089",
+        "citationCount": 40,
+        "completionStatus": "complete"
+    },
+    {
         "id": "MTSD",
         "href": "https://www.mapillary.com/dataset/trafficsign",
         "size_storage": "-",
@@ -3178,62 +3234,6 @@
         "rawData": "Yes",
         "DOI": "10.48550/arXiv.1812.05752",
         "citationCount": 39,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "RadarScenes",
-        "href": "https://radar-scenes.com/",
-        "size_storage": "-",
-        "size_hours": "4",
-        "frames": "-",
-        "numberOfScenes": "158",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, radar, odometry",
-        "sensorDetail": "4x 77 GHz series production automotive 60° radar sensor, 1x documentary camera",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "No",
-        "benchmark": "-",
-        "annotations": "point-wise",
-        "licensing": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2021-03-01",
-        "lastUpdate": "-",
-        "paperTitle": "RadarScenes: A Real-World Radar Point Cloud Data Set for Automotive Applications",
-        "relatedPaper": "https://arxiv.org/pdf/2104.02493.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "DOI": "10.23919/FUSION49465.2021.9627037",
-        "citationCount": 39,
-        "completionStatus": "complete"
-    },
-    {
-        "id": "RADIATE",
-        "href": "http://pro.hw.ac.uk/radiate/",
-        "size_storage": "-",
-        "size_hours": "5",
-        "frames": "-",
-        "numberOfScenes": "-",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, lidar, radar, gps/imu",
-        "sensorDetail": "1x ZED stereo camera 672x376 15Hz, 1x Velodyne HDL-32e LiDAR 32 channel 360° 10Hz, 1x Navtech CTS350-X radar 360°, 1x Advanced Navigation Spatial Dual GPS/IMU",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "",
-        "benchmark": "-",
-        "annotations": "2d bounding boxes",
-        "licensing": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-        "relatedDatasets": "-",
-        "publishDate": "2020-10-01",
-        "lastUpdate": "-",
-        "paperTitle": "RADIATE: A Radar Dataset for Automotive Perception in Bad Weather",
-        "relatedPaper": "https://arxiv.org/pdf/2010.09076.pdf",
-        "location": "-",
-        "rawData": "Yes",
-        "DOI": "10.1109/ICRA48506.2021.9562089",
-        "citationCount": 38,
         "completionStatus": "complete"
     },
     {
@@ -3737,7 +3737,7 @@
         "location": "-",
         "rawData": "-",
         "DOI": "10.1109/LRA.2018.2801390",
-        "citationCount": 28,
+        "citationCount": 29,
         "completionStatus": "complete"
     },
     {
@@ -3795,6 +3795,14 @@
         "DOI": "10.1109/ITSC.2019.8917433",
         "citationCount": 26,
         "completionStatus": "complete"
+    },
+    {
+        "id": "Boreas",
+        "href": "https://www.boreas.utias.utoronto.ca/#/",
+        "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
+        "paperTitle": "Boreas: A Multi-Season Autonomous Driving Dataset",
+        "citationCount": 26,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "ROAD",
@@ -3908,14 +3916,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "Boreas",
-        "href": "https://www.boreas.utias.utoronto.ca/#/",
-        "relatedPaper": "https://arxiv.org/pdf/2203.10168.pdf",
-        "paperTitle": "Boreas: A Multi-Season Autonomous Driving Dataset",
-        "citationCount": 25,
-        "completionStatus": "partially Complete"
-    },
-    {
         "id": "Paris-CARLA-3D",
         "href": "https://npm3d.fr/paris-carla-3d",
         "relatedPaper": "https://arxiv.org/abs/2111.11348",
@@ -3980,34 +3980,6 @@
         "completionStatus": "complete"
     },
     {
-        "id": "openDD",
-        "href": "https://l3pilot.eu/data/opendd",
-        "size_storage": "-",
-        "size_hours": "62.7",
-        "frames": "6771600",
-        "numberOfScenes": "501",
-        "samplingRate": "30",
-        "lengthOfScenes": "-",
-        "sensors": "camera",
-        "sensorDetail": "DJI Phantom 4 3840×2160 camera drone",
-        "recordingPerspective": "Bird's Eye",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "trajectory predictions",
-        "annotations": "2d bounding boxes, trajectories",
-        "licensing": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ",
-        "relatedDatasets": "-",
-        "publishDate": "2020-09-01",
-        "lastUpdate": "-",
-        "paperTitle": "openDD: A Large-Scale Roundabout Drone Dataset",
-        "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
-        "location": "Wolfsburg and Ingolstadt, Germany",
-        "rawData": "Yes",
-        "DOI": "10.1109/ITSC45102.2020.9294301",
-        "citationCount": 21,
-        "completionStatus": "complete"
-    },
-    {
         "id": "Boxy",
         "href": "https://boxy-dataset.com/boxy/",
         "size_storage": "-",
@@ -4032,6 +4004,34 @@
         "location": "San Francisco Bay Area, California, USA",
         "rawData": "-",
         "DOI": "10.1109/ICCVW.2019.00112",
+        "citationCount": 22,
+        "completionStatus": "complete"
+    },
+    {
+        "id": "openDD",
+        "href": "https://l3pilot.eu/data/opendd",
+        "size_storage": "-",
+        "size_hours": "62.7",
+        "frames": "6771600",
+        "numberOfScenes": "501",
+        "samplingRate": "30",
+        "lengthOfScenes": "-",
+        "sensors": "camera",
+        "sensorDetail": "DJI Phantom 4 3840×2160 camera drone",
+        "recordingPerspective": "Bird's Eye",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "trajectory predictions",
+        "annotations": "2d bounding boxes, trajectories",
+        "licensing": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) ",
+        "relatedDatasets": "-",
+        "publishDate": "2020-09-01",
+        "lastUpdate": "-",
+        "paperTitle": "openDD: A Large-Scale Roundabout Drone Dataset",
+        "relatedPaper": "https://arxiv.org/pdf/2007.08463.pdf",
+        "location": "Wolfsburg and Ingolstadt, Germany",
+        "rawData": "Yes",
+        "DOI": "10.1109/ITSC45102.2020.9294301",
         "citationCount": 21,
         "completionStatus": "complete"
     },
@@ -4388,6 +4388,34 @@
         "completionStatus": "complete"
     },
     {
+        "id": "TRoM",
+        "href": "http://www.tromai.icoc.me/",
+        "size_storage": "-",
+        "size_hours": "-",
+        "frames": "-",
+        "numberOfScenes": "712",
+        "samplingRate": "-",
+        "lengthOfScenes": "-",
+        "sensors": "camera, gps",
+        "sensorDetail": "1x PointGray color camera 1280x960",
+        "recordingPerspective": "ego-perspective",
+        "dataType": "Real",
+        "mapData": "Yes",
+        "benchmark": "Road marking detection",
+        "annotations": "Pixel level road markings",
+        "licensing": "Freely available for academic use",
+        "relatedDatasets": "-",
+        "publishDate": "2017-10-16",
+        "lastUpdate": "-",
+        "paperTitle": "Benchmark for road marking detection: Dataset specification and performance baseline",
+        "relatedPaper": "https://ieeexplore.ieee.org/document/8317749",
+        "location": "Beijing, China",
+        "rawData": "-",
+        "DOI": "10.1109/ITSC.2017.8317749",
+        "citationCount": 13,
+        "completionStatus": "complete"
+    },
+    {
         "id": "Semantic KITTI",
         "href": "http://www.semantic-kitti.org/",
         "size_storage": "-",
@@ -4499,32 +4527,12 @@
         "completionStatus": "complete"
     },
     {
-        "id": "TRoM",
-        "href": "http://www.tromai.icoc.me/",
-        "size_storage": "-",
-        "size_hours": "-",
-        "frames": "-",
-        "numberOfScenes": "712",
-        "samplingRate": "-",
-        "lengthOfScenes": "-",
-        "sensors": "camera, gps",
-        "sensorDetail": "1x PointGray color camera 1280x960",
-        "recordingPerspective": "ego-perspective",
-        "dataType": "Real",
-        "mapData": "Yes",
-        "benchmark": "Road marking detection",
-        "annotations": "Pixel level road markings",
-        "licensing": "Freely available for academic use",
-        "relatedDatasets": "-",
-        "publishDate": "2017-10-16",
-        "lastUpdate": "-",
-        "paperTitle": "Benchmark for road marking detection: Dataset specification and performance baseline",
-        "relatedPaper": "https://ieeexplore.ieee.org/document/8317749",
-        "location": "Beijing, China",
-        "rawData": "-",
-        "DOI": "10.1109/ITSC.2017.8317749",
-        "citationCount": 12,
-        "completionStatus": "complete"
+        "id": "TJ4DRadSet",
+        "href": "https://github.com/TJRadarLab/TJ4DRadSet",
+        "relatedPaper": "https://arxiv.org/abs/2204.13483",
+        "paperTitle": "TJ4DRadSet: A 4D Radar Dataset for Autonomous Driving",
+        "citationCount": 11,
+        "completionStatus": "partially Complete"
     },
     {
         "id": "SemanticUSL",
@@ -4581,14 +4589,6 @@
         "DOI": "10.1109/IV51971.2022.9827305",
         "citationCount": 11,
         "completionStatus": "complete"
-    },
-    {
-        "id": "TJ4DRadSet",
-        "href": "https://github.com/TJRadarLab/TJ4DRadSet",
-        "relatedPaper": "https://arxiv.org/abs/2204.13483",
-        "paperTitle": "TJ4DRadSet: A 4D Radar Dataset for Autonomous Driving",
-        "citationCount": 10,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "DriveSeg (MANUAL)",
@@ -5134,6 +5134,14 @@
         "completionStatus": "complete"
     },
     {
+        "id": "UrbanLaneGraph",
+        "href": "http://urbanlanegraph.cs.uni-freiburg.de/",
+        "relatedPaper": "https://arxiv.org/abs/2302.06175",
+        "paperTitle": "Learning and Aggregating Lane Graphs for Urban Automated Driving",
+        "citationCount": 3,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "Multiple Uncertainties for Autonomous Driving (MUAD)",
         "href": "https://muad-dataset.github.io/",
         "relatedPaper": "https://arxiv.org/abs/2203.01437",
@@ -5196,14 +5204,6 @@
         "DOI": "10.48550/arXiv.2112.02416",
         "citationCount": 3,
         "completionStatus": "complete"
-    },
-    {
-        "id": "UrbanLaneGraph",
-        "href": "http://urbanlanegraph.cs.uni-freiburg.de/",
-        "relatedPaper": "https://arxiv.org/abs/2302.06175",
-        "paperTitle": "Learning and Aggregating Lane Graphs for Urban Automated Driving",
-        "citationCount": 2,
-        "completionStatus": "partially Complete"
     },
     {
         "id": "Apollo-DaoxiangLake",
@@ -5537,6 +5537,12 @@
         "href": "https://github.com/AIR-THU/DAIR-V2X-Seq",
         "relatedPaper": "https://arxiv.org/abs/2305.05938",
         "paperTitle": "V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting",
+        "citationCount": 0,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "commavq",
+        "href": "https://github.com/commaai/commavq",
         "citationCount": 0,
         "completionStatus": "partially Complete"
     },

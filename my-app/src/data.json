@@ -22,10 +22,20 @@
   "DOI": "10.1177/0278364913491297"
 },
 {
+  "id":"Ground-Challenge",
+  "href":"https://github.com/sjtuyinjie/Ground-Challenge",
+  "relatedPaper":"https://arxiv.org/abs/2307.03890",
+  "paperTitle":"Ground-Challenge: A Multi-sensor SLAM Dataset Focusing on Corner Cases for Ground Robots"
+},
+{
   "id":"V2X-Seq",
   "href":"https://github.com/AIR-THU/DAIR-V2X-Seq",
   "relatedPaper":"https://arxiv.org/abs/2305.05938",
   "paperTitle":"V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting"
+},
+{
+  "id":"commaSteeringControl",
+  "href":"https://github.com/commaai/comma-steering-control",
 },
 {
   "id":"commavq",

@@ -22,6 +22,24 @@
   "DOI": "10.1177/0278364913491297"
 },
 {
+  "id":"Crosswalk Change Dataset",
+  "href":"https://www.kaggle.com/datasets/buvision/crosswalkchange",
+  "relatedPaper":"https://www.ri.cmu.edu/publications/towards-hd-map-updates-with-crosswalk-change-detection-from-vehicle-mounted-cameras/",
+  "paperTitle":"Towards HD Map Updates with Crosswalk Change Detection from Vehicle-Mounted Cameras"
+},
+{
+  "id":"Synthetic Fire Hydrants",
+  "href":"https://www.kaggle.com/datasets/xinhez/synthetic-fire-hydrants",
+  "relatedPaper":"https://ieeexplore.ieee.org/document/9564932",
+  "paperTitle":"CARLA Simulated Data for Rare Road Object Detection"
+},
+{
+  "id":"Synthetic Crosswalks",
+  "href":"https://www.kaggle.com/datasets/buvision/synthetic-crosswalks",
+  "relatedPaper":"https://ieeexplore.ieee.org/document/9564932",
+  "paperTitle":"CARLA Simulated Data for Rare Road Object Detection"
+},
+{
   "id":"Ground-Challenge",
   "href":"https://github.com/sjtuyinjie/Ground-Challenge",
   "relatedPaper":"https://arxiv.org/abs/2307.03890",

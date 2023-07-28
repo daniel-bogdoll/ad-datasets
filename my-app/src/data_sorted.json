@@ -5454,6 +5454,38 @@
         "completionStatus": "complete"
     },
     {
+        "id": "CARLA-GEAR Semantic Segmentation",
+        "href": "https://carlagear.retis.santannapisa.it/",
+        "relatedPaper": "https://arxiv.org/abs/2206.04365",
+        "paperTitle": "CARLA-GeAR: a Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Vision Models",
+        "citationCount": 1,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "CARLA-GEAR 2D Object Detection",
+        "href": "https://carlagear.retis.santannapisa.it/",
+        "relatedPaper": "https://arxiv.org/abs/2206.04365",
+        "paperTitle": "CARLA-GeAR: a Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Vision Models",
+        "citationCount": 1,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "CARLA-GEAR Monocular Depth Estimation",
+        "href": "https://carlagear.retis.santannapisa.it/",
+        "relatedPaper": "https://arxiv.org/abs/2206.04365",
+        "paperTitle": "CARLA-GeAR: a Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Vision Models",
+        "citationCount": 1,
+        "completionStatus": "partially Complete"
+    },
+    {
+        "id": "CARLA-GEAR Stereo 3D Object Detection",
+        "href": "https://carlagear.retis.santannapisa.it/",
+        "relatedPaper": "https://arxiv.org/abs/2206.04365",
+        "paperTitle": "CARLA-GeAR: a Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Vision Models",
+        "citationCount": 1,
+        "completionStatus": "partially Complete"
+    },
+    {
         "id": "V2X-Seq",
         "href": "https://github.com/AIR-THU/DAIR-V2X-Seq",
         "relatedPaper": "https://arxiv.org/abs/2305.05938",

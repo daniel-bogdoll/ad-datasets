@@ -147,7 +147,7 @@ If you find our work useful for your research, please cite our [paper](https://a
 @inProceedings{Bogdoll_Addatasets_2022_VEHITS,
     author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
     title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
-    journal   = {International Conference on Vehicle Technology and Intelligent Transport Systems},
+    booktitle   = {International Conference on Vehicle Technology and Intelligent Transport Systems (VEHITS)},
     year      = {2022}
 }
 ```

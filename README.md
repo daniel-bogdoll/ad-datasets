@@ -1,5 +1,8 @@
 ## [ad-datasets](https://ad-datasets.com)
 
+**Pull requests and forks are still welcome, but I stopped maintaining the project in mid-2023. An even more extensive survey from 02 Jan 2024 is [A Survey on Autonomous Driving Datasets: Data Statistic, Annotation, and Outlook](https://arxiv.org/abs/2401.01454).**
+
+
 Complete* and curated list of datasets in the field of autonomous driving. More details can be found in [ad-datasets: a meta-collection of data sets for autonomous driving](https://arxiv.org/abs/2202.01909). There is also a [PDF list](https://github.com/daniel-bogdoll/ad-datasets/blob/main/ad_datasets__Included_datasets.pdf) of the datasets including citations (where possible).
 
 ## Contributing

@@ -21,6 +21,13 @@
   "rawData": "Yes",
   "DOI": "10.1177/0278364913491297"
 },
+  {
+  "id":"Cityscapes",
+  "href":"https://www.cityscapes-dataset.com/",
+  "relatedPaper":"https://arxiv.org/abs/1604.01685",
+  "paperTitle":"The Cityscapes Dataset for Semantic Urban Scene Understanding",
+  "DOI": "10.1109/CVPR.2016.350"
+},
 {
   "id":"CARLA Real Traffic Scenarios",
   "href":"https://github.com/deepsense-ai/carla-real-traffic-scenarios",
